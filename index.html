@@ -11,73 +11,86 @@
   :root {
     --accent: #ff7a45; --accent2: #ff4d8d; --blue: #4dabf7; --green: #51cf66;
     --amber: #ffd43b; --red: #ff6b6b; --txt: #f1f3f8; --muted: #9aa3b2;
-    --card: rgba(255,255,255,.045); --card-brd: rgba(255,255,255,.09);
-    --glass: rgba(255,255,255,.06);
+    --card: rgba(255,255,255,.045); --card-brd: rgba(255,255,255,.09); --glass: rgba(255,255,255,.06);
   }
   * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
-  body {
-    margin: 0; color: var(--txt); min-height: 100vh;
+  body { margin: 0; color: var(--txt); min-height: 100vh;
     font-family: "Pretendard", -apple-system, system-ui, sans-serif; letter-spacing: -.01em;
     background:
       radial-gradient(1200px 600px at 12% -8%, rgba(255,122,69,.16), transparent 60%),
       radial-gradient(900px 500px at 100% 0%, rgba(255,77,141,.14), transparent 55%),
-      radial-gradient(800px 600px at 50% 120%, rgba(77,171,247,.10), transparent 60%),
-      #0a0b10;
-  }
-  .wrap { max-width: 1180px; margin: 0 auto; padding: 40px 18px 100px; }
-  header { margin-bottom: 30px; }
+      radial-gradient(800px 600px at 50% 120%, rgba(77,171,247,.10), transparent 60%), #0a0b10; }
+  .wrap { max-width: 1180px; margin: 0 auto; padding: 36px 18px 100px; }
+  header { margin-bottom: 24px; }
   .logo { display: flex; align-items: center; gap: 12px; }
-  .logo .emoji { font-size: 2rem; filter: drop-shadow(0 4px 12px rgba(255,122,69,.4)); }
-  h1 { font-size: 1.75rem; font-weight: 800; margin: 0;
+  .logo .emoji { font-size: 1.9rem; filter: drop-shadow(0 4px 12px rgba(255,122,69,.4)); }
+  h1 { font-size: 1.6rem; font-weight: 800; margin: 0;
     background: linear-gradient(92deg, #fff 10%, var(--accent) 70%, var(--accent2));
     -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; }
-  .sub { color: var(--muted); font-size: .85rem; margin-top: 8px; display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+  .sub { color: var(--muted); font-size: .82rem; margin-top: 7px; display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
   .live { display: inline-flex; align-items: center; gap: 6px; color: var(--green); font-weight: 600; }
-  .live .dot { width: 7px; height: 7px; border-radius: 50%; background: var(--green); box-shadow: 0 0 0 0 rgba(81,207,102,.6); animation: pulse 2s infinite; }
+  .live .dot { width: 7px; height: 7px; border-radius: 50%; background: var(--green); animation: pulse 2s infinite; }
   @keyframes pulse { 0%{box-shadow:0 0 0 0 rgba(81,207,102,.5)} 70%{box-shadow:0 0 0 7px rgba(81,207,102,0)} 100%{box-shadow:0 0 0 0 rgba(81,207,102,0)} }
 
-  .kpis { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; margin-bottom: 26px; }
-  .kpi { position: relative; background: var(--card); border: 1px solid var(--card-brd); border-radius: 18px;
-    padding: 20px; backdrop-filter: blur(12px); overflow: hidden; transition: transform .2s, border-color .2s; }
+  .kpis { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin-bottom: 16px; }
+  .kpi { position: relative; background: var(--card); border: 1px solid var(--card-brd); border-radius: 16px;
+    padding: 16px 18px; backdrop-filter: blur(12px); transition: transform .2s, border-color .2s; }
   .kpi:hover { transform: translateY(-3px); border-color: rgba(255,255,255,.18); }
-  .kpi .ic { font-size: 1.1rem; opacity: .9; }
-  .kpi .n { font-size: 2rem; font-weight: 800; margin-top: 6px; line-height: 1; }
-  .kpi .l { color: var(--muted); font-size: .8rem; margin-top: 8px; }
-  .kpi .delta { font-size: .72rem; margin-top: 4px; color: var(--green); }
+  .kpi .ic { font-size: 1rem; opacity: .9; }
+  .kpi .n { font-size: 1.7rem; font-weight: 800; margin-top: 4px; line-height: 1; }
+  .kpi .l { color: var(--muted); font-size: .76rem; margin-top: 6px; }
+  .kpi .delta { font-size: .7rem; margin-top: 3px; color: var(--green); }
   .kpi.hl { background: linear-gradient(160deg, rgba(255,122,69,.18), rgba(255,77,141,.08)); border-color: rgba(255,122,69,.3); }
   .kpi.hl .n { color: var(--accent); }
 
-  .grid { display: grid; grid-template-columns: 1.7fr 1fr; gap: 16px; margin-bottom: 16px; }
-  .card { background: var(--card); border: 1px solid var(--card-brd); border-radius: 18px; padding: 20px; backdrop-filter: blur(12px); }
-  .card h2 { font-size: .9rem; margin: 0 0 16px; font-weight: 600; color: #cdd3df; display: flex; align-items: center; gap: 7px; }
-  .chart-box { position: relative; height: 230px; }
-  .row2 { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 16px; }
+  .card { background: var(--card); border: 1px solid var(--card-brd); border-radius: 16px; padding: 18px; backdrop-filter: blur(12px); margin-bottom: 14px; }
+  .card-head { display: flex; justify-content: space-between; align-items: center; margin-bottom: 14px; gap: 10px; flex-wrap: wrap; }
+  .card h2 { font-size: .88rem; margin: 0; font-weight: 600; color: #cdd3df; display: flex; align-items: center; gap: 7px; }
+  .chart-box { position: relative; height: 240px; }
+  .grid3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
+  .grid3 .chart-box { height: 168px; }
 
-  .toolbar { background: var(--card); border: 1px solid var(--card-brd); border-radius: 18px; padding: 16px 18px; margin-bottom: 16px; backdrop-filter: blur(12px); }
-  .toolbar .group { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
-  .toolbar .group + .group { margin-top: 10px; }
+  .seg { display: inline-flex; background: rgba(0,0,0,.25); border: 1px solid var(--card-brd); border-radius: 10px; padding: 3px; gap: 2px; }
+  .seg button { background: transparent; border: 0; color: var(--muted); font-family: inherit; font-size: .78rem; font-weight: 600;
+    padding: 6px 13px; border-radius: 8px; cursor: pointer; transition: all .15s; }
+  .seg button.on { background: linear-gradient(120deg, var(--accent), var(--accent2)); color: #fff; }
+
+  .toolbar { background: var(--card); border: 1px solid var(--card-brd); border-radius: 16px; padding: 14px 18px; margin-bottom: 14px; backdrop-filter: blur(12px); }
+  .group { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+  .group + .group { margin-top: 10px; }
   .glabel { color: var(--muted); font-size: .74rem; width: 46px; flex-shrink: 0; }
-  .chip { background: var(--glass); border: 1px solid var(--card-brd); color: var(--muted);
-    padding: 7px 13px; border-radius: 999px; cursor: pointer; font-size: .82rem; font-weight: 500;
-    user-select: none; transition: all .15s; white-space: nowrap; }
+  .chip { background: var(--glass); border: 1px solid var(--card-brd); color: var(--muted); padding: 7px 13px; border-radius: 999px;
+    cursor: pointer; font-size: .82rem; font-weight: 500; user-select: none; transition: all .15s; white-space: nowrap; }
   .chip:hover { color: var(--txt); border-color: rgba(255,255,255,.2); }
-  .chip.on { background: linear-gradient(120deg, var(--accent), var(--accent2)); border-color: transparent; color: #fff; box-shadow: 0 4px 14px rgba(255,77,141,.3); }
-  .chip.s-pos.on { background: var(--green); box-shadow: none; }
-  .chip.s-neg.on { background: var(--red); box-shadow: none; }
-  .chip.s-neu.on { background: #6b7280; box-shadow: none; }
-  input[type=text], select { background: var(--glass); border: 1px solid var(--card-brd); color: var(--txt);
-    padding: 9px 13px; border-radius: 10px; font-size: .85rem; font-family: inherit; outline: none; }
+  .chip.on { background: linear-gradient(120deg, var(--accent), var(--accent2)); border-color: transparent; color: #fff; }
+  .chip.s-pos.on { background: var(--green); } .chip.s-neg.on { background: var(--red); } .chip.s-neu.on { background: #6b7280; }
+  input[type=text], input[type=date], select { background: var(--glass); border: 1px solid var(--card-brd); color: var(--txt);
+    padding: 8px 12px; border-radius: 10px; font-size: .84rem; font-family: inherit; outline: none; }
   input[type=text] { flex: 1; min-width: 150px; }
-  input[type=text]:focus, select:focus { border-color: var(--accent); }
+  input:focus, select:focus { border-color: var(--accent); }
   select { cursor: pointer; }
+  #customRange { display: none; gap: 8px; align-items: center; }
+  #customRange.show { display: flex; }
+  #customRange span { color: var(--muted); font-size: .8rem; }
 
-  .list { display: flex; flex-direction: column; gap: 11px; }
-  .post { background: var(--card); border: 1px solid var(--card-brd); border-radius: 14px; padding: 15px 16px;
-    border-left: 3px solid transparent; transition: transform .15s, border-color .15s; }
+  .table-wrap { overflow-x: auto; }
+  table.daily { width: 100%; border-collapse: collapse; font-size: .85rem; min-width: 480px; }
+  table.daily th, table.daily td { padding: 10px 12px; text-align: right; border-bottom: 1px solid rgba(255,255,255,.06); white-space: nowrap; }
+  table.daily th { color: var(--muted); font-weight: 600; font-size: .75rem; }
+  table.daily th:first-child, table.daily td:first-child { text-align: left; }
+  table.daily td.d { color: var(--txt); font-weight: 600; }
+  table.daily td.meo { color: var(--accent); font-weight: 700; }
+  table.daily tbody tr:hover { background: rgba(255,255,255,.03); }
+  table.daily tfoot td { border-top: 2px solid rgba(255,255,255,.12); border-bottom: none; font-weight: 700; color: var(--txt); }
+  .ratio-cell { display: flex; align-items: center; justify-content: flex-end; gap: 8px; }
+  .ratio-track { width: 56px; height: 6px; border-radius: 3px; background: rgba(255,255,255,.08); overflow: hidden; }
+  .ratio-fill { height: 100%; background: linear-gradient(90deg, var(--accent), var(--accent2)); }
+
+  .list { display: flex; flex-direction: column; gap: 10px; }
+  .post { background: var(--card); border: 1px solid var(--card-brd); border-radius: 14px; padding: 14px 16px; border-left: 3px solid transparent; transition: transform .15s, border-color .15s; }
   .post:hover { transform: translateX(3px); border-left-color: var(--accent); }
-  .post.pos { border-left-color: var(--green); }
-  .post.neg { border-left-color: var(--red); }
-  .post a.t { color: var(--txt); font-weight: 600; text-decoration: none; font-size: .96rem; line-height: 1.45; }
+  .post.pos { border-left-color: var(--green); } .post.neg { border-left-color: var(--red); }
+  .post a.t { color: var(--txt); font-weight: 600; text-decoration: none; font-size: .95rem; line-height: 1.45; }
   .post a.t:hover { color: var(--accent); }
   .meta { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; margin-top: 9px; }
   .badge { font-size: .72rem; padding: 3px 9px; border-radius: 7px; background: rgba(255,255,255,.07); color: var(--muted); font-weight: 500; }
@@ -87,71 +100,65 @@
   .badge.pos { background: rgba(81,207,102,.16); color: var(--green); }
   .badge.neg { background: rgba(255,107,107,.16); color: var(--red); }
   .date { color: var(--muted); font-size: .78rem; }
-  .summary { color: #b6bdc9; font-size: .86rem; margin-top: 9px; line-height: 1.55; }
+  .summary { color: #b6bdc9; font-size: .85rem; margin-top: 9px; line-height: 1.55; }
   .tags { margin-top: 8px; display: flex; flex-wrap: wrap; gap: 5px; }
   .tag { font-size: .7rem; padding: 2px 7px; border-radius: 6px; background: rgba(81,207,102,.1); color: var(--green); }
   .tag.neg { background: rgba(255,107,107,.1); color: var(--red); }
-  .empty { color: var(--muted); text-align: center; padding: 50px 0; }
-  .table-wrap { overflow-x: auto; }
-  table.daily { width: 100%; border-collapse: collapse; font-size: .85rem; min-width: 480px; }
-  table.daily th, table.daily td { padding: 11px 12px; text-align: right; border-bottom: 1px solid rgba(255,255,255,.06); white-space: nowrap; }
-  table.daily th { color: var(--muted); font-weight: 600; font-size: .76rem; text-align: right; position: sticky; top: 0; }
-  table.daily th:first-child, table.daily td:first-child { text-align: left; }
-  table.daily td.d { color: var(--txt); font-weight: 600; }
-  table.daily td.meo { color: var(--accent); font-weight: 700; }
-  table.daily tr-bar, table.daily .bar { display: inline-block; height: 6px; border-radius: 3px; background: linear-gradient(90deg, var(--accent), var(--accent2)); vertical-align: middle; }
-  table.daily tbody tr:hover { background: rgba(255,255,255,.03); }
-  table.daily tfoot td { border-top: 2px solid rgba(255,255,255,.12); border-bottom: none; font-weight: 700; color: var(--txt); }
-  .ratio-cell { display: flex; align-items: center; justify-content: flex-end; gap: 8px; }
-  .ratio-track { width: 60px; height: 6px; border-radius: 3px; background: rgba(255,255,255,.08); overflow: hidden; }
-  .ratio-fill { height: 100%; background: linear-gradient(90deg, var(--accent), var(--accent2)); }
-  .list-head { display: flex; justify-content: space-between; align-items: center; margin-bottom: 14px; }
-  .list-head h2 { margin: 0; }
+  .empty { color: var(--muted); text-align: center; padding: 46px 0; }
 
-  @media (max-width: 860px) { .grid { grid-template-columns: 1fr; } }
-  @media (max-width: 640px) { .kpis { grid-template-columns: repeat(2,1fr); } .row2 { grid-template-columns: 1fr; } .glabel { width: 100%; } }
+  @media (max-width: 860px) { .grid3 { grid-template-columns: 1fr; } }
+  @media (max-width: 640px) { .kpis { grid-template-columns: repeat(2,1fr); } .glabel { width: 100%; } }
 </style>
 </head>
 <body>
 <div class="wrap">
   <header>
     <div class="logo"><span class="emoji">🍜</span><h1>메오키친 아카이브</h1></div>
-    <div class="sub">
-      <span class="live"><span class="dot"></span>자동 수집</span>
-      <span>·</span><span id="updated">로딩 중…</span>
-      <span>·</span><span>네이버 블로그 / 카페</span>
-    </div>
+    <div class="sub"><span class="live"><span class="dot"></span>자동 수집</span><span>·</span><span id="updated">로딩 중…</span><span>·</span><span>네이버 블로그 / 카페</span></div>
   </header>
 
   <div class="kpis">
     <div class="kpi hl"><div class="ic">🍜</div><div class="n" id="k-meo">–</div><div class="l">메오키친 언급</div><div class="delta" id="k-meo-d"></div></div>
-    <div class="kpi"><div class="ic">📰</div><div class="n" id="k-total">–</div><div class="l">전체 포스팅</div></div>
-    <div class="kpi"><div class="ic">😊</div><div class="n" id="k-pos">–</div><div class="l">긍정 비율</div></div>
+    <div class="kpi"><div class="ic">📊</div><div class="n" id="k-rate">–</div><div class="l">전체 중 메오 비율</div></div>
+    <div class="kpi"><div class="ic">😊</div><div class="n" id="k-pos">–</div><div class="l">메오 긍정 비율</div></div>
     <div class="kpi"><div class="ic">🆕</div><div class="n" id="k-week">–</div><div class="l">최근 7일 신규</div></div>
   </div>
 
-  <div class="grid">
-    <div class="card"><h2>📈 언급 추이 (일별 · 누적)</h2><div class="chart-box"><canvas id="trend"></canvas></div></div>
-    <div class="card"><h2>😊 메오키친 평판</h2><div class="chart-box"><canvas id="senti"></canvas></div></div>
-  </div>
-  <div class="row2">
-    <div class="card"><h2>📊 출처별</h2><div class="chart-box" style="height:180px"><canvas id="source"></canvas></div></div>
-    <div class="card"><h2>📍 지역별</h2><div class="chart-box" style="height:180px"><canvas id="region"></canvas></div></div>
-  </div>
-
-  <div class="card" style="margin-bottom:16px">
-    <h2>📅 일별 집계 — 전체 vs 메오키친</h2>
-    <div class="table-wrap">
-      <table class="daily" id="daily"></table>
+  <!-- 추이 + 비율 + 기간 단위 토글 -->
+  <div class="card">
+    <div class="card-head">
+      <h2>📈 언급 추이 &amp; 비율</h2>
+      <div class="seg" id="gran">
+        <button data-g="day" class="on">일간</button>
+        <button data-g="week">주간</button>
+        <button data-g="month">월간</button>
+      </div>
     </div>
+    <div class="chart-box"><canvas id="trend"></canvas></div>
   </div>
 
+  <!-- 압축: 평판/출처/지역 한 줄 -->
+  <div class="grid3">
+    <div class="card"><h2>😊 메오 평판</h2><div class="chart-box"><canvas id="senti"></canvas></div></div>
+    <div class="card"><h2>📰 출처별</h2><div class="chart-box"><canvas id="source"></canvas></div></div>
+    <div class="card"><h2>📍 지역별</h2><div class="chart-box"><canvas id="region"></canvas></div></div>
+  </div>
+
+  <!-- 기간별 집계표 (토글 연동) -->
+  <div class="card">
+    <div class="card-head"><h2>📅 <span id="tbl-unit">일별</span> 집계 — 전체 vs 메오키친</h2></div>
+    <div class="table-wrap"><table class="daily" id="daily"></table></div>
+  </div>
+
+  <!-- 포스팅 필터 -->
   <div class="toolbar">
     <div class="group"><span class="glabel">기간</span>
-      <span class="chip date on" data-d="all">전체</span>
-      <span class="chip date" data-d="1">오늘</span>
-      <span class="chip date" data-d="7">7일</span>
-      <span class="chip date" data-d="30">30일</span>
+      <span class="chip period on" data-p="all">전체</span>
+      <span class="chip period" data-p="today">일간(오늘)</span>
+      <span class="chip period" data-p="week">주간(이번주)</span>
+      <span class="chip period" data-p="month">월간(이번달)</span>
+      <span class="chip period" data-p="custom">커스텀</span>
+      <span id="customRange"><input type="date" id="from"><span>~</span><input type="date" id="to"></span>
     </div>
     <div class="group"><span class="glabel">감성</span>
       <span class="chip s-pos" data-f="pos">😊 긍정</span>
@@ -167,118 +174,124 @@
     </div>
     <div class="group"><span class="glabel">기타</span>
       <input type="text" id="q" placeholder="제목·내용 검색…" />
-      <select id="sort">
-        <option value="new">최신순</option>
-        <option value="old">오래된순</option>
-      </select>
+      <select id="sort"><option value="new">최신순</option><option value="old">오래된순</option></select>
     </div>
   </div>
 
   <div class="card">
-    <div class="list-head"><h2 id="list-title">📋 포스팅</h2></div>
+    <div class="card-head"><h2 id="list-title">📋 포스팅</h2></div>
     <div class="list" id="list"></div>
   </div>
 </div>
 
 <script>
 let POSTS = [];
-const F = { date: "all", sent: new Set(), meo:false, blog:false, cafe:false, "푸꾸옥":false, "나트랑":false, q:"", sort:"new" };
-const C = {}; // charts
+const F = { gran:"day", period:"all", from:"", to:"", sent:new Set(), meo:false, blog:false, cafe:false, "푸꾸옥":false, "나트랑":false, q:"", sort:"new" };
+const C = {};
 Chart.defaults.color = "#9aa3b2";
 Chart.defaults.font.family = "Pretendard, system-ui, sans-serif";
 
-function daysAgo(n){ const d=new Date(); d.setDate(d.getDate()-n); return d.toISOString().slice(0,10); }
+const TODAY = new Date().toISOString().slice(0,10);
+function mondayOf(dateStr){ const d=new Date(dateStr+"T00:00"); const dow=(d.getDay()+6)%7; d.setDate(d.getDate()-dow); return d.toISOString().slice(0,10); }
 function esc(s){ return (s||"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c])); }
+function daysAgo(n){ const d=new Date(); d.setDate(d.getDate()-n); return d.toISOString().slice(0,10); }
+
+function bucket(dateStr, gran){
+  const ds = dateStr || TODAY;
+  if(gran==="month") return { key: ds.slice(0,7), label: ds.slice(0,7).replace("-",".") };
+  if(gran==="week"){ const m=mondayOf(ds); return { key:m, label: m.slice(5).replace("-","/")+" 주" }; }
+  return { key: ds, label: ds.slice(5).replace("-","/") };
+}
 
 async function load(){
   try{
     const res = await fetch("data/archive.json?_="+Date.now());
     const data = await res.json();
-    POSTS = (data.posts||[]);
-    document.getElementById("updated").textContent =
-      (data.updated_at ? data.updated_at.replace("T"," ").slice(0,16) : "–") + " 갱신";
-    renderKpis(); renderCharts(); renderDaily(); render();
-  }catch(e){ document.getElementById("updated").textContent = "데이터 로드 실패"; }
+    POSTS = data.posts||[];
+    document.getElementById("updated").textContent = (data.updated_at? data.updated_at.replace("T"," ").slice(0,16):"–")+" 갱신";
+    renderKpis(); renderTrend(); renderBreakdown(); renderDaily(); render();
+  }catch(e){ document.getElementById("updated").textContent="데이터 로드 실패"; }
 }
 
 function renderKpis(){
   const meo = POSTS.filter(p=>p.mentions_meokitchen);
-  const wk = daysAgo(7);
-  const week = POSTS.filter(p=>(p.first_seen||"").slice(0,10)>=wk).length;
-  const meoWeek = meo.filter(p=>(p.first_seen||"").slice(0,10)>=wk).length;
+  const week = POSTS.filter(p=>(p.first_seen||"").slice(0,10)>=daysAgo(7)).length;
+  const meoWeek = meo.filter(p=>(p.first_seen||"").slice(0,10)>=daysAgo(7)).length;
+  const rate = POSTS.length? Math.round(meo.length/POSTS.length*100):0;
   const sented = meo.filter(p=>p.sentiment&&p.sentiment!=="neutral");
-  const posRate = sented.length ? Math.round(meo.filter(p=>p.sentiment==="pos").length/sented.length*100) : 0;
+  const posRate = sented.length? Math.round(meo.filter(p=>p.sentiment==="pos").length/sented.length*100):0;
   document.getElementById("k-meo").textContent = meo.length;
-  document.getElementById("k-meo-d").textContent = meoWeek ? `+${meoWeek} (7일)` : "";
-  document.getElementById("k-total").textContent = POSTS.length;
-  document.getElementById("k-pos").textContent = posRate + "%";
+  document.getElementById("k-meo-d").textContent = meoWeek? `+${meoWeek} (7일)`:"";
+  document.getElementById("k-rate").textContent = rate+"%";
+  document.getElementById("k-pos").textContent = posRate+"%";
   document.getElementById("k-week").textContent = week;
 }
 
-function renderCharts(){
-  const meo = POSTS.filter(p=>p.mentions_meokitchen);
-  // trend: 일별 전체 포스팅(메오 + 기타 누적막대)
-  const labels = [...new Set(POSTS.map(p=>p.post_date||"?"))].sort();
-  const meoDay = labels.map(l=>POSTS.filter(p=>(p.post_date||"?")===l && p.mentions_meokitchen).length);
-  const etcDay = labels.map(l=>POSTS.filter(p=>(p.post_date||"?")===l && !p.mentions_meokitchen).length);
+function buckets(){
+  const b = {};
+  POSTS.forEach(p=>{ const k=bucket(p.post_date,F.gran); if(!b[k.key]) b[k.key]={label:k.label,total:0,meo:0,blog:0,cafe:0};
+    const o=b[k.key]; o.total++; if(p.mentions_meokitchen)o.meo++; if(p.source==="blog")o.blog++; else if(p.source==="cafe")o.cafe++; });
+  return Object.keys(b).sort().map(k=>({key:k,...b[k]}));
+}
+
+function renderTrend(){
+  const bs = buckets();
+  const labels = bs.map(b=>b.label);
+  const meoArr = bs.map(b=>b.meo), etcArr = bs.map(b=>b.total-b.meo);
+  const ratio = bs.map(b=>b.total? Math.round(b.meo/b.total*100):0);
   mkChart("trend","bar",{labels,datasets:[
-    {label:"🍜 메오키친",data:meoDay,backgroundColor:"#ff7a45",borderRadius:{topLeft:5,topRight:5},stack:"s"},
-    {label:"그 외 맛집글",data:etcDay,backgroundColor:"rgba(255,255,255,.13)",borderRadius:{topLeft:5,topRight:5},stack:"s"}
-  ]},{scales:{y:{stacked:true,beginAtZero:true,ticks:{precision:0},grid:{color:"rgba(255,255,255,.06)"}},
-    x:{stacked:true,grid:{display:false}}},plugins:{legend:{display:true,labels:{boxWidth:12,font:{size:11}}},
-    tooltip:{callbacks:{footer:(items)=>{const t=items.reduce((s,i)=>s+i.parsed.y,0);return "전체 "+t+"개";}}}}});
-  // sentiment donut
+    {label:"🍜 메오키친",data:meoArr,backgroundColor:"#ff7a45",stack:"s",order:2,borderRadius:{topLeft:4,topRight:4}},
+    {label:"그 외 맛집글",data:etcArr,backgroundColor:"rgba(255,255,255,.13)",stack:"s",order:2,borderRadius:{topLeft:4,topRight:4}},
+    {type:"line",label:"메오 비율(%)",data:ratio,borderColor:"#ff4d8d",backgroundColor:"transparent",yAxisID:"y1",tension:.35,borderWidth:2.5,pointRadius:3,pointBackgroundColor:"#ff4d8d",order:1}
+  ]},{interaction:{mode:"index",intersect:false},scales:{
+    y:{stacked:true,beginAtZero:true,ticks:{precision:0},grid:{color:"rgba(255,255,255,.06)"},title:{display:true,text:"포스팅 수"}},
+    y1:{position:"right",beginAtZero:true,max:100,ticks:{callback:v=>v+"%"},grid:{display:false},title:{display:true,text:"메오 비율"}},
+    x:{stacked:true,grid:{display:false}}},
+    plugins:{legend:{labels:{boxWidth:12,font:{size:11}}},
+      tooltip:{callbacks:{footer:items=>{const bar=items.filter(i=>i.dataset.type!=="line"); const t=bar.reduce((s,i)=>s+i.parsed.y,0); return t?("전체 "+t+"개"):"";}}}}});
+}
+
+function renderBreakdown(){
+  const meo = POSTS.filter(p=>p.mentions_meokitchen);
   const sc={pos:0,neutral:0,neg:0}; meo.forEach(p=>sc[p.sentiment||"neutral"]++);
-  mkChart("senti","doughnut",{labels:["긍정 😊","중립 😐","부정 😟"],datasets:[{
-    data:[sc.pos,sc.neutral,sc.neg],backgroundColor:["#51cf66","#6b7280","#ff6b6b"],borderColor:"transparent",borderWidth:0}]},
-    {cutout:"62%",plugins:{legend:{position:"bottom",labels:{boxWidth:12,padding:14,font:{size:11}}}}});
-  // source
+  mkChart("senti","doughnut",{labels:["긍정","중립","부정"],datasets:[{data:[sc.pos,sc.neutral,sc.neg],
+    backgroundColor:["#51cf66","#6b7280","#ff6b6b"],borderWidth:0}]},
+    {cutout:"60%",plugins:{legend:{position:"bottom",labels:{boxWidth:10,padding:10,font:{size:10}}}}});
   const src={blog:0,cafe:0}; POSTS.forEach(p=>src[p.source]=(src[p.source]||0)+1);
-  mkChart("source","bar",{labels:["블로그","카페"],datasets:[{data:[src.blog,src.cafe],
-    backgroundColor:["#4dabf7","#51cf66"],borderRadius:6}]},
+  mkChart("source","bar",{labels:["블로그","카페"],datasets:[{data:[src.blog,src.cafe],backgroundColor:["#4dabf7","#51cf66"],borderRadius:6}]},
     {indexAxis:"y",plugins:{legend:{display:false}},scales:{x:{beginAtZero:true,ticks:{precision:0},grid:{color:"rgba(255,255,255,.06)"}},y:{grid:{display:false}}}});
-  // region
-  const rg={}; POSTS.forEach(p=>{ if(p.region) rg[p.region]=(rg[p.region]||0)+1; });
-  const rl=Object.keys(rg);
-  mkChart("region","bar",{labels:rl,datasets:[{data:rl.map(k=>rg[k]),
-    backgroundColor:["#ff7a45","#ff4d8d","#ffd43b","#4dabf7"],borderRadius:6}]},
+  const rg={}; POSTS.forEach(p=>{ if(p.region)rg[p.region]=(rg[p.region]||0)+1; }); const rl=Object.keys(rg);
+  mkChart("region","bar",{labels:rl,datasets:[{data:rl.map(k=>rg[k]),backgroundColor:["#ff7a45","#ff4d8d","#ffd43b","#4dabf7"],borderRadius:6}]},
     {indexAxis:"y",plugins:{legend:{display:false}},scales:{x:{beginAtZero:true,ticks:{precision:0},grid:{color:"rgba(255,255,255,.06)"}},y:{grid:{display:false}}}});
 }
+
 function mkChart(id,type,data,opts){ if(C[id])C[id].destroy();
   C[id]=new Chart(document.getElementById(id),{type,data,options:{responsive:true,maintainAspectRatio:false,...opts}}); }
 
 function renderDaily(){
-  const days = [...new Set(POSTS.map(p=>p.post_date||"?"))].sort().reverse();
-  const stat = d => {
-    const ps = POSTS.filter(p=>(p.post_date||"?")===d);
-    const meo = ps.filter(p=>p.mentions_meokitchen).length;
-    return { total: ps.length, blog: ps.filter(p=>p.source==="blog").length,
-      cafe: ps.filter(p=>p.source==="cafe").length, meo,
-      rate: ps.length ? Math.round(meo/ps.length*100) : 0 };
-  };
-  const sum = { total:0, blog:0, cafe:0, meo:0 };
-  const rows = days.map(d=>{
-    const s = stat(d); sum.total+=s.total; sum.blog+=s.blog; sum.cafe+=s.cafe; sum.meo+=s.meo;
-    return `<tr>
-      <td class="d">${d}</td>
-      <td>${s.total}</td>
-      <td>${s.blog}</td>
-      <td>${s.cafe}</td>
-      <td class="meo">${s.meo}</td>
-      <td><div class="ratio-cell"><div class="ratio-track"><div class="ratio-fill" style="width:${s.rate}%"></div></div><span>${s.rate}%</span></div></td>
-    </tr>`;
+  document.getElementById("tbl-unit").textContent = {day:"일별",week:"주별",month:"월별"}[F.gran];
+  const bs = buckets().slice().reverse();
+  const sum = {total:0,blog:0,cafe:0,meo:0};
+  const rows = bs.map(b=>{ sum.total+=b.total; sum.blog+=b.blog; sum.cafe+=b.cafe; sum.meo+=b.meo;
+    const rate=b.total?Math.round(b.meo/b.total*100):0;
+    return `<tr><td class="d">${b.label}</td><td>${b.total}</td><td>${b.blog}</td><td>${b.cafe}</td><td class="meo">${b.meo}</td>
+      <td><div class="ratio-cell"><div class="ratio-track"><div class="ratio-fill" style="width:${rate}%"></div></div><span>${rate}%</span></div></td></tr>`;
   }).join("");
-  const totRate = sum.total ? Math.round(sum.meo/sum.total*100) : 0;
-  document.getElementById("daily").innerHTML = `
-    <thead><tr><th>날짜</th><th>전체</th><th>블로그</th><th>카페</th><th>🍜 메오키친</th><th>메오 비율</th></tr></thead>
-    <tbody>${rows}</tbody>
-    <tfoot><tr><td>합계</td><td>${sum.total}</td><td>${sum.blog}</td><td>${sum.cafe}</td><td class="meo">${sum.meo}</td>
-      <td><div class="ratio-cell"><div class="ratio-track"><div class="ratio-fill" style="width:${totRate}%"></div></div><span>${totRate}%</span></div></td></tr></tfoot>`;
+  const tr = sum.total?Math.round(sum.meo/sum.total*100):0;
+  document.getElementById("daily").innerHTML =
+    `<thead><tr><th>${{day:"날짜",week:"주",month:"월"}[F.gran]}</th><th>전체</th><th>블로그</th><th>카페</th><th>🍜 메오키친</th><th>메오 비율</th></tr></thead>
+     <tbody>${rows}</tbody>
+     <tfoot><tr><td>합계</td><td>${sum.total}</td><td>${sum.blog}</td><td>${sum.cafe}</td><td class="meo">${sum.meo}</td>
+       <td><div class="ratio-cell"><div class="ratio-track"><div class="ratio-fill" style="width:${tr}%"></div></div><span>${tr}%</span></div></td></tr></tfoot>`;
 }
 
 function render(){
   let rows = POSTS.slice();
-  if(F.date!=="all"){ const cut=daysAgo(parseInt(F.date)); rows=rows.filter(p=>(p.post_date||"")>=cut); }
+  // 기간
+  if(F.period==="today") rows=rows.filter(p=>(p.post_date||"")===TODAY);
+  else if(F.period==="week"){ const m=mondayOf(TODAY); rows=rows.filter(p=>(p.post_date||"")>=m); }
+  else if(F.period==="month") rows=rows.filter(p=>(p.post_date||"").slice(0,7)===TODAY.slice(0,7));
+  else if(F.period==="custom"){ if(F.from) rows=rows.filter(p=>(p.post_date||"")>=F.from); if(F.to) rows=rows.filter(p=>(p.post_date||"")<=F.to); }
   if(F.sent.size) rows=rows.filter(p=>F.sent.has(p.sentiment));
   if(F.meo) rows=rows.filter(p=>p.mentions_meokitchen);
   if(F.blog) rows=rows.filter(p=>p.source==="blog");
@@ -293,27 +306,34 @@ function render(){
   if(!rows.length){ el.innerHTML='<div class="empty">조건에 맞는 포스팅이 없어요 🔍</div>'; return; }
   el.innerHTML = rows.map(p=>{
     const sc = p.sentiment==="pos"?"pos":p.sentiment==="neg"?"neg":"";
-    const tags = [].concat((p.pos_tags||[]).map(t=>`<span class="tag">${esc(t)}</span>`),
-                           (p.neg_tags||[]).map(t=>`<span class="tag neg">${esc(t)}</span>`)).slice(0,6).join("");
+    const tags = [].concat((p.pos_tags||[]).map(t=>`<span class="tag">${esc(t)}</span>`),(p.neg_tags||[]).map(t=>`<span class="tag neg">${esc(t)}</span>`)).slice(0,6).join("");
     return `<div class="post ${sc}">
       <a class="t" href="${p.url}" target="_blank" rel="noopener">${esc(p.title)||"(제목 없음)"}</a>
-      <div class="meta">
-        <span class="date">🕐 ${esc(p.time_text)||p.post_date}</span>
+      <div class="meta"><span class="date">🕐 ${esc(p.time_text)||p.post_date}</span>
         <span class="badge ${p.source}">${p.source==="blog"?"블로그":"카페"}</span>
         ${p.region?`<span class="badge">${esc(p.region)}</span>`:""}
         ${p.mentions_meokitchen?`<span class="badge meo">🍜 메오키친</span>`:""}
-        ${p.sentiment==="pos"?`<span class="badge pos">😊 긍정</span>`:p.sentiment==="neg"?`<span class="badge neg">😟 부정</span>`:""}
-      </div>
+        ${p.sentiment==="pos"?`<span class="badge pos">😊 긍정</span>`:p.sentiment==="neg"?`<span class="badge neg">😟 부정</span>`:""}</div>
       ${p.summary?`<div class="summary">${esc(p.summary)}</div>`:""}
       ${tags?`<div class="tags">${tags}</div>`:""}
     </div>`;
   }).join("");
 }
 
-document.querySelectorAll(".chip.date").forEach(c=>c.addEventListener("click",()=>{
-  document.querySelectorAll(".chip.date").forEach(x=>x.classList.remove("on"));
-  c.classList.add("on"); F.date=c.dataset.d; render();
+// 기간 단위(일/주/월) 토글 → 차트 + 표 갱신
+document.querySelectorAll("#gran button").forEach(b=>b.addEventListener("click",()=>{
+  document.querySelectorAll("#gran button").forEach(x=>x.classList.remove("on"));
+  b.classList.add("on"); F.gran=b.dataset.g; renderTrend(); renderDaily();
 }));
+// 포스팅 기간 칩
+document.querySelectorAll(".chip.period").forEach(c=>c.addEventListener("click",()=>{
+  document.querySelectorAll(".chip.period").forEach(x=>x.classList.remove("on"));
+  c.classList.add("on"); F.period=c.dataset.p;
+  document.getElementById("customRange").classList.toggle("show", F.period==="custom");
+  render();
+}));
+document.getElementById("from").addEventListener("change",e=>{ F.from=e.target.value; render(); });
+document.getElementById("to").addEventListener("change",e=>{ F.to=e.target.value; render(); });
 document.querySelectorAll(".chip[data-f]").forEach(c=>c.addEventListener("click",()=>{
   const k=c.dataset.f;
   if(k==="pos"||k==="neutral"||k==="neg"){ F.sent.has(k)?F.sent.delete(k):F.sent.add(k); c.classList.toggle("on"); }
