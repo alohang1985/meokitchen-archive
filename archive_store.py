@@ -15,6 +15,25 @@ ARCHIVE_FILE = os.path.join(ARCHIVE_DIR, "archive.json")
 
 MEOKITCHEN_PAT = re.compile(r"메오\s*키친|meo\s*kitchen", re.IGNORECASE)
 
+POS_KEYWORDS = ["맛있", "추천", "좋아", "좋았", "좋음", "최고", "필수", "꿀맛", "인생",
+                "깔끔", "친절", "훌륭", "만족", "완벽", "강추", "맛집", "재방문", "또 가", "또가"]
+NEG_KEYWORDS = ["웨이팅", "대기", "줄서", "줄 서", "별로", "실망", "아쉬운", "아쉬웠", "비싸",
+                "오래 기다", "불만", "혼잡", "복잡", "기다려야", "재방문 없", "노쇼", "최악", "불친절"]
+
+
+def classify_sentiment(text):
+    """텍스트에서 긍/부정 키워드를 세어 sentiment 와 매칭 태그를 반환."""
+    t = text or ""
+    pos = [k for k in POS_KEYWORDS if k in t]
+    neg = [k for k in NEG_KEYWORDS if k in t]
+    if len(neg) > len(pos):
+        sentiment = "neg"
+    elif len(pos) > 0:
+        sentiment = "pos"
+    else:
+        sentiment = "neutral"
+    return sentiment, pos, neg
+
 
 def _today():
     return datetime.date.today()
@@ -92,6 +111,7 @@ def save_posts(posts, source, search_kind, region=None):
         body = p.get("body", "") or ""
         combined = title + " " + body
         mentions_meo = bool(MEOKITCHEN_PAT.search(combined)) or search_kind == "meokitchen"
+        sentiment, pos_tags, neg_tags = classify_sentiment(combined)
 
         if url in by_url:
             # 이미 있으면 마지막 확인 시각만 갱신
@@ -111,6 +131,9 @@ def save_posts(posts, source, search_kind, region=None):
             "post_date": _parse_post_date(p.get("time", "")),
             "summary": _summary(body),
             "mentions_meokitchen": mentions_meo,
+            "sentiment": sentiment,           # pos / neg / neutral
+            "pos_tags": pos_tags,
+            "neg_tags": neg_tags,
             "first_seen": now_iso,
             "last_seen": now_iso,
         }
@@ -124,10 +147,29 @@ def save_posts(posts, source, search_kind, region=None):
     return added
 
 
+def backfill_sentiment():
+    """기존 레코드에 감성/태그가 없으면 title+summary 로 채운다 (1회용)."""
+    data = _load()
+    n = 0
+    for p in data["posts"]:
+        if "sentiment" not in p:
+            s, pos, neg = classify_sentiment((p.get("title", "") + " " + p.get("summary", "")))
+            p["sentiment"] = s
+            p["pos_tags"] = pos
+            p["neg_tags"] = neg
+            n += 1
+    if n:
+        _atomic_write(data)
+    print(f"[archive] 백필 완료: {n}개 레코드에 감성 추가")
+    return n
+
+
 if __name__ == "__main__":
-    # 간단 자가 테스트
-    n = save_posts(
-        [{"title": "푸꾸옥 메오키친 다녀옴", "link": "https://blog.naver.com/test/1", "time": "3시간 전", "body": "정말 맛있었어요"}],
-        source="blog", search_kind="matjip", region="푸꾸옥",
-    )
-    print("added:", n)
+    if len(sys.argv) > 1 and sys.argv[1] == "backfill":
+        backfill_sentiment()
+    else:
+        n = save_posts(
+            [{"title": "푸꾸옥 메오키친 다녀옴", "link": "https://blog.naver.com/test/1", "time": "3시간 전", "body": "정말 맛있었어요"}],
+            source="blog", search_kind="matjip", region="푸꾸옥",
+        )
+        print("added:", n)

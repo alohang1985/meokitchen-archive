@@ -4,164 +4,275 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>🍜 메오키친 아카이브</title>
+<link rel="preconnect" href="https://cdn.jsdelivr.net" />
+<link href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" rel="stylesheet" />
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
 <style>
   :root {
-    --bg: #0f1115; --panel: #181b22; --panel2: #1f232c; --line: #2a2f3a;
-    --txt: #e7eaf0; --muted: #98a2b3; --accent: #ff7a45; --accent2: #4dabf7;
-    --green: #51cf66; --red: #ff6b6b;
+    --accent: #ff7a45; --accent2: #ff4d8d; --blue: #4dabf7; --green: #51cf66;
+    --amber: #ffd43b; --red: #ff6b6b; --txt: #f1f3f8; --muted: #9aa3b2;
+    --card: rgba(255,255,255,.045); --card-brd: rgba(255,255,255,.09);
+    --glass: rgba(255,255,255,.06);
   }
-  * { box-sizing: border-box; }
-  body { margin: 0; background: var(--bg); color: var(--txt);
-    font-family: -apple-system, "Apple SD Gothic Neo", "Pretendard", system-ui, sans-serif; }
-  .wrap { max-width: 1100px; margin: 0 auto; padding: 24px 16px 80px; }
-  h1 { font-size: 1.5rem; margin: 0 0 4px; }
-  .sub { color: var(--muted); font-size: .85rem; margin-bottom: 24px; }
-  .kpis { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin-bottom: 24px; }
-  .kpi { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 16px; }
-  .kpi .n { font-size: 1.8rem; font-weight: 700; }
-  .kpi .l { color: var(--muted); font-size: .8rem; margin-top: 4px; }
+  * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+  body {
+    margin: 0; color: var(--txt); min-height: 100vh;
+    font-family: "Pretendard", -apple-system, system-ui, sans-serif; letter-spacing: -.01em;
+    background:
+      radial-gradient(1200px 600px at 12% -8%, rgba(255,122,69,.16), transparent 60%),
+      radial-gradient(900px 500px at 100% 0%, rgba(255,77,141,.14), transparent 55%),
+      radial-gradient(800px 600px at 50% 120%, rgba(77,171,247,.10), transparent 60%),
+      #0a0b10;
+  }
+  .wrap { max-width: 1180px; margin: 0 auto; padding: 40px 18px 100px; }
+  header { margin-bottom: 30px; }
+  .logo { display: flex; align-items: center; gap: 12px; }
+  .logo .emoji { font-size: 2rem; filter: drop-shadow(0 4px 12px rgba(255,122,69,.4)); }
+  h1 { font-size: 1.75rem; font-weight: 800; margin: 0;
+    background: linear-gradient(92deg, #fff 10%, var(--accent) 70%, var(--accent2));
+    -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; }
+  .sub { color: var(--muted); font-size: .85rem; margin-top: 8px; display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+  .live { display: inline-flex; align-items: center; gap: 6px; color: var(--green); font-weight: 600; }
+  .live .dot { width: 7px; height: 7px; border-radius: 50%; background: var(--green); box-shadow: 0 0 0 0 rgba(81,207,102,.6); animation: pulse 2s infinite; }
+  @keyframes pulse { 0%{box-shadow:0 0 0 0 rgba(81,207,102,.5)} 70%{box-shadow:0 0 0 7px rgba(81,207,102,0)} 100%{box-shadow:0 0 0 0 rgba(81,207,102,0)} }
+
+  .kpis { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; margin-bottom: 26px; }
+  .kpi { position: relative; background: var(--card); border: 1px solid var(--card-brd); border-radius: 18px;
+    padding: 20px; backdrop-filter: blur(12px); overflow: hidden; transition: transform .2s, border-color .2s; }
+  .kpi:hover { transform: translateY(-3px); border-color: rgba(255,255,255,.18); }
+  .kpi .ic { font-size: 1.1rem; opacity: .9; }
+  .kpi .n { font-size: 2rem; font-weight: 800; margin-top: 6px; line-height: 1; }
+  .kpi .l { color: var(--muted); font-size: .8rem; margin-top: 8px; }
+  .kpi .delta { font-size: .72rem; margin-top: 4px; color: var(--green); }
+  .kpi.hl { background: linear-gradient(160deg, rgba(255,122,69,.18), rgba(255,77,141,.08)); border-color: rgba(255,122,69,.3); }
   .kpi.hl .n { color: var(--accent); }
-  .card { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 18px; margin-bottom: 20px; }
-  .card h2 { font-size: 1rem; margin: 0 0 14px; color: var(--muted); font-weight: 600; }
-  .filters { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
-  .filters input[type=text] { flex: 1; min-width: 160px; background: var(--panel2); border: 1px solid var(--line);
-    color: var(--txt); padding: 9px 12px; border-radius: 10px; font-size: .9rem; }
-  .chip { background: var(--panel2); border: 1px solid var(--line); color: var(--muted);
-    padding: 7px 13px; border-radius: 999px; cursor: pointer; font-size: .82rem; user-select: none; }
-  .chip.on { background: var(--accent); border-color: var(--accent); color: #fff; }
-  .list { display: flex; flex-direction: column; gap: 10px; }
-  .post { background: var(--panel2); border: 1px solid var(--line); border-radius: 12px; padding: 14px; }
-  .post a.t { color: var(--txt); font-weight: 600; text-decoration: none; font-size: .95rem; line-height: 1.4; }
-  .post a.t:hover { color: var(--accent2); text-decoration: underline; }
-  .meta { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; margin-top: 8px; }
-  .badge { font-size: .72rem; padding: 2px 8px; border-radius: 6px; background: #2a2f3a; color: var(--muted); }
+
+  .grid { display: grid; grid-template-columns: 1.7fr 1fr; gap: 16px; margin-bottom: 16px; }
+  .card { background: var(--card); border: 1px solid var(--card-brd); border-radius: 18px; padding: 20px; backdrop-filter: blur(12px); }
+  .card h2 { font-size: .9rem; margin: 0 0 16px; font-weight: 600; color: #cdd3df; display: flex; align-items: center; gap: 7px; }
+  .chart-box { position: relative; height: 230px; }
+  .row2 { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 16px; }
+
+  .toolbar { background: var(--card); border: 1px solid var(--card-brd); border-radius: 18px; padding: 16px 18px; margin-bottom: 16px; backdrop-filter: blur(12px); }
+  .toolbar .group { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+  .toolbar .group + .group { margin-top: 10px; }
+  .glabel { color: var(--muted); font-size: .74rem; width: 46px; flex-shrink: 0; }
+  .chip { background: var(--glass); border: 1px solid var(--card-brd); color: var(--muted);
+    padding: 7px 13px; border-radius: 999px; cursor: pointer; font-size: .82rem; font-weight: 500;
+    user-select: none; transition: all .15s; white-space: nowrap; }
+  .chip:hover { color: var(--txt); border-color: rgba(255,255,255,.2); }
+  .chip.on { background: linear-gradient(120deg, var(--accent), var(--accent2)); border-color: transparent; color: #fff; box-shadow: 0 4px 14px rgba(255,77,141,.3); }
+  .chip.s-pos.on { background: var(--green); box-shadow: none; }
+  .chip.s-neg.on { background: var(--red); box-shadow: none; }
+  .chip.s-neu.on { background: #6b7280; box-shadow: none; }
+  input[type=text], select { background: var(--glass); border: 1px solid var(--card-brd); color: var(--txt);
+    padding: 9px 13px; border-radius: 10px; font-size: .85rem; font-family: inherit; outline: none; }
+  input[type=text] { flex: 1; min-width: 150px; }
+  input[type=text]:focus, select:focus { border-color: var(--accent); }
+  select { cursor: pointer; }
+
+  .list { display: flex; flex-direction: column; gap: 11px; }
+  .post { background: var(--card); border: 1px solid var(--card-brd); border-radius: 14px; padding: 15px 16px;
+    border-left: 3px solid transparent; transition: transform .15s, border-color .15s; }
+  .post:hover { transform: translateX(3px); border-left-color: var(--accent); }
+  .post.pos { border-left-color: var(--green); }
+  .post.neg { border-left-color: var(--red); }
+  .post a.t { color: var(--txt); font-weight: 600; text-decoration: none; font-size: .96rem; line-height: 1.45; }
+  .post a.t:hover { color: var(--accent); }
+  .meta { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; margin-top: 9px; }
+  .badge { font-size: .72rem; padding: 3px 9px; border-radius: 7px; background: rgba(255,255,255,.07); color: var(--muted); font-weight: 500; }
   .badge.meo { background: rgba(255,122,69,.18); color: var(--accent); }
-  .badge.blog { background: rgba(77,171,247,.16); color: var(--accent2); }
+  .badge.blog { background: rgba(77,171,247,.16); color: var(--blue); }
   .badge.cafe { background: rgba(81,207,102,.16); color: var(--green); }
-  .summary { color: var(--muted); font-size: .85rem; margin-top: 8px; line-height: 1.5; }
+  .badge.pos { background: rgba(81,207,102,.16); color: var(--green); }
+  .badge.neg { background: rgba(255,107,107,.16); color: var(--red); }
   .date { color: var(--muted); font-size: .78rem; }
-  .empty { color: var(--muted); text-align: center; padding: 40px 0; }
-  @media (max-width: 640px) { .kpis { grid-template-columns: repeat(2, 1fr); } }
+  .summary { color: #b6bdc9; font-size: .86rem; margin-top: 9px; line-height: 1.55; }
+  .tags { margin-top: 8px; display: flex; flex-wrap: wrap; gap: 5px; }
+  .tag { font-size: .7rem; padding: 2px 7px; border-radius: 6px; background: rgba(81,207,102,.1); color: var(--green); }
+  .tag.neg { background: rgba(255,107,107,.1); color: var(--red); }
+  .empty { color: var(--muted); text-align: center; padding: 50px 0; }
+  .list-head { display: flex; justify-content: space-between; align-items: center; margin-bottom: 14px; }
+  .list-head h2 { margin: 0; }
+
+  @media (max-width: 860px) { .grid { grid-template-columns: 1fr; } }
+  @media (max-width: 640px) { .kpis { grid-template-columns: repeat(2,1fr); } .row2 { grid-template-columns: 1fr; } .glabel { width: 100%; } }
 </style>
 </head>
 <body>
 <div class="wrap">
-  <h1>🍜 메오키친 아카이브</h1>
-  <div class="sub" id="updated">로딩 중…</div>
+  <header>
+    <div class="logo"><span class="emoji">🍜</span><h1>메오키친 아카이브</h1></div>
+    <div class="sub">
+      <span class="live"><span class="dot"></span>자동 수집</span>
+      <span>·</span><span id="updated">로딩 중…</span>
+      <span>·</span><span>네이버 블로그 / 카페</span>
+    </div>
+  </header>
 
   <div class="kpis">
-    <div class="kpi hl"><div class="n" id="k-meo">–</div><div class="l">메오키친 언급</div></div>
-    <div class="kpi"><div class="n" id="k-total">–</div><div class="l">전체 포스팅</div></div>
-    <div class="kpi"><div class="n" id="k-week">–</div><div class="l">최근 7일 신규</div></div>
-    <div class="kpi"><div class="n" id="k-regions">–</div><div class="l">푸꾸옥 / 나트랑</div></div>
+    <div class="kpi hl"><div class="ic">🍜</div><div class="n" id="k-meo">–</div><div class="l">메오키친 언급</div><div class="delta" id="k-meo-d"></div></div>
+    <div class="kpi"><div class="ic">📰</div><div class="n" id="k-total">–</div><div class="l">전체 포스팅</div></div>
+    <div class="kpi"><div class="ic">😊</div><div class="n" id="k-pos">–</div><div class="l">긍정 비율</div></div>
+    <div class="kpi"><div class="ic">🆕</div><div class="n" id="k-week">–</div><div class="l">최근 7일 신규</div></div>
   </div>
 
-  <div class="card">
-    <h2>📈 메오키친 언급 추이 (일별)</h2>
-    <canvas id="chart" height="90"></canvas>
+  <div class="grid">
+    <div class="card"><h2>📈 언급 추이 (일별 · 누적)</h2><div class="chart-box"><canvas id="trend"></canvas></div></div>
+    <div class="card"><h2>😊 메오키친 평판</h2><div class="chart-box"><canvas id="senti"></canvas></div></div>
+  </div>
+  <div class="row2">
+    <div class="card"><h2>📊 출처별</h2><div class="chart-box" style="height:180px"><canvas id="source"></canvas></div></div>
+    <div class="card"><h2>📍 지역별</h2><div class="chart-box" style="height:180px"><canvas id="region"></canvas></div></div>
   </div>
 
-  <div class="card">
-    <h2>🔍 필터</h2>
-    <div class="filters">
-      <span class="chip" data-f="meo">메오키친만</span>
+  <div class="toolbar">
+    <div class="group"><span class="glabel">기간</span>
+      <span class="chip date on" data-d="all">전체</span>
+      <span class="chip date" data-d="1">오늘</span>
+      <span class="chip date" data-d="7">7일</span>
+      <span class="chip date" data-d="30">30일</span>
+    </div>
+    <div class="group"><span class="glabel">감성</span>
+      <span class="chip s-pos" data-f="pos">😊 긍정</span>
+      <span class="chip s-neu" data-f="neutral">😐 중립</span>
+      <span class="chip s-neg" data-f="neg">😟 부정</span>
+    </div>
+    <div class="group"><span class="glabel">분류</span>
+      <span class="chip" data-f="meo">🍜 메오키친만</span>
       <span class="chip" data-f="blog">블로그</span>
       <span class="chip" data-f="cafe">카페</span>
       <span class="chip" data-f="푸꾸옥">푸꾸옥</span>
       <span class="chip" data-f="나트랑">나트랑</span>
+    </div>
+    <div class="group"><span class="glabel">기타</span>
       <input type="text" id="q" placeholder="제목·내용 검색…" />
+      <select id="sort">
+        <option value="new">최신순</option>
+        <option value="old">오래된순</option>
+      </select>
     </div>
   </div>
 
   <div class="card">
-    <h2 id="list-title">📋 포스팅</h2>
+    <div class="list-head"><h2 id="list-title">📋 포스팅</h2></div>
     <div class="list" id="list"></div>
   </div>
 </div>
 
 <script>
 let POSTS = [];
-const F = { meo: false, blog: false, cafe: false, "푸꾸옥": false, "나트랑": false, q: "" };
+const F = { date: "all", sent: new Set(), meo:false, blog:false, cafe:false, "푸꾸옥":false, "나트랑":false, q:"", sort:"new" };
+const C = {}; // charts
+Chart.defaults.color = "#9aa3b2";
+Chart.defaults.font.family = "Pretendard, system-ui, sans-serif";
 
-function daysAgo(n) { const d = new Date(); d.setDate(d.getDate() - n); return d.toISOString().slice(0,10); }
+function daysAgo(n){ const d=new Date(); d.setDate(d.getDate()-n); return d.toISOString().slice(0,10); }
+function esc(s){ return (s||"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c])); }
 
-async function load() {
-  try {
-    const res = await fetch("data/archive.json?_=" + Date.now());
+async function load(){
+  try{
+    const res = await fetch("data/archive.json?_="+Date.now());
     const data = await res.json();
-    POSTS = (data.posts || []).slice().sort((a,b) => (b.post_date||"").localeCompare(a.post_date||"") || (b.first_seen||"").localeCompare(a.first_seen||""));
+    POSTS = (data.posts||[]);
     document.getElementById("updated").textContent =
-      "마지막 업데이트: " + (data.updated_at ? data.updated_at.replace("T"," ") : "–") + " · 네이버 블로그/카페 자동 수집";
-    renderKpis(); renderChart(); render();
-  } catch (e) {
-    document.getElementById("updated").textContent = "데이터를 불러오지 못했습니다.";
-  }
+      (data.updated_at ? data.updated_at.replace("T"," ").slice(0,16) : "–") + " 갱신";
+    renderKpis(); renderCharts(); render();
+  }catch(e){ document.getElementById("updated").textContent = "데이터 로드 실패"; }
 }
 
-function renderKpis() {
-  const meo = POSTS.filter(p => p.mentions_meokitchen).length;
+function renderKpis(){
+  const meo = POSTS.filter(p=>p.mentions_meokitchen);
   const wk = daysAgo(7);
-  const week = POSTS.filter(p => (p.first_seen||"").slice(0,10) >= wk).length;
-  const pq = POSTS.filter(p => p.region === "푸꾸옥").length;
-  const nt = POSTS.filter(p => p.region === "나트랑").length;
-  document.getElementById("k-meo").textContent = meo;
+  const week = POSTS.filter(p=>(p.first_seen||"").slice(0,10)>=wk).length;
+  const meoWeek = meo.filter(p=>(p.first_seen||"").slice(0,10)>=wk).length;
+  const sented = meo.filter(p=>p.sentiment&&p.sentiment!=="neutral");
+  const posRate = sented.length ? Math.round(meo.filter(p=>p.sentiment==="pos").length/sented.length*100) : 0;
+  document.getElementById("k-meo").textContent = meo.length;
+  document.getElementById("k-meo-d").textContent = meoWeek ? `+${meoWeek} (7일)` : "";
   document.getElementById("k-total").textContent = POSTS.length;
+  document.getElementById("k-pos").textContent = posRate + "%";
   document.getElementById("k-week").textContent = week;
-  document.getElementById("k-regions").textContent = pq + " / " + nt;
 }
 
-let chart;
-function renderChart() {
-  const byDay = {};
-  POSTS.filter(p => p.mentions_meokitchen).forEach(p => {
-    const d = p.post_date || "?"; byDay[d] = (byDay[d]||0) + 1;
-  });
-  const labels = Object.keys(byDay).sort();
-  const vals = labels.map(l => byDay[l]);
-  if (chart) chart.destroy();
-  chart = new Chart(document.getElementById("chart"), {
-    type: "bar",
-    data: { labels, datasets: [{ label: "메오키친 언급 수", data: vals,
-      backgroundColor: "#ff7a45", borderRadius: 5 }] },
-    options: { plugins: { legend: { display: false } },
-      scales: { x: { ticks: { color: "#98a2b3" }, grid: { display: false } },
-        y: { ticks: { color: "#98a2b3", precision: 0 }, grid: { color: "#2a2f3a" }, beginAtZero: true } } }
-  });
+function renderCharts(){
+  const meo = POSTS.filter(p=>p.mentions_meokitchen);
+  // trend
+  const byDay = {}; meo.forEach(p=>{ const d=p.post_date||"?"; byDay[d]=(byDay[d]||0)+1; });
+  const labels = Object.keys(byDay).sort(); let cum=0;
+  const daily = labels.map(l=>byDay[l]); const cumv = daily.map(v=>cum+=v);
+  mkChart("trend","bar",{labels,datasets:[
+    {type:"line",label:"누적",data:cumv,borderColor:"#ff4d8d",backgroundColor:"transparent",tension:.35,borderWidth:2,pointRadius:2,yAxisID:"y1"},
+    {type:"bar",label:"일별",data:daily,backgroundColor:"#ff7a45",borderRadius:5,yAxisID:"y"}
+  ]},{scales:{y:{beginAtZero:true,ticks:{precision:0},grid:{color:"rgba(255,255,255,.06)"}},
+    y1:{position:"right",beginAtZero:true,ticks:{precision:0},grid:{display:false}},
+    x:{grid:{display:false}}},plugins:{legend:{display:true,labels:{boxWidth:12,font:{size:11}}}}});
+  // sentiment donut
+  const sc={pos:0,neutral:0,neg:0}; meo.forEach(p=>sc[p.sentiment||"neutral"]++);
+  mkChart("senti","doughnut",{labels:["긍정 😊","중립 😐","부정 😟"],datasets:[{
+    data:[sc.pos,sc.neutral,sc.neg],backgroundColor:["#51cf66","#6b7280","#ff6b6b"],borderColor:"transparent",borderWidth:0}]},
+    {cutout:"62%",plugins:{legend:{position:"bottom",labels:{boxWidth:12,padding:14,font:{size:11}}}}});
+  // source
+  const src={blog:0,cafe:0}; POSTS.forEach(p=>src[p.source]=(src[p.source]||0)+1);
+  mkChart("source","bar",{labels:["블로그","카페"],datasets:[{data:[src.blog,src.cafe],
+    backgroundColor:["#4dabf7","#51cf66"],borderRadius:6}]},
+    {indexAxis:"y",plugins:{legend:{display:false}},scales:{x:{beginAtZero:true,ticks:{precision:0},grid:{color:"rgba(255,255,255,.06)"}},y:{grid:{display:false}}}});
+  // region
+  const rg={}; POSTS.forEach(p=>{ if(p.region) rg[p.region]=(rg[p.region]||0)+1; });
+  const rl=Object.keys(rg);
+  mkChart("region","bar",{labels:rl,datasets:[{data:rl.map(k=>rg[k]),
+    backgroundColor:["#ff7a45","#ff4d8d","#ffd43b","#4dabf7"],borderRadius:6}]},
+    {indexAxis:"y",plugins:{legend:{display:false}},scales:{x:{beginAtZero:true,ticks:{precision:0},grid:{color:"rgba(255,255,255,.06)"}},y:{grid:{display:false}}}});
 }
+function mkChart(id,type,data,opts){ if(C[id])C[id].destroy();
+  C[id]=new Chart(document.getElementById(id),{type,data,options:{responsive:true,maintainAspectRatio:false,...opts}}); }
 
-function render() {
-  let rows = POSTS;
-  if (F.meo) rows = rows.filter(p => p.mentions_meokitchen);
-  if (F.blog) rows = rows.filter(p => p.source === "blog");
-  if (F.cafe) rows = rows.filter(p => p.source === "cafe");
-  if (F["푸꾸옥"]) rows = rows.filter(p => p.region === "푸꾸옥");
-  if (F["나트랑"]) rows = rows.filter(p => p.region === "나트랑");
-  if (F.q) { const q = F.q.toLowerCase();
-    rows = rows.filter(p => (p.title+" "+(p.summary||"")).toLowerCase().includes(q)); }
+function render(){
+  let rows = POSTS.slice();
+  if(F.date!=="all"){ const cut=daysAgo(parseInt(F.date)); rows=rows.filter(p=>(p.post_date||"")>=cut); }
+  if(F.sent.size) rows=rows.filter(p=>F.sent.has(p.sentiment));
+  if(F.meo) rows=rows.filter(p=>p.mentions_meokitchen);
+  if(F.blog) rows=rows.filter(p=>p.source==="blog");
+  if(F.cafe) rows=rows.filter(p=>p.source==="cafe");
+  if(F["푸꾸옥"]) rows=rows.filter(p=>p.region==="푸꾸옥");
+  if(F["나트랑"]) rows=rows.filter(p=>p.region==="나트랑");
+  if(F.q){ const q=F.q.toLowerCase(); rows=rows.filter(p=>(p.title+" "+(p.summary||"")).toLowerCase().includes(q)); }
+  rows.sort((a,b)=>{ const c=(a.post_date||"").localeCompare(b.post_date||"")||(a.first_seen||"").localeCompare(b.first_seen||""); return F.sort==="new"?-c:c; });
 
   document.getElementById("list-title").textContent = `📋 포스팅 (${rows.length})`;
   const el = document.getElementById("list");
-  if (!rows.length) { el.innerHTML = '<div class="empty">조건에 맞는 포스팅이 없어요.</div>'; return; }
-  el.innerHTML = rows.map(p => `
-    <div class="post">
-      <a class="t" href="${p.url}" target="_blank" rel="noopener">${esc(p.title) || "(제목 없음)"}</a>
+  if(!rows.length){ el.innerHTML='<div class="empty">조건에 맞는 포스팅이 없어요 🔍</div>'; return; }
+  el.innerHTML = rows.map(p=>{
+    const sc = p.sentiment==="pos"?"pos":p.sentiment==="neg"?"neg":"";
+    const tags = [].concat((p.pos_tags||[]).map(t=>`<span class="tag">${esc(t)}</span>`),
+                           (p.neg_tags||[]).map(t=>`<span class="tag neg">${esc(t)}</span>`)).slice(0,6).join("");
+    return `<div class="post ${sc}">
+      <a class="t" href="${p.url}" target="_blank" rel="noopener">${esc(p.title)||"(제목 없음)"}</a>
       <div class="meta">
-        <span class="date">🕐 ${esc(p.time_text) || p.post_date}</span>
-        <span class="badge ${p.source}">${p.source === "blog" ? "블로그" : "카페"}</span>
-        ${p.region ? `<span class="badge">${esc(p.region)}</span>` : ""}
-        ${p.mentions_meokitchen ? `<span class="badge meo">🍜 메오키친</span>` : ""}
+        <span class="date">🕐 ${esc(p.time_text)||p.post_date}</span>
+        <span class="badge ${p.source}">${p.source==="blog"?"블로그":"카페"}</span>
+        ${p.region?`<span class="badge">${esc(p.region)}</span>`:""}
+        ${p.mentions_meokitchen?`<span class="badge meo">🍜 메오키친</span>`:""}
+        ${p.sentiment==="pos"?`<span class="badge pos">😊 긍정</span>`:p.sentiment==="neg"?`<span class="badge neg">😟 부정</span>`:""}
       </div>
-      ${p.summary ? `<div class="summary">${esc(p.summary)}</div>` : ""}
-    </div>`).join("");
+      ${p.summary?`<div class="summary">${esc(p.summary)}</div>`:""}
+      ${tags?`<div class="tags">${tags}</div>`:""}
+    </div>`;
+  }).join("");
 }
 
-function esc(s) { return (s||"").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c])); }
-
-document.querySelectorAll(".chip").forEach(c => c.addEventListener("click", () => {
-  const k = c.dataset.f; F[k] = !F[k]; c.classList.toggle("on", F[k]); render();
+document.querySelectorAll(".chip.date").forEach(c=>c.addEventListener("click",()=>{
+  document.querySelectorAll(".chip.date").forEach(x=>x.classList.remove("on"));
+  c.classList.add("on"); F.date=c.dataset.d; render();
 }));
-document.getElementById("q").addEventListener("input", e => { F.q = e.target.value; render(); });
+document.querySelectorAll(".chip[data-f]").forEach(c=>c.addEventListener("click",()=>{
+  const k=c.dataset.f;
+  if(k==="pos"||k==="neutral"||k==="neg"){ F.sent.has(k)?F.sent.delete(k):F.sent.add(k); c.classList.toggle("on"); }
+  else { F[k]=!F[k]; c.classList.toggle("on",F[k]); }
+  render();
+}));
+document.getElementById("q").addEventListener("input",e=>{ F.q=e.target.value; render(); });
+document.getElementById("sort").addEventListener("change",e=>{ F.sort=e.target.value; render(); });
 
 load();
 </script>
