@@ -7,6 +7,7 @@
 <link rel="preconnect" href="https://cdn.jsdelivr.net" />
 <link href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" rel="stylesheet" />
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.2.0/dist/chartjs-plugin-datalabels.min.js"></script>
 <style>
   :root {
     --accent: #ff7a45; --accent2: #ff4d8d; --blue: #4dabf7; --green: #51cf66;
@@ -190,6 +191,8 @@ const F = { gran:"day", period:"all", from:"", to:"", sent:new Set(), meo:false,
 const C = {};
 Chart.defaults.color = "#9aa3b2";
 Chart.defaults.font.family = "Pretendard, system-ui, sans-serif";
+Chart.register(ChartDataLabels);
+Chart.defaults.set("plugins.datalabels", { display: false }); // 기본 off, 차트별로 켬
 
 const TODAY = new Date().toISOString().slice(0,10);
 function mondayOf(dateStr){ const d=new Date(dateStr+"T00:00"); const dow=(d.getDay()+6)%7; d.setDate(d.getDate()-dow); return d.toISOString().slice(0,10); }
@@ -240,10 +243,14 @@ function renderTrend(){
   const meoArr = bs.map(b=>b.meo), etcArr = bs.map(b=>b.total-b.meo);
   const ratio = bs.map(b=>b.total? Math.round(b.meo/b.total*100):0);
   mkChart("trend","bar",{labels,datasets:[
-    {label:"🍜 메오키친",data:meoArr,backgroundColor:"#ff7a45",stack:"s",order:2,borderRadius:{topLeft:4,topRight:4}},
-    {label:"그 외 맛집글",data:etcArr,backgroundColor:"rgba(255,255,255,.13)",stack:"s",order:2,borderRadius:{topLeft:4,topRight:4}},
-    {type:"line",label:"메오 비율(%)",data:ratio,borderColor:"#ff4d8d",backgroundColor:"transparent",yAxisID:"y1",tension:.35,borderWidth:2.5,pointRadius:3,pointBackgroundColor:"#ff4d8d",order:1}
-  ]},{interaction:{mode:"index",intersect:false},scales:{
+    {label:"🍜 메오키친",data:meoArr,backgroundColor:"#ff7a45",stack:"s",order:2,borderRadius:{topLeft:4,topRight:4},
+      datalabels:{display:ctx=>meoArr[ctx.dataIndex]>0,color:"#fff",font:{weight:"700",size:11},formatter:v=>v}},
+    {label:"그 외 맛집글",data:etcArr,backgroundColor:"rgba(255,255,255,.13)",stack:"s",order:2,borderRadius:{topLeft:4,topRight:4},
+      datalabels:{display:true,anchor:"end",align:"top",offset:2,color:"#cdd3df",font:{weight:"600",size:11},
+        formatter:(v,ctx)=>{const t=meoArr[ctx.dataIndex]+etcArr[ctx.dataIndex];return t?"전체 "+t:"";}}},
+    {type:"line",label:"메오 비율(%)",data:ratio,borderColor:"#ff4d8d",backgroundColor:"transparent",yAxisID:"y1",tension:.35,borderWidth:2.5,pointRadius:4,pointBackgroundColor:"#ff4d8d",order:1,
+      datalabels:{display:true,anchor:"center",align:"bottom",offset:6,color:"#ff7aa8",font:{weight:"700",size:11},formatter:v=>v+"%"}}
+  ]},{layout:{padding:{top:22}},interaction:{mode:"index",intersect:false},scales:{
     y:{stacked:true,beginAtZero:true,ticks:{precision:0},grid:{color:"rgba(255,255,255,.06)"},title:{display:true,text:"포스팅 수"}},
     y1:{position:"right",beginAtZero:true,max:100,ticks:{callback:v=>v+"%"},grid:{display:false},title:{display:true,text:"메오 비율"}},
     x:{stacked:true,grid:{display:false}}},
@@ -254,15 +261,20 @@ function renderTrend(){
 function renderBreakdown(){
   const meo = POSTS.filter(p=>p.mentions_meokitchen);
   const sc={pos:0,neutral:0,neg:0}; meo.forEach(p=>sc[p.sentiment||"neutral"]++);
+  const sTot = sc.pos+sc.neutral+sc.neg;
   mkChart("senti","doughnut",{labels:["긍정","중립","부정"],datasets:[{data:[sc.pos,sc.neutral,sc.neg],
-    backgroundColor:["#51cf66","#6b7280","#ff6b6b"],borderWidth:0}]},
-    {cutout:"60%",plugins:{legend:{position:"bottom",labels:{boxWidth:10,padding:10,font:{size:10}}}}});
+    backgroundColor:["#51cf66","#6b7280","#ff6b6b"],borderWidth:0,
+    datalabels:{display:ctx=>ctx.dataset.data[ctx.dataIndex]>0,color:"#fff",font:{weight:"700",size:12},
+      formatter:v=>sTot?v+"\n("+Math.round(v/sTot*100)+"%)":v,textAlign:"center"}}]},
+    {cutout:"58%",plugins:{legend:{position:"bottom",labels:{boxWidth:10,padding:10,font:{size:10}}}}});
   const src={blog:0,cafe:0}; POSTS.forEach(p=>src[p.source]=(src[p.source]||0)+1);
-  mkChart("source","bar",{labels:["블로그","카페"],datasets:[{data:[src.blog,src.cafe],backgroundColor:["#4dabf7","#51cf66"],borderRadius:6}]},
-    {indexAxis:"y",plugins:{legend:{display:false}},scales:{x:{beginAtZero:true,ticks:{precision:0},grid:{color:"rgba(255,255,255,.06)"}},y:{grid:{display:false}}}});
+  mkChart("source","bar",{labels:["블로그","카페"],datasets:[{data:[src.blog,src.cafe],backgroundColor:["#4dabf7","#51cf66"],borderRadius:6,
+    datalabels:{display:true,anchor:"end",align:"left",color:"#fff",font:{weight:"700",size:12},formatter:v=>v}}]},
+    {layout:{padding:{right:8}},indexAxis:"y",plugins:{legend:{display:false}},scales:{x:{beginAtZero:true,ticks:{precision:0},grid:{color:"rgba(255,255,255,.06)"}},y:{grid:{display:false}}}});
   const rg={}; POSTS.forEach(p=>{ if(p.region)rg[p.region]=(rg[p.region]||0)+1; }); const rl=Object.keys(rg);
-  mkChart("region","bar",{labels:rl,datasets:[{data:rl.map(k=>rg[k]),backgroundColor:["#ff7a45","#ff4d8d","#ffd43b","#4dabf7"],borderRadius:6}]},
-    {indexAxis:"y",plugins:{legend:{display:false}},scales:{x:{beginAtZero:true,ticks:{precision:0},grid:{color:"rgba(255,255,255,.06)"}},y:{grid:{display:false}}}});
+  mkChart("region","bar",{labels:rl,datasets:[{data:rl.map(k=>rg[k]),backgroundColor:["#ff7a45","#ff4d8d","#ffd43b","#4dabf7"],borderRadius:6,
+    datalabels:{display:true,anchor:"end",align:"left",color:"#fff",font:{weight:"700",size:12},formatter:v=>v}}]},
+    {layout:{padding:{right:8}},indexAxis:"y",plugins:{legend:{display:false}},scales:{x:{beginAtZero:true,ticks:{precision:0},grid:{color:"rgba(255,255,255,.06)"}},y:{grid:{display:false}}}});
 }
 
 function mkChart(id,type,data,opts){ if(C[id])C[id].destroy();
