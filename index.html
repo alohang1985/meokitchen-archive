@@ -92,6 +92,19 @@
   .tag { font-size: .7rem; padding: 2px 7px; border-radius: 6px; background: rgba(81,207,102,.1); color: var(--green); }
   .tag.neg { background: rgba(255,107,107,.1); color: var(--red); }
   .empty { color: var(--muted); text-align: center; padding: 50px 0; }
+  .table-wrap { overflow-x: auto; }
+  table.daily { width: 100%; border-collapse: collapse; font-size: .85rem; min-width: 480px; }
+  table.daily th, table.daily td { padding: 11px 12px; text-align: right; border-bottom: 1px solid rgba(255,255,255,.06); white-space: nowrap; }
+  table.daily th { color: var(--muted); font-weight: 600; font-size: .76rem; text-align: right; position: sticky; top: 0; }
+  table.daily th:first-child, table.daily td:first-child { text-align: left; }
+  table.daily td.d { color: var(--txt); font-weight: 600; }
+  table.daily td.meo { color: var(--accent); font-weight: 700; }
+  table.daily tr-bar, table.daily .bar { display: inline-block; height: 6px; border-radius: 3px; background: linear-gradient(90deg, var(--accent), var(--accent2)); vertical-align: middle; }
+  table.daily tbody tr:hover { background: rgba(255,255,255,.03); }
+  table.daily tfoot td { border-top: 2px solid rgba(255,255,255,.12); border-bottom: none; font-weight: 700; color: var(--txt); }
+  .ratio-cell { display: flex; align-items: center; justify-content: flex-end; gap: 8px; }
+  .ratio-track { width: 60px; height: 6px; border-radius: 3px; background: rgba(255,255,255,.08); overflow: hidden; }
+  .ratio-fill { height: 100%; background: linear-gradient(90deg, var(--accent), var(--accent2)); }
   .list-head { display: flex; justify-content: space-between; align-items: center; margin-bottom: 14px; }
   .list-head h2 { margin: 0; }
 
@@ -124,6 +137,13 @@
   <div class="row2">
     <div class="card"><h2>📊 출처별</h2><div class="chart-box" style="height:180px"><canvas id="source"></canvas></div></div>
     <div class="card"><h2>📍 지역별</h2><div class="chart-box" style="height:180px"><canvas id="region"></canvas></div></div>
+  </div>
+
+  <div class="card" style="margin-bottom:16px">
+    <h2>📅 일별 집계 — 전체 vs 메오키친</h2>
+    <div class="table-wrap">
+      <table class="daily" id="daily"></table>
+    </div>
   </div>
 
   <div class="toolbar">
@@ -177,7 +197,7 @@ async function load(){
     POSTS = (data.posts||[]);
     document.getElementById("updated").textContent =
       (data.updated_at ? data.updated_at.replace("T"," ").slice(0,16) : "–") + " 갱신";
-    renderKpis(); renderCharts(); render();
+    renderKpis(); renderCharts(); renderDaily(); render();
   }catch(e){ document.getElementById("updated").textContent = "데이터 로드 실패"; }
 }
 
@@ -197,16 +217,16 @@ function renderKpis(){
 
 function renderCharts(){
   const meo = POSTS.filter(p=>p.mentions_meokitchen);
-  // trend
-  const byDay = {}; meo.forEach(p=>{ const d=p.post_date||"?"; byDay[d]=(byDay[d]||0)+1; });
-  const labels = Object.keys(byDay).sort(); let cum=0;
-  const daily = labels.map(l=>byDay[l]); const cumv = daily.map(v=>cum+=v);
+  // trend: 일별 전체 포스팅(메오 + 기타 누적막대)
+  const labels = [...new Set(POSTS.map(p=>p.post_date||"?"))].sort();
+  const meoDay = labels.map(l=>POSTS.filter(p=>(p.post_date||"?")===l && p.mentions_meokitchen).length);
+  const etcDay = labels.map(l=>POSTS.filter(p=>(p.post_date||"?")===l && !p.mentions_meokitchen).length);
   mkChart("trend","bar",{labels,datasets:[
-    {type:"line",label:"누적",data:cumv,borderColor:"#ff4d8d",backgroundColor:"transparent",tension:.35,borderWidth:2,pointRadius:2,yAxisID:"y1"},
-    {type:"bar",label:"일별",data:daily,backgroundColor:"#ff7a45",borderRadius:5,yAxisID:"y"}
-  ]},{scales:{y:{beginAtZero:true,ticks:{precision:0},grid:{color:"rgba(255,255,255,.06)"}},
-    y1:{position:"right",beginAtZero:true,ticks:{precision:0},grid:{display:false}},
-    x:{grid:{display:false}}},plugins:{legend:{display:true,labels:{boxWidth:12,font:{size:11}}}}});
+    {label:"🍜 메오키친",data:meoDay,backgroundColor:"#ff7a45",borderRadius:{topLeft:5,topRight:5},stack:"s"},
+    {label:"그 외 맛집글",data:etcDay,backgroundColor:"rgba(255,255,255,.13)",borderRadius:{topLeft:5,topRight:5},stack:"s"}
+  ]},{scales:{y:{stacked:true,beginAtZero:true,ticks:{precision:0},grid:{color:"rgba(255,255,255,.06)"}},
+    x:{stacked:true,grid:{display:false}}},plugins:{legend:{display:true,labels:{boxWidth:12,font:{size:11}}},
+    tooltip:{callbacks:{footer:(items)=>{const t=items.reduce((s,i)=>s+i.parsed.y,0);return "전체 "+t+"개";}}}}});
   // sentiment donut
   const sc={pos:0,neutral:0,neg:0}; meo.forEach(p=>sc[p.sentiment||"neutral"]++);
   mkChart("senti","doughnut",{labels:["긍정 😊","중립 😐","부정 😟"],datasets:[{
@@ -226,6 +246,35 @@ function renderCharts(){
 }
 function mkChart(id,type,data,opts){ if(C[id])C[id].destroy();
   C[id]=new Chart(document.getElementById(id),{type,data,options:{responsive:true,maintainAspectRatio:false,...opts}}); }
+
+function renderDaily(){
+  const days = [...new Set(POSTS.map(p=>p.post_date||"?"))].sort().reverse();
+  const stat = d => {
+    const ps = POSTS.filter(p=>(p.post_date||"?")===d);
+    const meo = ps.filter(p=>p.mentions_meokitchen).length;
+    return { total: ps.length, blog: ps.filter(p=>p.source==="blog").length,
+      cafe: ps.filter(p=>p.source==="cafe").length, meo,
+      rate: ps.length ? Math.round(meo/ps.length*100) : 0 };
+  };
+  const sum = { total:0, blog:0, cafe:0, meo:0 };
+  const rows = days.map(d=>{
+    const s = stat(d); sum.total+=s.total; sum.blog+=s.blog; sum.cafe+=s.cafe; sum.meo+=s.meo;
+    return `<tr>
+      <td class="d">${d}</td>
+      <td>${s.total}</td>
+      <td>${s.blog}</td>
+      <td>${s.cafe}</td>
+      <td class="meo">${s.meo}</td>
+      <td><div class="ratio-cell"><div class="ratio-track"><div class="ratio-fill" style="width:${s.rate}%"></div></div><span>${s.rate}%</span></div></td>
+    </tr>`;
+  }).join("");
+  const totRate = sum.total ? Math.round(sum.meo/sum.total*100) : 0;
+  document.getElementById("daily").innerHTML = `
+    <thead><tr><th>날짜</th><th>전체</th><th>블로그</th><th>카페</th><th>🍜 메오키친</th><th>메오 비율</th></tr></thead>
+    <tbody>${rows}</tbody>
+    <tfoot><tr><td>합계</td><td>${sum.total}</td><td>${sum.blog}</td><td>${sum.cafe}</td><td class="meo">${sum.meo}</td>
+      <td><div class="ratio-cell"><div class="ratio-track"><div class="ratio-fill" style="width:${totRate}%"></div></div><span>${totRate}%</span></div></td></tr></tfoot>`;
+}
 
 function render(){
   let rows = POSTS.slice();
