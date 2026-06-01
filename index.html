@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>🍜 메오키친 아카이브</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+<style>
+  :root {
+    --bg: #0f1115; --panel: #181b22; --panel2: #1f232c; --line: #2a2f3a;
+    --txt: #e7eaf0; --muted: #98a2b3; --accent: #ff7a45; --accent2: #4dabf7;
+    --green: #51cf66; --red: #ff6b6b;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--txt);
+    font-family: -apple-system, "Apple SD Gothic Neo", "Pretendard", system-ui, sans-serif; }
+  .wrap { max-width: 1100px; margin: 0 auto; padding: 24px 16px 80px; }
+  h1 { font-size: 1.5rem; margin: 0 0 4px; }
+  .sub { color: var(--muted); font-size: .85rem; margin-bottom: 24px; }
+  .kpis { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin-bottom: 24px; }
+  .kpi { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 16px; }
+  .kpi .n { font-size: 1.8rem; font-weight: 700; }
+  .kpi .l { color: var(--muted); font-size: .8rem; margin-top: 4px; }
+  .kpi.hl .n { color: var(--accent); }
+  .card { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 18px; margin-bottom: 20px; }
+  .card h2 { font-size: 1rem; margin: 0 0 14px; color: var(--muted); font-weight: 600; }
+  .filters { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+  .filters input[type=text] { flex: 1; min-width: 160px; background: var(--panel2); border: 1px solid var(--line);
+    color: var(--txt); padding: 9px 12px; border-radius: 10px; font-size: .9rem; }
+  .chip { background: var(--panel2); border: 1px solid var(--line); color: var(--muted);
+    padding: 7px 13px; border-radius: 999px; cursor: pointer; font-size: .82rem; user-select: none; }
+  .chip.on { background: var(--accent); border-color: var(--accent); color: #fff; }
+  .list { display: flex; flex-direction: column; gap: 10px; }
+  .post { background: var(--panel2); border: 1px solid var(--line); border-radius: 12px; padding: 14px; }
+  .post a.t { color: var(--txt); font-weight: 600; text-decoration: none; font-size: .95rem; line-height: 1.4; }
+  .post a.t:hover { color: var(--accent2); text-decoration: underline; }
+  .meta { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; margin-top: 8px; }
+  .badge { font-size: .72rem; padding: 2px 8px; border-radius: 6px; background: #2a2f3a; color: var(--muted); }
+  .badge.meo { background: rgba(255,122,69,.18); color: var(--accent); }
+  .badge.blog { background: rgba(77,171,247,.16); color: var(--accent2); }
+  .badge.cafe { background: rgba(81,207,102,.16); color: var(--green); }
+  .summary { color: var(--muted); font-size: .85rem; margin-top: 8px; line-height: 1.5; }
+  .date { color: var(--muted); font-size: .78rem; }
+  .empty { color: var(--muted); text-align: center; padding: 40px 0; }
+  @media (max-width: 640px) { .kpis { grid-template-columns: repeat(2, 1fr); } }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>🍜 메오키친 아카이브</h1>
+  <div class="sub" id="updated">로딩 중…</div>
+
+  <div class="kpis">
+    <div class="kpi hl"><div class="n" id="k-meo">–</div><div class="l">메오키친 언급</div></div>
+    <div class="kpi"><div class="n" id="k-total">–</div><div class="l">전체 포스팅</div></div>
+    <div class="kpi"><div class="n" id="k-week">–</div><div class="l">최근 7일 신규</div></div>
+    <div class="kpi"><div class="n" id="k-regions">–</div><div class="l">푸꾸옥 / 나트랑</div></div>
+  </div>
+
+  <div class="card">
+    <h2>📈 메오키친 언급 추이 (일별)</h2>
+    <canvas id="chart" height="90"></canvas>
+  </div>
+
+  <div class="card">
+    <h2>🔍 필터</h2>
+    <div class="filters">
+      <span class="chip" data-f="meo">메오키친만</span>
+      <span class="chip" data-f="blog">블로그</span>
+      <span class="chip" data-f="cafe">카페</span>
+      <span class="chip" data-f="푸꾸옥">푸꾸옥</span>
+      <span class="chip" data-f="나트랑">나트랑</span>
+      <input type="text" id="q" placeholder="제목·내용 검색…" />
+    </div>
+  </div>
+
+  <div class="card">
+    <h2 id="list-title">📋 포스팅</h2>
+    <div class="list" id="list"></div>
+  </div>
+</div>
+
+<script>
+let POSTS = [];
+const F = { meo: false, blog: false, cafe: false, "푸꾸옥": false, "나트랑": false, q: "" };
+
+function daysAgo(n) { const d = new Date(); d.setDate(d.getDate() - n); return d.toISOString().slice(0,10); }
+
+async function load() {
+  try {
+    const res = await fetch("data/archive.json?_=" + Date.now());
+    const data = await res.json();
+    POSTS = (data.posts || []).slice().sort((a,b) => (b.post_date||"").localeCompare(a.post_date||"") || (b.first_seen||"").localeCompare(a.first_seen||""));
+    document.getElementById("updated").textContent =
+      "마지막 업데이트: " + (data.updated_at ? data.updated_at.replace("T"," ") : "–") + " · 네이버 블로그/카페 자동 수집";
+    renderKpis(); renderChart(); render();
+  } catch (e) {
+    document.getElementById("updated").textContent = "데이터를 불러오지 못했습니다.";
+  }
+}
+
+function renderKpis() {
+  const meo = POSTS.filter(p => p.mentions_meokitchen).length;
+  const wk = daysAgo(7);
+  const week = POSTS.filter(p => (p.first_seen||"").slice(0,10) >= wk).length;
+  const pq = POSTS.filter(p => p.region === "푸꾸옥").length;
+  const nt = POSTS.filter(p => p.region === "나트랑").length;
+  document.getElementById("k-meo").textContent = meo;
+  document.getElementById("k-total").textContent = POSTS.length;
+  document.getElementById("k-week").textContent = week;
+  document.getElementById("k-regions").textContent = pq + " / " + nt;
+}
+
+let chart;
+function renderChart() {
+  const byDay = {};
+  POSTS.filter(p => p.mentions_meokitchen).forEach(p => {
+    const d = p.post_date || "?"; byDay[d] = (byDay[d]||0) + 1;
+  });
+  const labels = Object.keys(byDay).sort();
+  const vals = labels.map(l => byDay[l]);
+  if (chart) chart.destroy();
+  chart = new Chart(document.getElementById("chart"), {
+    type: "bar",
+    data: { labels, datasets: [{ label: "메오키친 언급 수", data: vals,
+      backgroundColor: "#ff7a45", borderRadius: 5 }] },
+    options: { plugins: { legend: { display: false } },
+      scales: { x: { ticks: { color: "#98a2b3" }, grid: { display: false } },
+        y: { ticks: { color: "#98a2b3", precision: 0 }, grid: { color: "#2a2f3a" }, beginAtZero: true } } }
+  });
+}
+
+function render() {
+  let rows = POSTS;
+  if (F.meo) rows = rows.filter(p => p.mentions_meokitchen);
+  if (F.blog) rows = rows.filter(p => p.source === "blog");
+  if (F.cafe) rows = rows.filter(p => p.source === "cafe");
+  if (F["푸꾸옥"]) rows = rows.filter(p => p.region === "푸꾸옥");
+  if (F["나트랑"]) rows = rows.filter(p => p.region === "나트랑");
+  if (F.q) { const q = F.q.toLowerCase();
+    rows = rows.filter(p => (p.title+" "+(p.summary||"")).toLowerCase().includes(q)); }
+
+  document.getElementById("list-title").textContent = `📋 포스팅 (${rows.length})`;
+  const el = document.getElementById("list");
+  if (!rows.length) { el.innerHTML = '<div class="empty">조건에 맞는 포스팅이 없어요.</div>'; return; }
+  el.innerHTML = rows.map(p => `
+    <div class="post">
+      <a class="t" href="${p.url}" target="_blank" rel="noopener">${esc(p.title) || "(제목 없음)"}</a>
+      <div class="meta">
+        <span class="date">🕐 ${esc(p.time_text) || p.post_date}</span>
+        <span class="badge ${p.source}">${p.source === "blog" ? "블로그" : "카페"}</span>
+        ${p.region ? `<span class="badge">${esc(p.region)}</span>` : ""}
+        ${p.mentions_meokitchen ? `<span class="badge meo">🍜 메오키친</span>` : ""}
+      </div>
+      ${p.summary ? `<div class="summary">${esc(p.summary)}</div>` : ""}
+    </div>`).join("");
+}
+
+function esc(s) { return (s||"").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c])); }
+
+document.querySelectorAll(".chip").forEach(c => c.addEventListener("click", () => {
+  const k = c.dataset.f; F[k] = !F[k]; c.classList.toggle("on", F[k]); render();
+}));
+document.getElementById("q").addEventListener("input", e => { F.q = e.target.value; render(); });
+
+load();
+</script>
+</body>
+</html>
