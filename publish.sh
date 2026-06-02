@@ -12,4 +12,4 @@ fi
 git add -A
 git commit -q -m "아카이브 갱신 ($(date +%Y-%m-%d\ %H:%M))"
 git push -q origin main
-echo "배포 완료 — 총 ${COUNT}개 포스팅"
+echo "배포 완료"
