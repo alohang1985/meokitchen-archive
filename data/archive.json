@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-02T11:00:07",
+  "updated_at": "2026-06-02T17:31:07",
   "posts": [
     {
       "url": "https://blog.naver.com/synnlog/224301675197",
@@ -31,7 +31,7 @@
       "summary": "유튜브 나트랑 하엘이네를 보다가 찾은 #나트랑맛집 #메오키친 생긴지 얼마 안된 신상맛집이다. 원래는 푸꾸옥(?)에서 굉장히 유명한 맛집이라는데 이번에 나트랑에도 …",
       "mentions_meokitchen": true,
       "first_seen": "2026-06-01T18:35:07",
-      "last_seen": "2026-06-02T11:00:03",
+      "last_seen": "2026-06-02T17:31:07",
       "sentiment": "pos",
       "pos_tags": [
         "맛집"
@@ -65,7 +65,7 @@
       "summary": "해외여행 푸꾸옥 메오키친 @렌토네일상공감 안녕하세요 ~ 오늘은 요즘 SNS에서 가장 핫한 푸꾸옥 인기맛집 MEO KICKEN 후기를 들려드리려고해요 !! 대가족이…",
       "mentions_meokitchen": true,
       "first_seen": "2026-06-01T18:35:07",
-      "last_seen": "2026-06-02T08:00:04",
+      "last_seen": "2026-06-02T17:31:07",
       "sentiment": "pos",
       "pos_tags": [
         "맛집"
@@ -103,7 +103,7 @@
       "summary": "시내 메오키친에서 점심을 먹고 켄켄에 들려 크록스를 사고 #포나가르사원 에 갔다. 티켓값은 인당 3만동 요 티켓은 들어가는 입구에 넣으면 끝이니 사진이 필요하신분…",
       "mentions_meokitchen": true,
       "first_seen": "2026-06-01T18:35:07",
-      "last_seen": "2026-06-02T08:00:04",
+      "last_seen": "2026-06-02T17:31:07",
       "sentiment": "neutral",
       "pos_tags": [],
       "neg_tags": []
@@ -172,7 +172,7 @@
       "summary": "우리 집 테이블, 실리콘 매트로 새 단장했어요! 요즘 집콕 시간이 늘면서 테이블 관리에 더 신경 쓰게 되더라고요. 특히 식탁이나 책상은 뭘 올려두든 신경 쓰이고,…",
       "mentions_meokitchen": true,
       "first_seen": "2026-06-01T18:35:07",
-      "last_seen": "2026-06-02T08:00:04",
+      "last_seen": "2026-06-02T17:31:07",
       "sentiment": "neutral",
       "pos_tags": [],
       "neg_tags": []
@@ -188,7 +188,7 @@
       "summary": "동남아물가 절대아님 자석패디도 일사천리로 끝남 한 2-3시쯤 진짜 너무 배고픈채로 메오키친 갔는디 웨이팅 뭔 40분? 기다리라그러고 메뉴 다 품절이라서 그랩타고 …",
       "mentions_meokitchen": true,
       "first_seen": "2026-06-01T18:35:07",
-      "last_seen": "2026-06-02T08:00:04",
+      "last_seen": "2026-06-02T17:31:07",
       "sentiment": "neg",
       "pos_tags": [],
       "neg_tags": [
@@ -206,7 +206,7 @@
       "summary": "ㅋㅋ 메오키친 배고프고 힘든 우리들 그냥 눈에 보이는대로 다 시킴 너무 많이 주문해버림 근데 다 먹음 ㅋㅋ 개인적으로는 베트남 음식점 중에 제 입맛에는 가장 맛있…",
       "mentions_meokitchen": true,
       "first_seen": "2026-06-01T18:35:07",
-      "last_seen": "2026-06-02T08:00:04",
+      "last_seen": "2026-06-02T17:31:07",
       "sentiment": "pos",
       "pos_tags": [
         "맛있"
@@ -224,7 +224,7 @@
       "summary": "코스 추천 내용 어울리는 여행자 카페 먼저 아폴로 카페 같은 전망형 카페 사진과 휴식을 함께 원하는 커플 노을 감상 키스브릿지 주변 산책 푸꾸옥 노을과 사랑 여행…",
       "mentions_meokitchen": true,
       "first_seen": "2026-06-01T18:35:07",
-      "last_seen": "2026-06-02T08:00:04",
+      "last_seen": "2026-06-02T17:31:07",
       "sentiment": "pos",
       "pos_tags": [
         "추천",
@@ -259,7 +259,7 @@
       "summary": "",
       "mentions_meokitchen": true,
       "first_seen": "2026-06-01T18:35:07",
-      "last_seen": "2026-06-02T08:00:04",
+      "last_seen": "2026-06-02T17:31:07",
       "sentiment": "pos",
       "pos_tags": [
         "추천",
@@ -1344,7 +1344,7 @@
         "웨이팅"
       ],
       "first_seen": "2026-06-02T08:00:04",
-      "last_seen": "2026-06-02T11:00:03"
+      "last_seen": "2026-06-02T17:31:07"
     },
     {
       "url": "https://blog.naver.com/dongwriting/224303438591",
@@ -1362,7 +1362,7 @@
       ],
       "neg_tags": [],
       "first_seen": "2026-06-02T08:00:04",
-      "last_seen": "2026-06-02T11:00:03"
+      "last_seen": "2026-06-02T17:31:07"
     },
     {
       "url": "https://cafe.naver.com/ysm5828/9571217",
@@ -1378,7 +1378,7 @@
       "pos_tags": [],
       "neg_tags": [],
       "first_seen": "2026-06-02T08:00:04",
-      "last_seen": "2026-06-02T08:00:04"
+      "last_seen": "2026-06-02T17:31:07"
     },
     {
       "url": "https://cafe.naver.com/minecraftpe/3896531",
@@ -1394,7 +1394,7 @@
       "pos_tags": [],
       "neg_tags": [],
       "first_seen": "2026-06-02T08:00:04",
-      "last_seen": "2026-06-02T08:00:04"
+      "last_seen": "2026-06-02T17:31:07"
     },
     {
       "url": "https://cafe.naver.com/ysm5828/9571185",
@@ -1412,7 +1412,7 @@
       ],
       "neg_tags": [],
       "first_seen": "2026-06-02T08:00:04",
-      "last_seen": "2026-06-02T08:00:04"
+      "last_seen": "2026-06-02T17:31:07"
     },
     {
       "url": "https://cafe.naver.com/ysm5828/9571165",
@@ -1428,7 +1428,7 @@
       "pos_tags": [],
       "neg_tags": [],
       "first_seen": "2026-06-02T08:00:04",
-      "last_seen": "2026-06-02T08:00:04"
+      "last_seen": "2026-06-02T17:31:07"
     },
     {
       "url": "https://blog.naver.com/daily_re_/224303179200",
@@ -2126,6 +2126,115 @@
       ],
       "first_seen": "2026-06-02T11:00:07",
       "last_seen": "2026-06-02T11:00:07"
+    },
+    {
+      "url": "https://blog.naver.com/liebe2460/224303609406",
+      "title": "[롯데백화점·롯데아울렛] 여름 축제 '체크인 썸머' 최대 70% 할인, 실패 없는 쇼핑 꿀팁 대방출!",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "8시간 전",
+      "post_date": "2026-06-02",
+      "summary": "롯데백화점 제공 본격적인 여름을 앞두고 롯데백화점과 롯데아울렛이 대규모 여름 축제 '체크인 썸머'를 시작합니다. 특히 이번 [롯데백화점·롯데아울렛] 여름 축제 '…",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "만족"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-06-02T17:31:07",
+      "last_seen": "2026-06-02T17:31:07"
+    },
+    {
+      "url": "https://blog.naver.com/99ury/224304093277",
+      "title": "나트랑 한식, 일식, 양식 내돈내산",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "34분 전",
+      "post_date": "2026-06-02",
+      "summary": "※ 본 리뷰는 직접 방문 및 이용 후 작성한 개인적인 후기이며, 사람마다 느끼는 만족도와 취향에는 차이가 있을 수 있습니다. 특정 업체를 비방하거나 음해할 의도는…",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "만족"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-06-02T17:31:07",
+      "last_seen": "2026-06-02T17:31:07"
+    },
+    {
+      "url": "https://blog.naver.com/phin9199/224303967457",
+      "title": "푸꾸옥 4일차: 크라운플라자 조식, 수영장, 그랜드월드, 망고빙수, 공항, VJ978 신라면",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "2시간 전",
+      "post_date": "2026-06-02",
+      "summary": "#푸꾸옥여행 #푸꾸옥4일차 #푸꾸옥일정추천 베트남의 몰디브 푸꾸옥 4일차도 레츠고! 푸꾸옥 그랜드플라자는 3년 전에도 묵고 좋아서 이번에도 재방문인데 조식도 찐맛…",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "추천",
+        "좋아",
+        "인생",
+        "재방문"
+      ],
+      "neg_tags": [
+        "비싸"
+      ],
+      "first_seen": "2026-06-02T17:31:07",
+      "last_seen": "2026-06-02T17:31:07"
+    },
+    {
+      "url": "https://cafe.naver.com/tybwondergirl5/83237",
+      "title": "나트랑 시내 마사지샵 픽업 더힐스파 고급지네",
+      "source": "cafe",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "6시간 전",
+      "post_date": "2026-06-02",
+      "summary": "",
+      "mentions_meokitchen": true,
+      "sentiment": "neutral",
+      "pos_tags": [],
+      "neg_tags": [],
+      "first_seen": "2026-06-02T17:31:07",
+      "last_seen": "2026-06-02T17:31:07"
+    },
+    {
+      "url": "https://cafe.naver.com/ysm5828/9571336",
+      "title": "도착과 함께 돼지파티 시작(",
+      "source": "cafe",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "7시간 전",
+      "post_date": "2026-06-02",
+      "summary": "",
+      "mentions_meokitchen": true,
+      "sentiment": "neutral",
+      "pos_tags": [],
+      "neg_tags": [],
+      "first_seen": "2026-06-02T17:31:07",
+      "last_seen": "2026-06-02T17:31:07"
+    },
+    {
+      "url": "https://cafe.naver.com/6350808/1516",
+      "title": "디아르 플래티넘 실리콘 식탁매트 오리지널 실리콘 매트 5종 비교 추천 - 사용감 후기",
+      "source": "cafe",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "8시간 전",
+      "post_date": "2026-06-02",
+      "summary": "",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "추천"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-06-02T17:31:07",
+      "last_seen": "2026-06-02T17:31:07"
     }
   ]
 }
