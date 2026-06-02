@@ -28,6 +28,17 @@ def _now(): return datetime.datetime.now().isoformat(timespec="seconds")
 def _today(): return datetime.date.today()
 
 
+def _crawl_date():
+    """수집일(일별 집계 기준).
+    자정 직후(0~6시) 실행 = 막 끝난 '어제 하루(00~24시)'를 수집한 것으로 보고 어제 날짜로 기록.
+    그 외 시간대(수동 실행 등) = 오늘 날짜.
+    """
+    now = datetime.datetime.now()
+    if now.hour < 6:
+        return (now.date() - datetime.timedelta(days=1)).isoformat()
+    return now.date().isoformat()
+
+
 def _parse_post_date(time_text):
     if not time_text: return _today().isoformat()
     t = time_text.strip(); today = _today()
@@ -125,7 +136,7 @@ def save_posts(tracker_id, brand_list, posts, source, region=None):
         s, pos, neg = classify_sentiment(combined)
         rec = {"url": url, "title": title, "source": source, "region": region,
                "time_text": p.get("time",""), "post_date": _parse_post_date(p.get("time","")),
-               "crawl_date": _today().isoformat(),   # 이 글을 처음 수집한 날 (불변) — 일별 집계 기준
+               "crawl_date": _crawl_date(),   # 수집한 하루 (불변) — 일별 집계 기준
                "summary": _summary(body), "mentions_brand": mentions,
                "sentiment": s, "pos_tags": pos, "neg_tags": neg,
                "first_seen": now, "last_seen": now}
