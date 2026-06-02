@@ -1,0 +1,32 @@
+{
+  "updated_at": "2026-06-02T20:27:16",
+  "trackers": [
+    {
+      "id": "meokitchen",
+      "label": "메오키친",
+      "emoji": "🍜",
+      "brand": [
+        "메오키친",
+        "meo kitchen"
+      ],
+      "queries": [
+        "푸꾸옥 맛집",
+        "나트랑 맛집"
+      ]
+    },
+    {
+      "id": "tourpik",
+      "label": "투어픽",
+      "emoji": "🧳",
+      "brand": [
+        "투어픽",
+        "tourpik",
+        "뚜어픽"
+      ],
+      "queries": [
+        "푸꾸옥",
+        "나트랑"
+      ]
+    }
+  ]
+}

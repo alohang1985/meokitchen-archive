@@ -3,401 +3,343 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>🍜 메오키친 아카이브</title>
-<link rel="preconnect" href="https://cdn.jsdelivr.net" />
+<title>📊 맛집 언급 아카이브</title>
 <link href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" rel="stylesheet" />
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.2.0/dist/chartjs-plugin-datalabels.min.js"></script>
 <style>
-  :root {
-    --accent: #ff7a45; --accent2: #ff4d8d; --blue: #4dabf7; --green: #51cf66;
-    --amber: #ffd43b; --red: #ff6b6b; --txt: #f1f3f8; --muted: #9aa3b2;
-    --card: rgba(255,255,255,.045); --card-brd: rgba(255,255,255,.09); --glass: rgba(255,255,255,.06);
-  }
-  * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
-  body { margin: 0; color: var(--txt); min-height: 100vh;
-    font-family: "Pretendard", -apple-system, system-ui, sans-serif; letter-spacing: -.01em;
-    background:
-      radial-gradient(1200px 600px at 12% -8%, rgba(255,122,69,.16), transparent 60%),
+  :root { --accent:#ff7a45; --accent2:#ff4d8d; --blue:#4dabf7; --green:#51cf66; --amber:#ffd43b; --red:#ff6b6b;
+    --txt:#f1f3f8; --muted:#9aa3b2; --card:rgba(255,255,255,.045); --card-brd:rgba(255,255,255,.09); --glass:rgba(255,255,255,.06); }
+  * { box-sizing:border-box; -webkit-tap-highlight-color:transparent; }
+  body { margin:0; color:var(--txt); min-height:100vh; font-family:"Pretendard",-apple-system,system-ui,sans-serif; letter-spacing:-.01em;
+    background: radial-gradient(1200px 600px at 12% -8%, rgba(255,122,69,.16), transparent 60%),
       radial-gradient(900px 500px at 100% 0%, rgba(255,77,141,.14), transparent 55%),
       radial-gradient(800px 600px at 50% 120%, rgba(77,171,247,.10), transparent 60%), #0a0b10; }
-  .wrap { max-width: 1180px; margin: 0 auto; padding: 36px 18px 100px; }
-  header { margin-bottom: 24px; }
-  .logo { display: flex; align-items: center; gap: 12px; }
-  .logo .emoji { font-size: 1.9rem; filter: drop-shadow(0 4px 12px rgba(255,122,69,.4)); }
-  h1 { font-size: 1.6rem; font-weight: 800; margin: 0;
-    background: linear-gradient(92deg, #fff 10%, var(--accent) 70%, var(--accent2));
-    -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; }
-  .sub { color: var(--muted); font-size: .82rem; margin-top: 7px; display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
-  .live { display: inline-flex; align-items: center; gap: 6px; color: var(--green); font-weight: 600; }
-  .live .dot { width: 7px; height: 7px; border-radius: 50%; background: var(--green); animation: pulse 2s infinite; }
+  .wrap { max-width:1180px; margin:0 auto; padding:32px 18px 100px; }
+  header { margin-bottom:18px; }
+  .logo { display:flex; align-items:center; gap:12px; }
+  .logo .emoji { font-size:1.9rem; filter:drop-shadow(0 4px 12px rgba(255,122,69,.4)); }
+  h1 { font-size:1.55rem; font-weight:800; margin:0; background:linear-gradient(92deg,#fff 10%,var(--accent) 70%,var(--accent2));
+    -webkit-background-clip:text; background-clip:text; -webkit-text-fill-color:transparent; }
+  .sub { color:var(--muted); font-size:.82rem; margin-top:7px; display:flex; gap:8px; align-items:center; flex-wrap:wrap; }
+  .live { display:inline-flex; align-items:center; gap:6px; color:var(--green); font-weight:600; }
+  .live .dot { width:7px; height:7px; border-radius:50%; background:var(--green); animation:pulse 2s infinite; }
   @keyframes pulse { 0%{box-shadow:0 0 0 0 rgba(81,207,102,.5)} 70%{box-shadow:0 0 0 7px rgba(81,207,102,0)} 100%{box-shadow:0 0 0 0 rgba(81,207,102,0)} }
 
-  .kpis { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin-bottom: 16px; }
-  .kpi { position: relative; background: var(--card); border: 1px solid var(--card-brd); border-radius: 16px;
-    padding: 16px 18px; backdrop-filter: blur(12px); transition: transform .2s, border-color .2s; }
-  .kpi:hover { transform: translateY(-3px); border-color: rgba(255,255,255,.18); }
-  .kpi .ic { font-size: 1rem; opacity: .9; }
-  .kpi .n { font-size: 1.7rem; font-weight: 800; margin-top: 4px; line-height: 1; }
-  .kpi .l { color: var(--muted); font-size: .76rem; margin-top: 6px; }
-  .kpi .delta { font-size: .7rem; margin-top: 3px; color: var(--green); }
-  .kpi.hl { background: linear-gradient(160deg, rgba(255,122,69,.18), rgba(255,77,141,.08)); border-color: rgba(255,122,69,.3); }
-  .kpi.hl .n { color: var(--accent); }
+  .tabs { display:flex; flex-wrap:wrap; gap:8px; margin-bottom:22px; align-items:center; }
+  .tab { background:var(--card); border:1px solid var(--card-brd); color:var(--muted); padding:9px 16px; border-radius:12px;
+    cursor:pointer; font-size:.9rem; font-weight:600; transition:all .15s; }
+  .tab:hover { color:var(--txt); border-color:rgba(255,255,255,.2); }
+  .tab.on { background:linear-gradient(120deg,var(--accent),var(--accent2)); border-color:transparent; color:#fff; box-shadow:0 4px 14px rgba(255,77,141,.3); }
+  .tab.add { color:var(--accent); border-style:dashed; }
 
-  .card { background: var(--card); border: 1px solid var(--card-brd); border-radius: 16px; padding: 18px; backdrop-filter: blur(12px); margin-bottom: 14px; }
-  .card-head { display: flex; justify-content: space-between; align-items: center; margin-bottom: 14px; gap: 10px; flex-wrap: wrap; }
-  .card h2 { font-size: .88rem; margin: 0; font-weight: 600; color: #cdd3df; display: flex; align-items: center; gap: 7px; }
-  .chart-box { position: relative; height: 240px; }
-  .grid3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
-  .grid3 .chart-box { height: 168px; }
+  .kpis { display:grid; grid-template-columns:repeat(4,1fr); gap:12px; margin-bottom:16px; }
+  .kpi { background:var(--card); border:1px solid var(--card-brd); border-radius:16px; padding:16px 18px; backdrop-filter:blur(12px); transition:transform .2s,border-color .2s; }
+  .kpi:hover { transform:translateY(-3px); border-color:rgba(255,255,255,.18); }
+  .kpi .ic { font-size:1rem; opacity:.9; } .kpi .n { font-size:1.7rem; font-weight:800; margin-top:4px; line-height:1; }
+  .kpi .l { color:var(--muted); font-size:.76rem; margin-top:6px; } .kpi .delta { font-size:.7rem; margin-top:3px; color:var(--green); }
+  .kpi.hl { background:linear-gradient(160deg,rgba(255,122,69,.18),rgba(255,77,141,.08)); border-color:rgba(255,122,69,.3); } .kpi.hl .n { color:var(--accent); }
 
-  .seg { display: inline-flex; background: rgba(0,0,0,.25); border: 1px solid var(--card-brd); border-radius: 10px; padding: 3px; gap: 2px; }
-  .seg button { background: transparent; border: 0; color: var(--muted); font-family: inherit; font-size: .78rem; font-weight: 600;
-    padding: 6px 13px; border-radius: 8px; cursor: pointer; transition: all .15s; }
-  .seg button.on { background: linear-gradient(120deg, var(--accent), var(--accent2)); color: #fff; }
-  .seg.sm { padding: 2px; border-radius: 8px; }
-  .seg.sm button { padding: 4px 9px; font-size: .72rem; border-radius: 6px; }
-  .card-head.sm { margin-bottom: 10px; }
+  .card { background:var(--card); border:1px solid var(--card-brd); border-radius:16px; padding:18px; backdrop-filter:blur(12px); margin-bottom:14px; }
+  .card-head { display:flex; justify-content:space-between; align-items:center; margin-bottom:14px; gap:10px; flex-wrap:wrap; }
+  .card-head.sm { margin-bottom:10px; }
+  .card h2 { font-size:.88rem; margin:0; font-weight:600; color:#cdd3df; display:flex; align-items:center; gap:7px; }
+  .chart-box { position:relative; height:240px; } .grid3 { display:grid; grid-template-columns:repeat(3,1fr); gap:14px; } .grid3 .chart-box { height:168px; }
 
-  .toolbar { background: var(--card); border: 1px solid var(--card-brd); border-radius: 16px; padding: 14px 18px; margin-bottom: 14px; backdrop-filter: blur(12px); }
-  .group { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
-  .group + .group { margin-top: 10px; }
-  .glabel { color: var(--muted); font-size: .74rem; width: 46px; flex-shrink: 0; }
-  .chip { background: var(--glass); border: 1px solid var(--card-brd); color: var(--muted); padding: 7px 13px; border-radius: 999px;
-    cursor: pointer; font-size: .82rem; font-weight: 500; user-select: none; transition: all .15s; white-space: nowrap; }
-  .chip:hover { color: var(--txt); border-color: rgba(255,255,255,.2); }
-  .chip.on { background: linear-gradient(120deg, var(--accent), var(--accent2)); border-color: transparent; color: #fff; }
-  .chip.s-pos.on { background: var(--green); } .chip.s-neg.on { background: var(--red); } .chip.s-neu.on { background: #6b7280; }
-  input[type=text], input[type=date], select { background: var(--glass); border: 1px solid var(--card-brd); color: var(--txt);
-    padding: 8px 12px; border-radius: 10px; font-size: .84rem; font-family: inherit; outline: none; }
-  input[type=text] { flex: 1; min-width: 150px; }
-  input:focus, select:focus { border-color: var(--accent); }
-  select { cursor: pointer; }
-  #customRange { display: none; gap: 8px; align-items: center; }
-  #customRange.show { display: flex; }
-  #customRange span { color: var(--muted); font-size: .8rem; }
+  .seg { display:inline-flex; background:rgba(0,0,0,.25); border:1px solid var(--card-brd); border-radius:10px; padding:3px; gap:2px; }
+  .seg button { background:transparent; border:0; color:var(--muted); font-family:inherit; font-size:.78rem; font-weight:600; padding:6px 13px; border-radius:8px; cursor:pointer; transition:all .15s; }
+  .seg button.on { background:linear-gradient(120deg,var(--accent),var(--accent2)); color:#fff; }
+  .seg.sm { padding:2px; border-radius:8px; } .seg.sm button { padding:4px 9px; font-size:.72rem; border-radius:6px; }
 
-  .table-wrap { overflow-x: auto; }
-  table.daily { width: 100%; border-collapse: collapse; font-size: .85rem; min-width: 480px; }
-  table.daily th, table.daily td { padding: 10px 12px; text-align: right; border-bottom: 1px solid rgba(255,255,255,.06); white-space: nowrap; }
-  table.daily th { color: var(--muted); font-weight: 600; font-size: .75rem; }
-  table.daily th:first-child, table.daily td:first-child { text-align: left; }
-  table.daily td.d { color: var(--txt); font-weight: 600; }
-  table.daily td.meo { color: var(--accent); font-weight: 700; }
-  table.daily tbody tr:hover { background: rgba(255,255,255,.03); }
-  table.daily tfoot td { border-top: 2px solid rgba(255,255,255,.12); border-bottom: none; font-weight: 700; color: var(--txt); }
-  .ratio-cell { display: flex; align-items: center; justify-content: flex-end; gap: 8px; }
-  .ratio-track { width: 56px; height: 6px; border-radius: 3px; background: rgba(255,255,255,.08); overflow: hidden; }
-  .ratio-fill { height: 100%; background: linear-gradient(90deg, var(--accent), var(--accent2)); }
+  .toolbar { background:var(--card); border:1px solid var(--card-brd); border-radius:16px; padding:14px 18px; margin-bottom:14px; backdrop-filter:blur(12px); }
+  .group { display:flex; flex-wrap:wrap; gap:8px; align-items:center; } .group + .group { margin-top:10px; }
+  .glabel { color:var(--muted); font-size:.74rem; width:46px; flex-shrink:0; }
+  .chip { background:var(--glass); border:1px solid var(--card-brd); color:var(--muted); padding:7px 13px; border-radius:999px; cursor:pointer; font-size:.82rem; font-weight:500; user-select:none; transition:all .15s; white-space:nowrap; }
+  .chip:hover { color:var(--txt); border-color:rgba(255,255,255,.2); } .chip.on { background:linear-gradient(120deg,var(--accent),var(--accent2)); border-color:transparent; color:#fff; }
+  .chip.s-pos.on { background:var(--green); } .chip.s-neg.on { background:var(--red); } .chip.s-neu.on { background:#6b7280; }
+  input[type=text], input[type=date], select { background:var(--glass); border:1px solid var(--card-brd); color:var(--txt); padding:8px 12px; border-radius:10px; font-size:.84rem; font-family:inherit; outline:none; }
+  input[type=text] { flex:1; min-width:150px; } input:focus, select:focus { border-color:var(--accent); } select { cursor:pointer; }
+  #customRange { display:none; gap:8px; align-items:center; } #customRange.show { display:flex; } #customRange span { color:var(--muted); font-size:.8rem; }
 
-  .list { display: flex; flex-direction: column; gap: 10px; }
-  .post { background: var(--card); border: 1px solid var(--card-brd); border-radius: 14px; padding: 14px 16px; border-left: 3px solid transparent; transition: transform .15s, border-color .15s; }
-  .post:hover { transform: translateX(3px); border-left-color: var(--accent); }
-  .post.pos { border-left-color: var(--green); } .post.neg { border-left-color: var(--red); }
-  .post a.t { color: var(--txt); font-weight: 600; text-decoration: none; font-size: .95rem; line-height: 1.45; }
-  .post a.t:hover { color: var(--accent); }
-  .meta { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; margin-top: 9px; }
-  .badge { font-size: .72rem; padding: 3px 9px; border-radius: 7px; background: rgba(255,255,255,.07); color: var(--muted); font-weight: 500; }
-  .badge.meo { background: rgba(255,122,69,.18); color: var(--accent); }
-  .badge.blog { background: rgba(77,171,247,.16); color: var(--blue); }
-  .badge.cafe { background: rgba(81,207,102,.16); color: var(--green); }
-  .badge.pos { background: rgba(81,207,102,.16); color: var(--green); }
-  .badge.neg { background: rgba(255,107,107,.16); color: var(--red); }
-  .date { color: var(--muted); font-size: .78rem; }
-  .summary { color: #b6bdc9; font-size: .85rem; margin-top: 9px; line-height: 1.55; }
-  .tags { margin-top: 8px; display: flex; flex-wrap: wrap; gap: 5px; }
-  .tag { font-size: .7rem; padding: 2px 7px; border-radius: 6px; background: rgba(81,207,102,.1); color: var(--green); }
-  .tag.neg { background: rgba(255,107,107,.1); color: var(--red); }
-  .empty { color: var(--muted); text-align: center; padding: 46px 0; }
+  .table-wrap { overflow-x:auto; }
+  table.daily { width:100%; border-collapse:collapse; font-size:.85rem; min-width:480px; }
+  table.daily th, table.daily td { padding:10px 12px; text-align:right; border-bottom:1px solid rgba(255,255,255,.06); white-space:nowrap; }
+  table.daily th { color:var(--muted); font-weight:600; font-size:.75rem; }
+  table.daily th:first-child, table.daily td:first-child { text-align:left; }
+  table.daily td.d { color:var(--txt); font-weight:600; } table.daily td.meo { color:var(--accent); font-weight:700; }
+  table.daily tbody tr:hover { background:rgba(255,255,255,.03); }
+  table.daily tfoot td { border-top:2px solid rgba(255,255,255,.12); border-bottom:none; font-weight:700; color:var(--txt); }
+  .ratio-cell { display:flex; align-items:center; justify-content:flex-end; gap:8px; }
+  .ratio-track { width:56px; height:6px; border-radius:3px; background:rgba(255,255,255,.08); overflow:hidden; } .ratio-fill { height:100%; background:linear-gradient(90deg,var(--accent),var(--accent2)); }
 
-  @media (max-width: 860px) { .grid3 { grid-template-columns: 1fr; } }
-  @media (max-width: 640px) { .kpis { grid-template-columns: repeat(2,1fr); } .glabel { width: 100%; } }
+  .list { display:flex; flex-direction:column; gap:10px; }
+  .post { background:var(--card); border:1px solid var(--card-brd); border-radius:14px; padding:14px 16px; border-left:3px solid transparent; transition:transform .15s,border-color .15s; }
+  .post:hover { transform:translateX(3px); border-left-color:var(--accent); } .post.pos { border-left-color:var(--green); } .post.neg { border-left-color:var(--red); }
+  .post a.t { color:var(--txt); font-weight:600; text-decoration:none; font-size:.95rem; line-height:1.45; } .post a.t:hover { color:var(--accent); }
+  .meta { display:flex; flex-wrap:wrap; gap:6px; align-items:center; margin-top:9px; }
+  .badge { font-size:.72rem; padding:3px 9px; border-radius:7px; background:rgba(255,255,255,.07); color:var(--muted); font-weight:500; }
+  .badge.meo { background:rgba(255,122,69,.18); color:var(--accent); } .badge.blog { background:rgba(77,171,247,.16); color:var(--blue); } .badge.cafe { background:rgba(81,207,102,.16); color:var(--green); }
+  .badge.pos { background:rgba(81,207,102,.16); color:var(--green); } .badge.neg { background:rgba(255,107,107,.16); color:var(--red); }
+  .date { color:var(--muted); font-size:.78rem; } .summary { color:#b6bdc9; font-size:.85rem; margin-top:9px; line-height:1.55; }
+  .tags { margin-top:8px; display:flex; flex-wrap:wrap; gap:5px; } .tag { font-size:.7rem; padding:2px 7px; border-radius:6px; background:rgba(81,207,102,.1); color:var(--green); } .tag.neg { background:rgba(255,107,107,.1); color:var(--red); }
+  .empty { color:var(--muted); text-align:center; padding:46px 0; }
+
+  /* 모달 */
+  .modal-bg { display:none; position:fixed; inset:0; background:rgba(0,0,0,.6); backdrop-filter:blur(4px); z-index:50; align-items:center; justify-content:center; padding:18px; }
+  .modal-bg.show { display:flex; }
+  .modal { background:#14161d; border:1px solid var(--card-brd); border-radius:18px; padding:24px; max-width:460px; width:100%; }
+  .modal h3 { margin:0 0 6px; font-size:1.1rem; } .modal p { color:var(--muted); font-size:.82rem; margin:0 0 16px; line-height:1.5; }
+  .modal label { display:block; font-size:.8rem; color:#cdd3df; margin:14px 0 6px; font-weight:600; }
+  .modal input { width:100%; }
+  .modal .hint { color:var(--muted); font-size:.72rem; margin-top:4px; }
+  .modal-actions { display:flex; gap:8px; justify-content:flex-end; margin-top:22px; }
+  .btn { padding:9px 18px; border-radius:10px; border:1px solid var(--card-brd); background:var(--glass); color:var(--txt); font-family:inherit; font-size:.86rem; font-weight:600; cursor:pointer; }
+  .btn.primary { background:linear-gradient(120deg,var(--accent),var(--accent2)); border-color:transparent; color:#fff; }
+  .cmd-box { background:#0a0b10; border:1px solid var(--card-brd); border-radius:10px; padding:12px; font-size:.8rem; color:var(--green); word-break:break-all; margin-top:10px; font-family:ui-monospace,monospace; }
 </style>
 </head>
 <body>
 <div class="wrap">
   <header>
-    <div class="logo"><span class="emoji">🍜</span><h1>메오키친 아카이브</h1></div>
+    <div class="logo"><span class="emoji">📊</span><h1>맛집 언급 아카이브</h1></div>
     <div class="sub"><span class="live"><span class="dot"></span>자동 수집</span><span>·</span><span id="updated">로딩 중…</span><span>·</span><span>네이버 블로그 / 카페</span></div>
   </header>
 
+  <div class="tabs" id="tabs"></div>
+
   <div class="kpis">
-    <div class="kpi hl"><div class="ic">🍜</div><div class="n" id="k-meo">–</div><div class="l">메오키친 언급</div><div class="delta" id="k-meo-d"></div></div>
-    <div class="kpi"><div class="ic">📊</div><div class="n" id="k-rate">–</div><div class="l">전체 중 메오 비율</div></div>
-    <div class="kpi"><div class="ic">😊</div><div class="n" id="k-pos">–</div><div class="l">메오 긍정 비율</div></div>
+    <div class="kpi hl"><div class="ic" id="k-meo-ic">🍜</div><div class="n" id="k-meo">–</div><div class="l" id="k-meo-l">언급</div><div class="delta" id="k-meo-d"></div></div>
+    <div class="kpi"><div class="ic">📊</div><div class="n" id="k-rate">–</div><div class="l" id="k-rate-l">전체 중 비율</div></div>
+    <div class="kpi"><div class="ic">😊</div><div class="n" id="k-pos">–</div><div class="l">긍정 비율</div></div>
     <div class="kpi"><div class="ic">🆕</div><div class="n" id="k-week">–</div><div class="l">최근 7일 신규</div></div>
   </div>
 
-  <!-- 추이 + 비율 + 기간 단위 토글 -->
   <div class="card">
-    <div class="card-head">
-      <h2>📈 언급 추이 &amp; 비율</h2>
-      <div class="seg" id="gran">
-        <button data-g="day" class="on">일간</button>
-        <button data-g="week">주간</button>
-        <button data-g="month">월간</button>
-      </div>
-    </div>
+    <div class="card-head"><h2>📈 언급 추이 &amp; 비율</h2>
+      <div class="seg" id="gran"><button data-g="day" class="on">일간</button><button data-g="week">주간</button><button data-g="month">월간</button></div></div>
     <div class="chart-box"><canvas id="trend"></canvas></div>
   </div>
 
-  <!-- 압축: 평판/출처/지역 한 줄 -->
   <div class="grid3">
-    <div class="card">
-      <div class="card-head sm"><h2>😊 메오 평판</h2>
-        <div class="seg sm scope" data-chart="senti">
-          <button data-s="all" class="on">전체</button><button data-s="day">일</button><button data-s="week">주</button><button data-s="month">월</button>
-        </div></div>
-      <div class="chart-box"><canvas id="senti"></canvas></div>
-    </div>
-    <div class="card">
-      <div class="card-head sm"><h2>📰 출처별</h2>
-        <div class="seg sm scope" data-chart="source">
-          <button data-s="all" class="on">전체</button><button data-s="day">일</button><button data-s="week">주</button><button data-s="month">월</button>
-        </div></div>
-      <div class="chart-box"><canvas id="source"></canvas></div>
-    </div>
-    <div class="card">
-      <div class="card-head sm"><h2>📍 지역별</h2>
-        <div class="seg sm scope" data-chart="region">
-          <button data-s="all" class="on">전체</button><button data-s="day">일</button><button data-s="week">주</button><button data-s="month">월</button>
-        </div></div>
-      <div class="chart-box"><canvas id="region"></canvas></div>
-    </div>
+    <div class="card"><div class="card-head sm"><h2 id="senti-title">😊 평판</h2>
+      <div class="seg sm scope" data-chart="senti"><button data-s="all" class="on">전체</button><button data-s="day">일</button><button data-s="week">주</button><button data-s="month">월</button></div></div>
+      <div class="chart-box"><canvas id="senti"></canvas></div></div>
+    <div class="card"><div class="card-head sm"><h2>📰 출처별</h2>
+      <div class="seg sm scope" data-chart="source"><button data-s="all" class="on">전체</button><button data-s="day">일</button><button data-s="week">주</button><button data-s="month">월</button></div></div>
+      <div class="chart-box"><canvas id="source"></canvas></div></div>
+    <div class="card"><div class="card-head sm"><h2>📍 지역별</h2>
+      <div class="seg sm scope" data-chart="region"><button data-s="all" class="on">전체</button><button data-s="day">일</button><button data-s="week">주</button><button data-s="month">월</button></div></div>
+      <div class="chart-box"><canvas id="region"></canvas></div></div>
   </div>
 
-  <!-- 기간별 집계표 (토글 연동) -->
-  <div class="card">
-    <div class="card-head"><h2>📅 <span id="tbl-unit">일별</span> 집계 — 전체 vs 메오키친</h2></div>
-    <div class="table-wrap"><table class="daily" id="daily"></table></div>
-  </div>
+  <div class="card"><div class="card-head"><h2>📅 <span id="tbl-unit">일별</span> 집계 — 전체 vs <span id="tbl-brand">언급</span></h2></div>
+    <div class="table-wrap"><table class="daily" id="daily"></table></div></div>
 
-  <!-- 포스팅 필터 -->
   <div class="toolbar">
     <div class="group"><span class="glabel">기간</span>
-      <span class="chip period on" data-p="all">전체</span>
-      <span class="chip period" data-p="today">일간(오늘)</span>
-      <span class="chip period" data-p="week">주간(이번주)</span>
-      <span class="chip period" data-p="month">월간(이번달)</span>
+      <span class="chip period on" data-p="all">전체</span><span class="chip period" data-p="today">일간(오늘)</span>
+      <span class="chip period" data-p="week">주간(이번주)</span><span class="chip period" data-p="month">월간(이번달)</span>
       <span class="chip period" data-p="custom">커스텀</span>
-      <span id="customRange"><input type="date" id="from"><span>~</span><input type="date" id="to"></span>
-    </div>
+      <span id="customRange"><input type="date" id="from"><span>~</span><input type="date" id="to"></span></div>
     <div class="group"><span class="glabel">감성</span>
-      <span class="chip s-pos" data-f="pos">😊 긍정</span>
-      <span class="chip s-neu" data-f="neutral">😐 중립</span>
-      <span class="chip s-neg" data-f="neg">😟 부정</span>
-    </div>
+      <span class="chip s-pos" data-f="pos">😊 긍정</span><span class="chip s-neu" data-f="neutral">😐 중립</span><span class="chip s-neg" data-f="neg">😟 부정</span></div>
     <div class="group"><span class="glabel">분류</span>
-      <span class="chip" data-f="meo">🍜 메오키친만</span>
-      <span class="chip" data-f="blog">블로그</span>
-      <span class="chip" data-f="cafe">카페</span>
-      <span class="chip" data-f="푸꾸옥">푸꾸옥</span>
-      <span class="chip" data-f="나트랑">나트랑</span>
-    </div>
+      <span class="chip" data-f="meo" id="chip-meo">🍜 언급만</span><span class="chip" data-f="blog">블로그</span><span class="chip" data-f="cafe">카페</span>
+      <span id="region-chips"></span></div>
     <div class="group"><span class="glabel">기타</span>
-      <input type="text" id="q" placeholder="제목·내용 검색…" />
-      <select id="sort"><option value="new">최신순</option><option value="old">오래된순</option></select>
-    </div>
+      <input type="text" id="q" placeholder="제목·내용 검색…" /><select id="sort"><option value="new">최신순</option><option value="old">오래된순</option></select></div>
   </div>
 
-  <div class="card">
-    <div class="card-head"><h2 id="list-title">📋 포스팅</h2></div>
-    <div class="list" id="list"></div>
+  <div class="card"><div class="card-head"><h2 id="list-title">📋 포스팅</h2></div><div class="list" id="list"></div></div>
+</div>
+
+<!-- 추가 모달 -->
+<div class="modal-bg" id="modal">
+  <div class="modal">
+    <h3>➕ 새 트래커 추가</h3>
+    <p>특정 브랜드/키워드가 네이버 블로그·카페 글에 얼마나 언급되는지 추적해요.</p>
+    <label>기준 (브랜드/키워드 이름)</label>
+    <input type="text" id="m-label" placeholder="예: 투어픽" />
+    <label>검색할 브랜드 표기 (쉼표로 여러개)</label>
+    <input type="text" id="m-brand" placeholder="예: 투어픽, tourpik, 뚜어픽" />
+    <div class="hint">이 표기 중 하나라도 글에 있으면 "언급"으로 집계돼요.</div>
+    <label>검색어 (쉼표로 여러개)</label>
+    <input type="text" id="m-queries" placeholder="예: 푸꾸옥, 나트랑" />
+    <div class="hint">이 검색어로 네이버에서 글을 긁어와요.</div>
+    <div id="cmd-area"></div>
+    <div class="modal-actions">
+      <button class="btn" onclick="closeModal()">취소</button>
+      <button class="btn primary" id="m-apply" onclick="applyAdd()">적용</button>
+    </div>
   </div>
 </div>
 
 <script>
-let POSTS = [];
-const F = { gran:"day", scope:{senti:"all",source:"all",region:"all"}, period:"all", from:"", to:"", sent:new Set(), meo:false, blog:false, cafe:false, "푸꾸옥":false, "나트랑":false, q:"", sort:"new" };
-const C = {};
-Chart.defaults.color = "#9aa3b2";
-Chart.defaults.font.family = "Pretendard, system-ui, sans-serif";
-Chart.register(ChartDataLabels);
-Chart.defaults.set("plugins.datalabels", { display: false }); // 기본 off, 차트별로 켬
+let CFG={trackers:[]}, TRACKER=null, POSTS=[], LABEL="", EMOJI="🍜";
+const F={ gran:"day", scope:{senti:"all",source:"all",region:"all"}, period:"all", from:"", to:"", sent:new Set(), meo:false, blog:false, cafe:false, region:new Set(), q:"", sort:"new" };
+const C={};
+Chart.defaults.color="#9aa3b2"; Chart.defaults.font.family="Pretendard, system-ui, sans-serif";
+Chart.register(ChartDataLabels); Chart.defaults.set("plugins.datalabels",{display:false});
+const TODAY=new Date().toISOString().slice(0,10);
+function mondayOf(d){const x=new Date(d+"T00:00");const w=(x.getDay()+6)%7;x.setDate(x.getDate()-w);return x.toISOString().slice(0,10);}
+function esc(s){return (s||"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));}
+function daysAgo(n){const d=new Date();d.setDate(d.getDate()-n);return d.toISOString().slice(0,10);}
+function bkt(ds,g){const d=ds||TODAY; if(g==="month")return{key:d.slice(0,7),label:d.slice(0,7).replace("-",".")}; if(g==="week"){const m=mondayOf(d);return{key:m,label:m.slice(5).replace("-","/")+" 주"};} return{key:d,label:d.slice(5).replace("-","/")};}
 
-const TODAY = new Date().toISOString().slice(0,10);
-function mondayOf(dateStr){ const d=new Date(dateStr+"T00:00"); const dow=(d.getDay()+6)%7; d.setDate(d.getDate()-dow); return d.toISOString().slice(0,10); }
-function esc(s){ return (s||"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c])); }
-function daysAgo(n){ const d=new Date(); d.setDate(d.getDate()-n); return d.toISOString().slice(0,10); }
-
-function bucket(dateStr, gran){
-  const ds = dateStr || TODAY;
-  if(gran==="month") return { key: ds.slice(0,7), label: ds.slice(0,7).replace("-",".") };
-  if(gran==="week"){ const m=mondayOf(ds); return { key:m, label: m.slice(5).replace("-","/")+" 주" }; }
-  return { key: ds, label: ds.slice(5).replace("-","/") };
+async function init(){
+  try{ CFG=await (await fetch("trackers.json?_="+Date.now())).json(); }catch(e){ CFG={trackers:[]}; }
+  renderTabs();
+  if(CFG.trackers.length) selectTracker(CFG.trackers[0].id);
 }
-
-async function load(){
-  try{
-    const res = await fetch("data/archive.json?_="+Date.now());
-    const data = await res.json();
-    POSTS = data.posts||[];
-    document.getElementById("updated").textContent = (data.updated_at? data.updated_at.replace("T"," ").slice(0,16):"–")+" 갱신";
-    renderKpis(); renderTrend(); renderSenti(); renderSource(); renderRegion(); renderDaily(); render();
-  }catch(e){ document.getElementById("updated").textContent="데이터 로드 실패"; }
+function renderTabs(){
+  const el=document.getElementById("tabs");
+  el.innerHTML = CFG.trackers.map(t=>`<div class="tab" data-id="${t.id}">${t.emoji||"📍"} ${esc(t.label)}</div>`).join("")
+    + `<div class="tab add" onclick="openModal()">➕ 추가</div>`;
+  el.querySelectorAll(".tab[data-id]").forEach(b=>b.addEventListener("click",()=>selectTracker(b.dataset.id)));
+}
+async function selectTracker(id){
+  TRACKER=CFG.trackers.find(t=>t.id===id); if(!TRACKER) return;
+  LABEL=TRACKER.label; EMOJI=TRACKER.emoji||"🍜";
+  document.querySelectorAll(".tab[data-id]").forEach(b=>b.classList.toggle("on",b.dataset.id===id));
+  // 라벨 갱신
+  document.getElementById("k-meo-ic").textContent=EMOJI;
+  document.getElementById("k-meo-l").textContent=`${LABEL} 언급`;
+  document.getElementById("k-rate-l").textContent=`전체 중 ${LABEL} 비율`;
+  document.getElementById("senti-title").innerHTML=`😊 ${esc(LABEL)} 평판`;
+  document.getElementById("tbl-brand").textContent=LABEL;
+  document.getElementById("chip-meo").textContent=`${EMOJI} ${LABEL}만`;
+  // 지역 칩 동적 생성
+  const regions=[...new Set((TRACKER.queries||[]).map(q=>q.replace(" 맛집","").trim()))];
+  document.getElementById("region-chips").innerHTML = regions.map(r=>`<span class="chip rgn" data-r="${esc(r)}">${esc(r)}</span>`).join("");
+  document.querySelectorAll(".chip.rgn").forEach(c=>c.addEventListener("click",()=>{const r=c.dataset.r; F.region.has(r)?F.region.delete(r):F.region.add(r); c.classList.toggle("on"); render();}));
+  F.region.clear();
+  try{ const d=await (await fetch(`data/${id}.json?_=`+Date.now())).json(); POSTS=d.posts||[];
+    document.getElementById("updated").textContent=(d.updated_at?d.updated_at.replace("T"," ").slice(0,16):"–")+" 갱신";
+  }catch(e){ POSTS=[]; document.getElementById("updated").textContent="데이터 없음 (수집 대기 중)"; }
+  renderKpis(); renderTrend(); renderSenti(); renderSource(); renderRegion(); renderDaily(); render();
 }
 
 function renderKpis(){
-  const meo = POSTS.filter(p=>p.mentions_meokitchen);
-  const week = POSTS.filter(p=>(p.first_seen||"").slice(0,10)>=daysAgo(7)).length;
-  const meoWeek = meo.filter(p=>(p.first_seen||"").slice(0,10)>=daysAgo(7)).length;
-  const rate = POSTS.length? Math.round(meo.length/POSTS.length*100):0;
-  const sented = meo.filter(p=>p.sentiment&&p.sentiment!=="neutral");
-  const posRate = sented.length? Math.round(meo.filter(p=>p.sentiment==="pos").length/sented.length*100):0;
-  document.getElementById("k-meo").textContent = meo.length;
-  document.getElementById("k-meo-d").textContent = meoWeek? `+${meoWeek} (7일)`:"";
-  document.getElementById("k-rate").textContent = rate+"%";
-  document.getElementById("k-pos").textContent = posRate+"%";
-  document.getElementById("k-week").textContent = week;
+  const meo=POSTS.filter(p=>p.mentions_brand);
+  const week=POSTS.filter(p=>(p.first_seen||"").slice(0,10)>=daysAgo(7)).length;
+  const meoWeek=meo.filter(p=>(p.first_seen||"").slice(0,10)>=daysAgo(7)).length;
+  const rate=POSTS.length?Math.round(meo.length/POSTS.length*100):0;
+  const sented=meo.filter(p=>p.sentiment&&p.sentiment!=="neutral");
+  const posRate=sented.length?Math.round(meo.filter(p=>p.sentiment==="pos").length/sented.length*100):0;
+  document.getElementById("k-meo").textContent=meo.length;
+  document.getElementById("k-meo-d").textContent=meoWeek?`+${meoWeek} (7일)`:"";
+  document.getElementById("k-rate").textContent=rate+"%";
+  document.getElementById("k-pos").textContent=posRate+"%";
+  document.getElementById("k-week").textContent=week;
 }
-
 function buckets(){
-  const b = {};
-  POSTS.forEach(p=>{ const k=bucket(p.post_date,F.gran); if(!b[k.key]) b[k.key]={label:k.label,total:0,meo:0,blog:0,cafe:0};
-    const o=b[k.key]; o.total++; if(p.mentions_meokitchen)o.meo++; if(p.source==="blog")o.blog++; else if(p.source==="cafe")o.cafe++; });
+  const b={}; POSTS.forEach(p=>{const k=bkt(p.post_date,F.gran); if(!b[k.key])b[k.key]={label:k.label,total:0,meo:0,blog:0,cafe:0};
+    const o=b[k.key]; o.total++; if(p.mentions_brand)o.meo++; if(p.source==="blog")o.blog++; else if(p.source==="cafe")o.cafe++;});
   return Object.keys(b).sort().map(k=>({key:k,...b[k]}));
 }
-
 function renderTrend(){
-  const bs = buckets();
-  const labels = bs.map(b=>b.label);
-  const meoArr = bs.map(b=>b.meo), etcArr = bs.map(b=>b.total-b.meo);
-  const ratio = bs.map(b=>b.total? Math.round(b.meo/b.total*100):0);
+  const bs=buckets(); const labels=bs.map(b=>b.label);
+  const meoArr=bs.map(b=>b.meo), etcArr=bs.map(b=>b.total-b.meo), ratio=bs.map(b=>b.total?Math.round(b.meo/b.total*100):0);
   mkChart("trend","bar",{labels,datasets:[
-    {label:"🍜 메오키친",data:meoArr,backgroundColor:"#ff7a45",stack:"s",order:2,borderRadius:{topLeft:4,topRight:4},
+    {label:`${EMOJI} ${LABEL}`,data:meoArr,backgroundColor:"#ff7a45",stack:"s",order:2,borderRadius:{topLeft:4,topRight:4},
       datalabels:{display:ctx=>meoArr[ctx.dataIndex]>0,color:"#fff",font:{weight:"700",size:11},formatter:v=>v}},
-    {label:"그 외 맛집글",data:etcArr,backgroundColor:"rgba(255,255,255,.13)",stack:"s",order:2,borderRadius:{topLeft:4,topRight:4},
-      datalabels:{display:true,anchor:"end",align:"top",offset:2,color:"#cdd3df",font:{weight:"600",size:11},
-        formatter:(v,ctx)=>{const t=meoArr[ctx.dataIndex]+etcArr[ctx.dataIndex];return t?"전체 "+t:"";}}},
-    {type:"line",label:"메오 비율(%)",data:ratio,borderColor:"#ff4d8d",backgroundColor:"transparent",yAxisID:"y1",tension:.35,borderWidth:2.5,pointRadius:4,pointBackgroundColor:"#ff4d8d",order:1,
+    {label:"그 외",data:etcArr,backgroundColor:"rgba(255,255,255,.13)",stack:"s",order:2,borderRadius:{topLeft:4,topRight:4},
+      datalabels:{display:true,anchor:"end",align:"top",offset:2,color:"#cdd3df",font:{weight:"600",size:11},formatter:(v,ctx)=>{const t=meoArr[ctx.dataIndex]+etcArr[ctx.dataIndex];return t?"전체 "+t:"";}}},
+    {type:"line",label:"언급 비율(%)",data:ratio,borderColor:"#ff4d8d",backgroundColor:"transparent",yAxisID:"y1",tension:.35,borderWidth:2.5,pointRadius:4,pointBackgroundColor:"#ff4d8d",order:1,
       datalabels:{display:true,anchor:"center",align:"bottom",offset:6,color:"#ff7aa8",font:{weight:"700",size:11},formatter:v=>v+"%"}}
   ]},{layout:{padding:{top:22}},interaction:{mode:"index",intersect:false},scales:{
-    y:{stacked:true,beginAtZero:true,ticks:{precision:0},grid:{color:"rgba(255,255,255,.06)"},title:{display:true,text:"포스팅 수"}},
-    y1:{position:"right",beginAtZero:true,max:100,ticks:{callback:v=>v+"%"},grid:{display:false},title:{display:true,text:"메오 비율"}},
-    x:{stacked:true,grid:{display:false}}},
-    plugins:{legend:{labels:{boxWidth:12,font:{size:11}}},
-      tooltip:{callbacks:{footer:items=>{const bar=items.filter(i=>i.dataset.type!=="line"); const t=bar.reduce((s,i)=>s+i.parsed.y,0); return t?("전체 "+t+"개"):"";}}}}});
+    y:{stacked:true,beginAtZero:true,ticks:{precision:0},grid:{color:"rgba(255,255,255,.06)"}},
+    y1:{position:"right",beginAtZero:true,max:100,ticks:{callback:v=>v+"%"},grid:{display:false}},
+    x:{stacked:true,grid:{display:false}}},plugins:{legend:{labels:{boxWidth:12,font:{size:11}}}}});
 }
-
-function scoped(s){
-  if(s==="day") return POSTS.filter(p=>(p.post_date||"")===TODAY);
-  if(s==="week"){ const m=mondayOf(TODAY); return POSTS.filter(p=>(p.post_date||"")>=m); }
-  if(s==="month") return POSTS.filter(p=>(p.post_date||"").slice(0,7)===TODAY.slice(0,7));
-  return POSTS;
-}
-function renderSenti(){
-  const meo = scoped(F.scope.senti).filter(p=>p.mentions_meokitchen);
-  const sc={pos:0,neutral:0,neg:0}; meo.forEach(p=>sc[p.sentiment||"neutral"]++);
-  const sTot = sc.pos+sc.neutral+sc.neg;
-  mkChart("senti","doughnut",{labels:["긍정","중립","부정"],datasets:[{data:[sc.pos,sc.neutral,sc.neg],
-    backgroundColor:["#51cf66","#6b7280","#ff6b6b"],borderWidth:0,
-    datalabels:{display:ctx=>ctx.dataset.data[ctx.dataIndex]>0,color:"#fff",font:{weight:"700",size:12},
-      formatter:v=>sTot?v+"\n("+Math.round(v/sTot*100)+"%)":v,textAlign:"center"}}]},
-    {cutout:"58%",plugins:{legend:{position:"bottom",labels:{boxWidth:10,padding:10,font:{size:10}}}}});
-}
-function renderSource(){
-  const ps = scoped(F.scope.source);
-  const src={blog:0,cafe:0}; ps.forEach(p=>src[p.source]=(src[p.source]||0)+1);
+function scoped(s){ if(s==="day")return POSTS.filter(p=>(p.post_date||"")===TODAY);
+  if(s==="week"){const m=mondayOf(TODAY);return POSTS.filter(p=>(p.post_date||"")>=m);}
+  if(s==="month")return POSTS.filter(p=>(p.post_date||"").slice(0,7)===TODAY.slice(0,7)); return POSTS; }
+function renderSenti(){ const meo=scoped(F.scope.senti).filter(p=>p.mentions_brand);
+  const sc={pos:0,neutral:0,neg:0}; meo.forEach(p=>sc[p.sentiment||"neutral"]++); const t=sc.pos+sc.neutral+sc.neg;
+  mkChart("senti","doughnut",{labels:["긍정","중립","부정"],datasets:[{data:[sc.pos,sc.neutral,sc.neg],backgroundColor:["#51cf66","#6b7280","#ff6b6b"],borderWidth:0,
+    datalabels:{display:ctx=>ctx.dataset.data[ctx.dataIndex]>0,color:"#fff",font:{weight:"700",size:12},formatter:v=>t?v+"\n("+Math.round(v/t*100)+"%)":v,textAlign:"center"}}]},
+    {cutout:"58%",plugins:{legend:{position:"bottom",labels:{boxWidth:10,padding:10,font:{size:10}}}}}); }
+function renderSource(){ const ps=scoped(F.scope.source); const src={blog:0,cafe:0}; ps.forEach(p=>src[p.source]=(src[p.source]||0)+1);
   mkChart("source","bar",{labels:["블로그","카페"],datasets:[{data:[src.blog,src.cafe],backgroundColor:["#4dabf7","#51cf66"],borderRadius:6,
     datalabels:{display:true,anchor:"end",align:"left",color:"#fff",font:{weight:"700",size:12},formatter:v=>v}}]},
-    {layout:{padding:{right:8}},indexAxis:"y",plugins:{legend:{display:false}},scales:{x:{beginAtZero:true,ticks:{precision:0},grid:{color:"rgba(255,255,255,.06)"}},y:{grid:{display:false}}}});
-}
-function renderRegion(){
-  const ps = scoped(F.scope.region);
-  const rg={}; ps.forEach(p=>{ if(p.region)rg[p.region]=(rg[p.region]||0)+1; }); const rl=Object.keys(rg);
-  mkChart("region","bar",{labels:rl,datasets:[{data:rl.map(k=>rg[k]),backgroundColor:["#ff7a45","#ff4d8d","#ffd43b","#4dabf7"],borderRadius:6,
+    {layout:{padding:{right:8}},indexAxis:"y",plugins:{legend:{display:false}},scales:{x:{beginAtZero:true,ticks:{precision:0},grid:{color:"rgba(255,255,255,.06)"}},y:{grid:{display:false}}}}); }
+function renderRegion(){ const ps=scoped(F.scope.region); const rg={}; ps.forEach(p=>{if(p.region)rg[p.region]=(rg[p.region]||0)+1;}); const rl=Object.keys(rg);
+  mkChart("region","bar",{labels:rl,datasets:[{data:rl.map(k=>rg[k]),backgroundColor:["#ff7a45","#ff4d8d","#ffd43b","#4dabf7","#9775fa"],borderRadius:6,
     datalabels:{display:true,anchor:"end",align:"left",color:"#fff",font:{weight:"700",size:12},formatter:v=>v}}]},
-    {layout:{padding:{right:8}},indexAxis:"y",plugins:{legend:{display:false}},scales:{x:{beginAtZero:true,ticks:{precision:0},grid:{color:"rgba(255,255,255,.06)"}},y:{grid:{display:false}}}});
-}
-
-function mkChart(id,type,data,opts){ if(C[id])C[id].destroy();
-  C[id]=new Chart(document.getElementById(id),{type,data,options:{responsive:true,maintainAspectRatio:false,...opts}}); }
+    {layout:{padding:{right:8}},indexAxis:"y",plugins:{legend:{display:false}},scales:{x:{beginAtZero:true,ticks:{precision:0},grid:{color:"rgba(255,255,255,.06)"}},y:{grid:{display:false}}}}); }
+function mkChart(id,type,data,opts){ if(C[id])C[id].destroy(); C[id]=new Chart(document.getElementById(id),{type,data,options:{responsive:true,maintainAspectRatio:false,...opts}}); }
 
 function renderDaily(){
-  document.getElementById("tbl-unit").textContent = {day:"일별",week:"주별",month:"월별"}[F.gran];
-  const bs = buckets().slice().reverse();
-  const sum = {total:0,blog:0,cafe:0,meo:0};
-  const rows = bs.map(b=>{ sum.total+=b.total; sum.blog+=b.blog; sum.cafe+=b.cafe; sum.meo+=b.meo;
-    const rate=b.total?Math.round(b.meo/b.total*100):0;
+  document.getElementById("tbl-unit").textContent={day:"일별",week:"주별",month:"월별"}[F.gran];
+  const bs=buckets().slice().reverse(); const sum={total:0,blog:0,cafe:0,meo:0};
+  const rows=bs.map(b=>{ sum.total+=b.total;sum.blog+=b.blog;sum.cafe+=b.cafe;sum.meo+=b.meo; const r=b.total?Math.round(b.meo/b.total*100):0;
     return `<tr><td class="d">${b.label}</td><td>${b.total}</td><td>${b.blog}</td><td>${b.cafe}</td><td class="meo">${b.meo}</td>
-      <td><div class="ratio-cell"><div class="ratio-track"><div class="ratio-fill" style="width:${rate}%"></div></div><span>${rate}%</span></div></td></tr>`;
-  }).join("");
-  const tr = sum.total?Math.round(sum.meo/sum.total*100):0;
-  document.getElementById("daily").innerHTML =
-    `<thead><tr><th>${{day:"날짜",week:"주",month:"월"}[F.gran]}</th><th>전체</th><th>블로그</th><th>카페</th><th>🍜 메오키친</th><th>메오 비율</th></tr></thead>
-     <tbody>${rows}</tbody>
-     <tfoot><tr><td>합계</td><td>${sum.total}</td><td>${sum.blog}</td><td>${sum.cafe}</td><td class="meo">${sum.meo}</td>
-       <td><div class="ratio-cell"><div class="ratio-track"><div class="ratio-fill" style="width:${tr}%"></div></div><span>${tr}%</span></div></td></tr></tfoot>`;
+      <td><div class="ratio-cell"><div class="ratio-track"><div class="ratio-fill" style="width:${r}%"></div></div><span>${r}%</span></div></td></tr>`;}).join("");
+  const tr=sum.total?Math.round(sum.meo/sum.total*100):0;
+  document.getElementById("daily").innerHTML=`<thead><tr><th>${{day:"날짜",week:"주",month:"월"}[F.gran]}</th><th>전체</th><th>블로그</th><th>카페</th><th>${EMOJI} ${esc(LABEL)}</th><th>비율</th></tr></thead>
+    <tbody>${rows}</tbody><tfoot><tr><td>합계</td><td>${sum.total}</td><td>${sum.blog}</td><td>${sum.cafe}</td><td class="meo">${sum.meo}</td>
+    <td><div class="ratio-cell"><div class="ratio-track"><div class="ratio-fill" style="width:${tr}%"></div></div><span>${tr}%</span></div></td></tr></tfoot>`;
 }
-
 function render(){
-  let rows = POSTS.slice();
-  // 기간
-  if(F.period==="today") rows=rows.filter(p=>(p.post_date||"")===TODAY);
-  else if(F.period==="week"){ const m=mondayOf(TODAY); rows=rows.filter(p=>(p.post_date||"")>=m); }
-  else if(F.period==="month") rows=rows.filter(p=>(p.post_date||"").slice(0,7)===TODAY.slice(0,7));
-  else if(F.period==="custom"){ if(F.from) rows=rows.filter(p=>(p.post_date||"")>=F.from); if(F.to) rows=rows.filter(p=>(p.post_date||"")<=F.to); }
-  if(F.sent.size) rows=rows.filter(p=>F.sent.has(p.sentiment));
-  if(F.meo) rows=rows.filter(p=>p.mentions_meokitchen);
-  if(F.blog) rows=rows.filter(p=>p.source==="blog");
-  if(F.cafe) rows=rows.filter(p=>p.source==="cafe");
-  if(F["푸꾸옥"]) rows=rows.filter(p=>p.region==="푸꾸옥");
-  if(F["나트랑"]) rows=rows.filter(p=>p.region==="나트랑");
-  if(F.q){ const q=F.q.toLowerCase(); rows=rows.filter(p=>(p.title+" "+(p.summary||"")).toLowerCase().includes(q)); }
-  rows.sort((a,b)=>{ const c=(a.post_date||"").localeCompare(b.post_date||"")||(a.first_seen||"").localeCompare(b.first_seen||""); return F.sort==="new"?-c:c; });
-
-  document.getElementById("list-title").textContent = `📋 포스팅 (${rows.length})`;
-  const el = document.getElementById("list");
-  if(!rows.length){ el.innerHTML='<div class="empty">조건에 맞는 포스팅이 없어요 🔍</div>'; return; }
-  el.innerHTML = rows.map(p=>{
-    const sc = p.sentiment==="pos"?"pos":p.sentiment==="neg"?"neg":"";
-    const tags = [].concat((p.pos_tags||[]).map(t=>`<span class="tag">${esc(t)}</span>`),(p.neg_tags||[]).map(t=>`<span class="tag neg">${esc(t)}</span>`)).slice(0,6).join("");
-    return `<div class="post ${sc}">
-      <a class="t" href="${p.url}" target="_blank" rel="noopener">${esc(p.title)||"(제목 없음)"}</a>
-      <div class="meta"><span class="date">🕐 ${esc(p.time_text)||p.post_date}</span>
-        <span class="badge ${p.source}">${p.source==="blog"?"블로그":"카페"}</span>
-        ${p.region?`<span class="badge">${esc(p.region)}</span>`:""}
-        ${p.mentions_meokitchen?`<span class="badge meo">🍜 메오키친</span>`:""}
+  let rows=POSTS.slice();
+  if(F.period==="today")rows=rows.filter(p=>(p.post_date||"")===TODAY);
+  else if(F.period==="week"){const m=mondayOf(TODAY);rows=rows.filter(p=>(p.post_date||"")>=m);}
+  else if(F.period==="month")rows=rows.filter(p=>(p.post_date||"").slice(0,7)===TODAY.slice(0,7));
+  else if(F.period==="custom"){if(F.from)rows=rows.filter(p=>(p.post_date||"")>=F.from);if(F.to)rows=rows.filter(p=>(p.post_date||"")<=F.to);}
+  if(F.sent.size)rows=rows.filter(p=>F.sent.has(p.sentiment));
+  if(F.meo)rows=rows.filter(p=>p.mentions_brand);
+  if(F.blog)rows=rows.filter(p=>p.source==="blog"); if(F.cafe)rows=rows.filter(p=>p.source==="cafe");
+  if(F.region.size)rows=rows.filter(p=>F.region.has(p.region));
+  if(F.q){const q=F.q.toLowerCase();rows=rows.filter(p=>(p.title+" "+(p.summary||"")).toLowerCase().includes(q));}
+  rows.sort((a,b)=>{const c=(a.post_date||"").localeCompare(b.post_date||"")||(a.first_seen||"").localeCompare(b.first_seen||"");return F.sort==="new"?-c:c;});
+  document.getElementById("list-title").textContent=`📋 포스팅 (${rows.length})`;
+  const el=document.getElementById("list");
+  if(!rows.length){el.innerHTML='<div class="empty">조건에 맞는 포스팅이 없어요 🔍</div>';return;}
+  el.innerHTML=rows.map(p=>{ const sc=p.sentiment==="pos"?"pos":p.sentiment==="neg"?"neg":"";
+    const tags=[].concat((p.pos_tags||[]).map(t=>`<span class="tag">${esc(t)}</span>`),(p.neg_tags||[]).map(t=>`<span class="tag neg">${esc(t)}</span>`)).slice(0,6).join("");
+    return `<div class="post ${sc}"><a class="t" href="${p.url}" target="_blank" rel="noopener">${esc(p.title)||"(제목 없음)"}</a>
+      <div class="meta"><span class="date">🕐 ${esc(p.time_text)||p.post_date}</span><span class="badge ${p.source}">${p.source==="blog"?"블로그":"카페"}</span>
+        ${p.region?`<span class="badge">${esc(p.region)}</span>`:""}${p.mentions_brand?`<span class="badge meo">${EMOJI} ${esc(LABEL)}</span>`:""}
         ${p.sentiment==="pos"?`<span class="badge pos">😊 긍정</span>`:p.sentiment==="neg"?`<span class="badge neg">😟 부정</span>`:""}</div>
-      ${p.summary?`<div class="summary">${esc(p.summary)}</div>`:""}
-      ${tags?`<div class="tags">${tags}</div>`:""}
-    </div>`;
-  }).join("");
+      ${p.summary?`<div class="summary">${esc(p.summary)}</div>`:""}${tags?`<div class="tags">${tags}</div>`:""}</div>`;}).join("");
 }
 
-// 기간 단위(일/주/월) 토글 → 차트 + 표 갱신
-document.querySelectorAll("#gran button").forEach(b=>b.addEventListener("click",()=>{
-  document.querySelectorAll("#gran button").forEach(x=>x.classList.remove("on"));
-  b.classList.add("on"); F.gran=b.dataset.g; renderTrend(); renderDaily();
-}));
-// 차트별 기간 스코프(전체/일/주/월) 토글
-document.querySelectorAll(".seg.scope").forEach(seg=>{
-  const chart = seg.dataset.chart;
-  seg.querySelectorAll("button").forEach(b=>b.addEventListener("click",()=>{
-    seg.querySelectorAll("button").forEach(x=>x.classList.remove("on"));
-    b.classList.add("on"); F.scope[chart]=b.dataset.s;
-    ({senti:renderSenti,source:renderSource,region:renderRegion})[chart]();
-  }));
-});
-// 포스팅 기간 칩
-document.querySelectorAll(".chip.period").forEach(c=>c.addEventListener("click",()=>{
-  document.querySelectorAll(".chip.period").forEach(x=>x.classList.remove("on"));
-  c.classList.add("on"); F.period=c.dataset.p;
-  document.getElementById("customRange").classList.toggle("show", F.period==="custom");
-  render();
-}));
-document.getElementById("from").addEventListener("change",e=>{ F.from=e.target.value; render(); });
-document.getElementById("to").addEventListener("change",e=>{ F.to=e.target.value; render(); });
-document.querySelectorAll(".chip[data-f]").forEach(c=>c.addEventListener("click",()=>{
-  const k=c.dataset.f;
-  if(k==="pos"||k==="neutral"||k==="neg"){ F.sent.has(k)?F.sent.delete(k):F.sent.add(k); c.classList.toggle("on"); }
-  else { F[k]=!F[k]; c.classList.toggle("on",F[k]); }
-  render();
-}));
-document.getElementById("q").addEventListener("input",e=>{ F.q=e.target.value; render(); });
-document.getElementById("sort").addEventListener("change",e=>{ F.sort=e.target.value; render(); });
+// 토글 이벤트
+document.querySelectorAll("#gran button").forEach(b=>b.addEventListener("click",()=>{document.querySelectorAll("#gran button").forEach(x=>x.classList.remove("on"));b.classList.add("on");F.gran=b.dataset.g;renderTrend();renderDaily();}));
+document.querySelectorAll(".seg.scope").forEach(seg=>{const ch=seg.dataset.chart;seg.querySelectorAll("button").forEach(b=>b.addEventListener("click",()=>{seg.querySelectorAll("button").forEach(x=>x.classList.remove("on"));b.classList.add("on");F.scope[ch]=b.dataset.s;({senti:renderSenti,source:renderSource,region:renderRegion})[ch]();}));});
+document.querySelectorAll(".chip.period").forEach(c=>c.addEventListener("click",()=>{document.querySelectorAll(".chip.period").forEach(x=>x.classList.remove("on"));c.classList.add("on");F.period=c.dataset.p;document.getElementById("customRange").classList.toggle("show",F.period==="custom");render();}));
+document.getElementById("from").addEventListener("change",e=>{F.from=e.target.value;render();});
+document.getElementById("to").addEventListener("change",e=>{F.to=e.target.value;render();});
+document.querySelectorAll(".chip[data-f]").forEach(c=>c.addEventListener("click",()=>{const k=c.dataset.f;
+  if(k==="pos"||k==="neutral"||k==="neg"){F.sent.has(k)?F.sent.delete(k):F.sent.add(k);c.classList.toggle("on");}else{F[k]=!F[k];c.classList.toggle("on",F[k]);}render();}));
+document.getElementById("q").addEventListener("input",e=>{F.q=e.target.value;render();});
+document.getElementById("sort").addEventListener("change",e=>{F.sort=e.target.value;render();});
 
-load();
+// 모달
+function openModal(){document.getElementById("modal").classList.add("show");}
+function closeModal(){document.getElementById("modal").classList.remove("show");document.getElementById("cmd-area").innerHTML="";}
+async function applyAdd(){
+  const label=document.getElementById("m-label").value.trim();
+  const brand=document.getElementById("m-brand").value.trim()||label;
+  const queries=document.getElementById("m-queries").value.trim();
+  if(!label||!queries){alert("기준 이름과 검색어를 입력해주세요.");return;}
+  const btn=document.getElementById("m-apply"); btn.textContent="처리 중…"; btn.disabled=true;
+  // 1) 로컬 관리자 서버가 있으면 바로 실행
+  try{
+    const r=await fetch("/api/add-tracker",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({label,brand,queries})});
+    if(r.ok){ const j=await r.json(); alert(`✅ "${label}" 트래커 추가 완료!\n${j.message||""}`); location.reload(); return; }
+    throw new Error("no-admin");
+  }catch(e){
+    // 2) 공개 사이트: 텔레그램 명령 안내
+    const cmd=`트래커추가 | ${label} | ${brand} | ${queries}`;
+    document.getElementById("cmd-area").innerHTML=`<div class="hint" style="margin-top:16px">💬 공개 사이트에서는 바로 생성이 안 돼요. 아래 메시지를 <b>텔레그램 봇에게 그대로 보내면</b> 오픈클로가 자동으로 만들어줍니다:</div><div class="cmd-box">${esc(cmd)}</div>`;
+    btn.textContent="적용"; btn.disabled=false;
+  }
+}
+window.openModal=openModal; window.closeModal=closeModal; window.applyAdd=applyAdd;
+
+init();
 </script>
 </body>
 </html>
