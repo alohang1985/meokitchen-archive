@@ -18,7 +18,8 @@
         "맛집"
       ],
       "neg_tags": [],
-      "mentions_brand": true
+      "mentions_brand": true,
+      "crawl_date": "2026-06-01"
     },
     {
       "url": "https://blog.naver.com/joajoakss/224302577826",
@@ -35,7 +36,8 @@
         "맛집"
       ],
       "neg_tags": [],
-      "mentions_brand": true
+      "mentions_brand": true,
+      "crawl_date": "2026-06-01"
     },
     {
       "url": "https://blog.naver.com/dlaclgms/224301767023",
@@ -50,7 +52,8 @@
       "sentiment": "neutral",
       "pos_tags": [],
       "neg_tags": [],
-      "mentions_brand": true
+      "mentions_brand": true,
+      "crawl_date": "2026-06-01"
     },
     {
       "url": "https://blog.naver.com/dreminglento/224302830530",
@@ -69,7 +72,8 @@
       "neg_tags": [
         "웨이팅"
       ],
-      "mentions_brand": true
+      "mentions_brand": true,
+      "crawl_date": "2026-06-01"
     },
     {
       "url": "https://blog.naver.com/boracaytori/224298511900",
@@ -86,7 +90,8 @@
         "맛집"
       ],
       "neg_tags": [],
-      "mentions_brand": true
+      "mentions_brand": true,
+      "crawl_date": "2026-06-01"
     },
     {
       "url": "https://blog.naver.com/joajoakss/224302590936",
@@ -101,7 +106,8 @@
       "sentiment": "neutral",
       "pos_tags": [],
       "neg_tags": [],
-      "mentions_brand": true
+      "mentions_brand": true,
+      "crawl_date": "2026-06-01"
     },
     {
       "url": "https://blog.naver.com/rla7739/224301333860",
@@ -118,7 +124,8 @@
         "맛집"
       ],
       "neg_tags": [],
-      "mentions_brand": true
+      "mentions_brand": true,
+      "crawl_date": "2026-06-01"
     },
     {
       "url": "https://blog.naver.com/seo_hyerin/224301719303",
@@ -136,7 +143,8 @@
         "맛집"
       ],
       "neg_tags": [],
-      "mentions_brand": true
+      "mentions_brand": true,
+      "crawl_date": "2026-06-01"
     },
     {
       "url": "https://blog.naver.com/pwer3535/224302010012",
@@ -151,7 +159,8 @@
       "sentiment": "neutral",
       "pos_tags": [],
       "neg_tags": [],
-      "mentions_brand": true
+      "mentions_brand": true,
+      "crawl_date": "2026-06-01"
     },
     {
       "url": "https://blog.naver.com/wjdeogus74799/224302261396",
@@ -166,7 +175,8 @@
       "sentiment": "neutral",
       "pos_tags": [],
       "neg_tags": [],
-      "mentions_brand": true
+      "mentions_brand": true,
+      "crawl_date": "2026-06-01"
     },
     {
       "url": "https://blog.naver.com/letslovethismoment/224302191820",
@@ -183,7 +193,8 @@
       "neg_tags": [
         "웨이팅"
       ],
-      "mentions_brand": true
+      "mentions_brand": true,
+      "crawl_date": "2026-06-01"
     },
     {
       "url": "https://blog.naver.com/abirdcage/224302723360",
@@ -200,7 +211,8 @@
         "맛있"
       ],
       "neg_tags": [],
-      "mentions_brand": true
+      "mentions_brand": true,
+      "crawl_date": "2026-06-01"
     },
     {
       "url": "https://blog.naver.com/kim6352p/224302221503",
@@ -218,7 +230,8 @@
         "맛집"
       ],
       "neg_tags": [],
-      "mentions_brand": true
+      "mentions_brand": true,
+      "crawl_date": "2026-06-01"
     },
     {
       "url": "https://blog.naver.com/synnlog/224301689094",
@@ -233,7 +246,8 @@
       "sentiment": "neutral",
       "pos_tags": [],
       "neg_tags": [],
-      "mentions_brand": true
+      "mentions_brand": true,
+      "crawl_date": "2026-06-01"
     },
     {
       "url": "https://cafe.naver.com/zzop/4042856",
@@ -251,7 +265,8 @@
         "맛집"
       ],
       "neg_tags": [],
-      "mentions_brand": true
+      "mentions_brand": true,
+      "crawl_date": "2026-06-01"
     },
     {
       "url": "https://cafe.naver.com/vinpearl/473785",
@@ -266,7 +281,8 @@
       "sentiment": "neutral",
       "pos_tags": [],
       "neg_tags": [],
-      "mentions_brand": true
+      "mentions_brand": true,
+      "crawl_date": "2026-06-01"
     },
     {
       "url": "https://blog.naver.com/hjk8427_/224301974433",
@@ -284,7 +300,8 @@
         "맛집"
       ],
       "neg_tags": [],
-      "mentions_brand": false
+      "mentions_brand": false,
+      "crawl_date": "2026-06-01"
     },
     {
       "url": "https://blog.naver.com/jay0713/224302080855",
@@ -303,7 +320,8 @@
         "맛집"
       ],
       "neg_tags": [],
-      "mentions_brand": false
+      "mentions_brand": false,
+      "crawl_date": "2026-06-01"
     },
     {
       "url": "https://blog.naver.com/kyoning/224301561532",
@@ -320,7 +338,8 @@
         "맛집"
       ],
       "neg_tags": [],
-      "mentions_brand": false
+      "mentions_brand": false,
+      "crawl_date": "2026-06-01"
     },
     {
       "url": "https://blog.naver.com/luckylife9/224303015995",
@@ -335,7 +354,8 @@
       "sentiment": "neutral",
       "pos_tags": [],
       "neg_tags": [],
-      "mentions_brand": false
+      "mentions_brand": false,
+      "crawl_date": "2026-06-01"
     },
     {
       "url": "https://blog.naver.com/onandontrip/224302845477",
@@ -350,7 +370,8 @@
       "sentiment": "neutral",
       "pos_tags": [],
       "neg_tags": [],
-      "mentions_brand": false
+      "mentions_brand": false,
+      "crawl_date": "2026-06-01"
     },
     {
       "url": "https://blog.naver.com/hotelsaleinfo4/224299886074",
@@ -365,7 +386,8 @@
       "sentiment": "neutral",
       "pos_tags": [],
       "neg_tags": [],
-      "mentions_brand": false
+      "mentions_brand": false,
+      "crawl_date": "2026-06-01"
     },
     {
       "url": "https://blog.naver.com/dnwhdska43466/224302252435",
@@ -382,7 +404,8 @@
         "필수"
       ],
       "neg_tags": [],
-      "mentions_brand": false
+      "mentions_brand": false,
+      "crawl_date": "2026-06-01"
     },
     {
       "url": "https://blog.naver.com/burmn85478/224302257497",
@@ -397,7 +420,8 @@
       "sentiment": "neutral",
       "pos_tags": [],
       "neg_tags": [],
-      "mentions_brand": false
+      "mentions_brand": false,
+      "crawl_date": "2026-06-01"
     },
     {
       "url": "https://blog.naver.com/swvoyage/224285543544",
@@ -416,7 +440,8 @@
         "맛집"
       ],
       "neg_tags": [],
-      "mentions_brand": false
+      "mentions_brand": false,
+      "crawl_date": "2026-06-01"
     },
     {
       "url": "https://blog.naver.com/daily_re_/224302055587",
@@ -433,7 +458,8 @@
         "맛집"
       ],
       "neg_tags": [],
-      "mentions_brand": false
+      "mentions_brand": false,
+      "crawl_date": "2026-06-01"
     },
     {
       "url": "https://blog.naver.com/dbtjfls897/224302032485",
@@ -451,7 +477,8 @@
         "맛집"
       ],
       "neg_tags": [],
-      "mentions_brand": false
+      "mentions_brand": false,
+      "crawl_date": "2026-06-01"
     },
     {
       "url": "https://blog.naver.com/onedeuk7103/224301142860",
@@ -468,7 +495,8 @@
         "맛집"
       ],
       "neg_tags": [],
-      "mentions_brand": false
+      "mentions_brand": false,
+      "crawl_date": "2026-06-01"
     },
     {
       "url": "https://blog.naver.com/lover-jj/224301353120",
@@ -483,7 +511,8 @@
       "sentiment": "neutral",
       "pos_tags": [],
       "neg_tags": [],
-      "mentions_brand": false
+      "mentions_brand": false,
+      "crawl_date": "2026-06-01"
     },
     {
       "url": "https://blog.naver.com/tlscodnjs32018/224302141679",
@@ -500,7 +529,8 @@
         "맛집"
       ],
       "neg_tags": [],
-      "mentions_brand": false
+      "mentions_brand": false,
+      "crawl_date": "2026-06-01"
     },
     {
       "url": "https://blog.naver.com/sapo2750237/224285177938",
@@ -517,7 +547,8 @@
         "맛집"
       ],
       "neg_tags": [],
-      "mentions_brand": false
+      "mentions_brand": false,
+      "crawl_date": "2026-06-01"
     },
     {
       "url": "https://blog.naver.com/gydel4856/224302007050",
@@ -534,7 +565,8 @@
         "추천"
       ],
       "neg_tags": [],
-      "mentions_brand": false
+      "mentions_brand": false,
+      "crawl_date": "2026-06-01"
     },
     {
       "url": "https://blog.naver.com/wonjosanjuck/224301696417",
@@ -549,7 +581,8 @@
       "sentiment": "neutral",
       "pos_tags": [],
       "neg_tags": [],
-      "mentions_brand": false
+      "mentions_brand": false,
+      "crawl_date": "2026-06-01"
     },
     {
       "url": "https://blog.naver.com/gotssun/224302702379",
@@ -564,7 +597,8 @@
       "sentiment": "neutral",
       "pos_tags": [],
       "neg_tags": [],
-      "mentions_brand": false
+      "mentions_brand": false,
+      "crawl_date": "2026-06-01"
     },
     {
       "url": "https://blog.naver.com/clm_camp/224301527563",
@@ -579,7 +613,8 @@
       "sentiment": "neutral",
       "pos_tags": [],
       "neg_tags": [],
-      "mentions_brand": false
+      "mentions_brand": false,
+      "crawl_date": "2026-06-01"
     },
     {
       "url": "https://blog.naver.com/thswngh826/224301511189",
@@ -594,7 +629,8 @@
       "sentiment": "neutral",
       "pos_tags": [],
       "neg_tags": [],
-      "mentions_brand": false
+      "mentions_brand": false,
+      "crawl_date": "2026-06-01"
     },
     {
       "url": "https://blog.naver.com/luciennemom/224301332930",
@@ -609,7 +645,8 @@
       "sentiment": "neutral",
       "pos_tags": [],
       "neg_tags": [],
-      "mentions_brand": false
+      "mentions_brand": false,
+      "crawl_date": "2026-06-01"
     },
     {
       "url": "https://blog.naver.com/burmn85478/224302215486",
@@ -626,7 +663,8 @@
         "필수"
       ],
       "neg_tags": [],
-      "mentions_brand": false
+      "mentions_brand": false,
+      "crawl_date": "2026-06-01"
     },
     {
       "url": "https://blog.naver.com/minnie25/224302676437",
@@ -641,7 +679,8 @@
       "sentiment": "neutral",
       "pos_tags": [],
       "neg_tags": [],
-      "mentions_brand": false
+      "mentions_brand": false,
+      "crawl_date": "2026-06-01"
     },
     {
       "url": "https://blog.naver.com/zyuu25/224301568401",
@@ -660,7 +699,8 @@
         "깔끔"
       ],
       "neg_tags": [],
-      "mentions_brand": false
+      "mentions_brand": false,
+      "crawl_date": "2026-06-01"
     },
     {
       "url": "https://blog.naver.com/jumsooon_2/224301875852",
@@ -677,7 +717,8 @@
         "재방문"
       ],
       "neg_tags": [],
-      "mentions_brand": false
+      "mentions_brand": false,
+      "crawl_date": "2026-06-01"
     },
     {
       "url": "https://blog.naver.com/tndus4689/224301287894",
@@ -692,7 +733,8 @@
       "sentiment": "neutral",
       "pos_tags": [],
       "neg_tags": [],
-      "mentions_brand": false
+      "mentions_brand": false,
+      "crawl_date": "2026-06-01"
     },
     {
       "url": "https://blog.naver.com/mont110/224301856240",
@@ -709,7 +751,8 @@
         "맛있"
       ],
       "neg_tags": [],
-      "mentions_brand": false
+      "mentions_brand": false,
+      "crawl_date": "2026-06-01"
     },
     {
       "url": "https://blog.naver.com/mnsla/224302040475",
@@ -726,7 +769,8 @@
         "맛집"
       ],
       "neg_tags": [],
-      "mentions_brand": false
+      "mentions_brand": false,
+      "crawl_date": "2026-06-01"
     },
     {
       "url": "https://blog.naver.com/maruhancho/224302733262",
@@ -744,7 +788,8 @@
         "맛집"
       ],
       "neg_tags": [],
-      "mentions_brand": false
+      "mentions_brand": false,
+      "crawl_date": "2026-06-01"
     },
     {
       "url": "https://blog.naver.com/jinia790228/224302035776",
@@ -759,7 +804,8 @@
       "sentiment": "neutral",
       "pos_tags": [],
       "neg_tags": [],
-      "mentions_brand": false
+      "mentions_brand": false,
+      "crawl_date": "2026-06-01"
     },
     {
       "url": "https://blog.naver.com/joo8534/224302550339",
@@ -776,7 +822,8 @@
         "최고"
       ],
       "neg_tags": [],
-      "mentions_brand": false
+      "mentions_brand": false,
+      "crawl_date": "2026-06-01"
     },
     {
       "url": "https://blog.naver.com/1kyung20/224302449995",
@@ -794,7 +841,8 @@
         "맛집"
       ],
       "neg_tags": [],
-      "mentions_brand": false
+      "mentions_brand": false,
+      "crawl_date": "2026-06-01"
     },
     {
       "url": "https://blog.naver.com/soko3067/224299248305",
@@ -811,7 +859,8 @@
         "맛집"
       ],
       "neg_tags": [],
-      "mentions_brand": false
+      "mentions_brand": false,
+      "crawl_date": "2026-06-01"
     },
     {
       "url": "https://blog.naver.com/happyjinday98/224301824621",
@@ -828,7 +877,8 @@
         "맛집"
       ],
       "neg_tags": [],
-      "mentions_brand": false
+      "mentions_brand": false,
+      "crawl_date": "2026-06-01"
     },
     {
       "url": "https://blog.naver.com/choi_log_123/224301952977",
@@ -846,7 +896,8 @@
         "맛집"
       ],
       "neg_tags": [],
-      "mentions_brand": false
+      "mentions_brand": false,
+      "crawl_date": "2026-06-01"
     },
     {
       "url": "https://blog.naver.com/mi1891/224302805161",
@@ -863,7 +914,8 @@
         "추천"
       ],
       "neg_tags": [],
-      "mentions_brand": false
+      "mentions_brand": false,
+      "crawl_date": "2026-06-01"
     },
     {
       "url": "https://blog.naver.com/junyeol9713/224301829953",
@@ -880,7 +932,8 @@
         "필수"
       ],
       "neg_tags": [],
-      "mentions_brand": false
+      "mentions_brand": false,
+      "crawl_date": "2026-06-01"
     },
     {
       "url": "https://blog.naver.com/andrew2507/224302380866",
@@ -899,7 +952,8 @@
         "맛집"
       ],
       "neg_tags": [],
-      "mentions_brand": false
+      "mentions_brand": false,
+      "crawl_date": "2026-06-01"
     },
     {
       "url": "https://blog.naver.com/taekstory/224302050221",
@@ -916,7 +970,8 @@
         "맛집"
       ],
       "neg_tags": [],
-      "mentions_brand": false
+      "mentions_brand": false,
+      "crawl_date": "2026-06-01"
     },
     {
       "url": "https://blog.naver.com/dabbang_/224300317166",
@@ -935,7 +990,8 @@
         "맛집"
       ],
       "neg_tags": [],
-      "mentions_brand": false
+      "mentions_brand": false,
+      "crawl_date": "2026-06-01"
     },
     {
       "url": "https://blog.naver.com/yongna-/224301476446",
@@ -954,7 +1010,8 @@
         "맛집"
       ],
       "neg_tags": [],
-      "mentions_brand": false
+      "mentions_brand": false,
+      "crawl_date": "2026-06-01"
     },
     {
       "url": "https://blog.naver.com/ellykimchannel/224301761737",
@@ -971,7 +1028,8 @@
         "맛집"
       ],
       "neg_tags": [],
-      "mentions_brand": false
+      "mentions_brand": false,
+      "crawl_date": "2026-06-01"
     },
     {
       "url": "https://blog.naver.com/yoonppuu/224303047953",
@@ -989,7 +1047,8 @@
         "맛집"
       ],
       "neg_tags": [],
-      "mentions_brand": false
+      "mentions_brand": false,
+      "crawl_date": "2026-06-01"
     },
     {
       "url": "https://blog.naver.com/innerviewer/224302084561",
@@ -1007,7 +1066,8 @@
         "맛집"
       ],
       "neg_tags": [],
-      "mentions_brand": false
+      "mentions_brand": false,
+      "crawl_date": "2026-06-01"
     },
     {
       "url": "https://blog.naver.com/amiii_iii/224302090040",
@@ -1022,7 +1082,8 @@
       "sentiment": "neutral",
       "pos_tags": [],
       "neg_tags": [],
-      "mentions_brand": false
+      "mentions_brand": false,
+      "crawl_date": "2026-06-01"
     },
     {
       "url": "https://blog.naver.com/sualoves/224302563470",
@@ -1037,7 +1098,8 @@
       "sentiment": "neutral",
       "pos_tags": [],
       "neg_tags": [],
-      "mentions_brand": false
+      "mentions_brand": false,
+      "crawl_date": "2026-06-01"
     },
     {
       "url": "https://blog.naver.com/keun8748/224302824215",
@@ -1054,7 +1116,8 @@
       "neg_tags": [
         "웨이팅"
       ],
-      "mentions_brand": false
+      "mentions_brand": false,
+      "crawl_date": "2026-06-01"
     },
     {
       "url": "https://blog.naver.com/jihyunyy_/224302765115",
@@ -1073,7 +1136,8 @@
         "맛집"
       ],
       "neg_tags": [],
-      "mentions_brand": false
+      "mentions_brand": false,
+      "crawl_date": "2026-06-01"
     },
     {
       "url": "https://blog.naver.com/yourrain_/224302871026",
@@ -1091,7 +1155,8 @@
         "맛집"
       ],
       "neg_tags": [],
-      "mentions_brand": false
+      "mentions_brand": false,
+      "crawl_date": "2026-06-01"
     },
     {
       "url": "https://blog.naver.com/scurugi/224302995630",
@@ -1110,7 +1175,8 @@
         "맛집"
       ],
       "neg_tags": [],
-      "mentions_brand": false
+      "mentions_brand": false,
+      "crawl_date": "2026-06-01"
     },
     {
       "url": "https://blog.naver.com/esa_w_t/224302809625",
@@ -1127,7 +1193,8 @@
         "맛집"
       ],
       "neg_tags": [],
-      "mentions_brand": false
+      "mentions_brand": false,
+      "crawl_date": "2026-06-01"
     },
     {
       "url": "https://blog.naver.com/zzxx2424/224302079275",
@@ -1145,7 +1212,8 @@
         "맛집"
       ],
       "neg_tags": [],
-      "mentions_brand": false
+      "mentions_brand": false,
+      "crawl_date": "2026-06-01"
     },
     {
       "url": "https://blog.naver.com/she00oi/224301823214",
@@ -1160,7 +1228,8 @@
       "sentiment": "neutral",
       "pos_tags": [],
       "neg_tags": [],
-      "mentions_brand": false
+      "mentions_brand": false,
+      "crawl_date": "2026-06-01"
     },
     {
       "url": "https://blog.naver.com/forever_1027_/224301951121",
@@ -1179,7 +1248,8 @@
         "맛집"
       ],
       "neg_tags": [],
-      "mentions_brand": false
+      "mentions_brand": false,
+      "crawl_date": "2026-06-01"
     },
     {
       "url": "https://blog.naver.com/kaori1052/224302477386",
@@ -1197,7 +1267,8 @@
         "맛집"
       ],
       "neg_tags": [],
-      "mentions_brand": false
+      "mentions_brand": false,
+      "crawl_date": "2026-06-01"
     },
     {
       "url": "https://blog.naver.com/angang1216/224301883508",
@@ -1215,7 +1286,8 @@
         "맛집"
       ],
       "neg_tags": [],
-      "mentions_brand": false
+      "mentions_brand": false,
+      "crawl_date": "2026-06-01"
     },
     {
       "url": "https://blog.naver.com/daisy1505/224301891617",
@@ -1230,7 +1302,8 @@
       "sentiment": "neutral",
       "pos_tags": [],
       "neg_tags": [],
-      "mentions_brand": false
+      "mentions_brand": false,
+      "crawl_date": "2026-06-01"
     },
     {
       "url": "https://blog.naver.com/smiths3/224302520922",
@@ -1249,7 +1322,8 @@
       "neg_tags": [
         "웨이팅"
       ],
-      "mentions_brand": false
+      "mentions_brand": false,
+      "crawl_date": "2026-06-01"
     },
     {
       "url": "https://blog.naver.com/sujin385/224303216407",
@@ -1270,7 +1344,8 @@
       ],
       "first_seen": "2026-06-02T08:00:04",
       "last_seen": "2026-06-02T20:26:55",
-      "mentions_brand": true
+      "mentions_brand": true,
+      "crawl_date": "2026-06-02"
     },
     {
       "url": "https://blog.naver.com/dongwriting/224303438591",
@@ -1287,7 +1362,8 @@
       "neg_tags": [],
       "first_seen": "2026-06-02T08:00:04",
       "last_seen": "2026-06-02T17:31:07",
-      "mentions_brand": true
+      "mentions_brand": true,
+      "crawl_date": "2026-06-02"
     },
     {
       "url": "https://cafe.naver.com/ysm5828/9571217",
@@ -1302,7 +1378,8 @@
       "neg_tags": [],
       "first_seen": "2026-06-02T08:00:04",
       "last_seen": "2026-06-02T17:31:07",
-      "mentions_brand": true
+      "mentions_brand": true,
+      "crawl_date": "2026-06-02"
     },
     {
       "url": "https://cafe.naver.com/minecraftpe/3896531",
@@ -1317,7 +1394,8 @@
       "neg_tags": [],
       "first_seen": "2026-06-02T08:00:04",
       "last_seen": "2026-06-02T17:31:07",
-      "mentions_brand": true
+      "mentions_brand": true,
+      "crawl_date": "2026-06-02"
     },
     {
       "url": "https://cafe.naver.com/ysm5828/9571185",
@@ -1334,7 +1412,8 @@
       "neg_tags": [],
       "first_seen": "2026-06-02T08:00:04",
       "last_seen": "2026-06-02T17:31:07",
-      "mentions_brand": true
+      "mentions_brand": true,
+      "crawl_date": "2026-06-02"
     },
     {
       "url": "https://cafe.naver.com/ysm5828/9571165",
@@ -1349,7 +1428,8 @@
       "neg_tags": [],
       "first_seen": "2026-06-02T08:00:04",
       "last_seen": "2026-06-02T17:31:07",
-      "mentions_brand": true
+      "mentions_brand": true,
+      "crawl_date": "2026-06-02"
     },
     {
       "url": "https://blog.naver.com/daily_re_/224303179200",
@@ -1367,7 +1447,8 @@
       "neg_tags": [],
       "first_seen": "2026-06-02T11:00:03",
       "last_seen": "2026-06-02T20:26:55",
-      "mentions_brand": false
+      "mentions_brand": false,
+      "crawl_date": "2026-06-02"
     },
     {
       "url": "https://blog.naver.com/nzzbzkwzwvj/224301993292",
@@ -1385,7 +1466,8 @@
       "neg_tags": [],
       "first_seen": "2026-06-02T11:00:03",
       "last_seen": "2026-06-02T11:00:03",
-      "mentions_brand": false
+      "mentions_brand": false,
+      "crawl_date": "2026-06-02"
     },
     {
       "url": "https://blog.naver.com/valueprice7/224302501982",
@@ -1402,7 +1484,8 @@
       "neg_tags": [],
       "first_seen": "2026-06-02T11:00:03",
       "last_seen": "2026-06-02T11:00:03",
-      "mentions_brand": false
+      "mentions_brand": false,
+      "crawl_date": "2026-06-02"
     },
     {
       "url": "https://blog.naver.com/j_s2s2s2/224303174378",
@@ -1419,7 +1502,8 @@
       "neg_tags": [],
       "first_seen": "2026-06-02T11:00:03",
       "last_seen": "2026-06-02T11:00:03",
-      "mentions_brand": false
+      "mentions_brand": false,
+      "crawl_date": "2026-06-02"
     },
     {
       "url": "https://blog.naver.com/dksehdgns96483/224303102883",
@@ -1436,7 +1520,8 @@
       "neg_tags": [],
       "first_seen": "2026-06-02T11:00:03",
       "last_seen": "2026-06-02T11:00:03",
-      "mentions_brand": false
+      "mentions_brand": false,
+      "crawl_date": "2026-06-02"
     },
     {
       "url": "https://blog.naver.com/temporry81870/224300453951",
@@ -1454,7 +1539,8 @@
       "neg_tags": [],
       "first_seen": "2026-06-02T11:00:03",
       "last_seen": "2026-06-02T11:00:03",
-      "mentions_brand": false
+      "mentions_brand": false,
+      "crawl_date": "2026-06-02"
     },
     {
       "url": "https://blog.naver.com/scn010410/224303097006",
@@ -1469,7 +1555,8 @@
       "neg_tags": [],
       "first_seen": "2026-06-02T11:00:03",
       "last_seen": "2026-06-02T20:26:55",
-      "mentions_brand": false
+      "mentions_brand": false,
+      "crawl_date": "2026-06-02"
     },
     {
       "url": "https://blog.naver.com/lkja1010/224303502767",
@@ -1486,7 +1573,8 @@
       "neg_tags": [],
       "first_seen": "2026-06-02T11:00:03",
       "last_seen": "2026-06-02T20:26:55",
-      "mentions_brand": false
+      "mentions_brand": false,
+      "crawl_date": "2026-06-02"
     },
     {
       "url": "https://blog.naver.com/crazystudy/224301257950",
@@ -1504,7 +1592,8 @@
       "neg_tags": [],
       "first_seen": "2026-06-02T11:00:03",
       "last_seen": "2026-06-02T20:26:55",
-      "mentions_brand": false
+      "mentions_brand": false,
+      "crawl_date": "2026-06-02"
     },
     {
       "url": "https://blog.naver.com/kya1036/224303687717",
@@ -1522,7 +1611,8 @@
       "neg_tags": [],
       "first_seen": "2026-06-02T11:00:03",
       "last_seen": "2026-06-02T11:00:03",
-      "mentions_brand": false
+      "mentions_brand": false,
+      "crawl_date": "2026-06-02"
     },
     {
       "url": "https://blog.naver.com/manyeotour/224303637757",
@@ -1540,7 +1630,8 @@
       "neg_tags": [],
       "first_seen": "2026-06-02T11:00:03",
       "last_seen": "2026-06-02T11:00:03",
-      "mentions_brand": false
+      "mentions_brand": false,
+      "crawl_date": "2026-06-02"
     },
     {
       "url": "https://blog.naver.com/freest80/224303071464",
@@ -1557,7 +1648,8 @@
       "neg_tags": [],
       "first_seen": "2026-06-02T11:00:03",
       "last_seen": "2026-06-02T20:26:55",
-      "mentions_brand": false
+      "mentions_brand": false,
+      "crawl_date": "2026-06-02"
     },
     {
       "url": "https://blog.naver.com/ashi8888/224292444122",
@@ -1576,7 +1668,8 @@
       "neg_tags": [],
       "first_seen": "2026-06-02T11:00:03",
       "last_seen": "2026-06-02T20:26:55",
-      "mentions_brand": false
+      "mentions_brand": false,
+      "crawl_date": "2026-06-02"
     },
     {
       "url": "https://blog.naver.com/dlawjdgn208/224303188821",
@@ -1594,7 +1687,8 @@
       "neg_tags": [],
       "first_seen": "2026-06-02T11:00:03",
       "last_seen": "2026-06-02T20:26:55",
-      "mentions_brand": false
+      "mentions_brand": false,
+      "crawl_date": "2026-06-02"
     },
     {
       "url": "https://blog.naver.com/talent07/224296376232",
@@ -1612,7 +1706,8 @@
       "neg_tags": [],
       "first_seen": "2026-06-02T11:00:03",
       "last_seen": "2026-06-02T20:26:55",
-      "mentions_brand": false
+      "mentions_brand": false,
+      "crawl_date": "2026-06-02"
     },
     {
       "url": "https://blog.naver.com/lover-jj/224302414200",
@@ -1629,7 +1724,8 @@
       "neg_tags": [],
       "first_seen": "2026-06-02T11:00:03",
       "last_seen": "2026-06-02T20:26:55",
-      "mentions_brand": false
+      "mentions_brand": false,
+      "crawl_date": "2026-06-02"
     },
     {
       "url": "https://blog.naver.com/wngml3432/224303141873",
@@ -1646,7 +1742,8 @@
       "neg_tags": [],
       "first_seen": "2026-06-02T11:00:03",
       "last_seen": "2026-06-02T20:26:55",
-      "mentions_brand": false
+      "mentions_brand": false,
+      "crawl_date": "2026-06-02"
     },
     {
       "url": "https://blog.naver.com/kmjkmj0509/224303066121",
@@ -1664,7 +1761,8 @@
       "neg_tags": [],
       "first_seen": "2026-06-02T11:00:07",
       "last_seen": "2026-06-02T11:00:07",
-      "mentions_brand": false
+      "mentions_brand": false,
+      "crawl_date": "2026-06-02"
     },
     {
       "url": "https://blog.naver.com/kyu5791/224302619922",
@@ -1683,7 +1781,8 @@
       "neg_tags": [],
       "first_seen": "2026-06-02T11:00:07",
       "last_seen": "2026-06-02T11:00:07",
-      "mentions_brand": false
+      "mentions_brand": false,
+      "crawl_date": "2026-06-02"
     },
     {
       "url": "https://blog.naver.com/hahahaha_200/224302715678",
@@ -1701,7 +1800,8 @@
       "neg_tags": [],
       "first_seen": "2026-06-02T11:00:07",
       "last_seen": "2026-06-02T11:00:07",
-      "mentions_brand": false
+      "mentions_brand": false,
+      "crawl_date": "2026-06-02"
     },
     {
       "url": "https://blog.naver.com/hyuun0_0-/224302877736",
@@ -1718,7 +1818,8 @@
       "neg_tags": [],
       "first_seen": "2026-06-02T11:00:07",
       "last_seen": "2026-06-02T11:00:07",
-      "mentions_brand": false
+      "mentions_brand": false,
+      "crawl_date": "2026-06-02"
     },
     {
       "url": "https://blog.naver.com/trip_curator/224302513282",
@@ -1736,7 +1837,8 @@
       "neg_tags": [],
       "first_seen": "2026-06-02T11:00:07",
       "last_seen": "2026-06-02T11:00:07",
-      "mentions_brand": false
+      "mentions_brand": false,
+      "crawl_date": "2026-06-02"
     },
     {
       "url": "https://blog.naver.com/gusdk8761/224302974086",
@@ -1753,7 +1855,8 @@
       "neg_tags": [],
       "first_seen": "2026-06-02T11:00:07",
       "last_seen": "2026-06-02T11:00:07",
-      "mentions_brand": false
+      "mentions_brand": false,
+      "crawl_date": "2026-06-02"
     },
     {
       "url": "https://blog.naver.com/oui780419/224303112387",
@@ -1771,7 +1874,8 @@
       "neg_tags": [],
       "first_seen": "2026-06-02T11:00:07",
       "last_seen": "2026-06-02T11:00:07",
-      "mentions_brand": false
+      "mentions_brand": false,
+      "crawl_date": "2026-06-02"
     },
     {
       "url": "https://blog.naver.com/ddochi1day/224302994551",
@@ -1788,7 +1892,8 @@
       "neg_tags": [],
       "first_seen": "2026-06-02T11:00:07",
       "last_seen": "2026-06-02T11:00:07",
-      "mentions_brand": false
+      "mentions_brand": false,
+      "crawl_date": "2026-06-02"
     },
     {
       "url": "https://blog.naver.com/hakoo-/224302791471",
@@ -1806,7 +1911,8 @@
       "neg_tags": [],
       "first_seen": "2026-06-02T11:00:07",
       "last_seen": "2026-06-02T11:00:07",
-      "mentions_brand": false
+      "mentions_brand": false,
+      "crawl_date": "2026-06-02"
     },
     {
       "url": "https://blog.naver.com/snga0174/224303144666",
@@ -1825,7 +1931,8 @@
       "neg_tags": [],
       "first_seen": "2026-06-02T11:00:07",
       "last_seen": "2026-06-02T11:00:07",
-      "mentions_brand": false
+      "mentions_brand": false,
+      "crawl_date": "2026-06-02"
     },
     {
       "url": "https://blog.naver.com/kyu5791/224302643813",
@@ -1845,7 +1952,8 @@
       "neg_tags": [],
       "first_seen": "2026-06-02T11:00:07",
       "last_seen": "2026-06-02T20:26:59",
-      "mentions_brand": false
+      "mentions_brand": false,
+      "crawl_date": "2026-06-02"
     },
     {
       "url": "https://blog.naver.com/kmjkmj0509/224303069414",
@@ -1864,7 +1972,8 @@
       ],
       "first_seen": "2026-06-02T11:00:07",
       "last_seen": "2026-06-02T11:00:07",
-      "mentions_brand": false
+      "mentions_brand": false,
+      "crawl_date": "2026-06-02"
     },
     {
       "url": "https://blog.naver.com/peaktime-official/224300288801",
@@ -1882,7 +1991,8 @@
       "neg_tags": [],
       "first_seen": "2026-06-02T11:00:07",
       "last_seen": "2026-06-02T11:00:07",
-      "mentions_brand": false
+      "mentions_brand": false,
+      "crawl_date": "2026-06-02"
     },
     {
       "url": "https://blog.naver.com/kimbugger/224302865825",
@@ -1899,7 +2009,8 @@
       "neg_tags": [],
       "first_seen": "2026-06-02T11:00:07",
       "last_seen": "2026-06-02T20:26:59",
-      "mentions_brand": false
+      "mentions_brand": false,
+      "crawl_date": "2026-06-02"
     },
     {
       "url": "https://blog.naver.com/aynnneemz/224302715049",
@@ -1917,7 +2028,8 @@
       "neg_tags": [],
       "first_seen": "2026-06-02T11:00:07",
       "last_seen": "2026-06-02T11:00:07",
-      "mentions_brand": false
+      "mentions_brand": false,
+      "crawl_date": "2026-06-02"
     },
     {
       "url": "https://blog.naver.com/adayoneday/224302995348",
@@ -1935,7 +2047,8 @@
       "neg_tags": [],
       "first_seen": "2026-06-02T11:00:07",
       "last_seen": "2026-06-02T11:00:07",
-      "mentions_brand": false
+      "mentions_brand": false,
+      "crawl_date": "2026-06-02"
     },
     {
       "url": "https://blog.naver.com/freest80/224303483330",
@@ -1954,7 +2067,8 @@
       ],
       "first_seen": "2026-06-02T11:00:07",
       "last_seen": "2026-06-02T20:26:59",
-      "mentions_brand": false
+      "mentions_brand": false,
+      "crawl_date": "2026-06-02"
     },
     {
       "url": "https://blog.naver.com/tjdrnr3oh/224299796135",
@@ -1972,7 +2086,8 @@
       "neg_tags": [],
       "first_seen": "2026-06-02T11:00:07",
       "last_seen": "2026-06-02T20:26:59",
-      "mentions_brand": false
+      "mentions_brand": false,
+      "crawl_date": "2026-06-02"
     },
     {
       "url": "https://blog.naver.com/funtena/224302982803",
@@ -1989,7 +2104,8 @@
       "neg_tags": [],
       "first_seen": "2026-06-02T11:00:07",
       "last_seen": "2026-06-02T20:26:59",
-      "mentions_brand": false
+      "mentions_brand": false,
+      "crawl_date": "2026-06-02"
     },
     {
       "url": "https://blog.naver.com/kmjkmj0509/224303206725",
@@ -2009,7 +2125,8 @@
       ],
       "first_seen": "2026-06-02T11:00:07",
       "last_seen": "2026-06-02T20:26:59",
-      "mentions_brand": false
+      "mentions_brand": false,
+      "crawl_date": "2026-06-02"
     },
     {
       "url": "https://blog.naver.com/liebe2460/224303609406",
@@ -2026,7 +2143,8 @@
       "neg_tags": [],
       "first_seen": "2026-06-02T17:31:07",
       "last_seen": "2026-06-02T17:31:07",
-      "mentions_brand": true
+      "mentions_brand": true,
+      "crawl_date": "2026-06-02"
     },
     {
       "url": "https://blog.naver.com/99ury/224304093277",
@@ -2043,7 +2161,8 @@
       "neg_tags": [],
       "first_seen": "2026-06-02T17:31:07",
       "last_seen": "2026-06-02T17:31:07",
-      "mentions_brand": true
+      "mentions_brand": true,
+      "crawl_date": "2026-06-02"
     },
     {
       "url": "https://blog.naver.com/phin9199/224303967457",
@@ -2065,7 +2184,8 @@
       ],
       "first_seen": "2026-06-02T17:31:07",
       "last_seen": "2026-06-02T20:26:55",
-      "mentions_brand": true
+      "mentions_brand": true,
+      "crawl_date": "2026-06-02"
     },
     {
       "url": "https://cafe.naver.com/tybwondergirl5/83237",
@@ -2080,7 +2200,8 @@
       "neg_tags": [],
       "first_seen": "2026-06-02T17:31:07",
       "last_seen": "2026-06-02T17:31:07",
-      "mentions_brand": true
+      "mentions_brand": true,
+      "crawl_date": "2026-06-02"
     },
     {
       "url": "https://cafe.naver.com/ysm5828/9571336",
@@ -2095,7 +2216,8 @@
       "neg_tags": [],
       "first_seen": "2026-06-02T17:31:07",
       "last_seen": "2026-06-02T17:31:07",
-      "mentions_brand": true
+      "mentions_brand": true,
+      "crawl_date": "2026-06-02"
     },
     {
       "url": "https://cafe.naver.com/6350808/1516",
@@ -2112,7 +2234,8 @@
       "neg_tags": [],
       "first_seen": "2026-06-02T17:31:07",
       "last_seen": "2026-06-02T17:31:07",
-      "mentions_brand": true
+      "mentions_brand": true,
+      "crawl_date": "2026-06-02"
     },
     {
       "url": "https://blog.naver.com/mignon324/224304032147",
@@ -2130,7 +2253,8 @@
       ],
       "neg_tags": [],
       "first_seen": "2026-06-02T20:26:55",
-      "last_seen": "2026-06-02T20:26:55"
+      "last_seen": "2026-06-02T20:26:55",
+      "crawl_date": "2026-06-02"
     },
     {
       "url": "https://blog.naver.com/sodotel/224304148863",
@@ -2147,7 +2271,8 @@
         "별로"
       ],
       "first_seen": "2026-06-02T20:26:55",
-      "last_seen": "2026-06-02T20:26:55"
+      "last_seen": "2026-06-02T20:26:55",
+      "crawl_date": "2026-06-02"
     },
     {
       "url": "https://blog.naver.com/yoonjangggu/224303461805",
@@ -2166,7 +2291,8 @@
       ],
       "neg_tags": [],
       "first_seen": "2026-06-02T20:26:55",
-      "last_seen": "2026-06-02T20:26:55"
+      "last_seen": "2026-06-02T20:26:55",
+      "crawl_date": "2026-06-02"
     },
     {
       "url": "https://blog.naver.com/lhj748766/224303893733",
@@ -2185,7 +2311,8 @@
       ],
       "neg_tags": [],
       "first_seen": "2026-06-02T20:26:55",
-      "last_seen": "2026-06-02T20:26:55"
+      "last_seen": "2026-06-02T20:26:55",
+      "crawl_date": "2026-06-02"
     },
     {
       "url": "https://blog.naver.com/kuromi99-/224303760748",
@@ -2204,7 +2331,8 @@
       ],
       "neg_tags": [],
       "first_seen": "2026-06-02T20:26:55",
-      "last_seen": "2026-06-02T20:26:55"
+      "last_seen": "2026-06-02T20:26:55",
+      "crawl_date": "2026-06-02"
     },
     {
       "url": "https://blog.naver.com/tsora1215/224300151916",
@@ -2221,7 +2349,8 @@
       ],
       "neg_tags": [],
       "first_seen": "2026-06-02T20:26:55",
-      "last_seen": "2026-06-02T20:26:55"
+      "last_seen": "2026-06-02T20:26:55",
+      "crawl_date": "2026-06-02"
     },
     {
       "url": "https://blog.naver.com/lifeofbliss/224303103779",
@@ -2239,7 +2368,8 @@
       ],
       "neg_tags": [],
       "first_seen": "2026-06-02T20:26:55",
-      "last_seen": "2026-06-02T20:26:55"
+      "last_seen": "2026-06-02T20:26:55",
+      "crawl_date": "2026-06-02"
     },
     {
       "url": "https://blog.naver.com/dion_2/224303014719",
@@ -2258,7 +2388,8 @@
       ],
       "neg_tags": [],
       "first_seen": "2026-06-02T20:26:55",
-      "last_seen": "2026-06-02T20:26:55"
+      "last_seen": "2026-06-02T20:26:55",
+      "crawl_date": "2026-06-02"
     },
     {
       "url": "https://blog.naver.com/swag2019/224303856437",
@@ -2275,7 +2406,8 @@
       ],
       "neg_tags": [],
       "first_seen": "2026-06-02T20:26:55",
-      "last_seen": "2026-06-02T20:26:55"
+      "last_seen": "2026-06-02T20:26:55",
+      "crawl_date": "2026-06-02"
     },
     {
       "url": "https://cafe.naver.com/minecraftpe/3897032",
@@ -2290,7 +2422,8 @@
       "pos_tags": [],
       "neg_tags": [],
       "first_seen": "2026-06-02T20:26:55",
-      "last_seen": "2026-06-02T20:26:55"
+      "last_seen": "2026-06-02T20:26:55",
+      "crawl_date": "2026-06-02"
     },
     {
       "url": "https://cafe.naver.com/minecraftpe/3897030",
@@ -2307,7 +2440,8 @@
       ],
       "neg_tags": [],
       "first_seen": "2026-06-02T20:26:55",
-      "last_seen": "2026-06-02T20:26:55"
+      "last_seen": "2026-06-02T20:26:55",
+      "crawl_date": "2026-06-02"
     },
     {
       "url": "https://cafe.naver.com/ysm5828/9571528",
@@ -2322,7 +2456,8 @@
       "pos_tags": [],
       "neg_tags": [],
       "first_seen": "2026-06-02T20:26:55",
-      "last_seen": "2026-06-02T20:26:55"
+      "last_seen": "2026-06-02T20:26:55",
+      "crawl_date": "2026-06-02"
     },
     {
       "url": "https://cafe.naver.com/ysm5828/9571526",
@@ -2337,7 +2472,8 @@
       "pos_tags": [],
       "neg_tags": [],
       "first_seen": "2026-06-02T20:26:55",
-      "last_seen": "2026-06-02T20:26:55"
+      "last_seen": "2026-06-02T20:26:55",
+      "crawl_date": "2026-06-02"
     },
     {
       "url": "https://cafe.naver.com/ysm5828/9571525",
@@ -2352,7 +2488,8 @@
       "pos_tags": [],
       "neg_tags": [],
       "first_seen": "2026-06-02T20:26:55",
-      "last_seen": "2026-06-02T20:26:55"
+      "last_seen": "2026-06-02T20:26:55",
+      "crawl_date": "2026-06-02"
     },
     {
       "url": "https://cafe.naver.com/ysm5828/9571524",
@@ -2367,7 +2504,8 @@
       "pos_tags": [],
       "neg_tags": [],
       "first_seen": "2026-06-02T20:26:55",
-      "last_seen": "2026-06-02T20:26:55"
+      "last_seen": "2026-06-02T20:26:55",
+      "crawl_date": "2026-06-02"
     },
     {
       "url": "https://cafe.naver.com/tta05/5721",
@@ -2382,7 +2520,8 @@
       "pos_tags": [],
       "neg_tags": [],
       "first_seen": "2026-06-02T20:26:55",
-      "last_seen": "2026-06-02T20:26:55"
+      "last_seen": "2026-06-02T20:26:55",
+      "crawl_date": "2026-06-02"
     },
     {
       "url": "https://cafe.naver.com/minecraftpe/3897028",
@@ -2397,7 +2536,8 @@
       "pos_tags": [],
       "neg_tags": [],
       "first_seen": "2026-06-02T20:26:55",
-      "last_seen": "2026-06-02T20:26:55"
+      "last_seen": "2026-06-02T20:26:55",
+      "crawl_date": "2026-06-02"
     },
     {
       "url": "https://cafe.naver.com/minecraftpe/3897027",
@@ -2412,7 +2552,8 @@
       "pos_tags": [],
       "neg_tags": [],
       "first_seen": "2026-06-02T20:26:55",
-      "last_seen": "2026-06-02T20:26:55"
+      "last_seen": "2026-06-02T20:26:55",
+      "crawl_date": "2026-06-02"
     },
     {
       "url": "https://cafe.naver.com/bnteam1/288064",
@@ -2427,7 +2568,8 @@
       "pos_tags": [],
       "neg_tags": [],
       "first_seen": "2026-06-02T20:26:55",
-      "last_seen": "2026-06-02T20:26:59"
+      "last_seen": "2026-06-02T20:26:59",
+      "crawl_date": "2026-06-02"
     },
     {
       "url": "https://cafe.naver.com/minecraftpe/3897026",
@@ -2442,7 +2584,8 @@
       "pos_tags": [],
       "neg_tags": [],
       "first_seen": "2026-06-02T20:26:55",
-      "last_seen": "2026-06-02T20:26:55"
+      "last_seen": "2026-06-02T20:26:55",
+      "crawl_date": "2026-06-02"
     },
     {
       "url": "https://cafe.naver.com/minecraftpe/3897025",
@@ -2457,7 +2600,8 @@
       "pos_tags": [],
       "neg_tags": [],
       "first_seen": "2026-06-02T20:26:55",
-      "last_seen": "2026-06-02T20:26:55"
+      "last_seen": "2026-06-02T20:26:55",
+      "crawl_date": "2026-06-02"
     },
     {
       "url": "https://cafe.naver.com/ysm5828/9571521",
@@ -2472,7 +2616,8 @@
       "pos_tags": [],
       "neg_tags": [],
       "first_seen": "2026-06-02T20:26:55",
-      "last_seen": "2026-06-02T20:26:55"
+      "last_seen": "2026-06-02T20:26:55",
+      "crawl_date": "2026-06-02"
     },
     {
       "url": "https://cafe.naver.com/ysm5828/9571520",
@@ -2487,7 +2632,8 @@
       "pos_tags": [],
       "neg_tags": [],
       "first_seen": "2026-06-02T20:26:55",
-      "last_seen": "2026-06-02T20:26:55"
+      "last_seen": "2026-06-02T20:26:55",
+      "crawl_date": "2026-06-02"
     },
     {
       "url": "https://cafe.naver.com/minecraftpe/3897024",
@@ -2502,7 +2648,8 @@
       "pos_tags": [],
       "neg_tags": [],
       "first_seen": "2026-06-02T20:26:55",
-      "last_seen": "2026-06-02T20:26:55"
+      "last_seen": "2026-06-02T20:26:55",
+      "crawl_date": "2026-06-02"
     },
     {
       "url": "https://cafe.naver.com/ysm5828/9571519",
@@ -2517,7 +2664,8 @@
       "pos_tags": [],
       "neg_tags": [],
       "first_seen": "2026-06-02T20:26:55",
-      "last_seen": "2026-06-02T20:26:55"
+      "last_seen": "2026-06-02T20:26:55",
+      "crawl_date": "2026-06-02"
     },
     {
       "url": "https://cafe.naver.com/minecraftpe/3897023",
@@ -2532,7 +2680,8 @@
       "pos_tags": [],
       "neg_tags": [],
       "first_seen": "2026-06-02T20:26:55",
-      "last_seen": "2026-06-02T20:26:55"
+      "last_seen": "2026-06-02T20:26:55",
+      "crawl_date": "2026-06-02"
     },
     {
       "url": "https://cafe.naver.com/minecraftpe/3897022",
@@ -2547,7 +2696,8 @@
       "pos_tags": [],
       "neg_tags": [],
       "first_seen": "2026-06-02T20:26:55",
-      "last_seen": "2026-06-02T20:26:55"
+      "last_seen": "2026-06-02T20:26:55",
+      "crawl_date": "2026-06-02"
     },
     {
       "url": "https://cafe.naver.com/minecraftpe/3897021",
@@ -2562,7 +2712,8 @@
       "pos_tags": [],
       "neg_tags": [],
       "first_seen": "2026-06-02T20:26:55",
-      "last_seen": "2026-06-02T20:26:55"
+      "last_seen": "2026-06-02T20:26:55",
+      "crawl_date": "2026-06-02"
     },
     {
       "url": "https://cafe.naver.com/ysm5828/9571518",
@@ -2577,7 +2728,8 @@
       "pos_tags": [],
       "neg_tags": [],
       "first_seen": "2026-06-02T20:26:55",
-      "last_seen": "2026-06-02T20:26:55"
+      "last_seen": "2026-06-02T20:26:55",
+      "crawl_date": "2026-06-02"
     },
     {
       "url": "https://cafe.naver.com/tta05/5720",
@@ -2592,7 +2744,8 @@
       "pos_tags": [],
       "neg_tags": [],
       "first_seen": "2026-06-02T20:26:55",
-      "last_seen": "2026-06-02T20:26:55"
+      "last_seen": "2026-06-02T20:26:55",
+      "crawl_date": "2026-06-02"
     },
     {
       "url": "https://cafe.naver.com/ysm5828/9571517",
@@ -2607,7 +2760,8 @@
       "pos_tags": [],
       "neg_tags": [],
       "first_seen": "2026-06-02T20:26:55",
-      "last_seen": "2026-06-02T20:26:55"
+      "last_seen": "2026-06-02T20:26:55",
+      "crawl_date": "2026-06-02"
     },
     {
       "url": "https://cafe.naver.com/ysm5828/9571516",
@@ -2622,7 +2776,8 @@
       "pos_tags": [],
       "neg_tags": [],
       "first_seen": "2026-06-02T20:26:55",
-      "last_seen": "2026-06-02T20:26:55"
+      "last_seen": "2026-06-02T20:26:55",
+      "crawl_date": "2026-06-02"
     },
     {
       "url": "https://cafe.naver.com/minecraftpe/3897019",
@@ -2637,7 +2792,8 @@
       "pos_tags": [],
       "neg_tags": [],
       "first_seen": "2026-06-02T20:26:55",
-      "last_seen": "2026-06-02T20:26:55"
+      "last_seen": "2026-06-02T20:26:55",
+      "crawl_date": "2026-06-02"
     },
     {
       "url": "https://cafe.naver.com/minecraftpe/3897018",
@@ -2652,7 +2808,8 @@
       "pos_tags": [],
       "neg_tags": [],
       "first_seen": "2026-06-02T20:26:55",
-      "last_seen": "2026-06-02T20:26:55"
+      "last_seen": "2026-06-02T20:26:55",
+      "crawl_date": "2026-06-02"
     },
     {
       "url": "https://cafe.naver.com/minecraftpe/3897017",
@@ -2667,7 +2824,8 @@
       "pos_tags": [],
       "neg_tags": [],
       "first_seen": "2026-06-02T20:26:55",
-      "last_seen": "2026-06-02T20:26:55"
+      "last_seen": "2026-06-02T20:26:55",
+      "crawl_date": "2026-06-02"
     },
     {
       "url": "https://cafe.naver.com/minecraftpe/3897016",
@@ -2682,7 +2840,8 @@
       "pos_tags": [],
       "neg_tags": [],
       "first_seen": "2026-06-02T20:26:55",
-      "last_seen": "2026-06-02T20:26:55"
+      "last_seen": "2026-06-02T20:26:55",
+      "crawl_date": "2026-06-02"
     },
     {
       "url": "https://cafe.naver.com/ysm5828/9571515",
@@ -2697,7 +2856,8 @@
       "pos_tags": [],
       "neg_tags": [],
       "first_seen": "2026-06-02T20:26:55",
-      "last_seen": "2026-06-02T20:26:55"
+      "last_seen": "2026-06-02T20:26:55",
+      "crawl_date": "2026-06-02"
     },
     {
       "url": "https://cafe.naver.com/ysm5828/9571514",
@@ -2712,7 +2872,8 @@
       "pos_tags": [],
       "neg_tags": [],
       "first_seen": "2026-06-02T20:26:55",
-      "last_seen": "2026-06-02T20:26:55"
+      "last_seen": "2026-06-02T20:26:55",
+      "crawl_date": "2026-06-02"
     },
     {
       "url": "https://cafe.naver.com/ysm5828/9571512",
@@ -2727,7 +2888,8 @@
       "pos_tags": [],
       "neg_tags": [],
       "first_seen": "2026-06-02T20:26:55",
-      "last_seen": "2026-06-02T20:26:55"
+      "last_seen": "2026-06-02T20:26:55",
+      "crawl_date": "2026-06-02"
     },
     {
       "url": "https://blog.naver.com/hyeonsu0307/224303788464",
@@ -2744,7 +2906,8 @@
       ],
       "neg_tags": [],
       "first_seen": "2026-06-02T20:26:59",
-      "last_seen": "2026-06-02T20:26:59"
+      "last_seen": "2026-06-02T20:26:59",
+      "crawl_date": "2026-06-02"
     },
     {
       "url": "https://blog.naver.com/blackmin_894/224302537456",
@@ -2762,7 +2925,8 @@
       ],
       "neg_tags": [],
       "first_seen": "2026-06-02T20:26:59",
-      "last_seen": "2026-06-02T20:26:59"
+      "last_seen": "2026-06-02T20:26:59",
+      "crawl_date": "2026-06-02"
     },
     {
       "url": "https://blog.naver.com/zzczswwxz/224302928788",
@@ -2779,7 +2943,8 @@
       ],
       "neg_tags": [],
       "first_seen": "2026-06-02T20:26:59",
-      "last_seen": "2026-06-02T20:26:59"
+      "last_seen": "2026-06-02T20:26:59",
+      "crawl_date": "2026-06-02"
     },
     {
       "url": "https://blog.naver.com/antique2013/224303705965",
@@ -2798,7 +2963,8 @@
       ],
       "neg_tags": [],
       "first_seen": "2026-06-02T20:26:59",
-      "last_seen": "2026-06-02T20:26:59"
+      "last_seen": "2026-06-02T20:26:59",
+      "crawl_date": "2026-06-02"
     },
     {
       "url": "https://blog.naver.com/doa_pic/224303170832",
@@ -2819,7 +2985,8 @@
       ],
       "neg_tags": [],
       "first_seen": "2026-06-02T20:26:59",
-      "last_seen": "2026-06-02T20:26:59"
+      "last_seen": "2026-06-02T20:26:59",
+      "crawl_date": "2026-06-02"
     },
     {
       "url": "https://blog.naver.com/opswvearvs/224298763161",
@@ -2839,7 +3006,8 @@
         "별로"
       ],
       "first_seen": "2026-06-02T20:26:59",
-      "last_seen": "2026-06-02T20:26:59"
+      "last_seen": "2026-06-02T20:26:59",
+      "crawl_date": "2026-06-02"
     },
     {
       "url": "https://blog.naver.com/jessssie/224303478810",
@@ -2857,7 +3025,8 @@
       ],
       "neg_tags": [],
       "first_seen": "2026-06-02T20:26:59",
-      "last_seen": "2026-06-02T20:26:59"
+      "last_seen": "2026-06-02T20:26:59",
+      "crawl_date": "2026-06-02"
     },
     {
       "url": "https://blog.naver.com/sjy5846/224303669357",
@@ -2875,7 +3044,8 @@
       ],
       "neg_tags": [],
       "first_seen": "2026-06-02T20:26:59",
-      "last_seen": "2026-06-02T20:26:59"
+      "last_seen": "2026-06-02T20:26:59",
+      "crawl_date": "2026-06-02"
     },
     {
       "url": "https://blog.naver.com/funtena/224304150144",
@@ -2893,7 +3063,8 @@
       ],
       "neg_tags": [],
       "first_seen": "2026-06-02T20:26:59",
-      "last_seen": "2026-06-02T20:26:59"
+      "last_seen": "2026-06-02T20:26:59",
+      "crawl_date": "2026-06-02"
     },
     {
       "url": "https://blog.naver.com/joajoakss/224302610773",
@@ -2911,7 +3082,8 @@
       ],
       "neg_tags": [],
       "first_seen": "2026-06-02T20:26:59",
-      "last_seen": "2026-06-02T20:26:59"
+      "last_seen": "2026-06-02T20:26:59",
+      "crawl_date": "2026-06-02"
     },
     {
       "url": "https://blog.naver.com/lover1055/224304157911",
@@ -2930,7 +3102,8 @@
       ],
       "neg_tags": [],
       "first_seen": "2026-06-02T20:26:59",
-      "last_seen": "2026-06-02T20:26:59"
+      "last_seen": "2026-06-02T20:26:59",
+      "crawl_date": "2026-06-02"
     },
     {
       "url": "https://blog.naver.com/wlsgus5954/224304003701",
@@ -2947,7 +3120,8 @@
       ],
       "neg_tags": [],
       "first_seen": "2026-06-02T20:26:59",
-      "last_seen": "2026-06-02T20:26:59"
+      "last_seen": "2026-06-02T20:26:59",
+      "crawl_date": "2026-06-02"
     },
     {
       "url": "https://blog.naver.com/chichipoya/224302439809",
@@ -2966,7 +3140,8 @@
       ],
       "neg_tags": [],
       "first_seen": "2026-06-02T20:26:59",
-      "last_seen": "2026-06-02T20:26:59"
+      "last_seen": "2026-06-02T20:26:59",
+      "crawl_date": "2026-06-02"
     },
     {
       "url": "https://blog.naver.com/dlrtn0002/224303673258",
@@ -2981,7 +3156,8 @@
       "pos_tags": [],
       "neg_tags": [],
       "first_seen": "2026-06-02T20:26:59",
-      "last_seen": "2026-06-02T20:26:59"
+      "last_seen": "2026-06-02T20:26:59",
+      "crawl_date": "2026-06-02"
     },
     {
       "url": "https://cafe.naver.com/zzop/4044921",
@@ -2996,7 +3172,8 @@
       "pos_tags": [],
       "neg_tags": [],
       "first_seen": "2026-06-02T20:26:59",
-      "last_seen": "2026-06-02T20:26:59"
+      "last_seen": "2026-06-02T20:26:59",
+      "crawl_date": "2026-06-02"
     },
     {
       "url": "https://cafe.naver.com/mindy7857/5222911",
@@ -3011,7 +3188,8 @@
       "pos_tags": [],
       "neg_tags": [],
       "first_seen": "2026-06-02T20:26:59",
-      "last_seen": "2026-06-02T20:26:59"
+      "last_seen": "2026-06-02T20:26:59",
+      "crawl_date": "2026-06-02"
     },
     {
       "url": "https://cafe.naver.com/zzop/4044920",
@@ -3026,7 +3204,8 @@
       "pos_tags": [],
       "neg_tags": [],
       "first_seen": "2026-06-02T20:26:59",
-      "last_seen": "2026-06-02T20:26:59"
+      "last_seen": "2026-06-02T20:26:59",
+      "crawl_date": "2026-06-02"
     },
     {
       "url": "https://cafe.naver.com/tybwondergirl5/83316",
@@ -3041,7 +3220,8 @@
       "pos_tags": [],
       "neg_tags": [],
       "first_seen": "2026-06-02T20:26:59",
-      "last_seen": "2026-06-02T20:26:59"
+      "last_seen": "2026-06-02T20:26:59",
+      "crawl_date": "2026-06-02"
     },
     {
       "url": "https://cafe.naver.com/zzop/4044919",
@@ -3056,7 +3236,8 @@
       "pos_tags": [],
       "neg_tags": [],
       "first_seen": "2026-06-02T20:26:59",
-      "last_seen": "2026-06-02T20:26:59"
+      "last_seen": "2026-06-02T20:26:59",
+      "crawl_date": "2026-06-02"
     },
     {
       "url": "https://cafe.naver.com/mindy7857/5222905",
@@ -3071,7 +3252,8 @@
       "pos_tags": [],
       "neg_tags": [],
       "first_seen": "2026-06-02T20:26:59",
-      "last_seen": "2026-06-02T20:26:59"
+      "last_seen": "2026-06-02T20:26:59",
+      "crawl_date": "2026-06-02"
     },
     {
       "url": "https://cafe.naver.com/mindy7857/5222904",
@@ -3086,7 +3268,8 @@
       "pos_tags": [],
       "neg_tags": [],
       "first_seen": "2026-06-02T20:26:59",
-      "last_seen": "2026-06-02T20:26:59"
+      "last_seen": "2026-06-02T20:26:59",
+      "crawl_date": "2026-06-02"
     },
     {
       "url": "https://cafe.naver.com/zzop/4044917",
@@ -3101,7 +3284,8 @@
       "pos_tags": [],
       "neg_tags": [],
       "first_seen": "2026-06-02T20:26:59",
-      "last_seen": "2026-06-02T20:26:59"
+      "last_seen": "2026-06-02T20:26:59",
+      "crawl_date": "2026-06-02"
     },
     {
       "url": "https://cafe.naver.com/zzop/4044915",
@@ -3116,7 +3300,8 @@
       "pos_tags": [],
       "neg_tags": [],
       "first_seen": "2026-06-02T20:26:59",
-      "last_seen": "2026-06-02T20:26:59"
+      "last_seen": "2026-06-02T20:26:59",
+      "crawl_date": "2026-06-02"
     },
     {
       "url": "https://cafe.naver.com/mindy7857/5222903",
@@ -3131,7 +3316,8 @@
       "pos_tags": [],
       "neg_tags": [],
       "first_seen": "2026-06-02T20:26:59",
-      "last_seen": "2026-06-02T20:26:59"
+      "last_seen": "2026-06-02T20:26:59",
+      "crawl_date": "2026-06-02"
     },
     {
       "url": "https://cafe.naver.com/zzop/4044914",
@@ -3146,7 +3332,8 @@
       "pos_tags": [],
       "neg_tags": [],
       "first_seen": "2026-06-02T20:26:59",
-      "last_seen": "2026-06-02T20:26:59"
+      "last_seen": "2026-06-02T20:26:59",
+      "crawl_date": "2026-06-02"
     },
     {
       "url": "https://cafe.naver.com/mindy7857/5222900",
@@ -3161,7 +3348,8 @@
       "pos_tags": [],
       "neg_tags": [],
       "first_seen": "2026-06-02T20:26:59",
-      "last_seen": "2026-06-02T20:26:59"
+      "last_seen": "2026-06-02T20:26:59",
+      "crawl_date": "2026-06-02"
     },
     {
       "url": "https://cafe.naver.com/mindy7857/5222898",
@@ -3176,7 +3364,8 @@
       "pos_tags": [],
       "neg_tags": [],
       "first_seen": "2026-06-02T20:26:59",
-      "last_seen": "2026-06-02T20:26:59"
+      "last_seen": "2026-06-02T20:26:59",
+      "crawl_date": "2026-06-02"
     },
     {
       "url": "https://cafe.naver.com/zzop/4044910",
@@ -3191,7 +3380,8 @@
       "pos_tags": [],
       "neg_tags": [],
       "first_seen": "2026-06-02T20:26:59",
-      "last_seen": "2026-06-02T20:26:59"
+      "last_seen": "2026-06-02T20:26:59",
+      "crawl_date": "2026-06-02"
     },
     {
       "url": "https://cafe.naver.com/zzop/4044908",
@@ -3206,7 +3396,8 @@
       "pos_tags": [],
       "neg_tags": [],
       "first_seen": "2026-06-02T20:26:59",
-      "last_seen": "2026-06-02T20:26:59"
+      "last_seen": "2026-06-02T20:26:59",
+      "crawl_date": "2026-06-02"
     },
     {
       "url": "https://cafe.naver.com/zzop/4044906",
@@ -3223,7 +3414,8 @@
       ],
       "neg_tags": [],
       "first_seen": "2026-06-02T20:26:59",
-      "last_seen": "2026-06-02T20:26:59"
+      "last_seen": "2026-06-02T20:26:59",
+      "crawl_date": "2026-06-02"
     },
     {
       "url": "https://cafe.naver.com/zzop/4044905",
@@ -3238,7 +3430,8 @@
       "pos_tags": [],
       "neg_tags": [],
       "first_seen": "2026-06-02T20:26:59",
-      "last_seen": "2026-06-02T20:26:59"
+      "last_seen": "2026-06-02T20:26:59",
+      "crawl_date": "2026-06-02"
     },
     {
       "url": "https://cafe.naver.com/warcraftgamemap/3411200",
@@ -3253,7 +3446,8 @@
       "pos_tags": [],
       "neg_tags": [],
       "first_seen": "2026-06-02T20:26:59",
-      "last_seen": "2026-06-02T20:26:59"
+      "last_seen": "2026-06-02T20:26:59",
+      "crawl_date": "2026-06-02"
     },
     {
       "url": "https://cafe.naver.com/zzop/4044902",
@@ -3268,7 +3462,8 @@
       "pos_tags": [],
       "neg_tags": [],
       "first_seen": "2026-06-02T20:26:59",
-      "last_seen": "2026-06-02T20:26:59"
+      "last_seen": "2026-06-02T20:26:59",
+      "crawl_date": "2026-06-02"
     },
     {
       "url": "https://cafe.naver.com/zzop/4044901",
@@ -3285,7 +3480,8 @@
       ],
       "neg_tags": [],
       "first_seen": "2026-06-02T20:26:59",
-      "last_seen": "2026-06-02T20:26:59"
+      "last_seen": "2026-06-02T20:26:59",
+      "crawl_date": "2026-06-02"
     },
     {
       "url": "https://cafe.naver.com/happyibook/6143572",
@@ -3300,7 +3496,8 @@
       "pos_tags": [],
       "neg_tags": [],
       "first_seen": "2026-06-02T20:26:59",
-      "last_seen": "2026-06-02T20:26:59"
+      "last_seen": "2026-06-02T20:26:59",
+      "crawl_date": "2026-06-02"
     },
     {
       "url": "https://cafe.naver.com/tybwondergirl5/83315",
@@ -3317,7 +3514,8 @@
       ],
       "neg_tags": [],
       "first_seen": "2026-06-02T20:26:59",
-      "last_seen": "2026-06-02T20:26:59"
+      "last_seen": "2026-06-02T20:26:59",
+      "crawl_date": "2026-06-02"
     },
     {
       "url": "https://cafe.naver.com/mindy7857/5222889",
@@ -3332,7 +3530,8 @@
       "pos_tags": [],
       "neg_tags": [],
       "first_seen": "2026-06-02T20:26:59",
-      "last_seen": "2026-06-02T20:26:59"
+      "last_seen": "2026-06-02T20:26:59",
+      "crawl_date": "2026-06-02"
     },
     {
       "url": "https://cafe.naver.com/zzop/4044898",
@@ -3347,7 +3546,8 @@
       "pos_tags": [],
       "neg_tags": [],
       "first_seen": "2026-06-02T20:26:59",
-      "last_seen": "2026-06-02T20:26:59"
+      "last_seen": "2026-06-02T20:26:59",
+      "crawl_date": "2026-06-02"
     },
     {
       "url": "https://cafe.naver.com/mindy7857/5222885",
@@ -3362,7 +3562,8 @@
       "pos_tags": [],
       "neg_tags": [],
       "first_seen": "2026-06-02T20:26:59",
-      "last_seen": "2026-06-02T20:26:59"
+      "last_seen": "2026-06-02T20:26:59",
+      "crawl_date": "2026-06-02"
     },
     {
       "url": "https://cafe.naver.com/mindy7857/5222884",
@@ -3377,7 +3578,8 @@
       "pos_tags": [],
       "neg_tags": [],
       "first_seen": "2026-06-02T20:26:59",
-      "last_seen": "2026-06-02T20:26:59"
+      "last_seen": "2026-06-02T20:26:59",
+      "crawl_date": "2026-06-02"
     },
     {
       "url": "https://cafe.naver.com/zzop/4044897",
@@ -3392,7 +3594,8 @@
       "pos_tags": [],
       "neg_tags": [],
       "first_seen": "2026-06-02T20:26:59",
-      "last_seen": "2026-06-02T20:26:59"
+      "last_seen": "2026-06-02T20:26:59",
+      "crawl_date": "2026-06-02"
     },
     {
       "url": "https://cafe.naver.com/happyibook/6143565",
@@ -3407,7 +3610,8 @@
       "pos_tags": [],
       "neg_tags": [],
       "first_seen": "2026-06-02T20:26:59",
-      "last_seen": "2026-06-02T20:26:59"
+      "last_seen": "2026-06-02T20:26:59",
+      "crawl_date": "2026-06-02"
     },
     {
       "url": "https://cafe.naver.com/zzop/4044896",
@@ -3422,7 +3626,8 @@
       "pos_tags": [],
       "neg_tags": [],
       "first_seen": "2026-06-02T20:26:59",
-      "last_seen": "2026-06-02T20:26:59"
+      "last_seen": "2026-06-02T20:26:59",
+      "crawl_date": "2026-06-02"
     }
   ]
 }

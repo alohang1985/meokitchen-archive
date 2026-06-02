@@ -233,7 +233,7 @@ function renderKpis(){
   document.getElementById("k-week").textContent=week;
 }
 function buckets(){
-  const b={}; POSTS.forEach(p=>{const k=bkt(p.post_date,F.gran); if(!b[k.key])b[k.key]={label:k.label,total:0,meo:0,blog:0,cafe:0};
+  const b={}; POSTS.forEach(p=>{const k=bkt(p.crawl_date||p.post_date,F.gran); if(!b[k.key])b[k.key]={label:k.label,total:0,meo:0,blog:0,cafe:0};
     const o=b[k.key]; o.total++; if(p.mentions_brand)o.meo++; if(p.source==="blog")o.blog++; else if(p.source==="cafe")o.cafe++;});
   return Object.keys(b).sort().map(k=>({key:k,...b[k]}));
 }
@@ -252,9 +252,10 @@ function renderTrend(){
     y1:{position:"right",beginAtZero:true,max:100,ticks:{callback:v=>v+"%"},grid:{display:false}},
     x:{stacked:true,grid:{display:false}}},plugins:{legend:{labels:{boxWidth:12,font:{size:11}}}}});
 }
-function scoped(s){ if(s==="day")return POSTS.filter(p=>(p.post_date||"")===TODAY);
-  if(s==="week"){const m=mondayOf(TODAY);return POSTS.filter(p=>(p.post_date||"")>=m);}
-  if(s==="month")return POSTS.filter(p=>(p.post_date||"").slice(0,7)===TODAY.slice(0,7)); return POSTS; }
+function cd(p){ return p.crawl_date||p.post_date||""; }
+function scoped(s){ if(s==="day")return POSTS.filter(p=>cd(p)===TODAY);
+  if(s==="week"){const m=mondayOf(TODAY);return POSTS.filter(p=>cd(p)>=m);}
+  if(s==="month")return POSTS.filter(p=>cd(p).slice(0,7)===TODAY.slice(0,7)); return POSTS; }
 function renderSenti(){ const meo=scoped(F.scope.senti).filter(p=>p.mentions_brand);
   const sc={pos:0,neutral:0,neg:0}; meo.forEach(p=>sc[p.sentiment||"neutral"]++); const t=sc.pos+sc.neutral+sc.neg;
   mkChart("senti","doughnut",{labels:["긍정","중립","부정"],datasets:[{data:[sc.pos,sc.neutral,sc.neg],backgroundColor:["#51cf66","#6b7280","#ff6b6b"],borderWidth:0,
@@ -277,22 +278,22 @@ function renderDaily(){
     return `<tr><td class="d">${b.label}</td><td>${b.total}</td><td>${b.blog}</td><td>${b.cafe}</td><td class="meo">${b.meo}</td>
       <td><div class="ratio-cell"><div class="ratio-track"><div class="ratio-fill" style="width:${r}%"></div></div><span>${r}%</span></div></td></tr>`;}).join("");
   const tr=sum.total?Math.round(sum.meo/sum.total*100):0;
-  document.getElementById("daily").innerHTML=`<thead><tr><th>${{day:"날짜",week:"주",month:"월"}[F.gran]}</th><th>전체</th><th>블로그</th><th>카페</th><th>${EMOJI} ${esc(LABEL)}</th><th>비율</th></tr></thead>
+  document.getElementById("daily").innerHTML=`<thead><tr><th>${{day:"수집일",week:"수집주",month:"수집월"}[F.gran]}</th><th>전체</th><th>블로그</th><th>카페</th><th>${EMOJI} ${esc(LABEL)}</th><th>비율</th></tr></thead>
     <tbody>${rows}</tbody><tfoot><tr><td>합계</td><td>${sum.total}</td><td>${sum.blog}</td><td>${sum.cafe}</td><td class="meo">${sum.meo}</td>
     <td><div class="ratio-cell"><div class="ratio-track"><div class="ratio-fill" style="width:${tr}%"></div></div><span>${tr}%</span></div></td></tr></tfoot>`;
 }
 function render(){
   let rows=POSTS.slice();
-  if(F.period==="today")rows=rows.filter(p=>(p.post_date||"")===TODAY);
-  else if(F.period==="week"){const m=mondayOf(TODAY);rows=rows.filter(p=>(p.post_date||"")>=m);}
-  else if(F.period==="month")rows=rows.filter(p=>(p.post_date||"").slice(0,7)===TODAY.slice(0,7));
-  else if(F.period==="custom"){if(F.from)rows=rows.filter(p=>(p.post_date||"")>=F.from);if(F.to)rows=rows.filter(p=>(p.post_date||"")<=F.to);}
+  if(F.period==="today")rows=rows.filter(p=>cd(p)===TODAY);
+  else if(F.period==="week"){const m=mondayOf(TODAY);rows=rows.filter(p=>cd(p)>=m);}
+  else if(F.period==="month")rows=rows.filter(p=>cd(p).slice(0,7)===TODAY.slice(0,7));
+  else if(F.period==="custom"){if(F.from)rows=rows.filter(p=>cd(p)>=F.from);if(F.to)rows=rows.filter(p=>cd(p)<=F.to);}
   if(F.sent.size)rows=rows.filter(p=>F.sent.has(p.sentiment));
   if(F.meo)rows=rows.filter(p=>p.mentions_brand);
   if(F.blog)rows=rows.filter(p=>p.source==="blog"); if(F.cafe)rows=rows.filter(p=>p.source==="cafe");
   if(F.region.size)rows=rows.filter(p=>F.region.has(p.region));
   if(F.q){const q=F.q.toLowerCase();rows=rows.filter(p=>(p.title+" "+(p.summary||"")).toLowerCase().includes(q));}
-  rows.sort((a,b)=>{const c=(a.post_date||"").localeCompare(b.post_date||"")||(a.first_seen||"").localeCompare(b.first_seen||"");return F.sort==="new"?-c:c;});
+  rows.sort((a,b)=>{const c=(cd(a)).localeCompare(cd(b))||(a.first_seen||"").localeCompare(b.first_seen||"");return F.sort==="new"?-c:c;});
   document.getElementById("list-title").textContent=`📋 포스팅 (${rows.length})`;
   const el=document.getElementById("list");
   if(!rows.length){el.innerHTML='<div class="empty">조건에 맞는 포스팅이 없어요 🔍</div>';return;}

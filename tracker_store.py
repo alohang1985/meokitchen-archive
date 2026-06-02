@@ -125,6 +125,7 @@ def save_posts(tracker_id, brand_list, posts, source, region=None):
         s, pos, neg = classify_sentiment(combined)
         rec = {"url": url, "title": title, "source": source, "region": region,
                "time_text": p.get("time",""), "post_date": _parse_post_date(p.get("time","")),
+               "crawl_date": _today().isoformat(),   # 이 글을 처음 수집한 날 (불변) — 일별 집계 기준
                "summary": _summary(body), "mentions_brand": mentions,
                "sentiment": s, "pos_tags": pos, "neg_tags": neg,
                "first_seen": now, "last_seen": now}
