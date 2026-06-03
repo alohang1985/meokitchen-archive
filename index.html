@@ -96,6 +96,37 @@
   .btn { padding:9px 18px; border-radius:10px; border:1px solid var(--card-brd); background:var(--glass); color:var(--txt); font-family:inherit; font-size:.86rem; font-weight:600; cursor:pointer; }
   .btn.primary { background:linear-gradient(120deg,var(--accent),var(--accent2)); border-color:transparent; color:#fff; }
   .cmd-box { background:#0a0b10; border:1px solid var(--card-brd); border-radius:10px; padding:12px; font-size:.8rem; color:var(--green); word-break:break-all; margin-top:10px; font-family:ui-monospace,monospace; }
+
+  /* ===== 반응형 (태블릿/모바일) ===== */
+  @media (max-width: 860px){
+    .grid3 { grid-template-columns:1fr; }
+    .grid3 .chart-box { height:190px; }
+  }
+  @media (max-width: 600px){
+    .wrap { padding:22px 12px 80px; }
+    h1 { font-size:1.3rem; } .logo .emoji { font-size:1.5rem; }
+    .sub { font-size:.76rem; gap:6px; }
+    .tabs { gap:6px; margin-bottom:16px; }
+    .tab { padding:8px 13px; font-size:.85rem; border-radius:10px; }
+    .kpis { grid-template-columns:repeat(2,1fr); gap:10px; }
+    .kpi { padding:13px 14px; border-radius:14px; }
+    .kpi .n { font-size:1.45rem; } .kpi .l { font-size:.72rem; }
+    .card { padding:14px; border-radius:14px; }
+    .card-head { margin-bottom:12px; }
+    .chart-box { height:230px; }
+    .seg button { padding:6px 11px; font-size:.76rem; }
+    .seg.sm button { padding:5px 9px; }
+    .toolbar { padding:12px 14px; }
+    .glabel { width:100%; margin-bottom:2px; }
+    .chip { padding:7px 12px; font-size:.8rem; }
+    input[type=text] { min-width:120px; }
+    .post a.t { font-size:.92rem; }
+    .modal { padding:20px 18px; }
+  }
+  @media (max-width: 360px){
+    .kpi .n { font-size:1.3rem; }
+    .tab { padding:7px 11px; font-size:.82rem; }
+  }
 </style>
 </head>
 <body>
