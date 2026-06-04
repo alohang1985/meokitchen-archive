@@ -22,7 +22,11 @@ def run_tracker(t, notify=True):
     tid, brand, label = t["id"], t["brand"], t["label"]
     emoji = t.get("emoji", "📍")
     found = 0; mentions = []
-    for q in t["queries"]:
+    # 검색어 = 브랜드명 직접검색(언급 놓치지 않게) + 설정한 검색어
+    queries = list(t["queries"])
+    if brand and brand[0] and brand[0] not in queries:
+        queries.insert(0, brand[0])   # 주 브랜드명을 직접 검색
+    for q in queries:
         region = q.replace(" 맛집", "").strip()
         try: blog = nv.search_naver_blog(q)
         except Exception as e: blog = []; print(f"[engine] {q} blog 오류: {e}", file=sys.stderr)
