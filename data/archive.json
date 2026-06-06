@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-05T11:00:07",
+  "updated_at": "2026-06-06T08:00:04",
   "posts": [
     {
       "url": "https://blog.naver.com/gagmic/224304300809",
@@ -2375,7 +2375,7 @@
       ],
       "neg_tags": [],
       "first_seen": "2026-06-05T08:00:04",
-      "last_seen": "2026-06-05T08:00:04"
+      "last_seen": "2026-06-06T08:00:04"
     },
     {
       "url": "https://blog.naver.com/1travellife/224305958893",
@@ -2452,7 +2452,7 @@
       ],
       "neg_tags": [],
       "first_seen": "2026-06-05T08:00:04",
-      "last_seen": "2026-06-05T11:00:02"
+      "last_seen": "2026-06-06T08:00:04"
     },
     {
       "url": "https://blog.naver.com/lkja1010/224306519981",
@@ -2472,7 +2472,7 @@
       ],
       "neg_tags": [],
       "first_seen": "2026-06-05T08:00:04",
-      "last_seen": "2026-06-05T08:00:04"
+      "last_seen": "2026-06-06T08:00:04"
     },
     {
       "url": "https://cafe.naver.com/mindy7857/5226630",
@@ -3293,6 +3293,174 @@
       "neg_tags": [],
       "first_seen": "2026-06-05T11:00:07",
       "last_seen": "2026-06-05T11:00:07"
+    },
+    {
+      "url": "https://cafe.naver.com/zzop/4049935",
+      "title": "빈원더스 코스 추천해주세요.",
+      "source": "cafe",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "10시간 전",
+      "post_date": "2026-06-06",
+      "summary": "",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "추천"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-06-06T08:00:04",
+      "last_seen": "2026-06-06T08:00:04"
+    },
+    {
+      "url": "https://cafe.naver.com/zzop/4049710",
+      "title": "나트랑시내 가고싶은 식당공유! 구글맵포함!",
+      "source": "cafe",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "13시간 전",
+      "post_date": "2026-06-06",
+      "summary": "",
+      "mentions_meokitchen": true,
+      "sentiment": "neutral",
+      "pos_tags": [],
+      "neg_tags": [],
+      "first_seen": "2026-06-06T08:00:04",
+      "last_seen": "2026-06-06T08:00:04"
+    },
+    {
+      "url": "https://cafe.naver.com/minecraftpe/3898679",
+      "title": "즈엉동 킹콩마트 주변에 유니온페이 출금 위치 도와주세요",
+      "source": "cafe",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "13시간 전",
+      "post_date": "2026-06-06",
+      "summary": "",
+      "mentions_meokitchen": true,
+      "sentiment": "neutral",
+      "pos_tags": [],
+      "neg_tags": [],
+      "first_seen": "2026-06-06T08:00:04",
+      "last_seen": "2026-06-06T08:00:04"
+    },
+    {
+      "url": "https://cafe.naver.com/withwriter/6695",
+      "title": "",
+      "source": "cafe",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "14시간 전",
+      "post_date": "2026-06-06",
+      "summary": "",
+      "mentions_meokitchen": true,
+      "sentiment": "neutral",
+      "pos_tags": [],
+      "neg_tags": [],
+      "first_seen": "2026-06-06T08:00:04",
+      "last_seen": "2026-06-06T08:00:04"
+    },
+    {
+      "url": "https://cafe.naver.com/withwriter/6692",
+      "title": "️지루한 패키지는 가라! 내 맘대로 고르는 베트남 에어텔 3박 5일 특가 (+ 투어픽 단독 혜....",
+      "source": "cafe",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "17시간 전",
+      "post_date": "2026-06-06",
+      "summary": "",
+      "mentions_meokitchen": true,
+      "sentiment": "neutral",
+      "pos_tags": [],
+      "neg_tags": [],
+      "first_seen": "2026-06-06T08:00:04",
+      "last_seen": "2026-06-06T08:00:04"
+    },
+    {
+      "url": "https://cafe.naver.com/zzop/4049293",
+      "title": "나트랑 맛집 추천해주세요",
+      "source": "cafe",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "18시간 전",
+      "post_date": "2026-06-06",
+      "summary": "",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "추천",
+        "맛집"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-06-06T08:00:04",
+      "last_seen": "2026-06-06T08:00:04"
+    },
+    {
+      "url": "https://cafe.naver.com/ysm5828/9572345",
+      "title": "6/8~6/10 렌트카 신청",
+      "source": "cafe",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "20시간 전",
+      "post_date": "2026-06-06",
+      "summary": "",
+      "mentions_meokitchen": true,
+      "sentiment": "neutral",
+      "pos_tags": [],
+      "neg_tags": [],
+      "first_seen": "2026-06-06T08:00:04",
+      "last_seen": "2026-06-06T08:00:04"
+    },
+    {
+      "url": "https://cafe.naver.com/zzop/4049044",
+      "title": "로컬 맛집 추천해주세요!",
+      "source": "cafe",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "21시간 전",
+      "post_date": "2026-06-06",
+      "summary": "",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "추천",
+        "맛집"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-06-06T08:00:04",
+      "last_seen": "2026-06-06T08:00:04"
+    },
+    {
+      "url": "https://cafe.naver.com/minecraftpe/3898366",
+      "title": "푸꾸옥 현지식 입맛에 딱 맞네요",
+      "source": "cafe",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "22시간 전",
+      "post_date": "2026-06-06",
+      "summary": "",
+      "mentions_meokitchen": true,
+      "sentiment": "neutral",
+      "pos_tags": [],
+      "neg_tags": [],
+      "first_seen": "2026-06-06T08:00:04",
+      "last_seen": "2026-06-06T08:00:04"
+    },
+    {
+      "url": "https://cafe.naver.com/zzop/4048889",
+      "title": "나트랑 6박 일정 식당공유",
+      "source": "cafe",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "22시간 전",
+      "post_date": "2026-06-06",
+      "summary": "오늘의 경험, 클립으로 연결해요 정보태그 붙이고 Npay포인트 적립",
+      "mentions_meokitchen": true,
+      "sentiment": "neutral",
+      "pos_tags": [],
+      "neg_tags": [],
+      "first_seen": "2026-06-06T08:00:04",
+      "last_seen": "2026-06-06T08:00:04"
     }
   ]
 }
