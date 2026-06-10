@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-09T11:00:08",
+  "updated_at": "2026-06-10T08:00:04",
   "posts": [
     {
       "url": "https://blog.naver.com/gagmic/224304300809",
@@ -6582,7 +6582,7 @@
       ],
       "neg_tags": [],
       "first_seen": "2026-06-09T08:00:04",
-      "last_seen": "2026-06-09T08:00:04"
+      "last_seen": "2026-06-10T08:00:04"
     },
     {
       "url": "https://blog.naver.com/dkstj0527/224310236580",
@@ -6598,7 +6598,7 @@
       "pos_tags": [],
       "neg_tags": [],
       "first_seen": "2026-06-09T08:00:04",
-      "last_seen": "2026-06-09T08:00:04"
+      "last_seen": "2026-06-10T08:00:04"
     },
     {
       "url": "https://blog.naver.com/j2ondo/224308712849",
@@ -6614,7 +6614,7 @@
       "pos_tags": [],
       "neg_tags": [],
       "first_seen": "2026-06-09T08:00:04",
-      "last_seen": "2026-06-09T08:00:04"
+      "last_seen": "2026-06-10T08:00:04"
     },
     {
       "url": "https://blog.naver.com/dkzktldk282/224309830600",
@@ -6725,7 +6725,7 @@
       ],
       "neg_tags": [],
       "first_seen": "2026-06-09T08:00:04",
-      "last_seen": "2026-06-09T08:00:04"
+      "last_seen": "2026-06-10T08:00:04"
     },
     {
       "url": "https://blog.naver.com/fnt33/224309744598",
@@ -6741,7 +6741,7 @@
       "pos_tags": [],
       "neg_tags": [],
       "first_seen": "2026-06-09T08:00:04",
-      "last_seen": "2026-06-09T08:00:04"
+      "last_seen": "2026-06-10T08:00:04"
     },
     {
       "url": "https://cafe.naver.com/fobn/120156",
@@ -7189,7 +7189,7 @@
       ],
       "neg_tags": [],
       "first_seen": "2026-06-09T11:00:03",
-      "last_seen": "2026-06-09T11:00:03"
+      "last_seen": "2026-06-10T08:00:04"
     },
     {
       "url": "https://blog.naver.com/moonjhcool/224310020848",
@@ -7689,6 +7689,260 @@
       "neg_tags": [],
       "first_seen": "2026-06-09T11:00:08",
       "last_seen": "2026-06-09T11:00:08"
+    },
+    {
+      "url": "https://blog.naver.com/jwlovesmin/224311148875",
+      "title": "[나트랑 시내 맛집] 에어컨 빵빵한 감성 로컬 푸드, '메오키친 시내점'",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "9시간 전",
+      "post_date": "2026-06-10",
+      "summary": "메오키친 나트랑 시내점 입구사진 안녕하세요! 오늘은 푸꾸옥, 나트랑 여행객들 사이에서 이미 입소문이 자자한 맛집, 바로 메오키친 나트랑 시내점 방문 후기를 들고 …",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "맛집"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-06-10T08:00:04",
+      "last_seen": "2026-06-10T08:00:04"
+    },
+    {
+      "url": "https://blog.naver.com/doridori_min2/224311351393",
+      "title": "[해외여행] 베트남의 휴양지 푸꾸옥 가족여행 중부 ‘메오키친’ 한국인 쌀국수 맛집 웨이팅 | 쌀국수, 모닝글로리, 반쎄오, 볶음밥, 분짜, 할아버지맥주",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "2시간 전",
+      "post_date": "2026-06-10",
+      "summary": "안녕하세요 민됴리입니다 제가 나트랑 갔었을때 가~~~~장 맛있게 먹었던 음식점이 ‘메오키친’ 이었는데 푸꾸옥에도 있으면 좋겠다 하던 찰라 검색해보니 ‘메오키친’이…",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "맛있",
+        "맛집"
+      ],
+      "neg_tags": [
+        "웨이팅",
+        "대기"
+      ],
+      "first_seen": "2026-06-10T08:00:04",
+      "last_seen": "2026-06-10T08:00:04"
+    },
+    {
+      "url": "https://blog.naver.com/walkintothehotel/224310759666",
+      "title": "[푸꾸옥] M 빌리지 푸꾸옥(M Village Phu Quoc)",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "1일 전",
+      "post_date": "2026-06-09",
+      "summary": "9.6 훌륭함 위치가 중심도로 인근이라 맛집 메오키친, 야경맛집 옥센비치바랑 가까워요. 싸고 좋은 로컬 마사지샵, 음료가게도 바로 옆이예요. 직원들 친절하고, 수…",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "좋아",
+        "친절",
+        "훌륭",
+        "맛집"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-06-10T08:00:04",
+      "last_seen": "2026-06-10T08:00:04"
+    },
+    {
+      "url": "https://blog.naver.com/o7k4ra/224310375480",
+      "title": "만족도 높은 제품 스누피 장바구니 스누피 에코백 접이식 휴대용 장바구니 이동하기 편한",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "1일 전",
+      "post_date": "2026-06-09",
+      "summary": "메오 키친 대용량 접이식 장바구니, 딸기, 3개 실제 사용하면서 느낀 편리함 그 이상. 이 접이식 에코백은 제가 실제로 사용하면서 정말 놀랐어요 일상적인 쇼핑 시…",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "만족"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-06-10T08:00:04",
+      "last_seen": "2026-06-10T08:00:04"
+    },
+    {
+      "url": "https://blog.naver.com/g_nuym/224311426421",
+      "title": "푸꾸옥 즈엉동 마사지 내돈내산 | 델루나스파 무료 픽업·샌딩 이용 후기",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "24분 전",
+      "post_date": "2026-06-10",
+      "summary": "푸꾸옥에서 한국인들에게 유명한 메오키친과도 가까워서 식사 후 방문하기에도 좋고 마사지 받고 야시장까지 둘러보는 코스로 일정 짜기에도 딱 우리도 메오키친 먹고 바로…",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "좋았"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-06-10T08:00:04",
+      "last_seen": "2026-06-10T08:00:04"
+    },
+    {
+      "url": "https://blog.naver.com/j-ezmb_npzfxa/224311289719",
+      "title": "가장 진화한 모던앳 실리콘 식탁 매트 테이블 깔개 좋아요!",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "4시간 전",
+      "post_date": "2026-06-10",
+      "summary": "오토림 논슬립 실리콘 다용도 매트 대형 ￦ 8,900원 별점 : ⭐⭐⭐⭐⭐ 3.메오 키친 초대형 실리콘 건조매트 71 x 50 cm ￦ 12,680원 별점 : ⭐…",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "좋아"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-06-10T08:00:04",
+      "last_seen": "2026-06-10T08:00:04"
+    },
+    {
+      "url": "https://blog.naver.com/sangah0/224310875058",
+      "title": "33개월 아기랑 4박5일 푸꾸옥 생일여행",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "1일 전",
+      "post_date": "2026-06-09",
+      "summary": "ఠ_ఠ Day 2 엠빌리지 푸꾸옥 → 메오키친 → 킹콩마트 → 킹콩카페 → 모벤픽 빌라 & 레지던스 한국시간으로 10시가 넘었다..!! 일어나라 깨워서 찌뿌둥한 …",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "좋아"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-06-10T08:00:04",
+      "last_seen": "2026-06-10T08:00:04"
+    },
+    {
+      "url": "https://blog.naver.com/splendide_yedin/224310576426",
+      "title": "[베트남/푸꾸옥] 출발, 첫째 날",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "1일 전",
+      "post_date": "2026-06-09",
+      "summary": "우선 짐을 맡기고 옷을 갈아입어주고요~ 다행히 숙소에서 걸어서 멀지 않은 거리에 유명한 메오키친이 있어서 아침겸 점심으로 먹으러! 창가 자리로 안내해주셨는데, 창…",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "맛집"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-06-10T08:00:04",
+      "last_seen": "2026-06-10T08:00:04"
+    },
+    {
+      "url": "https://blog.naver.com/silverh0oo0/224310728219",
+      "title": "NHA TRANG",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "1일 전",
+      "post_date": "2026-06-09",
+      "summary": "다들 메오키친으로 . 저날이랑 막날 두번이나 갔어요 반쎄오, 볶음밥, 쌀국수,,, 저 망고 스무디까지 꼭 먹어야합니다. https://maps.app.goo.gl…",
+      "mentions_meokitchen": true,
+      "sentiment": "neutral",
+      "pos_tags": [],
+      "neg_tags": [],
+      "first_seen": "2026-06-10T08:00:04",
+      "last_seen": "2026-06-10T08:00:04"
+    },
+    {
+      "url": "https://blog.naver.com/gyr77/224311198368",
+      "title": "3인가족 5박6일 뗏기간 나트랑여행) 셋째날 씀모이 시장 망고 저렴한 과일가게126, cccp커피, 어거스트 옷가게",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "8시간 전",
+      "post_date": "2026-06-10",
+      "summary": "2킬로 구입 룰루랄라 발바닥 불나지만 신나게 고고 cccp커피 가서 한잔 마시고 숙소로 이동하기로~ 한글 써져있는 매장들이 워낙 많아서 그냥 지나칠수도 있는데 먼…",
+      "mentions_meokitchen": true,
+      "sentiment": "neutral",
+      "pos_tags": [],
+      "neg_tags": [],
+      "first_seen": "2026-06-10T08:00:04",
+      "last_seen": "2026-06-10T08:00:04"
+    },
+    {
+      "url": "https://blog.naver.com/kdy11004/224310756445",
+      "title": "ep.01 푸꾝 (feat. 인터컨티넨탈 푸꾸옥)",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "1일 전",
+      "post_date": "2026-06-09",
+      "summary": "#푸꾸옥메오키친 여기는 푸꾸옥 맛집 치면 바로 나오고, 많이 나올 정도로 유명하던데 개인적으로 우리한테는 쏘쏘였다 .. ? 웨이팅해서 먹을정도 전혀 아닌.. 그런…",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "맛있",
+        "맛집"
+      ],
+      "neg_tags": [
+        "웨이팅"
+      ],
+      "first_seen": "2026-06-10T08:00:04",
+      "last_seen": "2026-06-10T08:00:04"
+    },
+    {
+      "url": "https://cafe.naver.com/zzop/4056743",
+      "title": "작년에 다녀온 푸꾸옥",
+      "source": "cafe",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "47분 전",
+      "post_date": "2026-06-10",
+      "summary": "",
+      "mentions_meokitchen": true,
+      "sentiment": "neutral",
+      "pos_tags": [],
+      "neg_tags": [],
+      "first_seen": "2026-06-10T08:00:04",
+      "last_seen": "2026-06-10T08:00:04"
+    },
+    {
+      "url": "https://cafe.naver.com/hassrd/18967",
+      "title": "푸꾸옥 즈엉동의 활기찬 야시장 투어와 에메랄드빛 해변에서 즐기는 아이와의 휴식, 옥 안....",
+      "source": "cafe",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "1시간 전",
+      "post_date": "2026-06-10",
+      "summary": "",
+      "mentions_meokitchen": true,
+      "sentiment": "neutral",
+      "pos_tags": [],
+      "neg_tags": [],
+      "first_seen": "2026-06-10T08:00:04",
+      "last_seen": "2026-06-10T08:00:04"
+    },
+    {
+      "url": "https://cafe.naver.com/tybwondergirl5/84395",
+      "title": "나트랑 탄오일 마사지 고급 최고다",
+      "source": "cafe",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "21시간 전",
+      "post_date": "2026-06-10",
+      "summary": "오늘의 경험, 클립으로 연결해요 정보태그 붙이고 Npay포인트 적립",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "최고"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-06-10T08:00:04",
+      "last_seen": "2026-06-10T08:00:04"
     }
   ]
 }
