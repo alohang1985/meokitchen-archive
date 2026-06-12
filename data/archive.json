@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-11T11:00:08",
+  "updated_at": "2026-06-12T08:00:05",
   "posts": [
     {
       "url": "https://blog.naver.com/gagmic/224304300809",
@@ -9030,7 +9030,7 @@
       ],
       "neg_tags": [],
       "first_seen": "2026-06-11T08:00:04",
-      "last_seen": "2026-06-11T08:00:04"
+      "last_seen": "2026-06-12T08:00:04"
     },
     {
       "url": "https://blog.naver.com/khy7682/224311896067",
@@ -9092,7 +9092,7 @@
       ],
       "neg_tags": [],
       "first_seen": "2026-06-11T08:00:04",
-      "last_seen": "2026-06-11T08:00:04"
+      "last_seen": "2026-06-12T08:00:04"
     },
     {
       "url": "https://blog.naver.com/instantfood75516/224311883668",
@@ -9124,7 +9124,7 @@
       "pos_tags": [],
       "neg_tags": [],
       "first_seen": "2026-06-11T08:00:04",
-      "last_seen": "2026-06-11T08:00:04"
+      "last_seen": "2026-06-12T08:00:04"
     },
     {
       "url": "https://cafe.naver.com/stayhalong/12690",
@@ -10133,6 +10133,251 @@
       "neg_tags": [],
       "first_seen": "2026-06-11T11:00:08",
       "last_seen": "2026-06-11T11:00:08"
+    },
+    {
+      "url": "https://blog.naver.com/kie2224/224312812197",
+      "title": "푸꾸옥 선셋타운 식당 포씬 추천, 다운타운 코코넛커피, 더클라우드카페, 메오키친, 빈스에코스파 발마사지 추천",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "1일 전",
+      "post_date": "2026-06-11",
+      "summary": "받고 음식점 찾으러 돌아다니는데 진짜 너무 습하고 (습도 80) 너무 더워서 현기증 나기 직전에 겨우 식당 찾아서 들어왔다 메오키친 분명 시원한 곳인데 안시원해 …",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "맛있",
+        "추천"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-06-12T08:00:04",
+      "last_seen": "2026-06-12T08:00:04"
+    },
+    {
+      "url": "https://blog.naver.com/girls0222/224313234521",
+      "title": "푸꾸옥 여행 3일차 : 빈펄 원더월드 에서 인터컨티넨탈 호텔 이동 / 푸꾸옥 중부 대가족 숙소 추천 인터컨티넨탈 2베드룸 체크인 / 반쎄오 맛집 메오키친 / 망고&망고스틴",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "1일 전",
+      "post_date": "2026-06-11",
+      "summary": "늦게 숙소에 도착해서 좀 쉬다가 물놀이 할 시간은 없어가지고 저녁 먹으러 나왔어요~ 인터컨티넨탈이 중부 시내에 있어서 공항이랑도 가깝고 여기저기 맛집 들리기에도 …",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "추천",
+        "맛집"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-06-12T08:00:04",
+      "last_seen": "2026-06-12T08:00:04"
+    },
+    {
+      "url": "https://blog.naver.com/hami_1209/224313615713",
+      "title": "나트랑 시내 반쎄오 맛집 찾는다면 메오키친 가세요",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "14분 전",
+      "post_date": "2026-06-12",
+      "summary": "나트랑 시내 반쎄오 맛집 찾는다면 메오키친 가세요 글, 사진 육아인플루언서 ⓒ꼬맘마 안녕하세요, 더 편안한 일상을 만드는 라이프 인플루언서 꼬맘마에요 '◡' 나트…",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "맛집"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-06-12T08:00:04",
+      "last_seen": "2026-06-12T08:00:04"
+    },
+    {
+      "url": "https://blog.naver.com/gspr0621/224312554483",
+      "title": "대용량 접이식 장바구니, 누구나 알아야 할 이유",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "1일 전",
+      "post_date": "2026-06-11",
+      "summary": "그 중에서도 메오 키친 대용량 접이식 장바구니는 실용성과 디자인을 동시에 잡은 멋진 상품입니다. 이제 장을 볼 때도, 나들이를 갈 때도, 이 장바구니가 있어 더욱…",
+      "mentions_meokitchen": true,
+      "sentiment": "neutral",
+      "pos_tags": [],
+      "neg_tags": [],
+      "first_seen": "2026-06-12T08:00:04",
+      "last_seen": "2026-06-12T08:00:04"
+    },
+    {
+      "url": "https://blog.naver.com/cham4lang1/224312781678",
+      "title": "나트랑 시내 여행 코스 빈원더스 투어 시간 입장권",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "1일 전",
+      "post_date": "2026-06-11",
+      "summary": "ㅎㅎ 저녁이어도 좀 더워서 휴대용 선풍기를 챙기시는 걸 추천해요~ 저녁은 메오키친에서 맛있는 현지식으로 마무리했답니다. 시내 투어 다니느라 하루에 1만 보 이상 …",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "맛있",
+        "추천",
+        "좋았"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-06-12T08:00:04",
+      "last_seen": "2026-06-12T08:00:04"
+    },
+    {
+      "url": "https://blog.naver.com/khy7682/224313107293",
+      "title": "25-26주 임산부 푸꾸옥 태교여행 4박 6일 (2) : 킹콩마트, 메오키친, 망고스파, 푸꾸옥 쉐라톤 롱비치리조트, 그랜드월드, 껌냐",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "1일 전",
+      "post_date": "2026-06-11",
+      "summary": "마사지가 끝나면 망고주스를 제공해주신다고하는데 당시에 저희는 몰랐었고ㅠㅠ 다음 일정 아점을 먹을 메오키친이 대기가 길다는 소문을 들어서 마사지가 끝나자마자 쏜살같…",
+      "mentions_meokitchen": true,
+      "sentiment": "neg",
+      "pos_tags": [],
+      "neg_tags": [
+        "대기"
+      ],
+      "first_seen": "2026-06-12T08:00:04",
+      "last_seen": "2026-06-12T08:00:04"
+    },
+    {
+      "url": "https://blog.naver.com/nellynight/224313533186",
+      "title": "푸꾸옥 새벽도착 마사지 델루나스파 ( 공항픽업가능)",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "2시간 전",
+      "post_date": "2026-06-12",
+      "summary": "씨씨티비도 있고 걱정없이 짐을맡기고 밥부터 메오키친으로 먹으러갔다. 델루나스파에서 500미터 정도 걸어가니 있는 반쎄오 맛집이였다. 델루나 스파는 10시에 예약했…",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "깔끔",
+        "맛집"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-06-12T08:00:04",
+      "last_seen": "2026-06-12T08:00:04"
+    },
+    {
+      "url": "https://cafe.naver.com/minecraftpe/3902099",
+      "title": "푸꾸옥1일차(황홀주의!)",
+      "source": "cafe",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "9시간 전",
+      "post_date": "2026-06-12",
+      "summary": "",
+      "mentions_meokitchen": true,
+      "sentiment": "neutral",
+      "pos_tags": [],
+      "neg_tags": [],
+      "first_seen": "2026-06-12T08:00:05",
+      "last_seen": "2026-06-12T08:00:05"
+    },
+    {
+      "url": "https://cafe.naver.com/vinpearl/482318",
+      "title": "후기3 ) 푸꾸옥 맛집",
+      "source": "cafe",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "14시간 전",
+      "post_date": "2026-06-12",
+      "summary": "",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "맛집"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-06-12T08:00:05",
+      "last_seen": "2026-06-12T08:00:05"
+    },
+    {
+      "url": "https://cafe.naver.com/zzop/4059996",
+      "title": "초 4 / 2 자녀랑 갈려고 하는데 추천 할만한곳 잇는지요 ㅎㅎ",
+      "source": "cafe",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "15시간 전",
+      "post_date": "2026-06-12",
+      "summary": "",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "추천"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-06-12T08:00:05",
+      "last_seen": "2026-06-12T08:00:05"
+    },
+    {
+      "url": "https://cafe.naver.com/zzop/4059843",
+      "title": "",
+      "source": "cafe",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "16시간 전",
+      "post_date": "2026-06-12",
+      "summary": "",
+      "mentions_meokitchen": true,
+      "sentiment": "neutral",
+      "pos_tags": [],
+      "neg_tags": [],
+      "first_seen": "2026-06-12T08:00:05",
+      "last_seen": "2026-06-12T08:00:05"
+    },
+    {
+      "url": "https://cafe.naver.com/minecraftpe/3901797",
+      "title": "5박7일 3대 가족여행 일정표 공유",
+      "source": "cafe",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "18시간 전",
+      "post_date": "2026-06-12",
+      "summary": "",
+      "mentions_meokitchen": true,
+      "sentiment": "neutral",
+      "pos_tags": [],
+      "neg_tags": [],
+      "first_seen": "2026-06-12T08:00:05",
+      "last_seen": "2026-06-12T08:00:05"
+    },
+    {
+      "url": "https://cafe.naver.com/ysm5828/9574199",
+      "title": "",
+      "source": "cafe",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "22시간 전",
+      "post_date": "2026-06-12",
+      "summary": "",
+      "mentions_meokitchen": true,
+      "sentiment": "neutral",
+      "pos_tags": [],
+      "neg_tags": [],
+      "first_seen": "2026-06-12T08:00:05",
+      "last_seen": "2026-06-12T08:00:05"
+    },
+    {
+      "url": "https://cafe.naver.com/ysm5828/9574188",
+      "title": "6살 아이와 다녀온 푸꾸옥 4박 5일 총정리+일정표 공유(이대로만 가셔도 절반은 성공합니다....",
+      "source": "cafe",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "23시간 전",
+      "post_date": "2026-06-12",
+      "summary": "오늘의 경험, 클립으로 연결해요 정보태그 붙이고 Npay포인트 적립",
+      "mentions_meokitchen": true,
+      "sentiment": "neutral",
+      "pos_tags": [],
+      "neg_tags": [],
+      "first_seen": "2026-06-12T08:00:05",
+      "last_seen": "2026-06-12T08:00:05"
     }
   ]
 }
