@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-13T11:00:08",
+  "updated_at": "2026-06-14T08:00:04",
   "posts": [
     {
       "url": "https://blog.naver.com/gagmic/224304300809",
@@ -11359,7 +11359,7 @@
       ],
       "neg_tags": [],
       "first_seen": "2026-06-13T08:00:04",
-      "last_seen": "2026-06-13T11:00:03"
+      "last_seen": "2026-06-14T08:00:04"
     },
     {
       "url": "https://blog.naver.com/sangah0/224314120109",
@@ -11425,7 +11425,7 @@
       "pos_tags": [],
       "neg_tags": [],
       "first_seen": "2026-06-13T08:00:04",
-      "last_seen": "2026-06-13T08:00:04"
+      "last_seen": "2026-06-14T08:00:04"
     },
     {
       "url": "https://blog.naver.com/dailypause_/224313657437",
@@ -11461,7 +11461,7 @@
       "pos_tags": [],
       "neg_tags": [],
       "first_seen": "2026-06-13T08:00:04",
-      "last_seen": "2026-06-13T08:00:04"
+      "last_seen": "2026-06-14T08:00:04"
     },
     {
       "url": "https://blog.naver.com/ellie_ran_/224314160743",
@@ -12310,6 +12310,109 @@
       "neg_tags": [],
       "first_seen": "2026-06-13T11:00:08",
       "last_seen": "2026-06-13T11:00:08"
+    },
+    {
+      "url": "https://blog.naver.com/pured2mpcc/224315272064",
+      "title": "나트랑 시내 맛집 메오키친 아이랑 가볼만한 베트남음식 전문점",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "1시간 전",
+      "post_date": "2026-06-14",
+      "summary": "나트랑 시내 맛집 메오키친 아이랑 가볼만한 베트남음식 전문점 69 Đ. Võ Trứ, Nha Trang, Khánh Hòa 57100 +84 833 352 580…",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "맛집"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-06-14T08:00:04",
+      "last_seen": "2026-06-14T08:00:04"
+    },
+    {
+      "url": "https://blog.naver.com/gotssun/224315235270",
+      "title": "푸꾸옥 맛집 메오키친 메뉴 할인 내돈내산 카드결제",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "3시간 전",
+      "post_date": "2026-06-14",
+      "summary": "푸꾸옥 중부 즈엉동 맛집 메오키친 MEO KITCHEN 글, 사진 ⓒ갓썬 All rights reserved 안녕하세요. 여행자 갓썬입니다 :) 제가 푸꾸옥 여행…",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "맛있",
+        "맛집"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-06-14T08:00:04",
+      "last_seen": "2026-06-14T08:00:04"
+    },
+    {
+      "url": "https://blog.naver.com/dongwon916/224314223104",
+      "title": "[베트남 여행] 3번째 푸꾸옥 6월여행 2 | 신짜오,메이스파,미스터씨푸드",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "1일 전",
+      "post_date": "2026-06-13",
+      "summary": "푸꾸옥 6월여행 2탄 스타또! 1일차 포스팅은 아래에 링크 걸어둘게요! 아침은 호텔조식으로 시작 사이공 리조트를 선택한 이유도 조식이 맛있고 반쎄오가 조식으로 나…",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "맛있"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-06-14T08:00:04",
+      "last_seen": "2026-06-14T08:00:04"
+    },
+    {
+      "url": "https://blog.naver.com/pured2mpcc/224315075689",
+      "title": "나트랑시내 마사지샵 라운지스파 아이랑 가기 좋은 고급스러운곳",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "1일 전",
+      "post_date": "2026-06-13",
+      "summary": "Võ Trứ, Nha Trang, Khánh Hòa 650000 +84 258 650 8333 ⏰매일 09:00~22:00 ✅공항샌딩 가능 ✅임산부, 키즈 마사지…",
+      "mentions_meokitchen": true,
+      "sentiment": "neutral",
+      "pos_tags": [],
+      "neg_tags": [],
+      "first_seen": "2026-06-14T08:00:04",
+      "last_seen": "2026-06-14T08:00:04"
+    },
+    {
+      "url": "https://cafe.naver.com/vinpearl/483820",
+      "title": "3꿕 여행일정",
+      "source": "cafe",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "20시간 전",
+      "post_date": "2026-06-14",
+      "summary": "",
+      "mentions_meokitchen": true,
+      "sentiment": "neutral",
+      "pos_tags": [],
+      "neg_tags": [],
+      "first_seen": "2026-06-14T08:00:04",
+      "last_seen": "2026-06-14T08:00:04"
+    },
+    {
+      "url": "https://cafe.naver.com/ysm5828/9574849",
+      "title": "파란집 사장님~",
+      "source": "cafe",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "21시간 전",
+      "post_date": "2026-06-14",
+      "summary": "오늘의 경험, 클립으로 연결해요 정보태그 붙이고 Npay포인트 적립",
+      "mentions_meokitchen": true,
+      "sentiment": "neutral",
+      "pos_tags": [],
+      "neg_tags": [],
+      "first_seen": "2026-06-14T08:00:04",
+      "last_seen": "2026-06-14T08:00:04"
     }
   ]
 }
