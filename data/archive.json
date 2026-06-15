@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-14T11:00:07",
+  "updated_at": "2026-06-15T08:00:04",
   "posts": [
     {
       "url": "https://blog.naver.com/gagmic/224304300809",
@@ -12327,7 +12327,7 @@
       ],
       "neg_tags": [],
       "first_seen": "2026-06-14T08:00:04",
-      "last_seen": "2026-06-14T11:00:07"
+      "last_seen": "2026-06-15T08:00:04"
     },
     {
       "url": "https://blog.naver.com/gotssun/224315235270",
@@ -12346,7 +12346,7 @@
       ],
       "neg_tags": [],
       "first_seen": "2026-06-14T08:00:04",
-      "last_seen": "2026-06-14T08:00:04"
+      "last_seen": "2026-06-15T08:00:04"
     },
     {
       "url": "https://blog.naver.com/dongwon916/224314223104",
@@ -13331,6 +13331,124 @@
       "neg_tags": [],
       "first_seen": "2026-06-14T11:00:07",
       "last_seen": "2026-06-14T11:00:07"
+    },
+    {
+      "url": "https://blog.naver.com/j2ondo/224315674201",
+      "title": "베트남 푸꾸옥 여행 풀만 리조트 솔트앤페퍼 레스토랑 : 숙소에서 먹는 분위기 있는 양식",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "1일 전",
+      "post_date": "2026-06-14",
+      "summary": "3일차 일정 체크인 -> 메오 키친 -> 킹콩 마트 -> 악어집 -> 수영 및 휴식 -> 솔트앤페퍼 -> 야시장 솔트앤페퍼 풀만리조트 넓은 공간에 테이블이 2인석…",
+      "mentions_meokitchen": true,
+      "sentiment": "neutral",
+      "pos_tags": [],
+      "neg_tags": [],
+      "first_seen": "2026-06-15T08:00:04",
+      "last_seen": "2026-06-15T08:00:04"
+    },
+    {
+      "url": "https://blog.naver.com/s_j_3_7/224315605252",
+      "title": "[임신초기] 임신 11-12주에 떠난 나트랑 여행",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "1일 전",
+      "post_date": "2026-06-14",
+      "summary": "맛있었음 메오 키친 빈펄점 저녁 먹으러 간 메오 키친 저거 말고도 꼬치랑 볶음밥 더 시켰는데 양이 너무 많아서 포장해왔음 근데 먹을 시간이 없어서 퇴실할 때 걍 …",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "맛있"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-06-15T08:00:04",
+      "last_seen": "2026-06-15T08:00:04"
+    },
+    {
+      "url": "https://blog.naver.com/misotour_/224315880484",
+      "title": "푸꾸옥 만족스러웠던 중부 스파 추천, 루아스파 내돈내산 솔직 후기 (프로모션)",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "9시간 전",
+      "post_date": "2026-06-15",
+      "summary": "푸꾸옥 중부 마사지 추천 푸꾸옥 루아스파 글·사진 | 미소 이 블로그의 모든 글과 사진은 불법 도용을 금지합니다. 안녕하세요! 미소투어입니다 ✈️ 동남아 휴양지 …",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "추천",
+        "필수",
+        "만족"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-06-15T08:00:04",
+      "last_seen": "2026-06-15T08:00:04"
+    },
+    {
+      "url": "https://cafe.naver.com/minecraftpe/3903570",
+      "title": "푸꾸옥 음식 불안해했던 사람의 최후",
+      "source": "cafe",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "7시간 전",
+      "post_date": "2026-06-15",
+      "summary": "",
+      "mentions_meokitchen": true,
+      "sentiment": "neutral",
+      "pos_tags": [],
+      "neg_tags": [],
+      "first_seen": "2026-06-15T08:00:04",
+      "last_seen": "2026-06-15T08:00:04"
+    },
+    {
+      "url": "https://cafe.naver.com/zzop/4064842",
+      "title": "",
+      "source": "cafe",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "11시간 전",
+      "post_date": "2026-06-15",
+      "summary": "",
+      "mentions_meokitchen": true,
+      "sentiment": "neutral",
+      "pos_tags": [],
+      "neg_tags": [],
+      "first_seen": "2026-06-15T08:00:04",
+      "last_seen": "2026-06-15T08:00:04"
+    },
+    {
+      "url": "https://cafe.naver.com/minecraftpe/3903459",
+      "title": "3박 5일 푸꾸옥 간단 후기",
+      "source": "cafe",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "13시간 전",
+      "post_date": "2026-06-15",
+      "summary": "",
+      "mentions_meokitchen": true,
+      "sentiment": "neutral",
+      "pos_tags": [],
+      "neg_tags": [],
+      "first_seen": "2026-06-15T08:00:04",
+      "last_seen": "2026-06-15T08:00:04"
+    },
+    {
+      "url": "https://cafe.naver.com/ysm5828/9575042",
+      "title": "렌트카신청",
+      "source": "cafe",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "23시간 전",
+      "post_date": "2026-06-15",
+      "summary": "오늘의 경험, 클립으로 연결해요 정보태그 붙이고 Npay포인트 적립",
+      "mentions_meokitchen": true,
+      "sentiment": "neutral",
+      "pos_tags": [],
+      "neg_tags": [],
+      "first_seen": "2026-06-15T08:00:04",
+      "last_seen": "2026-06-15T08:00:04"
     }
   ]
 }
