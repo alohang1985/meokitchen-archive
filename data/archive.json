@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-15T11:00:07",
+  "updated_at": "2026-06-16T08:00:04",
   "posts": [
     {
       "url": "https://blog.naver.com/gagmic/224304300809",
@@ -13384,7 +13384,7 @@
       ],
       "neg_tags": [],
       "first_seen": "2026-06-15T08:00:04",
-      "last_seen": "2026-06-15T08:00:04"
+      "last_seen": "2026-06-16T08:00:04"
     },
     {
       "url": "https://cafe.naver.com/minecraftpe/3903570",
@@ -13582,7 +13582,7 @@
       ],
       "neg_tags": [],
       "first_seen": "2026-06-15T11:00:02",
-      "last_seen": "2026-06-15T11:00:02"
+      "last_seen": "2026-06-16T08:00:04"
     },
     {
       "url": "https://blog.naver.com/hahadanro/224315898857",
@@ -14302,6 +14302,254 @@
       "neg_tags": [],
       "first_seen": "2026-06-15T11:00:07",
       "last_seen": "2026-06-15T11:00:07"
+    },
+    {
+      "url": "https://blog.naver.com/abirdcage/224316369740",
+      "title": "푸꾸옥 맛집 메오키친 짐보관 해주는 망고스파 마사지 호텔 픽업샌딩",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "1일 전",
+      "post_date": "2026-06-15",
+      "summary": "푸꾸옥 맛집 메오키친 짐보관 해주는 망고스파 마사지 호텔 픽업샌딩 푸꾸옥에서 방문했던 식당중에 가장 마음에 들었던 메오키친 후기를 남겨보고 싶은 마음에 끼워 넣는…",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "맛집"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-06-16T08:00:04",
+      "last_seen": "2026-06-16T08:00:04"
+    },
+    {
+      "url": "https://blog.naver.com/moon_j18/224316813763",
+      "title": "푸꾸옥으로 들이받아",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "1일 전",
+      "post_date": "2026-06-15",
+      "summary": "주신 수건에서도 조은 향기가 났다 여행 첫 시작부터 너무 완벽해 요랬는데 요래됐슴당~ 한국에서 환장하는 야장 푸꾸옥에는 널렸다 하지만 너무 더워서 밖에서 먹는 순…",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "좋아",
+        "완벽",
+        "맛집"
+      ],
+      "neg_tags": [
+        "별로"
+      ],
+      "first_seen": "2026-06-16T08:00:04",
+      "last_seen": "2026-06-16T08:00:04"
+    },
+    {
+      "url": "https://blog.naver.com/topaz8946/224316295136",
+      "title": "[나트랑여행] 빈펄랜드 킹스가든 버드쇼 기린먹이주기 메오키친 고카트",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "1일 전",
+      "post_date": "2026-06-15",
+      "summary": "점심은 케이블카 선착장 쪽에 있는 메오키친 넓고 깨끗하고 뷰좋고 한국인들이 많아서 뭔가 보장된 맛집스멜~_",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "맛집"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-06-16T08:00:04",
+      "last_seen": "2026-06-16T08:00:04"
+    },
+    {
+      "url": "https://blog.naver.com/meichengde/224316560132",
+      "title": "푸꾸옥 메오키친 반미 맛있고 할아버지 맥주 있는 중부 맛집",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "1일 전",
+      "post_date": "2026-06-15",
+      "summary": "작년에 나트랑 여행을 다녀오고 올해 푸꾸옥에 가게된 건 특정 모임에서 우리 빼고 모두 푸꾸옥을 가보시고 또 매우 추천하셨어요 가기 전에 2분에게 맛집을 추천해달라…",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "맛있",
+        "추천",
+        "맛집"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-06-16T08:00:04",
+      "last_seen": "2026-06-16T08:00:04"
+    },
+    {
+      "url": "https://blog.naver.com/ghksgml8543/224316423602",
+      "title": "푸꾸옥 중부맛집)메오키친_반쎄오맛집",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "1일 전",
+      "post_date": "2026-06-15",
+      "summary": "겉바삭 속초 ㅋㅋ 스프링롤튀김 쌀국수 반미짜오 이것도 꼭 먹어봐야함 모닝글로리볶음 이렇게 시켰는데도 한국돈으로 4만원 좀 넘게 나온 ㅎㅎ 사람들이 몇번 왔다는 리…",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "추천",
+        "맛집"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-06-16T08:00:04",
+      "last_seen": "2026-06-16T08:00:04"
+    },
+    {
+      "url": "https://blog.naver.com/dungnam96/224316571575",
+      "title": "[여행/푸꾸옥] 둥남&쭈카인의 푸꾸옥 여행기!",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "1일 전",
+      "post_date": "2026-06-15",
+      "summary": "여기는 그 유명한 메오키친! 한국인들이라면 킹콩마트를 들리고 바로 앞 메오 키친을 들린다고 하죠? 제가 알기론 사장님이 한국 분이시라고 들었던 것 같은데 그래서 …",
+      "mentions_meokitchen": true,
+      "sentiment": "neutral",
+      "pos_tags": [],
+      "neg_tags": [],
+      "first_seen": "2026-06-16T08:00:04",
+      "last_seen": "2026-06-16T08:00:04"
+    },
+    {
+      "url": "https://blog.naver.com/diocsin/224316503411",
+      "title": "푸꾸옥 DAY1_ 세일링리조트 심스네일 메오키친",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "1일 전",
+      "post_date": "2026-06-15",
+      "summary": "#8살아이와 #푸꾸옥 #세일링리조트 #심스네일 #메오키친 #즈엉동야시장 다들 마사지가고 지유랑 둘이 남아서 실컷 수영하고 쉬기 이 맛에 베트남오지,,,,, 풀빌라…",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "좋음"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-06-16T08:00:04",
+      "last_seen": "2026-06-16T08:00:04"
+    },
+    {
+      "url": "https://blog.naver.com/abirdcage/224316394291",
+      "title": "베트남 푸꾸옥 쇼핑리스트 기념품 선물 구입은 킹콩마트",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "1시간 전",
+      "post_date": "2026-06-16",
+      "summary": "이동했어요 메오키친에서 밥 먹고 쇼핑하러 가보자 아직 마사지 예약시간까지 여유가 있으니 푸꾸옥 맛집 일번으로 제가 ㅋ 인정한 메오키친 후기는 이 쪽 킹콩마트 뒷문…",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "좋아",
+        "맛집"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-06-16T08:00:04",
+      "last_seen": "2026-06-16T08:00:04"
+    },
+    {
+      "url": "https://cafe.naver.com/minecraftpe/3904317",
+      "title": "맥도날드 롱비치",
+      "source": "cafe",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "18분 전",
+      "post_date": "2026-06-16",
+      "summary": "",
+      "mentions_meokitchen": true,
+      "sentiment": "neutral",
+      "pos_tags": [],
+      "neg_tags": [],
+      "first_seen": "2026-06-16T08:00:04",
+      "last_seen": "2026-06-16T08:00:04"
+    },
+    {
+      "url": "https://cafe.naver.com/ysm5828/9575646",
+      "title": "호텔 이동시 동선",
+      "source": "cafe",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "8시간 전",
+      "post_date": "2026-06-16",
+      "summary": "",
+      "mentions_meokitchen": true,
+      "sentiment": "neutral",
+      "pos_tags": [],
+      "neg_tags": [],
+      "first_seen": "2026-06-16T08:00:04",
+      "last_seen": "2026-06-16T08:00:04"
+    },
+    {
+      "url": "https://cafe.naver.com/minecraftpe/3903979",
+      "title": "렌트카 확인 부탁드립니다",
+      "source": "cafe",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "16시간 전",
+      "post_date": "2026-06-16",
+      "summary": "",
+      "mentions_meokitchen": true,
+      "sentiment": "neutral",
+      "pos_tags": [],
+      "neg_tags": [],
+      "first_seen": "2026-06-16T08:00:04",
+      "last_seen": "2026-06-16T08:00:04"
+    },
+    {
+      "url": "https://cafe.naver.com/ysm5828/9575448",
+      "title": "핸드폰 분실했어요 바나나가든,",
+      "source": "cafe",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "18시간 전",
+      "post_date": "2026-06-16",
+      "summary": "",
+      "mentions_meokitchen": true,
+      "sentiment": "neutral",
+      "pos_tags": [],
+      "neg_tags": [],
+      "first_seen": "2026-06-16T08:00:04",
+      "last_seen": "2026-06-16T08:00:04"
+    },
+    {
+      "url": "https://cafe.naver.com/minecraftpe/3903820",
+      "title": "쉐라톤 푸꾸옥 리조트 배달음식 추천 부탁드려요.",
+      "source": "cafe",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "20시간 전",
+      "post_date": "2026-06-16",
+      "summary": "",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "추천"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-06-16T08:00:04",
+      "last_seen": "2026-06-16T08:00:04"
+    },
+    {
+      "url": "https://cafe.naver.com/minecraftpe/3903811",
+      "title": "",
+      "source": "cafe",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "20시간 전",
+      "post_date": "2026-06-16",
+      "summary": "오늘의 경험, 클립으로 연결해요 정보태그 붙이고 Npay포인트 적립",
+      "mentions_meokitchen": true,
+      "sentiment": "neutral",
+      "pos_tags": [],
+      "neg_tags": [],
+      "first_seen": "2026-06-16T08:00:04",
+      "last_seen": "2026-06-16T08:00:04"
     }
   ]
 }
