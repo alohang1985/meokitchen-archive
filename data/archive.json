@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-16T11:00:08",
+  "updated_at": "2026-06-17T08:00:04",
   "posts": [
     {
       "url": "https://blog.naver.com/gagmic/224304300809",
@@ -14451,7 +14451,7 @@
       ],
       "neg_tags": [],
       "first_seen": "2026-06-16T08:00:04",
-      "last_seen": "2026-06-16T08:00:04"
+      "last_seen": "2026-06-17T08:00:04"
     },
     {
       "url": "https://cafe.naver.com/minecraftpe/3904317",
@@ -15324,6 +15324,195 @@
       "neg_tags": [],
       "first_seen": "2026-06-16T11:00:08",
       "last_seen": "2026-06-16T11:00:08"
+    },
+    {
+      "url": "https://blog.naver.com/smdandelion/224318140635",
+      "title": "푸꾸옥 맛집 메오 키친(Meo Kitchen) 다녀온 후기! 분짜부터 반쎄오까지 성공✨",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "1일 전",
+      "post_date": "2026-06-16",
+      "summary": "메오키친 방문한다면 반쎄오는 무조건 추천! 먹는 방법까지 상세히… 대표 메뉴인 것인가?!.. 야무지게 싸먹고 또 싸먹고.. 배 터지게 먹고 계산하러 갔는데 할인 …",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "추천",
+        "맛집"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-06-17T08:00:04",
+      "last_seen": "2026-06-17T08:00:04"
+    },
+    {
+      "url": "https://blog.naver.com/okyhh16/224318400496",
+      "title": "[나트랑여행 2일차-6] 르모어호텔 수영장부터 망고스파, 돌산 BBQ 솔직후기까지!",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "1시간 전",
+      "post_date": "2026-06-17",
+      "summary": "전날 메오키친 가면서 눈여겨보았던 바로 옆집 **'돌산'**이라는 고깃집이에요. 고기 맛은 딱 한국에서 먹는 맛있는 삼겹살, 목살 그 맛 그대로입니다. 익숙하고 …",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "맛있",
+        "좋았"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-06-17T08:00:04",
+      "last_seen": "2026-06-17T08:00:04"
+    },
+    {
+      "url": "https://blog.naver.com/monkey0618/224317949657",
+      "title": "나트랑 김치찌개 삼겹살 해산물 숯불구이 돌산 추천",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "1일 전",
+      "post_date": "2026-06-16",
+      "summary": "저장 필수, 돌산 나트랑 시내 식당 돌산 나트랑 시내에 위치한 식당 '돌산' 영업시간 11:00- 23:00 (라스트 오더 22:00) 시내 중심에 있고, 주변에…",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "추천",
+        "필수"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-06-17T08:00:04",
+      "last_seen": "2026-06-17T08:00:04"
+    },
+    {
+      "url": "https://blog.naver.com/milky_yeo/224317796679",
+      "title": "17주 임산부 나트랑 이른 태교여행 후기｜마사지에 진심이었던 3박 4일",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "1일 전",
+      "post_date": "2026-06-16",
+      "summary": "블 - 하 !!!!!! 일주일간 휴가 내고 다녀온 나트랑 후기 남겨야지 계획이라고는 비행기 예약하고 숙소 예약하고,,, 그리고 마사지가게 어디갈지 정도? 미리 사…",
+      "mentions_meokitchen": true,
+      "sentiment": "neutral",
+      "pos_tags": [],
+      "neg_tags": [],
+      "first_seen": "2026-06-17T08:00:04",
+      "last_seen": "2026-06-17T08:00:04"
+    },
+    {
+      "url": "https://cafe.naver.com/ysm5828/9576028",
+      "title": "일정을 다시 계획합니다",
+      "source": "cafe",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "9시간 전",
+      "post_date": "2026-06-17",
+      "summary": "",
+      "mentions_meokitchen": true,
+      "sentiment": "neutral",
+      "pos_tags": [],
+      "neg_tags": [],
+      "first_seen": "2026-06-17T08:00:04",
+      "last_seen": "2026-06-17T08:00:04"
+    },
+    {
+      "url": "https://cafe.naver.com/ysm5828/9575971",
+      "title": "푸꾸옥 첫날 도착!",
+      "source": "cafe",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "14시간 전",
+      "post_date": "2026-06-17",
+      "summary": "",
+      "mentions_meokitchen": true,
+      "sentiment": "neutral",
+      "pos_tags": [],
+      "neg_tags": [],
+      "first_seen": "2026-06-17T08:00:04",
+      "last_seen": "2026-06-17T08:00:04"
+    },
+    {
+      "url": "https://cafe.naver.com/minecraftpe/3904539",
+      "title": "푸꾸옥 중부 맛집 \"",
+      "source": "cafe",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "18시간 전",
+      "post_date": "2026-06-17",
+      "summary": "",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "맛집"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-06-17T08:00:04",
+      "last_seen": "2026-06-17T08:00:04"
+    },
+    {
+      "url": "https://cafe.naver.com/ysm5828/9575821",
+      "title": "푸꾸옥 이른 아침도착 후 리조트 체크인",
+      "source": "cafe",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "19시간 전",
+      "post_date": "2026-06-17",
+      "summary": "",
+      "mentions_meokitchen": true,
+      "sentiment": "neutral",
+      "pos_tags": [],
+      "neg_tags": [],
+      "first_seen": "2026-06-17T08:00:04",
+      "last_seen": "2026-06-17T08:00:04"
+    },
+    {
+      "url": "https://cafe.naver.com/hassrd/20551",
+      "title": "푸꾸옥 선셋타운의 이국적인 케이블카 체험과 소나시 야시장 미식 탐방, 하우스 빌라 푸꾸....",
+      "source": "cafe",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "21시간 전",
+      "post_date": "2026-06-17",
+      "summary": "",
+      "mentions_meokitchen": true,
+      "sentiment": "neutral",
+      "pos_tags": [],
+      "neg_tags": [],
+      "first_seen": "2026-06-17T08:00:04",
+      "last_seen": "2026-06-17T08:00:04"
+    },
+    {
+      "url": "https://cafe.naver.com/tybwondergirl5/85486",
+      "title": "나트랑 시내 공항 샌딩 무료 마사지 추천",
+      "source": "cafe",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "22시간 전",
+      "post_date": "2026-06-17",
+      "summary": "",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "추천"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-06-17T08:00:04",
+      "last_seen": "2026-06-17T08:00:04"
+    },
+    {
+      "url": "https://cafe.naver.com/minecraftpe/3904373",
+      "title": "(후기) 홈파크 호텔 조식",
+      "source": "cafe",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "23시간 전",
+      "post_date": "2026-06-17",
+      "summary": "오늘의 경험, 클립으로 연결해요 정보태그 붙이고 Npay포인트 적립",
+      "mentions_meokitchen": true,
+      "sentiment": "neutral",
+      "pos_tags": [],
+      "neg_tags": [],
+      "first_seen": "2026-06-17T08:00:04",
+      "last_seen": "2026-06-17T08:00:04"
     }
   ]
 }
