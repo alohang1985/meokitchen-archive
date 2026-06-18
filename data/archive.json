@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-17T11:00:07",
+  "updated_at": "2026-06-18T08:00:03",
   "posts": [
     {
       "url": "https://blog.naver.com/gagmic/224304300809",
@@ -15361,7 +15361,7 @@
       ],
       "neg_tags": [],
       "first_seen": "2026-06-17T08:00:04",
-      "last_seen": "2026-06-17T08:00:04"
+      "last_seen": "2026-06-18T08:00:03"
     },
     {
       "url": "https://blog.naver.com/monkey0618/224317949657",
@@ -15563,7 +15563,7 @@
       "time_text": "39분 전",
       "post_date": "2026-06-17",
       "summary": "6월 초 방문한 푸꾸옥 여행에서 숙소에 대한 설명을 한 적 있음!! 가장 큰 장점 중 하나가 정말 로비 바로 앞에 \"소나시 야시장\" 이 있다는 것! 그 안에서도 …",
-      "mentions_meokitchen": false,
+      "mentions_meokitchen": true,
       "sentiment": "pos",
       "pos_tags": [
         "맛있",
@@ -15572,7 +15572,7 @@
       ],
       "neg_tags": [],
       "first_seen": "2026-06-17T11:00:02",
-      "last_seen": "2026-06-17T11:00:02"
+      "last_seen": "2026-06-18T08:00:03"
     },
     {
       "url": "https://blog.naver.com/herohwangsae/224317528422",
@@ -16426,6 +16426,252 @@
       "neg_tags": [],
       "first_seen": "2026-06-17T11:00:07",
       "last_seen": "2026-06-17T11:00:07"
+    },
+    {
+      "url": "https://blog.naver.com/hsn62321/224318812719",
+      "title": "푸꾸옥 맛집추천 메오키친 오션뷰 반쎄오맛집",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "1일 전",
+      "post_date": "2026-06-17",
+      "summary": "푸꾸옥에서 첫 베트남식 식사 한번 소개해볼게요 메오키친 메오키친은 겉에서 보기에는 작은 식당처럼 생겼어요 밖에서 먹을 수 있도록 테이블도 마련되어져있고 메뉴판도 …",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "추천",
+        "맛집"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-06-18T08:00:03",
+      "last_seen": "2026-06-18T08:00:03"
+    },
+    {
+      "url": "https://blog.naver.com/coriandher/224319162292",
+      "title": "푸꾸옥 여행 : 야시장, 메오키친, 88피클볼클럽",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "1일 전",
+      "post_date": "2026-06-17",
+      "summary": "푸꾸옥 필수 넘버원 맛집, 메오키친 매우 강추. 별 5개!!! 메오키친 때문에 라도 푸꾸옥을 한번 더 가고싶을 정도의 맛집. k-딸이라서 엄마아빠 데리고가서 먹게…",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "맛있",
+        "추천",
+        "좋아",
+        "최고",
+        "필수",
+        "강추",
+        "맛집"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-06-18T08:00:03",
+      "last_seen": "2026-06-18T08:00:03"
+    },
+    {
+      "url": "https://blog.naver.com/girls0222/224319253957",
+      "title": "푸꾸옥 여행 4일차 : 인터컨티넨탈 조식 / 수영장 물놀이 / Pool Bar / 메오키친 배달",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "1일 전",
+      "post_date": "2026-06-17",
+      "summary": "그래서 급한 마음에 찍느라고 사진도 좀 흔들렸어요..ㅋㅋㅋ TR마트에서 간단하게 먹을 맥주같은거 구매해서 오고~ 저녁식사는 우리가 전날 너무 맛있게 먹었던 메오키…",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "맛있"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-06-18T08:00:03",
+      "last_seen": "2026-06-18T08:00:03"
+    },
+    {
+      "url": "https://blog.naver.com/pured2mpcc/224319465161",
+      "title": "나트랑여행 가볼만한곳 담시장 쇼핑리스트 및 꿀팁",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "2시간 전",
+      "post_date": "2026-06-18",
+      "summary": "나트랑여행 가볼만한곳 담시장 쇼핑리스트 및 꿀팁 Dam Market(Chợ Đầm) ⏰매일 05:00~18:30 ✅환전 가능한 곳 : 킴빈 ✅근처 가볼만한 곳 :…",
+      "mentions_meokitchen": true,
+      "sentiment": "neutral",
+      "pos_tags": [],
+      "neg_tags": [],
+      "first_seen": "2026-06-18T08:00:03",
+      "last_seen": "2026-06-18T08:00:03"
+    },
+    {
+      "url": "https://blog.naver.com/hoyak17/224318621972",
+      "title": "[Travel] 푸꾸옥 여행 • 뉴월드리조트 • 아기랑 여행 ️",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "1일 전",
+      "post_date": "2026-06-17",
+      "summary": "⭐️아기침대 없음 ( 있지만 너무 높이가 낮아서 사용불가 ) ⭐️저희는 그래서 침대 2개를 붙혀서 아기를 안쪽에 두고 저희가 바깥쪽에 누워서 잤답니다 그리고 아쿠…",
+      "mentions_meokitchen": true,
+      "sentiment": "neutral",
+      "pos_tags": [],
+      "neg_tags": [],
+      "first_seen": "2026-06-18T08:00:03",
+      "last_seen": "2026-06-18T08:00:03"
+    },
+    {
+      "url": "https://blog.naver.com/jymom-/224319005349",
+      "title": "푸꾸옥 자유여행 / 세일링클럽 불쇼 / 옥센비치바 불쇼 / 푸꾸옥 불쇼 추천 및 내돈내산 후기 ❤️",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "1일 전",
+      "post_date": "2026-06-17",
+      "summary": "옥센비치바 대략 즈엉동 킹콩마트 , 메오키친 등이 있는 메인거리(?)쪽에 위치한 옥센비치바 입니다. 오후 10:00시에 불쇼를 시작한다고 해서, 9시 50분경에 …",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "추천"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-06-18T08:00:03",
+      "last_seen": "2026-06-18T08:00:03"
+    },
+    {
+      "url": "https://blog.naver.com/abirdcage/224317405854",
+      "title": "뉴월드 리조트 푸꾸옥 디럭스 4베드 풀빌라 칠순 대가족여행 후기",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "1일 전",
+      "post_date": "2026-06-17",
+      "summary": "오전 푸꾸옥 공항에 도착한 비행기가 우리비행기 밖에 없어서 내리는것도 이미그레이션도 수속이 불꽃처럼 이루어짐 예상시간보다 한시간 반 정도 일정이 진행되었던 우리의…",
+      "mentions_meokitchen": true,
+      "sentiment": "neutral",
+      "pos_tags": [],
+      "neg_tags": [],
+      "first_seen": "2026-06-18T08:00:03",
+      "last_seen": "2026-06-18T08:00:03"
+    },
+    {
+      "url": "https://cafe.naver.com/xhakxh37/27211",
+      "title": "푸꾸옥",
+      "source": "cafe",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "9시간 전",
+      "post_date": "2026-06-18",
+      "summary": "",
+      "mentions_meokitchen": true,
+      "sentiment": "neutral",
+      "pos_tags": [],
+      "neg_tags": [],
+      "first_seen": "2026-06-18T08:00:03",
+      "last_seen": "2026-06-18T08:00:03"
+    },
+    {
+      "url": "https://cafe.naver.com/minecraftpe/3905415",
+      "title": "소나시에서",
+      "source": "cafe",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "14시간 전",
+      "post_date": "2026-06-18",
+      "summary": "",
+      "mentions_meokitchen": true,
+      "sentiment": "neutral",
+      "pos_tags": [],
+      "neg_tags": [],
+      "first_seen": "2026-06-18T08:00:03",
+      "last_seen": "2026-06-18T08:00:03"
+    },
+    {
+      "url": "https://cafe.naver.com/minecraftpe/3905399",
+      "title": "북부 호텔에서 남부쪽 호텔 이동",
+      "source": "cafe",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "14시간 전",
+      "post_date": "2026-06-18",
+      "summary": "",
+      "mentions_meokitchen": true,
+      "sentiment": "neutral",
+      "pos_tags": [],
+      "neg_tags": [],
+      "first_seen": "2026-06-18T08:00:03",
+      "last_seen": "2026-06-18T08:00:03"
+    },
+    {
+      "url": "https://cafe.naver.com/vinpearl/486485",
+      "title": "4인가족 푸꾸옥 여행후기",
+      "source": "cafe",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "16시간 전",
+      "post_date": "2026-06-18",
+      "summary": "",
+      "mentions_meokitchen": true,
+      "sentiment": "neutral",
+      "pos_tags": [],
+      "neg_tags": [],
+      "first_seen": "2026-06-18T08:00:03",
+      "last_seen": "2026-06-18T08:00:03"
+    },
+    {
+      "url": "https://cafe.naver.com/minecraftpe/3905291",
+      "title": "즈엉동과 소나시 야시장 중 추천 부탁드려요",
+      "source": "cafe",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "17시간 전",
+      "post_date": "2026-06-18",
+      "summary": "",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "추천"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-06-18T08:00:03",
+      "last_seen": "2026-06-18T08:00:03"
+    },
+    {
+      "url": "https://cafe.naver.com/happyibook/6159636",
+      "title": "푸꾸옥 맛집_꼬치구이",
+      "source": "cafe",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "17시간 전",
+      "post_date": "2026-06-18",
+      "summary": "",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "맛집"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-06-18T08:00:03",
+      "last_seen": "2026-06-18T08:00:03"
+    },
+    {
+      "url": "https://cafe.naver.com/ysm5828/9576250",
+      "title": "푸꾸옥에도 과연 다낭처럼 인생맛집식당 있을까요?ㅋㅋㅋ",
+      "source": "cafe",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "19시간 전",
+      "post_date": "2026-06-18",
+      "summary": "오늘의 경험, 클립으로 연결해요 정보태그 붙이고 Npay포인트 적립",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "인생",
+        "맛집"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-06-18T08:00:03",
+      "last_seen": "2026-06-18T08:00:03"
     }
   ]
 }
