@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-19T11:00:06",
+  "updated_at": "2026-06-20T08:00:05",
   "posts": [
     {
       "url": "https://blog.naver.com/gagmic/224304300809",
@@ -17564,7 +17564,7 @@
         "비싸"
       ],
       "first_seen": "2026-06-19T08:00:04",
-      "last_seen": "2026-06-19T11:00:02"
+      "last_seen": "2026-06-20T08:00:04"
     },
     {
       "url": "https://blog.naver.com/071723/224319891577",
@@ -17683,7 +17683,7 @@
       ],
       "neg_tags": [],
       "first_seen": "2026-06-19T08:00:04",
-      "last_seen": "2026-06-19T11:00:02"
+      "last_seen": "2026-06-20T08:00:04"
     },
     {
       "url": "https://blog.naver.com/cr1i-toj09jowxoc/224320288067",
@@ -17885,7 +17885,7 @@
       "time_text": "1시간 전",
       "post_date": "2026-06-19",
       "summary": "잘섞어먹거나 해야할것같아요 클라우드카페는 코코넛커피 맛집이기때문에 즈엉동 메인거리에 있어서 위치도 좋고 시원하기때문에 카페들리실 일 있으면 가보시기를 추천드릴게요…",
-      "mentions_meokitchen": false,
+      "mentions_meokitchen": true,
       "sentiment": "pos",
       "pos_tags": [
         "추천",
@@ -17893,7 +17893,7 @@
       ],
       "neg_tags": [],
       "first_seen": "2026-06-19T11:00:02",
-      "last_seen": "2026-06-19T11:00:02"
+      "last_seen": "2026-06-20T08:00:04"
     },
     {
       "url": "https://blog.naver.com/dion_2/224320354258",
@@ -18598,6 +18598,201 @@
       "neg_tags": [],
       "first_seen": "2026-06-19T11:00:06",
       "last_seen": "2026-06-19T11:00:06"
+    },
+    {
+      "url": "https://blog.naver.com/kaswjy06/224320960418",
+      "title": "[푸꾸옥] 마지막날_즈엉동 나들이 타라파카 카페 즈엉동 해변 즈엉동 야시장 메오키친 망고스파",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "1일 전",
+      "post_date": "2026-06-19",
+      "summary": "찾아온 메오키친 여기도 한국인 필수 맛집인데 들어오니 죄다 한국인 뷰도 좋아서 먹다가 초록뷰와 바다뷰에 반하고 간다 그래도 한국인픽은 후회없지 메뉴하나하나가 다 …",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "맛있",
+        "좋아",
+        "필수",
+        "맛집"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-06-20T08:00:04",
+      "last_seen": "2026-06-20T08:00:04"
+    },
+    {
+      "url": "https://blog.naver.com/ihw8513/224321167039",
+      "title": "내 생일을 나트랑에서 ~ ️",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "1일 전",
+      "post_date": "2026-06-19",
+      "summary": "메오키친에서 껌땀이랑 분짜랑 모닝글로리 먹었다 ~ 베트남 여자의 마지막 식사 ㅠ 짐 찾고 공항으로 갑니다 ~~~ 3천원 짜리 물 사먹긔 ^^.. 속이 넘 답답해서…",
+      "mentions_meokitchen": true,
+      "sentiment": "neutral",
+      "pos_tags": [],
+      "neg_tags": [],
+      "first_seen": "2026-06-20T08:00:04",
+      "last_seen": "2026-06-20T08:00:04"
+    },
+    {
+      "url": "https://blog.naver.com/dbsl18/224320851524",
+      "title": "푸꾸옥 소나시 맛집 '게99' 한국인 입맛 저격 메뉴들과 남부 구글 맛집 트스키친 리얼 비교",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "1일 전",
+      "post_date": "2026-06-19",
+      "summary": "마지막 식당은 편하게 먹고 싶어서 한국인 사장님이 하는 식당에서 풀에어컨+ 한국인 입맛에 최적화된 맛 메오키친과 더블어 강강추추하는 강추 식당이에요. 괜히 한국인…",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "강추",
+        "맛집"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-06-20T08:00:04",
+      "last_seen": "2026-06-20T08:00:04"
+    },
+    {
+      "url": "https://blog.naver.com/travel_friends/224319045606",
+      "title": "베트남푸꾸옥패키지, 바다와 노을 사이에서 즐기는 5일 휴양여행",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "1일 전",
+      "post_date": "2026-06-19",
+      "summary": "베트남 가정식 맛집인 껌냐, 라페스타 힐튼 디너, 메오키친의 반쎄오와 쌀국수, 냐항센의 분짜, 한식 쭈꾸미 정식까지 다양하게 포함되어 있습니다. 관광 중에는 현지…",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "맛집"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-06-20T08:00:04",
+      "last_seen": "2026-06-20T08:00:04"
+    },
+    {
+      "url": "https://blog.naver.com/wewearwhat/224321102451",
+      "title": "푸꾸옥 마사지 추천! 즈엉동 델루나 (무조건! 제발! 가세요!)",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "1일 전",
+      "post_date": "2026-06-19",
+      "summary": "찐 만족!! 델루나 마사지 가격(60분 기준/성인2명 아이2명) 첫번째 - 총 106,000원 마사지 4명 + 공항 픽업 무료 + 북부 샌딩 두번째 - 총 96,…",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "추천",
+        "좋아",
+        "만족"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-06-20T08:00:04",
+      "last_seen": "2026-06-20T08:00:04"
+    },
+    {
+      "url": "https://blog.naver.com/junstar1010/224320915833",
+      "title": "푸꾸옥 여행 모닝투어로 시작!0.5박 패키지로 마사지 픽업 샌딩 호텔",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "1일 전",
+      "post_date": "2026-06-19",
+      "summary": "푸꾸옥 모닝투어 일정부터 후기까지 푸꾸옥 모닝투어 일정 공항픽업 - 아침 식사:메오키친 - ♀️오메가스파- 킹콩마트 - 점심식사(선택) - 호텔 샌딩 푸꾸옥 모닝…",
+      "mentions_meokitchen": true,
+      "sentiment": "neutral",
+      "pos_tags": [],
+      "neg_tags": [],
+      "first_seen": "2026-06-20T08:00:04",
+      "last_seen": "2026-06-20T08:00:04"
+    },
+    {
+      "url": "https://blog.naver.com/g72s0/224321493831",
+      "title": "이케아 휴대용 접이식 시장바구니 에코백 구매 가이드",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "2시간 전",
+      "post_date": "2026-06-20",
+      "summary": "3위 — 메오 키친 대용량 접이식 장바구니, 딸기 3. 메오 키친 대용량 접이식 장바구니, 딸기, 3개 ₩ 6,980 별점 : ⭐⭐⭐⭐ 메오 키친 대용량 접이식 …",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "좋아",
+        "깔끔"
+      ],
+      "neg_tags": [
+        "아쉬운"
+      ],
+      "first_seen": "2026-06-20T08:00:04",
+      "last_seen": "2026-06-20T08:00:04"
+    },
+    {
+      "url": "https://cafe.naver.com/minecraftpe/3906758",
+      "title": "푸꾸옥 중부",
+      "source": "cafe",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "12시간 전",
+      "post_date": "2026-06-20",
+      "summary": "",
+      "mentions_meokitchen": true,
+      "sentiment": "neutral",
+      "pos_tags": [],
+      "neg_tags": [],
+      "first_seen": "2026-06-20T08:00:05",
+      "last_seen": "2026-06-20T08:00:05"
+    },
+    {
+      "url": "https://cafe.naver.com/minecraftpe/3906498",
+      "title": "도와주세영 ㅠㅠ",
+      "source": "cafe",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "19시간 전",
+      "post_date": "2026-06-20",
+      "summary": "",
+      "mentions_meokitchen": true,
+      "sentiment": "neutral",
+      "pos_tags": [],
+      "neg_tags": [],
+      "first_seen": "2026-06-20T08:00:05",
+      "last_seen": "2026-06-20T08:00:05"
+    },
+    {
+      "url": "https://cafe.naver.com/ysm5828/9576965",
+      "title": "",
+      "source": "cafe",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "21시간 전",
+      "post_date": "2026-06-20",
+      "summary": "",
+      "mentions_meokitchen": true,
+      "sentiment": "neutral",
+      "pos_tags": [],
+      "neg_tags": [],
+      "first_seen": "2026-06-20T08:00:05",
+      "last_seen": "2026-06-20T08:00:05"
+    },
+    {
+      "url": "https://cafe.naver.com/minecraftpe/3906339",
+      "title": "저녁도착인데 환전 공항말고 다음날 킹콩마트 근처에서 할까요?",
+      "source": "cafe",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "23시간 전",
+      "post_date": "2026-06-20",
+      "summary": "오늘의 경험, 클립으로 연결해요 정보태그 붙이고 Npay포인트 적립",
+      "mentions_meokitchen": true,
+      "sentiment": "neutral",
+      "pos_tags": [],
+      "neg_tags": [],
+      "first_seen": "2026-06-20T08:00:05",
+      "last_seen": "2026-06-20T08:00:05"
     }
   ]
 }
