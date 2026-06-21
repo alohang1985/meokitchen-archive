@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-20T11:00:06",
+  "updated_at": "2026-06-21T08:00:04",
   "posts": [
     {
       "url": "https://blog.naver.com/gagmic/224304300809",
@@ -18728,7 +18728,7 @@
         "아쉬운"
       ],
       "first_seen": "2026-06-20T08:00:04",
-      "last_seen": "2026-06-20T08:00:04"
+      "last_seen": "2026-06-21T08:00:04"
     },
     {
       "url": "https://cafe.naver.com/minecraftpe/3906758",
@@ -19631,6 +19631,221 @@
       "neg_tags": [],
       "first_seen": "2026-06-20T11:00:06",
       "last_seen": "2026-06-20T11:00:06"
+    },
+    {
+      "url": "https://blog.naver.com/yayou1212/224321742927",
+      "title": "푸꾸옥 메오키친 >",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "1일 전",
+      "post_date": "2026-06-20",
+      "summary": "그래서 푸꾸옥 리뷰를 좀 드릴까해요 오늘 소개해 드릴 곳은 푸꾸옥에 있는 메오키친 > 입니다 이미 한국분들에게 소문이 많이 나 있는 곳 같아요 베트남 요리를 파는…",
+      "mentions_meokitchen": true,
+      "sentiment": "neutral",
+      "pos_tags": [],
+      "neg_tags": [],
+      "first_seen": "2026-06-21T08:00:04",
+      "last_seen": "2026-06-21T08:00:04"
+    },
+    {
+      "url": "https://blog.naver.com/dpwls8332/224321785189",
+      "title": "푸꾸옥 중부 맛집 : ‘메오키친’ 메뉴 추천&내돈내산 후기",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "1시간 전",
+      "post_date": "2026-06-21",
+      "summary": "“MEO Kitchen” MEO Kitchen 126 Đường Trần Hưng Đạo, Khu Phố 7, Phú Quốc, An Giang 92000 베트남…",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "추천",
+        "맛집"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-06-21T08:00:04",
+      "last_seen": "2026-06-21T08:00:04"
+    },
+    {
+      "url": "https://blog.naver.com/wizard1965/224322054264",
+      "title": "베트남 푸꾸옥 맛집 메오키친 방문기",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "1일 전",
+      "post_date": "2026-06-20",
+      "summary": "무작정 떠난 베트남 푸꾸옥 여행 어제 밤 늦게 공항에 도착한 우리는 그랩을 불러 탑승하고 리조트로 왔습니다. 하지만 너무 늦은 시간이라 프론트에는 아무도 없었고,…",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "맛집"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-06-21T08:00:04",
+      "last_seen": "2026-06-21T08:00:04"
+    },
+    {
+      "url": "https://blog.naver.com/just-my-life-/224321679589",
+      "title": "푸꾸옥 메오키친 맛집후기｜여행자거리에서 즐긴 베트남 현지 음식",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "1일 전",
+      "post_date": "2026-06-20",
+      "summary": "푸꾸옥 이번이 두번째였는데 너무 맛있게 먹은 [메오키친] 소개 해드릴께요 !! 진짜 맛있어요. 여행자거리에 위치해 있고 킹콩마트에서 도보6분 450m 떨어져 있어…",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "맛있",
+        "맛집"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-06-21T08:00:04",
+      "last_seen": "2026-06-21T08:00:04"
+    },
+    {
+      "url": "https://blog.naver.com/youryun_/224321845850",
+      "title": "26 푸꾸옥 (2)",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "1일 전",
+      "post_date": "2026-06-20",
+      "summary": "맛도리 초콜렛 / 밥 먹으러 오늘은 밖으로 ~ 눈에서 꿀 떨어지세요 따님 ㅋㅋ 유명한 메오 키친 와봤읍니다 다행히 웨이팅 없이 바로 입장 아 배부르다…. 메뉴 너…",
+      "mentions_meokitchen": true,
+      "sentiment": "neg",
+      "pos_tags": [],
+      "neg_tags": [
+        "웨이팅"
+      ],
+      "first_seen": "2026-06-21T08:00:04",
+      "last_seen": "2026-06-21T08:00:04"
+    },
+    {
+      "url": "https://blog.naver.com/eggandsugar/224322051009",
+      "title": "베트남 나트랑 자유여행 일정: 목식당 찍고 빈펄 럭셔리 나트랑 풀빌라 커플 여행 코스",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "1일 전",
+      "post_date": "2026-06-20",
+      "summary": "까지는 아니고 (나트랑 시내 마사지 샵에 비해서 가격이 비싸요) 빈펄 럭셔리 나트랑 온 김에 패키지로 이용할만한거같아요 마사지 후에 배고파져서 하버쪽으로 나가 메…",
+      "mentions_meokitchen": true,
+      "sentiment": "neg",
+      "pos_tags": [],
+      "neg_tags": [
+        "비싸"
+      ],
+      "first_seen": "2026-06-21T08:00:04",
+      "last_seen": "2026-06-21T08:00:04"
+    },
+    {
+      "url": "https://blog.naver.com/sinhan111/224321666449",
+      "title": "푸꾸옥 인터컨티넨탈 근처 롱비치마트 쇼핑리스트 선물 왕창 산 후기",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "1일 전",
+      "post_date": "2026-06-20",
+      "summary": "가격도 비교적 합리적이고 상품 종류도 다양해 여행객 만족도가 높은 편입니다. 특히 인터컨티넨탈이나 중부 리조트 숙박객이라면 접근성이 뛰어나 이동 시간을 절약할 수…",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "추천",
+        "만족"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-06-21T08:00:04",
+      "last_seen": "2026-06-21T08:00:04"
+    },
+    {
+      "url": "https://blog.naver.com/just-my-life-/224321654974",
+      "title": "2026 푸꾸옥 1일차 선셋타운 스타벅스｜빈스에코스파｜메오키친｜선셋분식 ｜키스오브더씨쇼",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "1일 전",
+      "post_date": "2026-06-20",
+      "summary": "지난번에 왔을때 너무 맛있게 먹은 “메오키친” 오전에 오니 웨이팅도 없고 조용하니 좋아요 ㅋㅋㅋ 배고파..일단 한국어 메뉴표 작성하면 되고 꼬치는 맵기정도 선택할…",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "맛있",
+        "추천",
+        "좋아"
+      ],
+      "neg_tags": [
+        "웨이팅"
+      ],
+      "first_seen": "2026-06-21T08:00:04",
+      "last_seen": "2026-06-21T08:00:04"
+    },
+    {
+      "url": "https://blog.naver.com/izzi_log/224321741113",
+      "title": "[베트남 푸꾸옥] 신혼여행 6일차 일정 :: 까미아리조트 체크아웃, 중부 씨스타리조트 0.5박, 양자강, 더클라우드카페, 푸꾸옥공항",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "1일 전",
+      "post_date": "2026-06-20",
+      "summary": "킹콩마트 턴다고 오래 시간보내고 늦게 메오키친 가서 메뉴 시켰는데 비행기시간 다시보니까 제가 잘못봤더라구요 사람 짱많고 메뉴는 안나오고 숙소가서 캐리어까지 들고와…",
+      "mentions_meokitchen": true,
+      "sentiment": "neutral",
+      "pos_tags": [],
+      "neg_tags": [],
+      "first_seen": "2026-06-21T08:00:04",
+      "last_seen": "2026-06-21T08:00:04"
+    },
+    {
+      "url": "https://blog.naver.com/lemoni23/224321587736",
+      "title": "푸꾸옥 중부 가성비 숙소 코랄베이리조트 위치 장점",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "1일 전",
+      "post_date": "2026-06-20",
+      "summary": "Coral Bay Resort Phu Quoc 3성급 호텔 체크인 오후 2시 체크아웃 오후 12시 코랄베이리조트 푸꾸옥 위치 코랄베이리조트 푸꾸옥은 한국인들에게 …",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "맛집"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-06-21T08:00:04",
+      "last_seen": "2026-06-21T08:00:04"
+    },
+    {
+      "url": "https://cafe.naver.com/minecraftpe/3907171",
+      "title": "3박 5일 일정 고민되는데 도와주세요 ㅠ",
+      "source": "cafe",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "13시간 전",
+      "post_date": "2026-06-21",
+      "summary": "",
+      "mentions_meokitchen": true,
+      "sentiment": "neutral",
+      "pos_tags": [],
+      "neg_tags": [],
+      "first_seen": "2026-06-21T08:00:04",
+      "last_seen": "2026-06-21T08:00:04"
+    },
+    {
+      "url": "https://cafe.naver.com/minecraftpe/3907135",
+      "title": "제휴스파중 킹콩마트와 가까운스파",
+      "source": "cafe",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "15시간 전",
+      "post_date": "2026-06-21",
+      "summary": "오늘의 경험, 클립으로 연결해요 정보태그 붙이고 Npay포인트 적립",
+      "mentions_meokitchen": true,
+      "sentiment": "neutral",
+      "pos_tags": [],
+      "neg_tags": [],
+      "first_seen": "2026-06-21T08:00:04",
+      "last_seen": "2026-06-21T08:00:04"
     }
   ]
 }
