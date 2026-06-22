@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-21T11:00:05",
+  "updated_at": "2026-06-22T08:00:03",
   "posts": [
     {
       "url": "https://blog.naver.com/gagmic/224304300809",
@@ -19665,7 +19665,7 @@
       ],
       "neg_tags": [],
       "first_seen": "2026-06-21T08:00:04",
-      "last_seen": "2026-06-21T11:00:02"
+      "last_seen": "2026-06-22T08:00:03"
     },
     {
       "url": "https://blog.naver.com/wizard1965/224322054264",
@@ -20728,6 +20728,240 @@
       "neg_tags": [],
       "first_seen": "2026-06-21T11:00:05",
       "last_seen": "2026-06-21T11:00:05"
+    },
+    {
+      "url": "https://blog.naver.com/jjjaeng030/224321292444",
+      "title": "푸꾸옥 메오키친 토요일 12시 피크타임 방문 후기! 부모님 원픽 메뉴는?! 내돈내산 4인 가족 영수증 인증",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "1일 전",
+      "post_date": "2026-06-21",
+      "summary": "워낙 한국인들 사이에서 유명해서 웨이팅이 어마무시하다는 악명 높은 그곳, 바로 메오키친(Meo Kitchen) 입니다! 토요일 점심 피크타임인 12시라 더욱이 걱…",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "추천"
+      ],
+      "neg_tags": [
+        "웨이팅"
+      ],
+      "first_seen": "2026-06-22T08:00:03",
+      "last_seen": "2026-06-22T08:00:03"
+    },
+    {
+      "url": "https://blog.naver.com/kelly9328/224322742840",
+      "title": "[베트남]델루나스파: 공항 픽업 가능한 푸꾸옥 마사지샵 내돈내산",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "1일 전",
+      "post_date": "2026-06-21",
+      "summary": "(근처에 메오키친, 킹콩마트가 있어서 위치는 정말 최고) 픽업 시간에 맞춰 헤븐라운지로 가면 기사님이 기다리고 계셔서 이름 확인 후 타면 된답니다 오픈 시간 맞춰…",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "최고",
+        "깔끔"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-06-22T08:00:03",
+      "last_seen": "2026-06-22T08:00:03"
+    },
+    {
+      "url": "https://blog.naver.com/jhsw211231/224323043133",
+      "title": "[푸꾸옥 여행일기/2일차] 티엔탄리조트 조식/킹콩마트환전/킹콩카페/메오키친",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "2시간 전",
+      "post_date": "2026-06-22",
+      "summary": "온 메오키친 난 휴양파라고 자부했는데 푸꾸옥 노잼..ㅠ 푸꾸옥 시내(?)에 사람이 없었는데 한국인들 다 여기서 만난듯하다 파라타항공 승무원도 여기로 식사하러온걸 …",
+      "mentions_meokitchen": true,
+      "sentiment": "neutral",
+      "pos_tags": [],
+      "neg_tags": [],
+      "first_seen": "2026-06-22T08:00:03",
+      "last_seen": "2026-06-22T08:00:03"
+    },
+    {
+      "url": "https://blog.naver.com/sini_21/224322410067",
+      "title": "베트남 푸꾸옥 4박 6일 가족여행 3일차 메오키친 끄록스 악어집 킹콩마트",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "1일 전",
+      "post_date": "2026-06-21",
+      "summary": "멜리아 빈펄 푸꾸옥 숙소에 식당 2개 있는데 3일내내 한 곳만 가서 다른 곳은 모르겠다 ㅎ 밥먹고 방으로 와서 아기랑 수영하기 개인풀 진짜 조아요 멜리아 빈펄 푸…",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "추천",
+        "좋았"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-06-22T08:00:03",
+      "last_seen": "2026-06-22T08:00:03"
+    },
+    {
+      "url": "https://blog.naver.com/salon_yujoo/224322751563",
+      "title": "[푸꾸옥] 중부 망고스파",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "1일 전",
+      "post_date": "2026-06-21",
+      "summary": "✅️망고스파 총평 마사지사 빨 많이 받음 개인적으론 5곳중 2번째 베스트 불친절이라 말히긴 애매하고 친절하진않음 ^^ 하지만 여기 위치가 아주 도라방스! 킹콩마트…",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "친절"
+      ],
+      "neg_tags": [
+        "불친절"
+      ],
+      "first_seen": "2026-06-22T08:00:03",
+      "last_seen": "2026-06-22T08:00:03"
+    },
+    {
+      "url": "https://blog.naver.com/ywm7w7lrjtf79ljrum/224323052584",
+      "title": "장바구니 종류별로 비교해 보시나요 첫 구매한 공간백서 롤링카트 실사용 체감 후기 정리해봤어요",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "1시간 전",
+      "post_date": "2026-06-22",
+      "summary": "01 메오 키친 대용량 접이식 장바구니, 딸기, 3개 메오 키친 대용량 접이식 장바구니, 딸기, 3개 ￦ 6,980원 지금 가격 확인하기 ◆ 이런 점이 좋아요 가…",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "좋아"
+      ],
+      "neg_tags": [
+        "별로"
+      ],
+      "first_seen": "2026-06-22T08:00:03",
+      "last_seen": "2026-06-22T08:00:03"
+    },
+    {
+      "url": "https://blog.naver.com/dpwls8332/224322460296",
+      "title": "베트남 푸꾸옥 현지 카페 : 중부 XỐM coffee & bar 쏨카페",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "1시간 전",
+      "post_date": "2026-06-22",
+      "summary": "다시 가고 싶은 베트남 푸꾸옥 ❤︎ 메오키친에서 든든하게 아점 먹어주고 1분 거리에 있는 푸꾸옥 현지 카페로 달려갔어요. 한국인 많은 카페 말고 로컬 분위기 물씬…",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "추천"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-06-22T08:00:03",
+      "last_seen": "2026-06-22T08:00:03"
+    },
+    {
+      "url": "https://blog.naver.com/21mw6oknm1uby2s/224322860631",
+      "title": "접이식에코백 구매 전 엠프린스 강아지 키링 포켓백 실사용 정보 확인하세요",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "9시간 전",
+      "post_date": "2026-06-22",
+      "summary": "01 메오 키친 대용량 접이식 장바구니, 딸기, 3개 메오 키친 대용량 접이식 장바구니, 딸기, 3개 ￦ 6,980원 지금 가격 확인하기 ◆ 이런 점이 좋아요 대…",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "좋아"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-06-22T08:00:03",
+      "last_seen": "2026-06-22T08:00:03"
+    },
+    {
+      "url": "https://blog.naver.com/salon_yujoo/224322660453",
+      "title": "[푸꾸옥] 푸꾸옥 중부 엘스파 L SPA",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "1일 전",
+      "post_date": "2026-06-21",
+      "summary": "그냥 정말 보통! 나중에 좋았던샵 순위별로 정리해드릴게여 마사지해주신분들이 딱히 기억에안남은거보면 그저 그랬던듯 싫지도 좋지도않은 평타! 픽업샌딩 서비스랑 데스크…",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "좋았"
+      ],
+      "neg_tags": [
+        "별로"
+      ],
+      "first_seen": "2026-06-22T08:00:03",
+      "last_seen": "2026-06-22T08:00:03"
+    },
+    {
+      "url": "https://cafe.naver.com/minecraftpe/3907702",
+      "title": "가장 빡씬 투어데이",
+      "source": "cafe",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "9시간 전",
+      "post_date": "2026-06-22",
+      "summary": "",
+      "mentions_meokitchen": true,
+      "sentiment": "neutral",
+      "pos_tags": [],
+      "neg_tags": [],
+      "first_seen": "2026-06-22T08:00:03",
+      "last_seen": "2026-06-22T08:00:03"
+    },
+    {
+      "url": "https://cafe.naver.com/ysm5828/9577705",
+      "title": "",
+      "source": "cafe",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "10시간 전",
+      "post_date": "2026-06-22",
+      "summary": "",
+      "mentions_meokitchen": true,
+      "sentiment": "neutral",
+      "pos_tags": [],
+      "neg_tags": [],
+      "first_seen": "2026-06-22T08:00:03",
+      "last_seen": "2026-06-22T08:00:03"
+    },
+    {
+      "url": "https://cafe.naver.com/ysm5828/9577666",
+      "title": "종합 후기",
+      "source": "cafe",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "12시간 전",
+      "post_date": "2026-06-22",
+      "summary": "",
+      "mentions_meokitchen": true,
+      "sentiment": "neutral",
+      "pos_tags": [],
+      "neg_tags": [],
+      "first_seen": "2026-06-22T08:00:03",
+      "last_seen": "2026-06-22T08:00:03"
+    },
+    {
+      "url": "https://cafe.naver.com/minecraftpe/3907477",
+      "title": "나트랑여행 2탄",
+      "source": "cafe",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "19시간 전",
+      "post_date": "2026-06-22",
+      "summary": "오늘의 경험, 클립으로 연결해요 정보태그 붙이고 Npay포인트 적립",
+      "mentions_meokitchen": true,
+      "sentiment": "neutral",
+      "pos_tags": [],
+      "neg_tags": [],
+      "first_seen": "2026-06-22T08:00:03",
+      "last_seen": "2026-06-22T08:00:03"
     }
   ]
 }
