@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-23T08:00:03",
+  "updated_at": "2026-06-23T11:00:03",
   "posts": [
     {
       "url": "https://blog.naver.com/gagmic/224304300809",
@@ -20859,7 +20859,7 @@
       ],
       "neg_tags": [],
       "first_seen": "2026-06-22T08:00:03",
-      "last_seen": "2026-06-23T08:00:03"
+      "last_seen": "2026-06-23T11:00:03"
     },
     {
       "url": "https://blog.naver.com/21mw6oknm1uby2s/224322860631",
@@ -20998,7 +20998,7 @@
       ],
       "neg_tags": [],
       "first_seen": "2026-06-22T11:00:04",
-      "last_seen": "2026-06-22T11:00:04"
+      "last_seen": "2026-06-23T11:00:03"
     },
     {
       "url": "https://blog.naver.com/shqhqo75/224322849965",
@@ -21073,7 +21073,7 @@
       ],
       "neg_tags": [],
       "first_seen": "2026-06-22T11:00:04",
-      "last_seen": "2026-06-22T11:00:04"
+      "last_seen": "2026-06-23T11:00:03"
     },
     {
       "url": "https://blog.naver.com/teddylee8025/224322342648",
@@ -21112,7 +21112,7 @@
       ],
       "neg_tags": [],
       "first_seen": "2026-06-22T11:00:04",
-      "last_seen": "2026-06-22T11:00:04"
+      "last_seen": "2026-06-23T11:00:03"
     },
     {
       "url": "https://blog.naver.com/meen1357/224322318401",
@@ -21286,7 +21286,7 @@
       ],
       "neg_tags": [],
       "first_seen": "2026-06-22T11:00:04",
-      "last_seen": "2026-06-22T11:00:04"
+      "last_seen": "2026-06-23T11:00:03"
     },
     {
       "url": "https://blog.naver.com/leelee9707/224322585932",
@@ -21325,7 +21325,7 @@
       ],
       "neg_tags": [],
       "first_seen": "2026-06-22T11:00:04",
-      "last_seen": "2026-06-22T11:00:04"
+      "last_seen": "2026-06-23T11:00:03"
     },
     {
       "url": "https://blog.naver.com/sb5642/224322798697",
@@ -21420,7 +21420,7 @@
       ],
       "neg_tags": [],
       "first_seen": "2026-06-22T11:00:04",
-      "last_seen": "2026-06-22T11:00:04"
+      "last_seen": "2026-06-23T11:00:03"
     },
     {
       "url": "https://blog.naver.com/fjrzl0602/224322815556",
@@ -22131,6 +22131,452 @@
       "neg_tags": [],
       "first_seen": "2026-06-23T08:00:03",
       "last_seen": "2026-06-23T08:00:03"
+    },
+    {
+      "url": "https://blog.naver.com/syp15/224323893050",
+      "title": "푸꾸옥 맛집 가정식부터 해산물까지",
+      "source": "blog",
+      "search_kind": "matjip",
+      "region": "푸꾸옥",
+      "time_text": "1일 전",
+      "post_date": "2026-06-22",
+      "summary": "잘 어울렸고 특히 치즈 랍스터는 이날의 베스트 메뉴 노릇하게 구워진 치즈 아래로 꽉 찬 랍스터 살이 가득 들어 있었는데 한입 먹자마자 모두가 감탄했답니다 마지막으…",
+      "mentions_meokitchen": false,
+      "sentiment": "pos",
+      "pos_tags": [
+        "만족",
+        "완벽",
+        "맛집"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-06-23T11:00:03",
+      "last_seen": "2026-06-23T11:00:03"
+    },
+    {
+      "url": "https://blog.naver.com/lsh5755/224324432354",
+      "title": "베트남 푸꾸옥 맛집 푸꾸옥 야시장 빈산 해산물",
+      "source": "blog",
+      "search_kind": "matjip",
+      "region": "푸꾸옥",
+      "time_text": "32분 전",
+      "post_date": "2026-06-23",
+      "summary": "오픈과 동시에 단숨에 베트남 푸꾸옥 맛집이 됐다. 자세한 식당 정보는 아래 배너를 참고하자. 푸꾸옥 빈산 해산물 레스토랑은 매일 오전 11시부터 오후 11시까지 …",
+      "mentions_meokitchen": false,
+      "sentiment": "pos",
+      "pos_tags": [
+        "맛집"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-06-23T11:00:03",
+      "last_seen": "2026-06-23T11:00:03"
+    },
+    {
+      "url": "https://blog.naver.com/hjk8427_/224323902468",
+      "title": "베트남 푸꾸옥 자유여행 맛집 선셋 분위기 추천 40SIX 레스토랑",
+      "source": "blog",
+      "search_kind": "matjip",
+      "region": "푸꾸옥",
+      "time_text": "1일 전",
+      "post_date": "2026-06-22",
+      "summary": "내부 공간 안쪽으로 들어가니 다른 세상이 펼쳐졌던 베트남 푸꾸옥 맛집. 로맨틱하면서 힙한 분위기와 함께 또 다른 세계가 펼쳐졌다. 2. 외부공간 전반적으로 화이트…",
+      "mentions_meokitchen": false,
+      "sentiment": "pos",
+      "pos_tags": [
+        "추천",
+        "맛집"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-06-23T11:00:03",
+      "last_seen": "2026-06-23T11:00:03"
+    },
+    {
+      "url": "https://blog.naver.com/fnt33/224323795150",
+      "title": "푸꾸옥 여행, 추천 맛집, 아이들과 가기 좋았던 미스터씨푸드 후기! 푸꾸옥 해산물 맛집 찾다가 대만족!",
+      "source": "blog",
+      "search_kind": "matjip",
+      "region": "푸꾸옥",
+      "time_text": "1일 전",
+      "post_date": "2026-06-22",
+      "summary": "▼▼ 푸꾸옥 여행 후기 및 추천 맛집은? ▼▼ 소나시아 야시장 바로 앞이라 편했던 위치 미스터씨푸드는 소나시아 야시장 초입에 위치해 있어서 찾기가 정말 쉽습니다.…",
+      "mentions_meokitchen": false,
+      "sentiment": "pos",
+      "pos_tags": [
+        "추천",
+        "좋아",
+        "좋았",
+        "깔끔",
+        "만족",
+        "맛집"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-06-23T11:00:03",
+      "last_seen": "2026-06-23T11:00:03"
+    },
+    {
+      "url": "https://blog.naver.com/min_chew/224324284318",
+      "title": "베트남 푸꾸옥 맛집 크랩 택시기사 추천 찐 로컬 함닌 국경성 후기",
+      "source": "blog",
+      "search_kind": "matjip",
+      "region": "푸꾸옥",
+      "time_text": "2시간 전",
+      "post_date": "2026-06-23",
+      "summary": "좋았어요 특히 치즈는 고소하고 버터 향이 가득해서 맛이 좋았고 오리지널 랍스터는.... 고수...... 그래도 위에만 잘 걷어내면 먹을만합니다. 바닷바람 맞으며 …",
+      "mentions_meokitchen": false,
+      "sentiment": "pos",
+      "pos_tags": [
+        "추천",
+        "좋았",
+        "맛집"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-06-23T11:00:03",
+      "last_seen": "2026-06-23T11:00:03"
+    },
+    {
+      "url": "https://blog.naver.com/kya1036/224323972972",
+      "title": "[베트남]4일차(1) 푸꾸옥남부 스파더엘 픽업 포틴하노이 우대갈비 곱창쌀국수 맛집 내돈내산",
+      "source": "blog",
+      "search_kind": "matjip",
+      "region": "푸꾸옥",
+      "time_text": "12시간 전",
+      "post_date": "2026-06-23",
+      "summary": "⍝⑅⍝ “키스 더 브릿지” 마사지 받고 나와서 본 몽글몽글 구름☁️ 스파 더 엘 나오면 센셋타운 시계탑 중심지 건물들이 아기자기하고 취향 저격 Phở Thìn P…",
+      "mentions_meokitchen": false,
+      "sentiment": "pos",
+      "pos_tags": [
+        "맛집"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-06-23T11:00:03",
+      "last_seen": "2026-06-23T11:00:03"
+    },
+    {
+      "url": "https://blog.naver.com/me1123kr/224323509539",
+      "title": "푸꾸옥 자유여행 3박 4일 완벽 코스, 가성비 풀빌라부터 야시장까지 베트남 푸꾸옥 여행 총정리! 숙소·맛집·야시장 알짜 코스",
+      "source": "blog",
+      "search_kind": "matjip",
+      "region": "푸꾸옥",
+      "time_text": "1일 전",
+      "post_date": "2026-06-22",
+      "summary": "베트남 여행지를 고민하고 있다면 요즘 가장 뜨거운 여행지는 단연 푸꾸옥입니다. 에메랄드빛 바다와 아름다운 선셋, 합리적인 물가까지 갖춰 가족여행은 물론 커플 여행…",
+      "mentions_meokitchen": false,
+      "sentiment": "pos",
+      "pos_tags": [
+        "완벽",
+        "맛집"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-06-23T11:00:03",
+      "last_seen": "2026-06-23T11:00:03"
+    },
+    {
+      "url": "https://blog.naver.com/zzi_s2_/224324048414",
+      "title": "푸꾸옥 빈펄 맛집 한식맛집 추천 '서울식당'",
+      "source": "blog",
+      "search_kind": "matjip",
+      "region": "푸꾸옥",
+      "time_text": "10시간 전",
+      "post_date": "2026-06-23",
+      "summary": "푸꾸옥 빈펄 맛집 푸꾸옥 한식 맛집 추천 서울식당 안녕하세요 지혜짱입니다:) 오늘 소개해 드릴 맛집은 #푸꾸옥빈펄맛집 #푸꾸옥빈펄맛집추천 #푸꾸옥한식당 서울식당입…",
+      "mentions_meokitchen": false,
+      "sentiment": "pos",
+      "pos_tags": [
+        "추천",
+        "맛집"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-06-23T11:00:03",
+      "last_seen": "2026-06-23T11:00:03"
+    },
+    {
+      "url": "https://blog.naver.com/yipi1000/224323967158",
+      "title": "푸꾸옥 선셋타운 맛집 케이브맨 바베큐 스모크 립",
+      "source": "blog",
+      "search_kind": "matjip",
+      "region": "푸꾸옥",
+      "time_text": "13시간 전",
+      "post_date": "2026-06-23",
+      "summary": "#푸꾸옥선셋타운맛집 #푸꾸옥맛집 #푸꾸옥케이브맨 #푸꾸옥선셋타운케이브맨 #푸꾸옥선셋타운바베큐 #선셋타운립맛집 제가 묵었던 호텔.. 트리랜드 호텔 맞은 편이라서 더…",
+      "mentions_meokitchen": false,
+      "sentiment": "pos",
+      "pos_tags": [
+        "맛집"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-06-23T11:00:03",
+      "last_seen": "2026-06-23T11:00:03"
+    },
+    {
+      "url": "https://blog.naver.com/missj77/224323615679",
+      "title": "28인치 캐리어 푸꾸옥 가족여행 다녀온 솔직 후기",
+      "source": "blog",
+      "search_kind": "matjip",
+      "region": "푸꾸옥",
+      "time_text": "1일 전",
+      "post_date": "2026-06-22",
+      "summary": "지난주 일주일 푸꾸옥 가족여행다녀왔어요! 작년에 중부와 북부, 이번에는 중부와 남부 푸꾸옥만 2주 여행을 했습니다~ 가족 해외여행지로 너무 만족스러운 푸꾸옥 수화…",
+      "mentions_meokitchen": false,
+      "sentiment": "pos",
+      "pos_tags": [
+        "만족"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-06-23T11:00:03",
+      "last_seen": "2026-06-23T11:00:03"
+    },
+    {
+      "url": "https://blog.naver.com/dbsl18/224323252230",
+      "title": "푸꾸옥 라페스타 힐튼 근처 맛집, 핫한 '선셋분식' 참치김밥과 '티아모 젤라또' 후기",
+      "source": "blog",
+      "search_kind": "matjip",
+      "region": "푸꾸옥",
+      "time_text": "1일 전",
+      "post_date": "2026-06-22",
+      "summary": "푸꾸옥 티아모젤라또 and 카페 & 선셋분식 안녕하세요 :D 오늘은 푸꾸옥 여행가서 남은 잔잔바리들 포스팅을 해보려고해요. 남부 도착하자~ 마자~ 생각나는 한식,…",
+      "mentions_meokitchen": false,
+      "sentiment": "pos",
+      "pos_tags": [
+        "맛집"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-06-23T11:00:03",
+      "last_seen": "2026-06-23T11:00:03"
+    },
+    {
+      "url": "https://blog.naver.com/silverchild97/224323478158",
+      "title": "푸꾸옥 중부 즈엉동 야시장 먹거리 크록스",
+      "source": "blog",
+      "search_kind": "matjip",
+      "region": "푸꾸옥",
+      "time_text": "1일 전",
+      "post_date": "2026-06-22",
+      "summary": "현지인 분들이 많이 사가시더라구용~ 즈엉동 야시장 근처에 베트남 전통 드립커피로 유명한 하이랜드커피도 있어서 한잔 했습니당 맛있고 가격이 저렴하긴 한데 얼음이 너…",
+      "mentions_meokitchen": false,
+      "sentiment": "pos",
+      "pos_tags": [
+        "맛있",
+        "맛집"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-06-23T11:00:03",
+      "last_seen": "2026-06-23T11:00:03"
+    },
+    {
+      "url": "https://blog.naver.com/fjrzl0602/224323903978",
+      "title": "진주시내맛집 도형민식당에서 즐긴 푸짐한 가족외식! 진주파스타 진주스테이크 추천",
+      "source": "blog",
+      "search_kind": "matjip",
+      "region": "푸꾸옥",
+      "time_text": "1일 전",
+      "post_date": "2026-06-22",
+      "summary": "갤러리아 백화점 내에 있는 진주시내맛집 도형민식당에 가보았습니다 도형민식당 위치 경남 진주시 진주대로 1095 7층 ⏰ 10:30 - 20:00 /월요일휴무 (라…",
+      "mentions_meokitchen": false,
+      "sentiment": "pos",
+      "pos_tags": [
+        "추천",
+        "맛집"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-06-23T11:00:03",
+      "last_seen": "2026-06-23T11:00:03"
+    },
+    {
+      "url": "https://blog.naver.com/maponest/224323311591",
+      "title": "푸꾸옥 가족여행 코스 추천 남부 북부 핫스팟 총정리",
+      "source": "blog",
+      "search_kind": "matjip",
+      "region": "푸꾸옥",
+      "time_text": "1일 전",
+      "post_date": "2026-06-22",
+      "summary": "반가워요 여러분 사랑이에요^^ 오늘 제가 들려드릴 이야기는 푸꾸옥 가족여행 하면 가기 좋은 여행지와 알짜배기 정보들이랍니다ㅎㅎ 사랑하는 사람들과 떠나는 푸꾸옥 여…",
+      "mentions_meokitchen": false,
+      "sentiment": "pos",
+      "pos_tags": [
+        "추천",
+        "맛집"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-06-23T11:00:03",
+      "last_seen": "2026-06-23T11:00:03"
+    },
+    {
+      "url": "https://blog.naver.com/ekqls1778/224323458786",
+      "title": "[강릉] 강릉 여행 필수 코스, 장칼국수 찐맛집 호박식당",
+      "source": "blog",
+      "search_kind": "matjip",
+      "region": "푸꾸옥",
+      "time_text": "1일 전",
+      "post_date": "2026-06-22",
+      "summary": "저는 강릉 오면 무조건 장칼국수부터 수혈해 줘야 여행이 시작되는 기분이더라고요 이번 강릉 여행에서도 어김없이 장칼국수 맛집을 서치하다가, 현지 느낌 물씬 나는 호…",
+      "mentions_meokitchen": false,
+      "sentiment": "pos",
+      "pos_tags": [
+        "추천",
+        "필수",
+        "맛집"
+      ],
+      "neg_tags": [
+        "웨이팅"
+      ],
+      "first_seen": "2026-06-23T11:00:03",
+      "last_seen": "2026-06-23T11:00:03"
+    },
+    {
+      "url": "https://blog.naver.com/leelee9707/224323845507",
+      "title": "싱가포르 여행 필수 코스 일정 공유",
+      "source": "blog",
+      "search_kind": "matjip",
+      "region": "푸꾸옥",
+      "time_text": "1일 전",
+      "post_date": "2026-06-22",
+      "summary": "싱가포르 여행의 필수 코스 남녀노소 어린이 동반 누구나 즐길 수 있는 관광지부터 맛집까지 알찬 일정! 안녕하세요 네이버 세계여행 인플루언서 크리에이터 안나삶입니다…",
+      "mentions_meokitchen": false,
+      "sentiment": "pos",
+      "pos_tags": [
+        "필수",
+        "맛집"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-06-23T11:00:03",
+      "last_seen": "2026-06-23T11:00:03"
+    },
+    {
+      "url": "https://blog.naver.com/shqhqo75/224324012877",
+      "title": "푸꾸옥 6박 8일 여행기 3탄-빈펄사파리, 빈원더스, 서울식당",
+      "source": "blog",
+      "search_kind": "matjip",
+      "region": "푸꾸옥",
+      "time_text": "11시간 전",
+      "post_date": "2026-06-23",
+      "summary": "서울식당에서 배달~ ▼▼▼ 여기 배달k어플 따로 안 깔아도 되고 카톡 주문이 가능해서 너무 좋았어요 !! 이제 대망의 남부 DAY 4로 돌아오겠습니다 #푸꾸옥여행…",
+      "mentions_meokitchen": false,
+      "sentiment": "pos",
+      "pos_tags": [
+        "추천",
+        "좋았",
+        "맛집"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-06-23T11:00:03",
+      "last_seen": "2026-06-23T11:00:03"
+    },
+    {
+      "url": "https://blog.naver.com/shqhqo75/224323523648",
+      "title": "푸꾸옥 6박 8일 여행기 2탄- 맥도날드, 킹콩마트, 빈버스, 그랜드월드",
+      "source": "blog",
+      "search_kind": "matjip",
+      "region": "푸꾸옥",
+      "time_text": "1일 전",
+      "post_date": "2026-06-22",
+      "summary": "예약 내역이 없으면 인당 2$ 또는 50,000동입니다 그리고 여기에 식당, 마사지 쿠폰들도 있어서 푸꾸옥 여행하실 때 미리 들르면 아주 좋습니다 ! & 망빙 맛…",
+      "mentions_meokitchen": false,
+      "sentiment": "pos",
+      "pos_tags": [
+        "맛있",
+        "맛집"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-06-23T11:00:03",
+      "last_seen": "2026-06-23T11:00:03"
+    },
+    {
+      "url": "https://blog.naver.com/bombome33/224319068167",
+      "title": "[호박 추어탕 죽전점] 대구 죽전 밥집 맛집추천",
+      "source": "blog",
+      "search_kind": "matjip",
+      "region": "푸꾸옥",
+      "time_text": "1일 전",
+      "post_date": "2026-06-22",
+      "summary": "국물이 구수하고 진~해서 밥 한공기 뚝딱 해버렸어요 대구 죽전역 주변 보양식 찾으신다면 호박 추어탕 죽전점 추천드려요!! 뜨끈한 추어탕 한그릇 하면 기운이 생겨납…",
+      "mentions_meokitchen": false,
+      "sentiment": "pos",
+      "pos_tags": [
+        "추천",
+        "맛집"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-06-23T11:00:03",
+      "last_seen": "2026-06-23T11:00:03"
+    },
+    {
+      "url": "https://blog.naver.com/srlee3775/224324164749",
+      "title": "화성 봉담 맛집 점심 저녁시간에 방문하기 좋은 신동랩 메뉴",
+      "source": "blog",
+      "search_kind": "matjip",
+      "region": "푸꾸옥",
+      "time_text": "5시간 전",
+      "post_date": "2026-06-23",
+      "summary": "안녕하세요 오랜만에 맛집블로그로 찾아왔어요. 오늘은 수원대학교 먹자골에 위치한 신동랩이라는 음식점을 방문해봤는데 믿고가는 맛집으로 저또한 세번째 방문이랍니다.! …",
+      "mentions_meokitchen": false,
+      "sentiment": "pos",
+      "pos_tags": [
+        "필수",
+        "맛집"
+      ],
+      "neg_tags": [
+        "웨이팅"
+      ],
+      "first_seen": "2026-06-23T11:00:03",
+      "last_seen": "2026-06-23T11:00:03"
+    },
+    {
+      "url": "https://blog.naver.com/hello100kg/224323673605",
+      "title": "푸꾸옥 소나시 야시장 맛집 미스터씨푸드 재방문의사는",
+      "source": "blog",
+      "search_kind": "matjip",
+      "region": "푸꾸옥",
+      "time_text": "1일 전",
+      "post_date": "2026-06-22",
+      "summary": "안녕하세요 여러분 오늘은 푸꾸옥 중부 맛집 푸꾸옥 소나시 야시장 맛집 미스터 씨푸드 리뷰입니다 시원한 에어컨 보유 서비스 김치/망고/공심채볶음/계란볶음밥 is g…",
+      "mentions_meokitchen": false,
+      "sentiment": "pos",
+      "pos_tags": [
+        "맛집",
+        "재방문"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-06-23T11:00:03",
+      "last_seen": "2026-06-23T11:00:03"
+    },
+    {
+      "url": "https://blog.naver.com/lover-jj/224324363951",
+      "title": "푸꾸옥 소나시 신상 맛집 추천, 깔끔한 쌀국수와 바삭한 족발튀김",
+      "source": "blog",
+      "search_kind": "matjip",
+      "region": "푸꾸옥",
+      "time_text": "1시간 전",
+      "post_date": "2026-06-23",
+      "summary": "소나시에서 분짜나 쌀국수가 생각날 때 부담 없이 방문하기 좋은 곳이다. 특히 족발튀김은 생각보다 만족도가 높았던 메뉴라 방문한다면 한 번쯤 같이 주문해보는 것을 …",
+      "mentions_meokitchen": false,
+      "sentiment": "pos",
+      "pos_tags": [
+        "추천",
+        "깔끔",
+        "만족",
+        "맛집"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-06-23T11:00:03",
+      "last_seen": "2026-06-23T11:00:03"
+    },
+    {
+      "url": "https://blog.naver.com/shqhqo75/224322956582",
+      "title": "푸꾸옥 6박 8일 여행기 1탄- 비수기 오히려 좋아?",
+      "source": "blog",
+      "search_kind": "matjip",
+      "region": "푸꾸옥",
+      "time_text": "1일 전",
+      "post_date": "2026-06-22",
+      "summary": "푸꾸옥에 다녀 왔습니다 !!! 비수기라 가도 되나 고민했지만 진짜 너무 만족스러웠던 여행이었는데요 차근 차근 풀어보겠습니당..ㅎ 푸꾸옥 6박 8일 일정 6/13(…",
+      "mentions_meokitchen": false,
+      "sentiment": "pos",
+      "pos_tags": [
+        "좋아",
+        "만족"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-06-23T11:00:03",
+      "last_seen": "2026-06-23T11:00:03"
     }
   ]
 }
