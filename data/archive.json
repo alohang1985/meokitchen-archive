@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-05T08:00:31",
+  "updated_at": "2026-07-05T11:00:08",
   "posts": [
     {
       "url": "https://blog.naver.com/gagmic/224304300809",
@@ -31168,7 +31168,7 @@
       ],
       "neg_tags": [],
       "first_seen": "2026-07-04T11:00:02",
-      "last_seen": "2026-07-04T11:00:02"
+      "last_seen": "2026-07-05T11:00:02"
     },
     {
       "url": "https://blog.naver.com/lemoni23/224336076017",
@@ -31186,7 +31186,7 @@
       ],
       "neg_tags": [],
       "first_seen": "2026-07-04T11:00:02",
-      "last_seen": "2026-07-04T11:00:02"
+      "last_seen": "2026-07-05T11:00:02"
     },
     {
       "url": "https://blog.naver.com/yipi1000/224335763491",
@@ -31296,7 +31296,7 @@
       ],
       "neg_tags": [],
       "first_seen": "2026-07-04T11:00:02",
-      "last_seen": "2026-07-04T11:00:02"
+      "last_seen": "2026-07-05T11:00:02"
     },
     {
       "url": "https://blog.naver.com/zyuu25/224335088431",
@@ -31485,7 +31485,7 @@
       ],
       "neg_tags": [],
       "first_seen": "2026-07-04T11:00:08",
-      "last_seen": "2026-07-04T11:00:08"
+      "last_seen": "2026-07-05T11:00:08"
     },
     {
       "url": "https://blog.naver.com/dldlsgh9398/224335383125",
@@ -31590,7 +31590,7 @@
       ],
       "neg_tags": [],
       "first_seen": "2026-07-04T11:00:08",
-      "last_seen": "2026-07-04T11:00:08"
+      "last_seen": "2026-07-05T11:00:08"
     },
     {
       "url": "https://blog.naver.com/loranzi/224334950073",
@@ -31629,7 +31629,7 @@
       ],
       "neg_tags": [],
       "first_seen": "2026-07-04T11:00:08",
-      "last_seen": "2026-07-04T11:00:08"
+      "last_seen": "2026-07-05T11:00:08"
     },
     {
       "url": "https://blog.naver.com/dladngud22/224335053281",
@@ -31821,7 +31821,7 @@
       ],
       "neg_tags": [],
       "first_seen": "2026-07-04T11:00:08",
-      "last_seen": "2026-07-04T11:00:08"
+      "last_seen": "2026-07-05T11:00:08"
     },
     {
       "url": "https://blog.naver.com/bbiyagi8686/224335298266",
@@ -32021,7 +32021,7 @@
       ],
       "neg_tags": [],
       "first_seen": "2026-07-04T11:00:08",
-      "last_seen": "2026-07-04T11:00:08"
+      "last_seen": "2026-07-05T11:00:08"
     },
     {
       "url": "https://blog.naver.com/iklee315/224335052613",
@@ -32060,7 +32060,7 @@
       ],
       "neg_tags": [],
       "first_seen": "2026-07-04T11:00:08",
-      "last_seen": "2026-07-04T11:00:08"
+      "last_seen": "2026-07-05T11:00:08"
     },
     {
       "url": "https://blog.naver.com/imslowth/224336427994",
@@ -32172,7 +32172,7 @@
       ],
       "neg_tags": [],
       "first_seen": "2026-07-05T08:00:31",
-      "last_seen": "2026-07-05T08:00:31"
+      "last_seen": "2026-07-05T11:00:02"
     },
     {
       "url": "https://blog.naver.com/khwkjw0420/224336262131",
@@ -32271,6 +32271,958 @@
       "neg_tags": [],
       "first_seen": "2026-07-05T08:00:31",
       "last_seen": "2026-07-05T08:00:31"
+    },
+    {
+      "url": "https://blog.naver.com/minnie25/224336622603",
+      "title": "푸꾸옥 맛집 추천 남부 껌자딘 반쎄오 쌀국수",
+      "source": "blog",
+      "search_kind": "matjip",
+      "region": "푸꾸옥",
+      "time_text": "11시간 전",
+      "post_date": "2026-07-05",
+      "summary": "기본이 되는 쌀국수부터 틀렸다는 저희는 푸꾸옥 맛집에서 쌀국수 먹고 싶다고 노래들을 불러서 쌀국수 잘하는 베트남 가정식 식당에 가기로 했죠. 낮에는 혼똔섬에서 노…",
+      "mentions_meokitchen": false,
+      "sentiment": "pos",
+      "pos_tags": [
+        "추천",
+        "맛집"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-07-05T11:00:02",
+      "last_seen": "2026-07-05T11:00:02"
+    },
+    {
+      "url": "https://blog.naver.com/danzzak78/224336661950",
+      "title": "푸꾸옥 맛집 추천 한식당 경복궁 솥 한돈명가",
+      "source": "blog",
+      "search_kind": "matjip",
+      "region": "푸꾸옥",
+      "time_text": "9시간 전",
+      "post_date": "2026-07-05",
+      "summary": "푸꾸옥 맛집 추천 푸꾸옥 한식당 사진.글 © danzzak78 저는 베트남 음식을 정말 사랑하지만 얼큰한 찌개, 갓 구운 삼겹살, 따뜻한 집밥이 생각나는 순간이 …",
+      "mentions_meokitchen": false,
+      "sentiment": "pos",
+      "pos_tags": [
+        "추천",
+        "맛집"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-07-05T11:00:02",
+      "last_seen": "2026-07-05T11:00:02"
+    },
+    {
+      "url": "https://blog.naver.com/wudi16003/224336490951",
+      "title": "[푸꾸옥 맛집] 아이와 함께한 세일링클럽 저녁 코스요리! 불쇼까지 완벽했던 후기 (주차/예약 팁)",
+      "source": "blog",
+      "search_kind": "matjip",
+      "region": "푸꾸옥",
+      "time_text": "1일 전",
+      "post_date": "2026-07-04",
+      "summary": "워킹맘 여러분, 육아와 일에 지친 몸과 마음을 푸꾸옥 세일링클럽에서 힐링해보시는 건 어떨까요? ✨ 오늘도 열심히 살아가는 모든 워킹맘을 응원합니다! #푸꾸옥맛집 …",
+      "mentions_meokitchen": false,
+      "sentiment": "pos",
+      "pos_tags": [
+        "완벽",
+        "맛집"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-07-05T11:00:02",
+      "last_seen": "2026-07-05T11:00:02"
+    },
+    {
+      "url": "https://blog.naver.com/dydals1wj/224335483780",
+      "title": "푸꾸옥 남부 맛집 선셋타운 중식당 SETA",
+      "source": "blog",
+      "search_kind": "matjip",
+      "region": "푸꾸옥",
+      "time_text": "6시간 전",
+      "post_date": "2026-07-05",
+      "summary": "눈에 안 들어오고 분수 물보라가 바람을 타고 객석까지 날아와서 옷이나 카메라가 젖을 수도 있거든요. 아무튼 이날 푸꾸옥 맛집 찍고 마지막 코스인 키스오브더씨 공연…",
+      "mentions_meokitchen": false,
+      "sentiment": "pos",
+      "pos_tags": [
+        "추천",
+        "맛집"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-07-05T11:00:02",
+      "last_seen": "2026-07-05T11:00:02"
+    },
+    {
+      "url": "https://blog.naver.com/hand4444/224336575065",
+      "title": "푸꾸옥 중부 맛집 부이상 갈비쌀국수 메뉴 추천",
+      "source": "blog",
+      "search_kind": "matjip",
+      "region": "푸꾸옥",
+      "time_text": "1일 전",
+      "post_date": "2026-07-04",
+      "summary": "구경하면서 마셨어요 생과일 갈아 넣는거라 한국에서 먹는 음료랑은 차원이 다르니까요 식사 다하고 음료까지 꼭 시켜보세요 너무 맛있게 먹고 온 마지막 한 끼 식사였네…",
+      "mentions_meokitchen": false,
+      "sentiment": "pos",
+      "pos_tags": [
+        "맛있",
+        "추천",
+        "맛집"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-07-05T11:00:02",
+      "last_seen": "2026-07-05T11:00:02"
+    },
+    {
+      "url": "https://blog.naver.com/ohyeah046/224336475375",
+      "title": "상무지구맛집 이자카야 맛담 지라시스시 후기",
+      "source": "blog",
+      "search_kind": "matjip",
+      "region": "푸꾸옥",
+      "time_text": "1일 전",
+      "post_date": "2026-07-04",
+      "summary": "안녕하세요 오늘은 숙성회 맛집으로 소문나서 궁금했던 상무지구맛집 맛담을 다녀왔어요 ⏰18:00 ~ 02:00 (L/O 12:30) 전남광주 서구 상무대로868번길…",
+      "mentions_meokitchen": false,
+      "sentiment": "pos",
+      "pos_tags": [
+        "맛집"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-07-05T11:00:02",
+      "last_seen": "2026-07-05T11:00:02"
+    },
+    {
+      "url": "https://blog.naver.com/topnotchlady/224336603297",
+      "title": "푸꾸옥 여행 맛집 중부 부이상 킹콩마트 웨일스파",
+      "source": "blog",
+      "search_kind": "matjip",
+      "region": "푸꾸옥",
+      "time_text": "12시간 전",
+      "post_date": "2026-07-05",
+      "summary": "#광고 푸꾸옥 여행 맛집 중부 부이상 킹콩마트 웨일스파 푸꾸옥 맛집 중부 여행 부이상 킹콩마트 웨일스파 코스 쨍하게 내리쬐는 햇살과 에메랄드빛 바다가 반겨주는 본…",
+      "mentions_meokitchen": false,
+      "sentiment": "pos",
+      "pos_tags": [
+        "맛집"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-07-05T11:00:02",
+      "last_seen": "2026-07-05T11:00:02"
+    },
+    {
+      "url": "https://blog.naver.com/everything91/224336335173",
+      "title": "푸꾸옥 가족여행 북부 숙소 크라운플라자 마사지 맛집 그랜드월드 분수쇼",
+      "source": "blog",
+      "search_kind": "matjip",
+      "region": "푸꾸옥",
+      "time_text": "1일 전",
+      "post_date": "2026-07-04",
+      "summary": "그랜드월드 푸꾸옥 여행 추천 코스는 ➡️ 푸꾸옥 마사지 - 웨일스파 ➡️ 푸꾸옥 맛집 -> 꼬어이 or 마담타오 ➡️ 그랜드월드 산책 & 쇼핑 & 커피 한잔 ➡️…",
+      "mentions_meokitchen": false,
+      "sentiment": "pos",
+      "pos_tags": [
+        "추천",
+        "맛집"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-07-05T11:00:02",
+      "last_seen": "2026-07-05T11:00:02"
+    },
+    {
+      "url": "https://blog.naver.com/sasato2373/224332877247",
+      "title": "푸꾸옥 노보텔 맛집 위치 가격 다 좋아",
+      "source": "blog",
+      "search_kind": "matjip",
+      "region": "푸꾸옥",
+      "time_text": "12시간 전",
+      "post_date": "2026-07-05",
+      "summary": "원래 나트랑에서 유명하던 맛집이 푸꾸옥에도 문을 열었다고 해서 궁금했어요. 노을 질 무렵 찾아간 맛집답게 바로 앞에 바다가 펼쳐진 자리에 앉았는데요. 음식이 차려…",
+      "mentions_meokitchen": false,
+      "sentiment": "pos",
+      "pos_tags": [
+        "좋아",
+        "맛집"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-07-05T11:00:02",
+      "last_seen": "2026-07-05T11:00:02"
+    },
+    {
+      "url": "https://blog.naver.com/wldn_thd84/224336395520",
+      "title": "윈덤 그랜드 푸꾸옥 가족여행 내돈내산, 객실과 조식 솔직 리뷰",
+      "source": "blog",
+      "search_kind": "matjip",
+      "region": "푸꾸옥",
+      "time_text": "1일 전",
+      "post_date": "2026-07-04",
+      "summary": "Bai Dai Area, Phu Quoc Special Zone An Giang Province, Vietnam ⏰ 체크인 14시 / 체크아웃 12시 이번 푸꾸옥…",
+      "mentions_meokitchen": false,
+      "sentiment": "neutral",
+      "pos_tags": [],
+      "neg_tags": [],
+      "first_seen": "2026-07-05T11:00:02",
+      "last_seen": "2026-07-05T11:00:02"
+    },
+    {
+      "url": "https://blog.naver.com/kemono23/224334512086",
+      "title": "푸꾸옥 여행 가장 기억에 남았던 중부 맛집 왁뿌셔",
+      "source": "blog",
+      "search_kind": "matjip",
+      "region": "푸꾸옥",
+      "time_text": "12시간 전",
+      "post_date": "2026-07-05",
+      "summary": "직접 푸꾸옥 맛집을 하나씩 찾아다니며 현지의 다양한 음식을 맛본 시간이 이번 여행에서 가장 오래 기억에 남을 것 같아요. 다음에 다시 푸꾸옥을 찾게 된다면 새로운…",
+      "mentions_meokitchen": false,
+      "sentiment": "pos",
+      "pos_tags": [
+        "맛집"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-07-05T11:00:02",
+      "last_seen": "2026-07-05T11:00:02"
+    },
+    {
+      "url": "https://blog.naver.com/ash1909/224336459137",
+      "title": "우기에 간 푸꾸옥 까미아 레스토랑 솔직 후기｜비 와도 갈 만할까?",
+      "source": "blog",
+      "search_kind": "matjip",
+      "region": "푸꾸옥",
+      "time_text": "1일 전",
+      "post_date": "2026-07-04",
+      "summary": "",
+      "mentions_meokitchen": false,
+      "sentiment": "neutral",
+      "pos_tags": [],
+      "neg_tags": [],
+      "first_seen": "2026-07-05T11:00:02",
+      "last_seen": "2026-07-05T11:00:02"
+    },
+    {
+      "url": "https://blog.naver.com/tlftlfdl07/224336024211",
+      "title": "[스위스 유럽여행] 샤프하우젠 무노트요새 라인폭포",
+      "source": "blog",
+      "search_kind": "matjip",
+      "region": "푸꾸옥",
+      "time_text": "1일 전",
+      "post_date": "2026-07-04",
+      "summary": "6/1~6/9 노랑풍선 프랑스 스위스 패키지 엄마랑 유럽여행 둘째날 저녁 스위스 도착~! 그렇게도 기대하고 고대했던 스위스 2박 묵을 두번째 호텔 매일 짐싸고 호…",
+      "mentions_meokitchen": false,
+      "sentiment": "pos",
+      "pos_tags": [
+        "좋았"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-07-05T11:00:02",
+      "last_seen": "2026-07-05T11:00:02"
+    },
+    {
+      "url": "https://blog.naver.com/darapanda84/224336112989",
+      "title": "올여름 휴양지는 여기! 베트남 푸꾸옥 리젠트 리조트에서 보낸 완벽한 휴가",
+      "source": "blog",
+      "search_kind": "matjip",
+      "region": "푸꾸옥",
+      "time_text": "1일 전",
+      "post_date": "2026-07-04",
+      "summary": "선셋을 보며 즐기는 저녁은 하루의 마무리로 완벽✨ 조식 맛집이라는 말이 괜히 있는 게 아니었어요 리젠트 푸꾸옥은 조식도 정말 유명하더라고요. 베트남 현지 음식부터…",
+      "mentions_meokitchen": false,
+      "sentiment": "pos",
+      "pos_tags": [
+        "맛있",
+        "완벽",
+        "맛집"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-07-05T11:00:02",
+      "last_seen": "2026-07-05T11:00:02"
+    },
+    {
+      "url": "https://blog.naver.com/fornali/224336202432",
+      "title": "대전 어은동 라멘 맛집 이치조, 카이스트 라멘 신상 맛집, 어은동 점심 맛집 추천",
+      "source": "blog",
+      "search_kind": "matjip",
+      "region": "푸꾸옥",
+      "time_text": "1일 전",
+      "post_date": "2026-07-04",
+      "summary": "일본 여행갔을때도 돈코츠라멘을 맛있게 먹었던 기억이 있어서 돈코츠라멘 맛집을 찾고 있었는데 어은동에 라멘 신상 맛집이 생겼다고 해서 방문해보았다. 주소 : 대전광…",
+      "mentions_meokitchen": false,
+      "sentiment": "pos",
+      "pos_tags": [
+        "맛있",
+        "추천",
+        "맛집"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-07-05T11:00:02",
+      "last_seen": "2026-07-05T11:00:02"
+    },
+    {
+      "url": "https://blog.naver.com/yellowpo22/224336258796",
+      "title": "후쿠오카 텐진 츠키시마 몬자야끼 타마토야 후기",
+      "source": "blog",
+      "search_kind": "matjip",
+      "region": "푸꾸옥",
+      "time_text": "1일 전",
+      "post_date": "2026-07-04",
+      "summary": "이번에는 후쿠오카 텐진에 있는 평점 좋은 맛집을 발견해서 방문해 봤습니다. 무려 구글 평점 4.9점! 후기도 정말 좋아서 기대를 안고 다녀왔어요. 츠키시마 몬자 …",
+      "mentions_meokitchen": false,
+      "sentiment": "pos",
+      "pos_tags": [
+        "좋아",
+        "친절",
+        "맛집"
+      ],
+      "neg_tags": [
+        "복잡"
+      ],
+      "first_seen": "2026-07-05T11:00:02",
+      "last_seen": "2026-07-05T11:00:02"
+    },
+    {
+      "url": "https://blog.naver.com/19enmkx1/224327257886",
+      "title": "다낭 핑크성당 맛집 여기 곱창쌀국수는 꼭 드셔보세요!",
+      "source": "blog",
+      "search_kind": "matjip",
+      "region": "푸꾸옥",
+      "time_text": "12시간 전",
+      "post_date": "2026-07-05",
+      "summary": "이번에도 역대급 다낭 맛집을 발견해서 평상시 먹던 양보다 1.5배는 넘게 폭풍흡입 했어요. 그럼 지금부터 제가 찾은 찐맛집을 방문한 이틀차 이야기 시작해볼게요. …",
+      "mentions_meokitchen": false,
+      "sentiment": "pos",
+      "pos_tags": [
+        "추천",
+        "맛집"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-07-05T11:00:02",
+      "last_seen": "2026-07-05T11:00:02"
+    },
+    {
+      "url": "https://blog.naver.com/eteach60/224335455801",
+      "title": "성내동 맛집 쌍화차로 샤브육수를 만드는 라온정",
+      "source": "blog",
+      "search_kind": "matjip",
+      "region": "푸꾸옥",
+      "time_text": "1일 전",
+      "post_date": "2026-07-04",
+      "summary": "쪼르륵 해주면 감칠맛 대박~ 배불러도 계속 들어가는 맛 ㅋㅋ 신나게 배부르게 먹어주고~ 가글까지 할 수 있게 준비되어 있어요 잘 먹고 누구 만나기에도 부담 없게 …",
+      "mentions_meokitchen": false,
+      "sentiment": "pos",
+      "pos_tags": [
+        "맛집"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-07-05T11:00:02",
+      "last_seen": "2026-07-05T11:00:02"
+    },
+    {
+      "url": "https://blog.naver.com/woori1025_/224336177814",
+      "title": "푸꾸옥 하이봇 이터리(Hai Bột Eatery & Homestay) 후기 | 스테이크 맛집",
+      "source": "blog",
+      "search_kind": "matjip",
+      "region": "푸꾸옥",
+      "time_text": "1일 전",
+      "post_date": "2026-07-04",
+      "summary": "Editor : 이소요 푸꾸옥 선셋타운 맛집 하이봇 매장이 두 곳으로 나뉜다는 사실은 알고가세요!!! Hai Bột Eatery & Homestay Phu Quo…",
+      "mentions_meokitchen": false,
+      "sentiment": "pos",
+      "pos_tags": [
+        "좋았",
+        "맛집"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-07-05T11:00:02",
+      "last_seen": "2026-07-05T11:00:02"
+    },
+    {
+      "url": "https://blog.naver.com/notgarim/224335632518",
+      "title": "[베트남 여름휴가] 베트남 여행지, 어디로 가야 가장 만족스러울까?",
+      "source": "blog",
+      "search_kind": "matjip",
+      "region": "푸꾸옥",
+      "time_text": "1일 전",
+      "post_date": "2026-07-04",
+      "summary": "다낭보다 조금 더 휴양지 느낌이 강하고, 푸꾸옥보다는 시내 접근성이 좋다. 나트랑은 크게 두 가지 스타일로 나눠서 여행할 수 있다. 시내 중심 여행 깜란 리조트 …",
+      "mentions_meokitchen": false,
+      "sentiment": "pos",
+      "pos_tags": [
+        "만족",
+        "맛집"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-07-05T11:00:02",
+      "last_seen": "2026-07-05T11:00:02"
+    },
+    {
+      "url": "https://blog.naver.com/sejun6659/224336347829",
+      "title": "푸꾸옥 뉴월드 리조트 가족여행 후기, 프라이빗 풀빌라에서 보낸 최고의 휴식",
+      "source": "blog",
+      "search_kind": "matjip",
+      "region": "푸꾸옥",
+      "time_text": "1일 전",
+      "post_date": "2026-07-04",
+      "summary": "이 포스팅은 내돈내산 입니다 베트남 푸꾸옥 여행에서 가족 모두가 가장 만족했던 숙소는 단연 푸꾸옥 뉴월드 리조트 였습니다. 아이들과 장모님까지 함께하는 여행이라 …",
+      "mentions_meokitchen": false,
+      "sentiment": "pos",
+      "pos_tags": [
+        "추천",
+        "최고",
+        "만족"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-07-05T11:00:02",
+      "last_seen": "2026-07-05T11:00:02"
+    },
+    {
+      "url": "https://blog.naver.com/boracaytori/224336628135",
+      "title": "보라카이 호핑투어 액티비티 솔직 후기 가격 준비물 총정리",
+      "source": "blog",
+      "search_kind": "matjip",
+      "region": "푸꾸옥",
+      "time_text": "11시간 전",
+      "post_date": "2026-07-05",
+      "summary": "보라카이 액티비티 호핑투어 솔직 후기 가격 준비물 리스트 사진 글 앨리스 안녕하세요. 여행 인플루언서를 꿈꾸는 앨리스입니다. 보라카이여행을 준비하면서 가장 먼저 …",
+      "mentions_meokitchen": false,
+      "sentiment": "neutral",
+      "pos_tags": [],
+      "neg_tags": [],
+      "first_seen": "2026-07-05T11:00:02",
+      "last_seen": "2026-07-05T11:00:02"
+    },
+    {
+      "url": "https://blog.naver.com/youjintak/224336260244",
+      "title": "베트남 푸꾸옥 코코넛커피 안바 카페 ANBA CAFE",
+      "source": "blog",
+      "search_kind": "matjip",
+      "region": "푸꾸옥",
+      "time_text": "1일 전",
+      "post_date": "2026-07-04",
+      "summary": "베트남 푸꾸옥 안바 카페 한국에서 푸꾸옥 오기전에 추천받은 안바 카페☕️ 코코넛커피가 굉장히 유명하다고 들어서 호텔에서 거리가 있지만 마시러 나옴! 입구부터 베트…",
+      "mentions_meokitchen": false,
+      "sentiment": "pos",
+      "pos_tags": [
+        "맛있",
+        "추천",
+        "또 가"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-07-05T11:00:02",
+      "last_seen": "2026-07-05T11:00:02"
+    },
+    {
+      "url": "https://blog.naver.com/piddaminfo/224336437382",
+      "title": "경주보문단지 아침 맛집 추천｜경주월드 가기 전 뜨끈하게 먹기 좋았던 향림매운탕",
+      "source": "blog",
+      "search_kind": "matjip",
+      "region": "푸꾸옥",
+      "time_text": "7시간 전",
+      "post_date": "2026-07-05",
+      "summary": "아침 6시 30분부터 문을 열어서 경주보문단지 아침 맛집 추천 찾는 분들께 잘 맞는 곳이었어요. 식당 앞 주차장도 넓고, 매장도 여유롭게 앉기 좋아서 경주월드 맛…",
+      "mentions_meokitchen": false,
+      "sentiment": "pos",
+      "pos_tags": [
+        "추천",
+        "좋아",
+        "좋았",
+        "맛집"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-07-05T11:00:02",
+      "last_seen": "2026-07-05T11:00:02"
+    },
+    {
+      "url": "https://blog.naver.com/2verything/224336383044",
+      "title": "푸꾸옥 공항 패스트트랙 atm 환전 그랩 식당 면세점 총정리 리얼후기",
+      "source": "blog",
+      "search_kind": "matjip",
+      "region": "푸꾸옥",
+      "time_text": "1일 전",
+      "post_date": "2026-07-04",
+      "summary": "푸꾸옥 공항 패스트트랙 atm 환전 그랩 식당 면세점 총정리 리얼후기 안녕하세요 여행 인플루언서 세렌디입니다. 오늘은 최근에 다녀온 베트남의 핫한 휴양지 푸꾸옥 …",
+      "mentions_meokitchen": false,
+      "sentiment": "neutral",
+      "pos_tags": [],
+      "neg_tags": [],
+      "first_seen": "2026-07-05T11:00:02",
+      "last_seen": "2026-07-05T11:00:02"
+    },
+    {
+      "url": "https://blog.naver.com/rarapapa004/224336049489",
+      "title": "[26.05~26.06] 집밥닝선생(자취요리 기록)",
+      "source": "blog",
+      "search_kind": "matjip",
+      "region": "푸꾸옥",
+      "time_text": "1일 전",
+      "post_date": "2026-07-04",
+      "summary": "후후 이번 5-6월에는 집밥을 대애충 해먹었는지 예쁜 사진이 많지는 않지만 ! 그래도 기록을 해 보겠다 ! 날치알크림파스타 사실 딱히 중요한 식재료는 아니지만 있…",
+      "mentions_meokitchen": false,
+      "sentiment": "neutral",
+      "pos_tags": [],
+      "neg_tags": [],
+      "first_seen": "2026-07-05T11:00:02",
+      "last_seen": "2026-07-05T11:00:02"
+    },
+    {
+      "url": "https://blog.naver.com/kyena200/224332104001",
+      "title": "7월 건기 베트남 나트랑 맛집 시내 해산물 에어컨 시원해~",
+      "source": "blog",
+      "search_kind": "matjip",
+      "region": "나트랑",
+      "time_text": "1일 전",
+      "post_date": "2026-07-04",
+      "summary": "7월 건기 베트남 나트랑 나트랑 맛집 시내 해산물 더위에는 진짜 장사가 없는게 그냥 스르르 뇌정지 옴 ㅎ 지금 한창 나트랑 건기 날씨 더위에 흡! 기합 한번 주고…",
+      "mentions_meokitchen": false,
+      "sentiment": "pos",
+      "pos_tags": [
+        "좋아",
+        "최고",
+        "맛집"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-07-05T11:00:08",
+      "last_seen": "2026-07-05T11:00:08"
+    },
+    {
+      "url": "https://blog.naver.com/piddaminfo/224335727241",
+      "title": "나트랑 시내 BBQ 맛집 LIVIN 후기 | 베트남 음식 질릴 때 스테이크 먹기 좋았던 곳",
+      "source": "blog",
+      "search_kind": "matjip",
+      "region": "나트랑",
+      "time_text": "1일 전",
+      "post_date": "2026-07-04",
+      "summary": "고기, BBQ, 스테이크 먹고 싶은 분 베트남 음식이 살짝 물릴 때, 나트랑 시내에서 스테이크와 샐러드로 기분 좋게 쉬어가기 좋았던 BBQ 맛집이었어요! #나트랑…",
+      "mentions_meokitchen": false,
+      "sentiment": "pos",
+      "pos_tags": [
+        "추천",
+        "좋았",
+        "맛집"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-07-05T11:00:08",
+      "last_seen": "2026-07-05T11:00:08"
+    },
+    {
+      "url": "https://blog.naver.com/ohayo11/224336251203",
+      "title": "나트랑 가면 꼭 먹어야 하는 음식｜넴느엉부터 해산물 맛집 위치·가격까지 총정리",
+      "source": "blog",
+      "search_kind": "matjip",
+      "region": "나트랑",
+      "time_text": "1일 전",
+      "post_date": "2026-07-04",
+      "summary": "이번 글에서는 나트랑 여행 중 꼭 먹어봐야 할 음식과 함께, 여행자가 찾기 쉬운 나트랑 맛집 위치와 가격정보까지 정리해보겠습니다. 1. 나트랑 대표 음식, 넴느엉…",
+      "mentions_meokitchen": false,
+      "sentiment": "pos",
+      "pos_tags": [
+        "맛집"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-07-05T11:00:08",
+      "last_seen": "2026-07-05T11:00:08"
+    },
+    {
+      "url": "https://blog.naver.com/o_mzos/224336078457",
+      "title": "양산 베이커리 카페 범어 대형카페 그레떼베이커리",
+      "source": "blog",
+      "search_kind": "matjip",
+      "region": "나트랑",
+      "time_text": "1일 전",
+      "post_date": "2026-07-04",
+      "summary": "풍미와 고소함이 진하게 올라와서 식사후라 배가 부른데도 손이 멈추지 않았다 집 근처에 이런 고퀄리티 베이커리가 생겼다니 ! 양산 범어에서 시설 좋고 맛은 더 좋은…",
+      "mentions_meokitchen": false,
+      "sentiment": "pos",
+      "pos_tags": [
+        "추천",
+        "맛집"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-07-05T11:00:08",
+      "last_seen": "2026-07-05T11:00:08"
+    },
+    {
+      "url": "https://blog.naver.com/woghk35/224336220159",
+      "title": "베트남 나트랑 가정식 맛집 추천! 촌촌킴(Chon Chon Kim) 내돈내산 솔직후기 아이랑 추천 식당",
+      "source": "blog",
+      "search_kind": "matjip",
+      "region": "나트랑",
+      "time_text": "1일 전",
+      "post_date": "2026-07-04",
+      "summary": "이렇게 많이 먹었는데 3만원정도.. 베트남 물가 사랑합니동 ㅠㅠ여행 예정이신분들 즐거운 여행 되세용! 이상 콩씨 촌촌킴 포스팅이였습니당 #나트랑 #나트랑맛집 #촌…",
+      "mentions_meokitchen": false,
+      "sentiment": "pos",
+      "pos_tags": [
+        "추천",
+        "맛집"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-07-05T11:00:08",
+      "last_seen": "2026-07-05T11:00:08"
+    },
+    {
+      "url": "https://blog.naver.com/shuyanq7/224336283704",
+      "title": "나트랑 맛집 짜오마오1 , 메뉴 추천 가격 할인",
+      "source": "blog",
+      "search_kind": "matjip",
+      "region": "나트랑",
+      "time_text": "1일 전",
+      "post_date": "2026-07-04",
+      "summary": "나트랑 맛집 일억오천개 저장한 나.. 사실 이날은 피자포피스 + 해변가 카페에 갈 계획이었는데, 같이 나트랑에 온 동생친구 가족과 같이 식사를 하게 됨..! 그런…",
+      "mentions_meokitchen": false,
+      "sentiment": "pos",
+      "pos_tags": [
+        "추천",
+        "맛집"
+      ],
+      "neg_tags": [
+        "웨이팅"
+      ],
+      "first_seen": "2026-07-05T11:00:08",
+      "last_seen": "2026-07-05T11:00:08"
+    },
+    {
+      "url": "https://blog.naver.com/chicagoman9/224335471455",
+      "title": "나트랑맛집 두곳과 시내 추천할 나트랑마사지 내픽",
+      "source": "blog",
+      "search_kind": "matjip",
+      "region": "나트랑",
+      "time_text": "1시간 전",
+      "post_date": "2026-07-05",
+      "summary": "요즘 가장 핫하다는 나트랑맛집 탐방과 여독을 풀어줄 나트랑마사지 코스까지 제대로 계획을 짜서 다녀왔답니다. 가성비와 퀄리티가 기대 이상이라 대만족이었어요. 라라씨…",
+      "mentions_meokitchen": false,
+      "sentiment": "pos",
+      "pos_tags": [
+        "추천",
+        "만족",
+        "맛집"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-07-05T11:00:08",
+      "last_seen": "2026-07-05T11:00:08"
+    },
+    {
+      "url": "https://blog.naver.com/sunha1886/224336589883",
+      "title": "[나트랑]빈펄섬 하버마켓 스턴트쇼와 해산물 맛집 탄쓰엉",
+      "source": "blog",
+      "search_kind": "matjip",
+      "region": "나트랑",
+      "time_text": "12시간 전",
+      "post_date": "2026-07-05",
+      "summary": "베트남 나트랑 하버마켓 해산물 맛집 추천 빈펄섬, 나트랑에 정말 다른 분위기였어요 유럽풍 분위기더라고요 하버 안 오고 빈펄리조트로 들어가서 룸서비스나 먹을까 했는…",
+      "mentions_meokitchen": false,
+      "sentiment": "pos",
+      "pos_tags": [
+        "추천",
+        "맛집"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-07-05T11:00:08",
+      "last_seen": "2026-07-05T11:00:08"
+    },
+    {
+      "url": "https://blog.naver.com/nl_5olcl_a/224329858588",
+      "title": "[나트랑 여행] 곱창 쌀국수가 맛있던 맛집 안토이 & 럭키스파 마사지 & 레드브릭 카페까지!",
+      "source": "blog",
+      "search_kind": "matjip",
+      "region": "나트랑",
+      "time_text": "1일 전",
+      "post_date": "2026-07-04",
+      "summary": "내부는 신식까지는 아닌데 노하우가 묻어나보임 ㅎㅎ 깔끔하고 맛도 좋았던 나트랑 맛집 안토이 Ăn Thôi 월-일요일 10:30~21:30 한국인들 정말 많았지만 …",
+      "mentions_meokitchen": false,
+      "sentiment": "pos",
+      "pos_tags": [
+        "맛있",
+        "좋았",
+        "깔끔",
+        "맛집"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-07-05T11:00:08",
+      "last_seen": "2026-07-05T11:00:08"
+    },
+    {
+      "url": "https://blog.naver.com/nari2727/224336856187",
+      "title": "나트랑 알마리조트 추천｜깜란 맛집부터 워터파크까지 솔직후기",
+      "source": "blog",
+      "search_kind": "matjip",
+      "region": "나트랑",
+      "time_text": "2시간 전",
+      "post_date": "2026-07-05",
+      "summary": "근데 나트랑은 어딜가도 한국인이 많아요. 깜란 맛집 추천 Best3 + 숨은 해산물 맛집 추천 알마리조트는 시내와 거리가 있는 만큼 미리 맛집을 알아두는 것을 추…",
+      "mentions_meokitchen": false,
+      "sentiment": "pos",
+      "pos_tags": [
+        "추천",
+        "만족",
+        "맛집"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-07-05T11:00:08",
+      "last_seen": "2026-07-05T11:00:08"
+    },
+    {
+      "url": "https://blog.naver.com/kkw13096/224336661303",
+      "title": "나트랑 여행 필수 맛집 / 똠79 스페셜 콤보 엄마도 반한 해산물 맛집",
+      "source": "blog",
+      "search_kind": "matjip",
+      "region": "나트랑",
+      "time_text": "9시간 전",
+      "post_date": "2026-07-05",
+      "summary": "나트랑 해산물 맛집을 찾는다면? 현지에서도 인기 많은 똠79(Tôm79) 나트랑 여행을 계획하면 한 번쯤은 꼭 검색하게 되는 것이 바로 해산물 맛집이죠. 수많은 …",
+      "mentions_meokitchen": false,
+      "sentiment": "pos",
+      "pos_tags": [
+        "필수",
+        "맛집"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-07-05T11:00:08",
+      "last_seen": "2026-07-05T11:00:08"
+    },
+    {
+      "url": "https://blog.naver.com/khsh7122/224334591547",
+      "title": "나트랑 쌀국수 맛집 오징어 쌀국수 하이카 위치 가격",
+      "source": "blog",
+      "search_kind": "matjip",
+      "region": "나트랑",
+      "time_text": "13시간 전",
+      "post_date": "2026-07-05",
+      "summary": "하이카 2 오징어 어묵 쌀국수 나트랑 맛집 베트남에서 꼭 맛봐야 하는 메뉴는? 쌀국수 그중에도 한국인 입맛을 사로잡아 한국인 사이에 나트랑 최고 맛집으로 등극한 …",
+      "mentions_meokitchen": false,
+      "sentiment": "pos",
+      "pos_tags": [
+        "최고",
+        "맛집"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-07-05T11:00:08",
+      "last_seen": "2026-07-05T11:00:08"
+    },
+    {
+      "url": "https://blog.naver.com/chrto1000/224335084382",
+      "title": "나트랑 현지식 맛집 갓갓 내돈내산 나트랑도깨비",
+      "source": "blog",
+      "search_kind": "matjip",
+      "region": "나트랑",
+      "time_text": "3시간 전",
+      "post_date": "2026-07-05",
+      "summary": "나트랑 여행 준비 중에 맛집이라고해서 찾아봤던 갓갓 나트랑도깨비 제휴업체여서 10%할인까지 해주니깐 안갈수가 없었어요 맛좋은데 할인까지는 일석이조 내돈내산 나트랑…",
+      "mentions_meokitchen": false,
+      "sentiment": "pos",
+      "pos_tags": [
+        "깔끔",
+        "맛집"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-07-05T11:00:08",
+      "last_seen": "2026-07-05T11:00:08"
+    },
+    {
+      "url": "https://blog.naver.com/qosud2/224336348033",
+      "title": "[나트랑] 여행기 ２：：더아남깜란 조식 ㅣ더아남깜란 프라이빗비치ㅣ더아남깜란 햄버거ㅣ깜란맛집 엠어이ㅣ깜란카페 카페인 추천ㅣ약국배달",
+      "source": "blog",
+      "search_kind": "matjip",
+      "region": "나트랑",
+      "time_text": "1일 전",
+      "post_date": "2026-07-04",
+      "summary": "2탄 언제오냐고 물어봐준들께 감사.. 여행기 쓰는건 돌아온 주가 제일 쓰기 쉬운듯 암튼 삼일차 시작합니다 깜란의 아침이 밝았습니다 트리플침대로 제대로 꿀잠자고 일…",
+      "mentions_meokitchen": false,
+      "sentiment": "pos",
+      "pos_tags": [
+        "추천",
+        "좋아",
+        "맛집"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-07-05T11:00:08",
+      "last_seen": "2026-07-05T11:00:08"
+    },
+    {
+      "url": "https://blog.naver.com/19marzo/224332772984",
+      "title": "짧은 나트랑여행 마지막날, 아나만다라 깜란에서 수영하고 쏘아이스파에서 마사지, 쏘아이 바베큐(XOAI BBQ) 나트랑 맛집 추천",
+      "source": "blog",
+      "search_kind": "matjip",
+      "region": "나트랑",
+      "time_text": "1일 전",
+      "post_date": "2026-07-04",
+      "summary": "5월의 나트랑 비 한 방울 안오고 너무 좋았어,, (날씨는) 우리 숙소 건물 로비 양 옆으로 2개의 빌딩이 있다 오늘도 어김없이 도착한 수영장 아나만다라메인풀 오…",
+      "mentions_meokitchen": false,
+      "sentiment": "pos",
+      "pos_tags": [
+        "추천",
+        "좋았",
+        "맛집"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-07-05T11:00:08",
+      "last_seen": "2026-07-05T11:00:08"
+    },
+    {
+      "url": "https://blog.naver.com/benjo11/224336380922",
+      "title": "부산 대마도 배편 당일치기 1박2일 대마도 여행 이즈하라 맛집",
+      "source": "blog",
+      "search_kind": "matjip",
+      "region": "나트랑",
+      "time_text": "1일 전",
+      "post_date": "2026-07-04",
+      "summary": "이즈하라 맛집 잇샤 이자카야 잇케이 라멘 맛보니~~ 큰바다소년 Benjamin 1. 일본 대마도 여행 7월의 햇살은 어느새 한여름을... 이번 여행은 부산에서 출…",
+      "mentions_meokitchen": false,
+      "sentiment": "pos",
+      "pos_tags": [
+        "맛집"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-07-05T11:00:08",
+      "last_seen": "2026-07-05T11:00:08"
+    },
+    {
+      "url": "https://blog.naver.com/birdy2559/224336294990",
+      "title": "구디역 맛집 술집 | 회식하기 좋은 을지포차 구로디지털점 후기",
+      "source": "blog",
+      "search_kind": "matjip",
+      "region": "나트랑",
+      "time_text": "1일 전",
+      "post_date": "2026-07-04",
+      "summary": "구디별밤 사랑녀와 함께 다녀온 구디역 맛집 을지포차 구로디지털점 후기입니다 칼국수 사진 보더니 여기다 여기 가야 한다고 해서 다녀왔는데 꽤나 맛집인걸..? 할인은…",
+      "mentions_meokitchen": false,
+      "sentiment": "pos",
+      "pos_tags": [
+        "맛있",
+        "추천",
+        "친절",
+        "맛집"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-07-05T11:00:08",
+      "last_seen": "2026-07-05T11:00:08"
+    },
+    {
+      "url": "https://blog.naver.com/assa98yo/224336492782",
+      "title": "베트남. 아이와 나트랑 여행할 때 방문 추천. 초딩 만족도 최고. 카피바라 카페.",
+      "source": "blog",
+      "search_kind": "matjip",
+      "region": "나트랑",
+      "time_text": "1일 전",
+      "post_date": "2026-07-04",
+      "summary": "으른들의 베트남 여행은 호캉스, 리조트 힐링 타임과 맛집, 마사지, 쇼핑. 이게 기본이지만 아이와 함께하는 여행이라면 이것만 할 수 없습니다. 나트랑 여행중 어린…",
+      "mentions_meokitchen": false,
+      "sentiment": "pos",
+      "pos_tags": [
+        "추천",
+        "최고",
+        "만족",
+        "맛집"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-07-05T11:00:08",
+      "last_seen": "2026-07-05T11:00:08"
+    },
+    {
+      "url": "https://blog.naver.com/chicyoung_/224336490383",
+      "title": "나트랑 현지 가정식 맛집 바토이(Ba Toi) 반쎄오·넴느엉·해산물볶음밥 내돈내산 후기",
+      "source": "blog",
+      "search_kind": "matjip",
+      "region": "나트랑",
+      "time_text": "1일 전",
+      "post_date": "2026-07-04",
+      "summary": "",
+      "mentions_meokitchen": false,
+      "sentiment": "pos",
+      "pos_tags": [
+        "맛집"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-07-05T11:00:08",
+      "last_seen": "2026-07-05T11:00:08"
+    },
+    {
+      "url": "https://blog.naver.com/eubib_/224336548231",
+      "title": "베트남 나트랑 자유여행 단독투어 추천 코스 3박 5일 이렇게!",
+      "source": "blog",
+      "search_kind": "matjip",
+      "region": "나트랑",
+      "time_text": "1일 전",
+      "post_date": "2026-07-04",
+      "summary": "라는 생각 들었을만큼 분위기부터 맛까지 다 좋았던 곳이랍니다 저녁에 선선한 바람 맞으면서 요런저런 이야기하면서 일정 마무리하기 딱 나트랑 3일차 일정 : 나트랑 …",
+      "mentions_meokitchen": false,
+      "sentiment": "pos",
+      "pos_tags": [
+        "추천",
+        "좋았",
+        "맛집"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-07-05T11:00:08",
+      "last_seen": "2026-07-05T11:00:08"
+    },
+    {
+      "url": "https://blog.naver.com/rmawl55/224336287561",
+      "title": "내돈내산[나트랑 쌀국수 맛집] 노포 분위기에서 뚝배기 쌀국수를 먹을 수 있는 포한푹",
+      "source": "blog",
+      "search_kind": "matjip",
+      "region": "나트랑",
+      "time_text": "1일 전",
+      "post_date": "2026-07-04",
+      "summary": "안녕하세요~ 오늘은 베트남 나트랑 여행중 갔었던 쌀국수 맛집이 포한푹에 대해 포스팅 해보려 합니다. 포한푹의 특별한 부분이라고 한다면 뚝배기에 나오는 쌀국수인데요…",
+      "mentions_meokitchen": false,
+      "sentiment": "pos",
+      "pos_tags": [
+        "좋았",
+        "맛집"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-07-05T11:00:08",
+      "last_seen": "2026-07-05T11:00:08"
+    },
+    {
+      "url": "https://blog.naver.com/skskdkrl789/224336536280",
+      "title": "전포 술집) 14년 전통 하단돌게탕✨✨",
+      "source": "blog",
+      "search_kind": "matjip",
+      "region": "나트랑",
+      "time_text": "1일 전",
+      "post_date": "2026-07-04",
+      "summary": "하단에서 유명한 맛집!! 20대일 때 진짜 자주 갔던 곳이고 전포에도 지점이 있어 해물요리 먹고플 때는 무조건 가는 곳ㅎㅎ 여기도 또또또x3 넘게 방문한 집이다 …",
+      "mentions_meokitchen": false,
+      "sentiment": "pos",
+      "pos_tags": [
+        "깔끔",
+        "만족",
+        "맛집"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-07-05T11:00:08",
+      "last_seen": "2026-07-05T11:00:08"
+    },
+    {
+      "url": "https://blog.naver.com/eudncn/224333950542",
+      "title": "나트랑 해산물 맛집 내돈내산 솔직 후기 TOP 4",
+      "source": "blog",
+      "search_kind": "matjip",
+      "region": "나트랑",
+      "time_text": "1일 전",
+      "post_date": "2026-07-04",
+      "summary": "고수랑 토마토가 함께 올라가 있어서 한입 먹을 때마다 색다른 풍미가 느껴졌어요. 마지막으로 나온 새우꼬치는 숯불 향이 진하게 배어 있었어요. 소스에 콕 찍어 먹으…",
+      "mentions_meokitchen": false,
+      "sentiment": "pos",
+      "pos_tags": [
+        "맛집"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-07-05T11:00:08",
+      "last_seen": "2026-07-05T11:00:08"
+    },
+    {
+      "url": "https://blog.naver.com/parksang118/224333072063",
+      "title": "나트랑 로컬 맛집 척칩 고구마튀김과 망고스무디",
+      "source": "blog",
+      "search_kind": "matjip",
+      "region": "나트랑",
+      "time_text": "1시간 전",
+      "post_date": "2026-07-05",
+      "summary": "근처에 맛집 척칩을 찾아왔다 애매한 낮시간때라 기다리는 사람도 거의 없고 딱 좋았다 그랩 배달기사님이 다녀가신걸 보면 배달 주문도 많이 하는듯 싶다 메뉴 치즈맛,…",
+      "mentions_meokitchen": false,
+      "sentiment": "pos",
+      "pos_tags": [
+        "좋았",
+        "맛집"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-07-05T11:00:08",
+      "last_seen": "2026-07-05T11:00:08"
     }
   ]
 }
