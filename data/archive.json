@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-05T11:00:08",
+  "updated_at": "2026-07-06T08:00:03",
   "posts": [
     {
       "url": "https://blog.naver.com/gagmic/224304300809",
@@ -32116,7 +32116,7 @@
       ],
       "neg_tags": [],
       "first_seen": "2026-07-05T08:00:31",
-      "last_seen": "2026-07-05T08:00:31"
+      "last_seen": "2026-07-06T08:00:03"
     },
     {
       "url": "https://blog.naver.com/dkssud970603/224336767583",
@@ -32134,7 +32134,7 @@
       ],
       "neg_tags": [],
       "first_seen": "2026-07-05T08:00:31",
-      "last_seen": "2026-07-05T08:00:31"
+      "last_seen": "2026-07-06T08:00:03"
     },
     {
       "url": "https://blog.naver.com/rlaalsgml357/224336311104",
@@ -33223,6 +33223,141 @@
       "neg_tags": [],
       "first_seen": "2026-07-05T11:00:08",
       "last_seen": "2026-07-05T11:00:08"
+    },
+    {
+      "url": "https://blog.naver.com/jofedimt/224336865940",
+      "title": "써보면 납득되는 실리콘 설거지 매트 대형 머지샵 접이식 폴딩 다용도 세수 세면 대야 중",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "1일 전",
+      "post_date": "2026-07-05",
+      "summary": "작지만 강력한 기능에 깜짝 놀랐어요 저는 평소 세수와 손 세척 간단한 세탁에 이 대야를 정말 자주 써요 특히 여행이나 캠핑 가면 이 제품이 큰 도움을 주는데 접었…",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "만족"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-07-06T08:00:03",
+      "last_seen": "2026-07-06T08:00:03"
+    },
+    {
+      "url": "https://blog.naver.com/yummylife1/224337141924",
+      "title": "[푸꾸옥 7월 우기 여행/Day1] 씨쉘리조트, 유주스파, 메오키친, 키스오브더씨 등등",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "1일 전",
+      "post_date": "2026-07-05",
+      "summary": "그리고 드랍서비스 요청해서 메오키친으로 왔어요! 사람 짱 많아요! 한국인들 후기에 무조건 등장하는 메오키친.. 맛은 있었는데 막 엄청 맛있진 않더라구요..? 메뉴…",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "맛있"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-07-06T08:00:03",
+      "last_seen": "2026-07-06T08:00:03"
+    },
+    {
+      "url": "https://blog.naver.com/4262bada/224337169599",
+      "title": "2024/05-베트남여행(푸꾸옥)with마미,젬이",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "1일 전",
+      "post_date": "2026-07-05",
+      "summary": "떠나용 ️ ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ 0509(목) 푸꾸옥 여행 첫째날 오전근무만하고 서울로 온 마미,젬이랑 공항감미당 수하물부터 보내고~~ 출 발 ✈️ 우리…",
+      "mentions_meokitchen": true,
+      "sentiment": "neutral",
+      "pos_tags": [],
+      "neg_tags": [],
+      "first_seen": "2026-07-06T08:00:03",
+      "last_seen": "2026-07-06T08:00:03"
+    },
+    {
+      "url": "https://blog.naver.com/tozyna_/224337070866",
+      "title": "19주에 떠난 푸꾸옥 여행",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "1일 전",
+      "post_date": "2026-07-05",
+      "summary": "피자도 맛있고 파스타도 맛났다 ㅠㅠ 맛집 인정 #AMPMCOFFEE 푸꾸옥 느좋카페도 한번 가봄 ㅋㅋ 커피 맛 괜춘했음 그리구 마사지 또 받구 푸꾸옥 가면 팔수라…",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "맛있",
+        "맛집"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-07-06T08:00:03",
+      "last_seen": "2026-07-06T08:00:03"
+    },
+    {
+      "url": "https://cafe.naver.com/minecraftpe/3917525",
+      "title": "",
+      "source": "cafe",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "12분 전",
+      "post_date": "2026-07-06",
+      "summary": "",
+      "mentions_meokitchen": true,
+      "sentiment": "neutral",
+      "pos_tags": [],
+      "neg_tags": [],
+      "first_seen": "2026-07-06T08:00:03",
+      "last_seen": "2026-07-06T08:00:03"
+    },
+    {
+      "url": "https://cafe.naver.com/minecraftpe/3917293",
+      "title": "오늘의 가본곳.간단리뷰.",
+      "source": "cafe",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "11시간 전",
+      "post_date": "2026-07-06",
+      "summary": "",
+      "mentions_meokitchen": true,
+      "sentiment": "neutral",
+      "pos_tags": [],
+      "neg_tags": [],
+      "first_seen": "2026-07-06T08:00:03",
+      "last_seen": "2026-07-06T08:00:03"
+    },
+    {
+      "url": "https://cafe.naver.com/minecraftpe/3917164",
+      "title": "서울스파? 이용해보신분 계신가요?",
+      "source": "cafe",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "15시간 전",
+      "post_date": "2026-07-06",
+      "summary": "",
+      "mentions_meokitchen": true,
+      "sentiment": "neutral",
+      "pos_tags": [],
+      "neg_tags": [],
+      "first_seen": "2026-07-06T08:00:03",
+      "last_seen": "2026-07-06T08:00:03"
+    },
+    {
+      "url": "https://cafe.naver.com/minecraftpe/3917111",
+      "title": "3년만에 다시 푸꾸옥 갑니다 ㅎㅎ",
+      "source": "cafe",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "17시간 전",
+      "post_date": "2026-07-06",
+      "summary": "오늘의 경험, 클립으로 연결해요 클립 올리면 매월 포인트 최대 12만원",
+      "mentions_meokitchen": true,
+      "sentiment": "neutral",
+      "pos_tags": [],
+      "neg_tags": [],
+      "first_seen": "2026-07-06T08:00:03",
+      "last_seen": "2026-07-06T08:00:03"
     }
   ]
 }
