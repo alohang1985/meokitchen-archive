@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-06T11:00:09",
+  "updated_at": "2026-07-07T08:00:03",
   "posts": [
     {
       "url": "https://blog.naver.com/gagmic/224304300809",
@@ -34253,6 +34253,141 @@
       "neg_tags": [],
       "first_seen": "2026-07-06T11:00:09",
       "last_seen": "2026-07-06T11:00:09"
+    },
+    {
+      "url": "https://blog.naver.com/daily_re_/224338572528",
+      "title": "푸꾸옥 아이와 여행 5일차 #1 | 메오키친 후기, 한국인 맛집 반미·반쎄오 솔직리뷰",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "1일 전",
+      "post_date": "2026-07-06",
+      "summary": "델리예요 마지막 날 점심은 한국인들에게 입소문 난 푸꾸옥 메오키친에 다녀왔는데요. 푸꾸옥 중부에서 식사할 곳을 찾는 분들이 많이 방문하는 푸꾸옥 한국인 맛집으로 …",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "만족",
+        "맛집"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-07-07T08:00:03",
+      "last_seen": "2026-07-07T08:00:03"
+    },
+    {
+      "url": "https://blog.naver.com/mind___94/224338626493",
+      "title": "베트남 나트랑 안가면 후회할 곳 TOP5",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "9시간 전",
+      "post_date": "2026-07-07",
+      "summary": "안녕하세요 글쓰는 주대리입미다. 베트남 나트랑 여행을 다녀오면서 여기는 꼭 가야한다라고 생각이 들 정도로 좋았던 곳들 소개해볼께요. 거두절미하고 레츠 기릿! 1.…",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "좋았"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-07-07T08:00:03",
+      "last_seen": "2026-07-07T08:00:03"
+    },
+    {
+      "url": "https://blog.naver.com/kk4652/224337665600",
+      "title": "푸꾸옥 체크아웃 선셋투어 단독 차량으로 마지막 날 뽕 뽑기",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "1일 전",
+      "post_date": "2026-07-06",
+      "summary": "쇼핑 동선은 즈엉동 킹콩마트, 킹콩커피, 메오키친 주변 이야기가 확인됩니다. 구분 원문 확인 내용 마사지 마사지 60분 무료 쇼핑 즈엉동 킹콩마트 카페 킹콩커피,…",
+      "mentions_meokitchen": true,
+      "sentiment": "neutral",
+      "pos_tags": [],
+      "neg_tags": [],
+      "first_seen": "2026-07-07T08:00:03",
+      "last_seen": "2026-07-07T08:00:03"
+    },
+    {
+      "url": "https://blog.naver.com/kk4652/224337664512",
+      "title": "푸꾸옥 얼리모닝 체크인 투어, 0.5박 알차게 보내는 나만의 비결",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "1일 전",
+      "post_date": "2026-07-06",
+      "summary": "식사와 카페 코스 후기에는 메오키친 식사가 자주 언급됐습니다. 쌀국수로 시작하고 이후 마사지, 카페, 킹콩 마트로 이동했다는 일정도 남아 있었어요. 메오키친은 만…",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "만족"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-07-07T08:00:03",
+      "last_seen": "2026-07-07T08:00:03"
+    },
+    {
+      "url": "https://blog.naver.com/xfactor00/224337951028",
+      "title": "나트랑 음식",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "1일 전",
+      "post_date": "2026-07-06",
+      "summary": "스푼 : 가정식, 깜란 한식 - 장터국밥 : 육개장, 제육 한식 - 길이네 : 김치, 돈까스 한식 - 오봉집 : 분식 및 돈까스 한식 - 안키친 : 삼겹살 현지 …",
+      "mentions_meokitchen": true,
+      "sentiment": "neutral",
+      "pos_tags": [],
+      "neg_tags": [],
+      "first_seen": "2026-07-07T08:00:03",
+      "last_seen": "2026-07-07T08:00:03"
+    },
+    {
+      "url": "https://cafe.naver.com/zzop/4103028",
+      "title": "3일 먹방 일정",
+      "source": "cafe",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "17시간 전",
+      "post_date": "2026-07-07",
+      "summary": "",
+      "mentions_meokitchen": true,
+      "sentiment": "neutral",
+      "pos_tags": [],
+      "neg_tags": [],
+      "first_seen": "2026-07-07T08:00:03",
+      "last_seen": "2026-07-07T08:00:03"
+    },
+    {
+      "url": "https://cafe.naver.com/bnteam1/296281",
+      "title": "작년 이맘때쯔음 푸꾸옥 다녀온 기억이....",
+      "source": "cafe",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "17시간 전",
+      "post_date": "2026-07-07",
+      "summary": "",
+      "mentions_meokitchen": true,
+      "sentiment": "neutral",
+      "pos_tags": [],
+      "neg_tags": [],
+      "first_seen": "2026-07-07T08:00:03",
+      "last_seen": "2026-07-07T08:00:03"
+    },
+    {
+      "url": "https://cafe.naver.com/vinpearl/495880",
+      "title": "푸꾸옥 음식 고민... 다들 일정을 어떻게 짜시나요?",
+      "source": "cafe",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "21시간 전",
+      "post_date": "2026-07-07",
+      "summary": "오늘의 경험, 클립으로 연결해요 클립 올리면 매월 포인트 최대 12만원",
+      "mentions_meokitchen": true,
+      "sentiment": "neutral",
+      "pos_tags": [],
+      "neg_tags": [],
+      "first_seen": "2026-07-07T08:00:03",
+      "last_seen": "2026-07-07T08:00:03"
     }
   ]
 }
