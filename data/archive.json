@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-07T11:00:08",
+  "updated_at": "2026-07-08T08:00:20",
   "posts": [
     {
       "url": "https://blog.naver.com/gagmic/224304300809",
@@ -34289,7 +34289,7 @@
       ],
       "neg_tags": [],
       "first_seen": "2026-07-07T08:00:03",
-      "last_seen": "2026-07-07T08:00:03"
+      "last_seen": "2026-07-08T08:00:20"
     },
     {
       "url": "https://blog.naver.com/kk4652/224337665600",
@@ -35320,6 +35320,166 @@
       "neg_tags": [],
       "first_seen": "2026-07-07T11:00:08",
       "last_seen": "2026-07-07T11:00:08"
+    },
+    {
+      "url": "https://blog.naver.com/rbdms5511/224339387964",
+      "title": "냐짱 여행기 1 - 르모어 호텔 / 라스파 마사지 / 메오키친 / 아나만다라 깜란",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "1일 전",
+      "post_date": "2026-07-07",
+      "summary": "한국갈때 사가야지 했는데 못사옴 흑흑 모닝 마사지 받고 ~ 본격적 1일차 준비 완료 ~ 완전 휴양지st 르모어 호텔 도보 1분 거리에 cccp 커피 있어욤 지난번…",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "좋아"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-07-08T08:00:20",
+      "last_seen": "2026-07-08T08:00:20"
+    },
+    {
+      "url": "https://blog.naver.com/hokomum/224339539187",
+      "title": "푸꾸옥 맛집 베스트 3군데 (메오키친, 씀모이 가든, 마담타오)",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "1일 전",
+      "post_date": "2026-07-07",
+      "summary": "Meo Kitchen (메오 키친) 푸꾸옥에서 제가 뽑은 최고의 맛집은 단연 Meo Kitchen! 여긴 갈 때마다 사람이 정말 많았어요. 항상 손님들로 북적여서…",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "최고",
+        "맛집"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-07-08T08:00:20",
+      "last_seen": "2026-07-08T08:00:20"
+    },
+    {
+      "url": "https://blog.naver.com/xejixn/224339191269",
+      "title": "베트남 여행(1)_푸꾸옥 / 4박 5일 9인 대가족 여행 / 메오키친, 킹콩마트, 빈펄사파리, 안도치네 리조트, 소나시야시장, 그랜드월드",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "1일 전",
+      "post_date": "2026-07-07",
+      "summary": "숙소에 짐 맡기고 아점 먹으러 메오키친 왔숨니돠 유명하다는 할아버지 맥주 사실 푸꾸옥에 암것도 안 알아보고 가서 유명한 줄 몰랐슨! 아니 근데 여기 반쎄오 개커요…",
+      "mentions_meokitchen": true,
+      "sentiment": "neutral",
+      "pos_tags": [],
+      "neg_tags": [],
+      "first_seen": "2026-07-08T08:00:20",
+      "last_seen": "2026-07-08T08:00:20"
+    },
+    {
+      "url": "https://blog.naver.com/youngband88/224339596282",
+      "title": "배움은 끝이 없지 6월 마지막 주 일상",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "1일 전",
+      "post_date": "2026-07-07",
+      "summary": "볶았구요 메오 어머니가 담근 김치로 주아사장님이 만드신 김치찜 개 맛도리~~ 윤성 사장님이 구워주는 고기도 개맛도리~~ 와 낭만이야 체험단 선정된 제품으로 불 좀…",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "맛있"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-07-08T08:00:20",
+      "last_seen": "2026-07-08T08:00:20"
+    },
+    {
+      "url": "https://blog.naver.com/pinkkang99/224339278721",
+      "title": "[2026 푸꾸옥 DAY3] 비엣키친",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "1일 전",
+      "post_date": "2026-07-07",
+      "summary": "ㅠㅠ (맛있긴 해요..) 반쎄오도 뭐 맛있었지만 메오키친은 절대 못 이기는 맛.. 메오키친 반쎄오, 모닝글로리가 진짜 최고였던 것.. 푸꾸옥 와서 제일 맛있게 먹…",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "맛있",
+        "최고"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-07-08T08:00:20",
+      "last_seen": "2026-07-08T08:00:20"
+    },
+    {
+      "url": "https://blog.naver.com/6owwo9/224339681855",
+      "title": "디나스파 [ 기념품 ] : 킹콩마켓 - 샤오커오라 : 입안시원해지는 작은캔디( 휴대 입가심하기좋음) - 망고 & 후루츠 과일청 - 넵모이(술) : 누룽지맛 술 - 새우소금 - 치즈과자 : 베트남 공식 과자 - 망고젤리 - 코코넛 과자 - 할아버지맥주 : 푸꾸옥에만 있는 한정맥주 - 바나나보트 선크림 혼똔섬 - 선셋타운 - 소나시 야시장( 남부) 쏨모이가든 - 킹콩마켓 -메오키친",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "1일 전",
+      "post_date": "2026-07-07",
+      "summary": "",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "좋음"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-07-08T08:00:20",
+      "last_seen": "2026-07-08T08:00:20"
+    },
+    {
+      "url": "https://blog.naver.com/lfmaa0/224339821171",
+      "title": "만족도 좋은 페이퍼타올 디스펜서 메오 핸드타올 케이스 간편하게 쓰는 제품",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "7시간 전",
+      "post_date": "2026-07-08",
+      "summary": "만족도 좋은 페이퍼타올 디스펜서 메오 핸드타올 케이스 간편하게 쓰는 제품 메오 핸드타올 케이스 1. 메오 핸드타올 케이스 메오 핸드타올 케이스 당신의 손이 닿는 …",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "만족"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-07-08T08:00:20",
+      "last_seen": "2026-07-08T08:00:20"
+    },
+    {
+      "url": "https://blog.naver.com/pilkki_ddungkki/224339727975",
+      "title": "갑자기 떠난 푸꾸옥 #4",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "1일 전",
+      "post_date": "2026-07-07",
+      "summary": "여기가 조식이 맛있대서 제일 가보고 싶었다 짐만 맡기고 그랩타고 메오키친 고고 여기 주변 둘러보면 모두가 한국인이었다ㅎㅎ 반쎄오가 맛있다고 해서 그거랑, 소고기볶…",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "맛있"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-07-08T08:00:20",
+      "last_seen": "2026-07-08T08:00:20"
+    },
+    {
+      "url": "https://cafe.naver.com/minecraftpe/3918697",
+      "title": "10월에 5박6일 신혼여행 일정 참견부탁드립니다아!!",
+      "source": "cafe",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "18시간 전",
+      "post_date": "2026-07-08",
+      "summary": "오늘의 경험, 클립으로 연결해요 클립 올리면 매월 포인트 최대 12만원",
+      "mentions_meokitchen": true,
+      "sentiment": "neutral",
+      "pos_tags": [],
+      "neg_tags": [],
+      "first_seen": "2026-07-08T08:00:20",
+      "last_seen": "2026-07-08T08:00:20"
     }
   ]
 }
