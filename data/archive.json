@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-10T11:00:07",
+  "updated_at": "2026-07-11T08:00:04",
   "posts": [
     {
       "url": "https://blog.naver.com/gagmic/224304300809",
@@ -37717,7 +37717,7 @@
       ],
       "neg_tags": [],
       "first_seen": "2026-07-10T08:00:05",
-      "last_seen": "2026-07-10T08:00:05"
+      "last_seen": "2026-07-11T08:00:04"
     },
     {
       "url": "https://blog.naver.com/an_essay/224341795457",
@@ -38190,7 +38190,7 @@
       "time_text": "32분 전",
       "post_date": "2026-07-10",
       "summary": "킹콩마트가 있는 중부지역은 푸꾸옥을 오신 분들이라면 한번씩은 꼭 오시는데, Tiệm Mì Gà Tiềm Ớt Hiểm A PHON 이 집은 꼭 방문해보시길 바란다…",
-      "mentions_meokitchen": false,
+      "mentions_meokitchen": true,
       "sentiment": "pos",
       "pos_tags": [
         "만족",
@@ -38200,7 +38200,7 @@
         "비싸"
       ],
       "first_seen": "2026-07-10T11:00:03",
-      "last_seen": "2026-07-10T11:00:03"
+      "last_seen": "2026-07-11T08:00:04"
     },
     {
       "url": "https://blog.naver.com/yudam0620/224342023822",
@@ -38240,7 +38240,7 @@
         "웨이팅"
       ],
       "first_seen": "2026-07-10T11:00:03",
-      "last_seen": "2026-07-10T11:00:03"
+      "last_seen": "2026-07-11T08:00:04"
     },
     {
       "url": "https://blog.naver.com/swag2019/224341999891",
@@ -38627,6 +38627,312 @@
       "neg_tags": [],
       "first_seen": "2026-07-10T11:00:07",
       "last_seen": "2026-07-10T11:00:07"
+    },
+    {
+      "url": "https://blog.naver.com/heajin5569/224342691973",
+      "title": "베트남 푸꾸옥 - 음식점 솔직한 후기(메오키친, 더 홈 피자, 빈산,아이스랜드 푸꾸옥)새 창 열림",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "1일 전",
+      "post_date": "2026-07-10",
+      "summary": "메오키친 (Moe Kitchen) 베트남 음식 + 꼬치류 음식 이곳은 추천입니다. 시원한 에어컨과 깨끗한 조리환경, 널찍한 테이블 창가에 앉으면 해변가를 볼수 있…",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "추천"
+      ],
+      "neg_tags": [
+        "웨이팅"
+      ],
+      "first_seen": "2026-07-11T08:00:04",
+      "last_seen": "2026-07-11T08:00:04"
+    },
+    {
+      "url": "https://blog.naver.com/dyeon0377/224342891249",
+      "title": "푸꾸옥 맛집 추천 TOP3 4박 5일 여행 다녀와서 진짜 맛있었던 곳만 골랐어요!새 창 열림",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "2시간 전",
+      "post_date": "2026-07-11",
+      "summary": "1위 메오키친 위치 : MEO Kitchen 정보 내용 추천메뉴 반쎄오, 쌀국수, 볶음밥, 반미차오 가격대 쌀국수 약 10만동, 반쎄오 약 15만동, 패밀리세트 …",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "맛있",
+        "추천",
+        "맛집"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-07-11T08:00:04",
+      "last_seen": "2026-07-11T08:00:04"
+    },
+    {
+      "url": "https://blog.naver.com/322dzyho6zgwgmjj4/224343127217",
+      "title": "일본접이식장바구니 찾으시나요 슈파토 경량 에코백 사용하며 정리한 비교 후기 확인하세요새 창 열림",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "3시간 전",
+      "post_date": "2026-07-11",
+      "summary": "02 메오 키친 대용량 접이식 장바구니, 딸기, 3개 메오 키친 대용량 접이식 장바구니, 딸기, 3개 ￦ 6,980원 할인 가격 한 번에 보기 ◆ 이런 점이 좋아…",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "좋아"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-07-11T08:00:04",
+      "last_seen": "2026-07-11T08:00:04"
+    },
+    {
+      "url": "https://blog.naver.com/9mbnufy041v562xj/224343060248",
+      "title": "캠핑용 에코백 장바구니 고르기 망설여진다면 휴대용 대형 접이식 1+1 써보니 편리함 확인하세요새 창 열림",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "7시간 전",
+      "post_date": "2026-07-11",
+      "summary": "01 메오 키친 대용량 접이식 장바구니, 딸기, 3개 메오 키친 대용량 접이식 장바구니, 딸기, 3개 ￦ 6,980원 지금 가격 확인하기 ◆ 이런 점이 좋아요 귀…",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "좋아"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-07-11T08:00:04",
+      "last_seen": "2026-07-11T08:00:04"
+    },
+    {
+      "url": "https://blog.naver.com/9mbnufy041v562xj/224343035748",
+      "title": "운동할 때 편한 접이식에코백 찾으시나요 스트라이프 경량 폴딩백 써본 느낌과 사용기 공유합니다새 창 열림",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "8시간 전",
+      "post_date": "2026-07-11",
+      "summary": "01 메오 키친 대용량 접이식 장바구니, 딸기, 3개 메오 키친 대용량 접이식 장바구니, 딸기, 3개 ￦ 6,980원 지금 가격 확인하기 ◆ 이런 점이 좋아요 알…",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "좋아"
+      ],
+      "neg_tags": [
+        "별로"
+      ],
+      "first_seen": "2026-07-11T08:00:04",
+      "last_seen": "2026-07-11T08:00:04"
+    },
+    {
+      "url": "https://blog.naver.com/mue011/224342671313",
+      "title": "2026년6월)푸꾸옥여행/첫째날/메오키친/로즈스파/킹콩마트새 창 열림",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "1일 전",
+      "post_date": "2026-07-10",
+      "summary": "금방 도착했고 요금은 10만동, 우리돈 6천원정도였다 숙소에 가방 맡기고 밥먹으러 가기,, m빌리지는 위치가 여행자거리 바로 인근이라서 메오키친까지 걸어서 5분거…",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "깔끔"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-07-11T08:00:04",
+      "last_seen": "2026-07-11T08:00:04"
+    },
+    {
+      "url": "https://blog.naver.com/9mbnufy041v562xj/224343038656",
+      "title": "예쁜장바구니 고를 때 고민이라면 대용량 접이식 에코백 1+1 구성 써보니 궁금증이 풀리네요새 창 열림",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "8시간 전",
+      "post_date": "2026-07-11",
+      "summary": "02 메오 키친 대용량 접이식 장바구니, 레몬, 3개 메오 키친 대용량 접이식 장바구니, 레몬, 3개 ￦ 6,980원 할인 가격 한 번에 보기 ◆ 이런 점이 좋아…",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "좋아"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-07-11T08:00:04",
+      "last_seen": "2026-07-11T08:00:04"
+    },
+    {
+      "url": "https://blog.naver.com/9mbnufy041v562xj/224343056880",
+      "title": "장바구니에코백 찾으시나요? 메오 키친 대용량 접이식 장바구니 써보니 이랬어요 실사용 후기 공유합니다새 창 열림",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "7시간 전",
+      "post_date": "2026-07-11",
+      "summary": "02 메오 키친 대용량 접이식 장바구니, 레몬, 3개 메오 키친 대용량 접이식 장바구니, 레몬, 3개 ￦ 6,980원 할인 가격 한 번에 보기 ◆ 이런 점이 좋아…",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "좋아"
+      ],
+      "neg_tags": [
+        "별로"
+      ],
+      "first_seen": "2026-07-11T08:00:04",
+      "last_seen": "2026-07-11T08:00:04"
+    },
+    {
+      "url": "https://blog.naver.com/djmacair/224342604406",
+      "title": "5살아이와 푸꾸옥 뉴월드 리조트,3인 가족 가성비 풀빌라 투숙 후기새 창 열림",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "1일 전",
+      "post_date": "2026-07-10",
+      "summary": "저희 아이가 바깥식당에서 잘먹은건 메오키친 쌀국수정도였고 그나마 뉴월드 리조트 조식뷔페는 좋아하더군요. 특히 아이들이 좋아하는 부드러운 계란요리 (오믈렛, 스크램…",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "좋아"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-07-11T08:00:04",
+      "last_seen": "2026-07-11T08:00:04"
+    },
+    {
+      "url": "https://blog.naver.com/q8zdlov/224343032594",
+      "title": "선물용으로 엠플리 타포린백 대형 장바구니 알아보고 계신가요?새 창 열림",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "8시간 전",
+      "post_date": "2026-07-11",
+      "summary": "01 메오 키친 대용량 접이식 장바구니, 딸기, 3개 메오 키친 대용량 접이식 장바구니, 딸기, 3개 ￦ 6,980원 지금 가격 확인하기 ◆ 이런 점이 좋아요 과…",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "좋아"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-07-11T08:00:04",
+      "last_seen": "2026-07-11T08:00:04"
+    },
+    {
+      "url": "https://blog.naver.com/gaoyunnie/224342631971",
+      "title": "스치는 머리칼도 벌레일까 두려워하는 계절새 창 열림",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "1일 전",
+      "post_date": "2026-07-10",
+      "summary": "푸꼭이 우기 시작했대서 걱정했는데 여행 마지막날만 비가 왔고 여행하는 내내 비가 안 와서 넘 좋았다 푸꾸옥에 가면 메오키친에 꼭 가야만 함 지우 언니가 반쎄오 꼭…",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "맛있",
+        "좋았"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-07-11T08:00:04",
+      "last_seen": "2026-07-11T08:00:04"
+    },
+    {
+      "url": "https://blog.naver.com/jisiklab/224342391416",
+      "title": "푸꾸옥 여행 후기 총정리｜숙소·맛집·쇼핑·관광지·야시장까지 3박 5일 자유여행새 창 열림",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "1일 전",
+      "post_date": "2026-07-10",
+      "summary": "멍하니 있다 트램 못탐 ㅋ [메오키친] - 맛있음 [킴 스파 앤 네일 푸꾸옥 2호점] - 그닥 [똠하우스] - 크레이피쉬, 가리비, 볶음밥 등등 다 맛있음. 새우…",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "맛있",
+        "맛집"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-07-11T08:00:04",
+      "last_seen": "2026-07-11T08:00:04"
+    },
+    {
+      "url": "https://blog.naver.com/manyeotour/224342292270",
+      "title": "[홈앤쇼핑] 베트남 인기 여행지, 다낭호아안 vs 푸꾸옥새 창 열림",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "1일 전",
+      "post_date": "2026-07-10",
+      "summary": "푸꾸옥 6대 특식 제공 - 씨푸드(미스터씨푸드) /(메오키친)대왕반쎄오+반미+볶음밥+쌀국수 /(껌땀)돼지불고기 덮밥/베트남정식/분짜정식 /쌀국수+볶음밥 ⭐상품 C…",
+      "mentions_meokitchen": true,
+      "sentiment": "neutral",
+      "pos_tags": [],
+      "neg_tags": [],
+      "first_seen": "2026-07-11T08:00:04",
+      "last_seen": "2026-07-11T08:00:04"
+    },
+    {
+      "url": "https://blog.naver.com/dldmsthf6064/224342355529",
+      "title": "2026년 푸꾸옥 여행 2일차 (7.5.)새 창 열림",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "1일 전",
+      "post_date": "2026-07-10",
+      "summary": "2일차 일정 조식 -> 숙소휴식(수영) -> 점심(메오키친) -> 끄록스 -> 마사지(델루나마사지) -> 킹콩마트 -> 숙소복귀(마사지샵 샌딩) -> 저녁(소나시…",
+      "mentions_meokitchen": true,
+      "sentiment": "neutral",
+      "pos_tags": [],
+      "neg_tags": [],
+      "first_seen": "2026-07-11T08:00:04",
+      "last_seen": "2026-07-11T08:00:04"
+    },
+    {
+      "url": "https://cafe.naver.com/zzop/4112071",
+      "title": "지금은 이전한 빈펄",
+      "source": "cafe",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "16시간 전",
+      "post_date": "2026-07-11",
+      "summary": "",
+      "mentions_meokitchen": true,
+      "sentiment": "neutral",
+      "pos_tags": [],
+      "neg_tags": [],
+      "first_seen": "2026-07-11T08:00:04",
+      "last_seen": "2026-07-11T08:00:04"
+    },
+    {
+      "url": "https://cafe.naver.com/ysm5828/9584890",
+      "title": "환전 달러로 해가면 될까요? 아님 그냥 5만원권 들고 가면될까요?",
+      "source": "cafe",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "16시간 전",
+      "post_date": "2026-07-11",
+      "summary": "",
+      "mentions_meokitchen": true,
+      "sentiment": "neutral",
+      "pos_tags": [],
+      "neg_tags": [],
+      "first_seen": "2026-07-11T08:00:04",
+      "last_seen": "2026-07-11T08:00:04"
+    },
+    {
+      "url": "https://cafe.naver.com/minecraftpe/3920917",
+      "title": "입국첫날(중부)",
+      "source": "cafe",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "21시간 전",
+      "post_date": "2026-07-11",
+      "summary": "오늘의 경험, 클립으로 연결해요 클립 올리면 매월 포인트 최대 12만원",
+      "mentions_meokitchen": true,
+      "sentiment": "neutral",
+      "pos_tags": [],
+      "neg_tags": [],
+      "first_seen": "2026-07-11T08:00:04",
+      "last_seen": "2026-07-11T08:00:04"
     }
   ]
 }
