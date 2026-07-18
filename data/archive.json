@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-17T11:00:12",
+  "updated_at": "2026-07-18T08:00:04",
   "posts": [
     {
       "url": "https://blog.naver.com/gagmic/224304300809",
@@ -45373,7 +45373,7 @@
       ],
       "neg_tags": [],
       "first_seen": "2026-07-17T08:00:04",
-      "last_seen": "2026-07-17T08:00:04"
+      "last_seen": "2026-07-18T08:00:04"
     },
     {
       "url": "https://blog.naver.com/oo193582/224347659047",
@@ -45506,7 +45506,7 @@
       ],
       "neg_tags": [],
       "first_seen": "2026-07-17T08:00:04",
-      "last_seen": "2026-07-17T08:00:04"
+      "last_seen": "2026-07-18T08:00:04"
     },
     {
       "url": "https://cafe.naver.com/vinpearl/501513",
@@ -46275,6 +46275,184 @@
       "neg_tags": [],
       "first_seen": "2026-07-17T11:00:12",
       "last_seen": "2026-07-17T11:00:12"
+    },
+    {
+      "url": "https://blog.naver.com/ptmj24/224349750578",
+      "title": "푸꾸옥 맛집 독보적 반쎄오 쌀국수 메오키친 메뉴 재방문 후기새 창 열림",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "1일 전",
+      "post_date": "2026-07-17",
+      "summary": "작년 푸꾸옥에서 유일하게 맛집이라고 인정했던 한국인들이 좋아하는 푸꾸옥 중부 맛집 메오키친. 올해는 두번이나 방문한 반쎄오, 쌀국수 찐 맛집으로 메뉴 소개와 추천…",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "추천",
+        "좋아",
+        "맛집",
+        "재방문"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-07-18T08:00:04",
+      "last_seen": "2026-07-18T08:00:04"
+    },
+    {
+      "url": "https://blog.naver.com/only98_34/224349511353",
+      "title": "푸꾸옥 맛집 메오 키친 후기｜쌀국수·반 세오·분짜까지 먹어본 솔직 리뷰새 창 열림",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "1일 전",
+      "post_date": "2026-07-17",
+      "summary": "여행 중 직접 보고, 먹고, 느꼈던 순간들을 하나씩 담아봤으니 함께 떠나보아요 :) 저희가 체크인을 하자마자 점심을 먹으려고 달려간 곳은 '메오 키친'이에요~ h…",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "맛집"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-07-18T08:00:04",
+      "last_seen": "2026-07-18T08:00:04"
+    },
+    {
+      "url": "https://blog.naver.com/wldbs980608/224349801698",
+      "title": "푸꾸옥 5박7일 7월 자유여행 후기 / 인터컨티넨탈 / 크라운플라자 / 카미아레스토랑 / 그랜드월드새 창 열림",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "1일 전",
+      "post_date": "2026-07-17",
+      "summary": "메오키친 반세오 꼬치 볶음밥 등 다 맛있음 꼭 가세요!! 미스터씨푸드 사실 남자친구가 베트남 음식 못 먹어서.. 여행기간 동안 새우 랍스터만 먹음.. 다 사진이 …",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "맛있",
+        "추천"
+      ],
+      "neg_tags": [
+        "웨이팅"
+      ],
+      "first_seen": "2026-07-18T08:00:04",
+      "last_seen": "2026-07-18T08:00:04"
+    },
+    {
+      "url": "https://blog.naver.com/minimidmi/224349539750",
+      "title": "나트랑 여행 준비 이걸로 끝! 에어컨식당 리스트, 시내 쇼핑 정보까지새 창 열림",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "1일 전",
+      "post_date": "2026-07-17",
+      "summary": "3% 메오키친 베트남가정식 시내 꼬치구이, 반쎄오 영업시간 : 매일 11:00-22:00 예약가능 : 카카오 촌촌킴 베트남가정식 시내 돼지갈비조림, 새우튀김, 모…",
+      "mentions_meokitchen": true,
+      "sentiment": "neutral",
+      "pos_tags": [],
+      "neg_tags": [],
+      "first_seen": "2026-07-18T08:00:04",
+      "last_seen": "2026-07-18T08:00:04"
+    },
+    {
+      "url": "https://blog.naver.com/eunheetic/224349560719",
+      "title": "푸꾸옥여행(2026.07.12~2026.07.15) - 우기 푸꾸옥 이런거구나...☔️새 창 열림",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "1일 전",
+      "post_date": "2026-07-17",
+      "summary": "점저(?) 먹으러 그랩타고 #메오키친 으로 이동. 1층/2층으로 매장이 나뉘어 있었는데, 1층에 바다보이는 창가자리에 운 좋게 앉을 수 있었다. 올때까진 비가 솔…",
+      "mentions_meokitchen": true,
+      "sentiment": "neutral",
+      "pos_tags": [],
+      "neg_tags": [],
+      "first_seen": "2026-07-18T08:00:04",
+      "last_seen": "2026-07-18T08:00:04"
+    },
+    {
+      "url": "https://blog.naver.com/woosun_zip/224346897598",
+      "title": "[나트랑] 맛집 | 대왕 반쎄오, 그리고 분짜가 맛있는 메오키친 시내점(+메뉴판)새 창 열림",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "1시간 전",
+      "post_date": "2026-07-18",
+      "summary": "2026년 7월 7일 둘째날 우리는 호텔에서 실컷 수영을 즐긴 뒤 저녁을 먹기 위해 대왕 반쎄오로 유명한 메오키친 시내점을 찾았다. 기본정보/메뉴판 나트랑 시내에…",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "맛있",
+        "맛집"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-07-18T08:00:04",
+      "last_seen": "2026-07-18T08:00:04"
+    },
+    {
+      "url": "https://blog.naver.com/0164446757/224349495653",
+      "title": "베트남 푸꾸옥 여행 2026년 7월 2일~7일새 창 열림",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "1일 전",
+      "post_date": "2026-07-17",
+      "summary": "나오는 메오키친 식당이다. 음식도 맛있고 양이 많은 편이다 가격도 저렴하다. 푸꾸옥 남부 중부 북부 모두 있는 카페그린이다 이곳은 망고빙수로 유명한데 망고 스무디…",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "맛있",
+        "좋았"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-07-18T08:00:04",
+      "last_seen": "2026-07-18T08:00:04"
+    },
+    {
+      "url": "https://cafe.naver.com/minecraftpe/3926175",
+      "title": "2년전 1꿕",
+      "source": "cafe",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "10시간 전",
+      "post_date": "2026-07-18",
+      "summary": "",
+      "mentions_meokitchen": true,
+      "sentiment": "neutral",
+      "pos_tags": [],
+      "neg_tags": [],
+      "first_seen": "2026-07-18T08:00:04",
+      "last_seen": "2026-07-18T08:00:04"
+    },
+    {
+      "url": "https://cafe.naver.com/vinpearl/501783",
+      "title": "푸꾸옥 트래블카드 신청합니다",
+      "source": "cafe",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "18시간 전",
+      "post_date": "2026-07-18",
+      "summary": "",
+      "mentions_meokitchen": true,
+      "sentiment": "neutral",
+      "pos_tags": [],
+      "neg_tags": [],
+      "first_seen": "2026-07-18T08:00:04",
+      "last_seen": "2026-07-18T08:00:04"
+    },
+    {
+      "url": "https://cafe.naver.com/minecraftpe/3925805",
+      "title": "후기 글이 자꾸 안 올라가요 ㅠㅠ",
+      "source": "cafe",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "22시간 전",
+      "post_date": "2026-07-18",
+      "summary": "오늘의 경험, 클립으로 연결해요 클립 올리면 매월 포인트 최대 12만원",
+      "mentions_meokitchen": true,
+      "sentiment": "neutral",
+      "pos_tags": [],
+      "neg_tags": [],
+      "first_seen": "2026-07-18T08:00:04",
+      "last_seen": "2026-07-18T08:00:04"
     }
   ]
 }
