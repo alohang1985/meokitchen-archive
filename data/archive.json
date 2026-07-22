@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-21T11:00:07",
+  "updated_at": "2026-07-22T08:00:03",
   "posts": [
     {
       "url": "https://blog.naver.com/gagmic/224304300809",
@@ -49634,7 +49634,7 @@
       ],
       "neg_tags": [],
       "first_seen": "2026-07-21T08:00:03",
-      "last_seen": "2026-07-21T11:00:07"
+      "last_seen": "2026-07-22T08:00:03"
     },
     {
       "url": "https://blog.naver.com/juwoniiy/224352421166",
@@ -49703,7 +49703,7 @@
       "pos_tags": [],
       "neg_tags": [],
       "first_seen": "2026-07-21T08:00:03",
-      "last_seen": "2026-07-21T08:00:03"
+      "last_seen": "2026-07-22T08:00:03"
     },
     {
       "url": "https://cafe.naver.com/ysm5828/9589283",
@@ -50621,6 +50621,298 @@
       "neg_tags": [],
       "first_seen": "2026-07-21T11:00:07",
       "last_seen": "2026-07-21T11:00:07"
+    },
+    {
+      "url": "https://blog.naver.com/yilbu753/224353706985",
+      "title": "식탁 위 깔끔한 관리법 궁금하세요 베러바이즈 실리콘매트 써본 느낌새 창 열림",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "1일 전",
+      "post_date": "2026-07-21",
+      "summary": "실리콘매트 내 식탁의 품격을 높이는 실리콘 매트, 고르는 기준과 활용법 총정리 주방이나 식탁 위, 혹은 아이 책상까지 실리콘 매트는 쓰임새가 정말 다양합니다. 미…",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "깔끔"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-07-22T08:00:03",
+      "last_seen": "2026-07-22T08:00:03"
+    },
+    {
+      "url": "https://blog.naver.com/rnek1009/224353353134",
+      "title": "베트남 푸꾸옥 여행 2606새 창 열림",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "1일 전",
+      "post_date": "2026-07-21",
+      "summary": "즈엉동 헤븐 카페 커피부터 수혈해 주고~ (커피 완내스) 델루나스파에서 스파랑 네일, 패디 받았다 (네일이랑 패디는 비추 너무 못함) 한국인 국룰 메오 키친에서 …",
+      "mentions_meokitchen": true,
+      "sentiment": "neutral",
+      "pos_tags": [],
+      "neg_tags": [],
+      "first_seen": "2026-07-22T08:00:03",
+      "last_seen": "2026-07-22T08:00:03"
+    },
+    {
+      "url": "https://blog.naver.com/hyeni-/224353615932",
+      "title": "푸꿕꿕이새 창 열림",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "1일 전",
+      "post_date": "2026-07-21",
+      "summary": "저 오리볶음이 젤 맛있었음 #인터컨티넨탈호텔 묵었는데 도마뱀있었긔 500원짜리 크기 ㄷㄷ 조금 귀여웠음 (근데 2일차부터 안보여서 조금 무서웠음) 오자마자 출출해…",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "맛있"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-07-22T08:00:03",
+      "last_seen": "2026-07-22T08:00:03"
+    },
+    {
+      "url": "https://blog.naver.com/cham4lang1/224353435756",
+      "title": "푸꾸옥 여행 모닝투어 첫날 추천! 남부 혼똔섬 즐기기 팁 준비물새 창 열림",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "1일 전",
+      "post_date": "2026-07-21",
+      "summary": "푸꾸옥 모닝투어 남부 여행 코스 전체 코스 공항 픽업 > 메오키친 아침식사 > 오메가스파 마사지 > 킹콩마트 쇼핑 > 혼똔섬 > 호텔 드랍 공항에서 입국 수속 마…",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "추천"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-07-22T08:00:03",
+      "last_seen": "2026-07-22T08:00:03"
+    },
+    {
+      "url": "https://blog.naver.com/cloud_october/224353219895",
+      "title": "[식단일기] \"대스압\" 평일에 식단하고 나트랑으로 떠난 일상새 창 열림",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "1일 전",
+      "post_date": "2026-07-21",
+      "summary": "7월 6일 월 여행가기 얼마 안남아서 남은날 열심히 다이어트해봅니다 샐러드 고구마+메이플버터 닭가슴살 어머님이 삶아준 마지막 고구마였는데 역시 너무 맛있다 후후 …",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "맛있",
+        "만족"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-07-22T08:00:03",
+      "last_seen": "2026-07-22T08:00:03"
+    },
+    {
+      "url": "https://blog.naver.com/tarjokr/224353508635",
+      "title": "푸꾸옥 자유여행 3박5일 #솔바이멜리아 #스탠다드룸 #호핑투어 #중부위치 1일차새 창 열림",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "1일 전",
+      "post_date": "2026-07-21",
+      "summary": "ㅋ 메오키친으로 가서 마음껏 ㅎㅎ 쌀국수와 패밀리세트...그리고 모닝글로리와 이름 기억 안남 쌀국수 국물 3명 모두 만족 반미는 직접 만들어 먹는거라 쫌 부담 ㅜ…",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "맛있",
+        "만족"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-07-22T08:00:03",
+      "last_seen": "2026-07-22T08:00:03"
+    },
+    {
+      "url": "https://blog.naver.com/imggoggo1004/224353470726",
+      "title": "메오키친｜푸꾸옥 즈엉동, 반세오, 웨이팅, 할인팁새 창 열림",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "1일 전",
+      "post_date": "2026-07-21",
+      "summary": "한국인맛집 메오키친 알고갔지만 웨이팅 한시간반하라구 함 댓츠노걱쩡 코옆에 롱비치마트있어서 시원하게 기다릴 수 이씀 쇼핑할건 아니라 할인없이 커피 사마시구 웨이팅 …",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "맛집"
+      ],
+      "neg_tags": [
+        "웨이팅"
+      ],
+      "first_seen": "2026-07-22T08:00:03",
+      "last_seen": "2026-07-22T08:00:03"
+    },
+    {
+      "url": "https://blog.naver.com/agencyconnection/224353219802",
+      "title": "2026.07.16(목) 패션 홍보대행사 에이전시커넥션 데일리 뉴스새 창 열림",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "1일 전",
+      "post_date": "2026-07-21",
+      "summary": "업계동향(Industry Insight) 01. 29CM, 신진 여성 디자이너 브랜드의 새로운 성장 동력 29CM는 신진 여성 디자이너 브랜드의 성장 허브로 자리…",
+      "mentions_meokitchen": true,
+      "sentiment": "neutral",
+      "pos_tags": [],
+      "neg_tags": [],
+      "first_seen": "2026-07-22T08:00:03",
+      "last_seen": "2026-07-22T08:00:03"
+    },
+    {
+      "url": "https://blog.naver.com/q_paa/224353220514",
+      "title": "[푸꾸옥 여행]2일차: 풀만 수영/델루나스파앤네일/메오키친/킹콩마트/소나시야시장(미스터씨푸드, 킴스파, 과일)새 창 열림",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "1일 전",
+      "post_date": "2026-07-21",
+      "summary": "스파앤네일/메오키친/킹콩마트 드디어 첫 외출 !! 우산 놓고 와서 다시 들어간김에 버기 불렀다 기다리면서 사진 사진 다른길로 가줘서 꽃구경도 했다 베트남에는 항상…",
+      "mentions_meokitchen": true,
+      "sentiment": "neutral",
+      "pos_tags": [],
+      "neg_tags": [],
+      "first_seen": "2026-07-22T08:00:03",
+      "last_seen": "2026-07-22T08:00:03"
+    },
+    {
+      "url": "https://cafe.naver.com/minecraftpe/3928782",
+      "title": "열받네요~",
+      "source": "cafe",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "11시간 전",
+      "post_date": "2026-07-22",
+      "summary": "",
+      "mentions_meokitchen": true,
+      "sentiment": "neutral",
+      "pos_tags": [],
+      "neg_tags": [],
+      "first_seen": "2026-07-22T08:00:03",
+      "last_seen": "2026-07-22T08:00:03"
+    },
+    {
+      "url": "https://cafe.naver.com/minecraftpe/3928726",
+      "title": "제니스스파 궁금증",
+      "source": "cafe",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "12시간 전",
+      "post_date": "2026-07-22",
+      "summary": "",
+      "mentions_meokitchen": true,
+      "sentiment": "neutral",
+      "pos_tags": [],
+      "neg_tags": [],
+      "first_seen": "2026-07-22T08:00:03",
+      "last_seen": "2026-07-22T08:00:03"
+    },
+    {
+      "url": "https://cafe.naver.com/withwriter/6765",
+      "title": "나트랑 쉐라톤 15% 할인! 5성급 가을 초특가 혜택",
+      "source": "cafe",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "18시간 전",
+      "post_date": "2026-07-22",
+      "summary": "",
+      "mentions_meokitchen": true,
+      "sentiment": "neutral",
+      "pos_tags": [],
+      "neg_tags": [],
+      "first_seen": "2026-07-22T08:00:03",
+      "last_seen": "2026-07-22T08:00:03"
+    },
+    {
+      "url": "https://cafe.naver.com/ysm5828/9589512",
+      "title": "가족들과 함께 가기 좋은 식당",
+      "source": "cafe",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "18시간 전",
+      "post_date": "2026-07-22",
+      "summary": "",
+      "mentions_meokitchen": true,
+      "sentiment": "neutral",
+      "pos_tags": [],
+      "neg_tags": [],
+      "first_seen": "2026-07-22T08:00:03",
+      "last_seen": "2026-07-22T08:00:03"
+    },
+    {
+      "url": "https://cafe.naver.com/ysm5828/9589503",
+      "title": "렌트카신청 합니다.",
+      "source": "cafe",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "18시간 전",
+      "post_date": "2026-07-22",
+      "summary": "",
+      "mentions_meokitchen": true,
+      "sentiment": "neutral",
+      "pos_tags": [],
+      "neg_tags": [],
+      "first_seen": "2026-07-22T08:00:03",
+      "last_seen": "2026-07-22T08:00:03"
+    },
+    {
+      "url": "https://cafe.naver.com/minecraftpe/3928405",
+      "title": "푸꾸옥 맛집 찾는중입니당ㅎㅎ",
+      "source": "cafe",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "20시간 전",
+      "post_date": "2026-07-22",
+      "summary": "",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "맛집"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-07-22T08:00:03",
+      "last_seen": "2026-07-22T08:00:03"
+    },
+    {
+      "url": "https://cafe.naver.com/tybwondergirl5/94072",
+      "title": "나트랑 고기집 돌산..최고였음",
+      "source": "cafe",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "20시간 전",
+      "post_date": "2026-07-22",
+      "summary": "",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "최고"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-07-22T08:00:03",
+      "last_seen": "2026-07-22T08:00:03"
+    },
+    {
+      "url": "https://cafe.naver.com/ysm5828/9589396",
+      "title": "푸꾸옥 1일차 후기",
+      "source": "cafe",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "21시간 전",
+      "post_date": "2026-07-22",
+      "summary": "오늘의 경험, 클립으로 연결해요 클립 올리면 매월 포인트 최대 12만원",
+      "mentions_meokitchen": true,
+      "sentiment": "neutral",
+      "pos_tags": [],
+      "neg_tags": [],
+      "first_seen": "2026-07-22T08:00:03",
+      "last_seen": "2026-07-22T08:00:03"
     }
   ]
 }
