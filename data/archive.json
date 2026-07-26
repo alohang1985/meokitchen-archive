@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-25T11:00:08",
+  "updated_at": "2026-07-26T08:00:04",
   "posts": [
     {
       "url": "https://blog.naver.com/gagmic/224304300809",
@@ -54076,7 +54076,7 @@
         "웨이팅"
       ],
       "first_seen": "2026-07-25T08:00:04",
-      "last_seen": "2026-07-25T11:00:02"
+      "last_seen": "2026-07-26T08:00:04"
     },
     {
       "url": "https://blog.naver.com/ddulini_/224357111921",
@@ -54097,7 +54097,7 @@
       ],
       "neg_tags": [],
       "first_seen": "2026-07-25T08:00:04",
-      "last_seen": "2026-07-25T11:00:02"
+      "last_seen": "2026-07-26T08:00:04"
     },
     {
       "url": "https://blog.naver.com/jinny-93/224356319648",
@@ -54172,7 +54172,7 @@
       ],
       "neg_tags": [],
       "first_seen": "2026-07-25T08:00:04",
-      "last_seen": "2026-07-25T08:00:04"
+      "last_seen": "2026-07-26T08:00:04"
     },
     {
       "url": "https://blog.naver.com/realsini/224356423166",
@@ -54288,7 +54288,7 @@
       ],
       "neg_tags": [],
       "first_seen": "2026-07-25T08:00:04",
-      "last_seen": "2026-07-25T11:00:02"
+      "last_seen": "2026-07-26T08:00:04"
     },
     {
       "url": "https://blog.naver.com/jhms32/224356894671",
@@ -55429,6 +55429,99 @@
       "neg_tags": [],
       "first_seen": "2026-07-25T11:00:08",
       "last_seen": "2026-07-25T11:00:08"
+    },
+    {
+      "url": "https://blog.naver.com/wrdanim/224357630943",
+      "title": "[베트남_푸꾸옥] 푸꾸옥 마지막날 밤 _ 메오키친 / 츄온츄온 카페 / 비터스윗 스피크이지바새 창 열림",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "1일 전",
+      "post_date": "2026-07-25",
+      "summary": "메오키친 — 베트남 가정식 맛집, 분짜 강추 배가 고파서 바로 그랩 잡아타고 메오키친으로 이동했어요, 한국분들 리뷰가 좋아서 고른 곳이에요. 빤세오, 쌀국수, 짜…",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "좋아",
+        "깔끔",
+        "강추",
+        "맛집"
+      ],
+      "neg_tags": [
+        "대기"
+      ],
+      "first_seen": "2026-07-26T08:00:04",
+      "last_seen": "2026-07-26T08:00:04"
+    },
+    {
+      "url": "https://blog.naver.com/uppp1/224357855662",
+      "title": "올 여름휴가는 베트남 푸꾸옥으로 해외여행 가요.새 창 열림",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "9시간 전",
+      "post_date": "2026-07-26",
+      "summary": "그래서 쌀국수 사진도 없다. 이러면 기분이 안 좋다고요. 헝 식당 이름은 비밀이에요. 다 먹고 살자고 하는 일인걸요.. 여행을 하다보면 이런 순간도 있을 수 있으…",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "맛있",
+        "최고",
+        "맛집"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-07-26T08:00:04",
+      "last_seen": "2026-07-26T08:00:04"
+    },
+    {
+      "url": "https://blog.naver.com/qjdocci94/224357985807",
+      "title": "대용량 접이식 장바구니, 구매 전 체크해야 할 포인트와 특징새 창 열림",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "5시간 전",
+      "post_date": "2026-07-26",
+      "summary": "↑상세페이지 바로가기↑ 메오 키친 대용량 접이식 장바구니는 다양한 상황에서 유용하게 사용할 수 있는 제품입니다. 이 장바구니는 특히 캠핑이나 소풍, 쇼핑 등 여러…",
+      "mentions_meokitchen": true,
+      "sentiment": "neutral",
+      "pos_tags": [],
+      "neg_tags": [],
+      "first_seen": "2026-07-26T08:00:04",
+      "last_seen": "2026-07-26T08:00:04"
+    },
+    {
+      "url": "https://blog.naver.com/qe8z9opqevdpqg0p/224358081560",
+      "title": "장바구니 접이식 선택이 고민이라면 루몬트 쇼핑카트 캐리어 여행용 후기를 바탕으로 정리한 핵심 포인트새 창 열림",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "1시간 전",
+      "post_date": "2026-07-26",
+      "summary": "2위 — 메오 키친 대용량 접이식 장바구니, 수박 2. 메오 키친 대용량 접이식 장바구니, 수박, 3개 ₩ 6,980 별점 : ⭐⭐⭐⭐⭐ 메오 키친 대용량 접이식…",
+      "mentions_meokitchen": true,
+      "sentiment": "neutral",
+      "pos_tags": [],
+      "neg_tags": [],
+      "first_seen": "2026-07-26T08:00:04",
+      "last_seen": "2026-07-26T08:00:04"
+    },
+    {
+      "url": "https://blog.naver.com/friday-111/224357627008",
+      "title": "[나트랑 가족여행] 7월 18일~24일 일정 총정리｜시에스타 호텔·알마 리조트·맛집·마사지 기록새 창 열림",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "1일 전",
+      "post_date": "2026-07-25",
+      "summary": "더힐스파에서 120분 전신마사지 12:30 메오키친에서 점심식사 13:00~13:50 선물 구매 후 숙소로 이동 13:50 호텔 체크인 14:00~15:30 선물…",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "맛집"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-07-26T08:00:04",
+      "last_seen": "2026-07-26T08:00:04"
     }
   ]
 }
