@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-26T11:00:07",
+  "updated_at": "2026-07-27T08:00:03",
   "posts": [
     {
       "url": "https://blog.naver.com/gagmic/224304300809",
@@ -55471,7 +55471,7 @@
       ],
       "neg_tags": [],
       "first_seen": "2026-07-26T08:00:04",
-      "last_seen": "2026-07-26T08:00:04"
+      "last_seen": "2026-07-27T08:00:03"
     },
     {
       "url": "https://blog.naver.com/qjdocci94/224357985807",
@@ -55487,7 +55487,7 @@
       "pos_tags": [],
       "neg_tags": [],
       "first_seen": "2026-07-26T08:00:04",
-      "last_seen": "2026-07-26T08:00:04"
+      "last_seen": "2026-07-27T08:00:03"
     },
     {
       "url": "https://blog.naver.com/qe8z9opqevdpqg0p/224358081560",
@@ -55657,7 +55657,7 @@
       ],
       "neg_tags": [],
       "first_seen": "2026-07-26T11:00:02",
-      "last_seen": "2026-07-26T11:00:02"
+      "last_seen": "2026-07-27T08:00:03"
     },
     {
       "url": "https://blog.naver.com/st058/224358238904",
@@ -56365,6 +56365,235 @@
       "neg_tags": [],
       "first_seen": "2026-07-26T11:00:07",
       "last_seen": "2026-07-26T11:00:07"
+    },
+    {
+      "url": "https://blog.naver.com/hyh4764/224358300450",
+      "title": "베트남 푸꾸옥 현지음식 맛집을 찾는다면? \"MEO kitchen(메오키친)\" 후기 (웨이팅, 메뉴추천)새 창 열림",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "1일 전",
+      "post_date": "2026-07-26",
+      "summary": "안녕하세요 고급입맛을 가진 유니의 맛집뿌셔 윤블리입니다 오늘은 제가 베트남 푸꾸옥 현지음식 맛집 MEO kitchen(메오키친) 을 소개 시켜드리려고해요 ㅎㅎ M…",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "추천",
+        "맛집"
+      ],
+      "neg_tags": [
+        "웨이팅"
+      ],
+      "first_seen": "2026-07-27T08:00:03",
+      "last_seen": "2026-07-27T08:00:03"
+    },
+    {
+      "url": "https://blog.naver.com/jjjaeng030/224357364537",
+      "title": "베트남 푸꾸옥 4인 가족여행 경비, 3박 5일 환전 얼마나?새 창 열림",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "1일 전",
+      "post_date": "2026-07-26",
+      "summary": "식비 현금 미스터 씨푸드 75,845원 미스터 씨푸드 140,525 메오키친 56,045 에머이 반미 13,200 MYLA 씨푸드 108,350 카드 나향센 61…",
+      "mentions_meokitchen": true,
+      "sentiment": "neutral",
+      "pos_tags": [],
+      "neg_tags": [],
+      "first_seen": "2026-07-27T08:00:03",
+      "last_seen": "2026-07-27T08:00:03"
+    },
+    {
+      "url": "https://blog.naver.com/ezez98/224358497774",
+      "title": "[베트남 푸꾸옥] 딸과 함꺽 5박 7일 푸꾸옥 여행 3일차(1)(유주 스파&네일 내 돈 내산 후기, 킹콩 마트, 더 한식)새 창 열림",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "1일 전",
+      "post_date": "2026-07-26",
+      "summary": "메오 키친이라는 곳을 찾긴 했는데 대기가 있을 수도 있단 말에 마사지ㅈ시간이 애매해 그냥 씀모이가든으로 향한다. 그러다 갑자기 아이가 킹콩 마트 바로 옆에 한식집…",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "깔끔"
+      ],
+      "neg_tags": [
+        "대기"
+      ],
+      "first_seen": "2026-07-27T08:00:03",
+      "last_seen": "2026-07-27T08:00:03"
+    },
+    {
+      "url": "https://blog.naver.com/bebeorol/224358776898",
+      "title": "[푸꾸옥3일차]서울스파,메오키친,뉴월드,부이페스트야시장,키스오브더씨새 창 열림",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "9시간 전",
+      "post_date": "2026-07-27",
+      "summary": "우리를 킹콩마트에 내려주면 쇼핑하고 다시 11시40분에 킹콩마트에 스파 차량이 데리러 와주시고 12시에 마사지 시작하고, 마사지 끝나면 메오키친에서 밥먹고 원하는…",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "친절"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-07-27T08:00:03",
+      "last_seen": "2026-07-27T08:00:03"
+    },
+    {
+      "url": "https://blog.naver.com/db95200/224358743921",
+      "title": "7월 푸꾸옥 5박 7일새 창 열림",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "9시간 전",
+      "post_date": "2026-07-27",
+      "summary": "7/22 메오키친>캠비치>마사지>소나시야시장투어>호텔(베스트웨스턴 프리미어소나시빌라동) 매일 8:30 시작이여서 못 간 헬스장 리조트 떠나기전 맛보기 정말 아무도…",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "맛있",
+        "맛집"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-07-27T08:00:03",
+      "last_seen": "2026-07-27T08:00:03"
+    },
+    {
+      "url": "https://blog.naver.com/haeyuram/224357151593",
+      "title": "푸꾸옥 공항 도착 후 강력추천 | 얼리모닝 체크인 전 시간 알차게 보내기 | 푸꾸옥 첫 날 꿀팁새 창 열림",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "1일 전",
+      "post_date": "2026-07-26",
+      "summary": "투어 핵심 정보 항목 내용 상품 푸꾸옥 얼리모닝 체크인 투어 코스 공항픽업, 마사지 60분, 추온추온 카페, 킹콩마트, 메오키친 점심, 숙소 샌딩 소요 시간 약 …",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "추천"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-07-27T08:00:03",
+      "last_seen": "2026-07-27T08:00:03"
+    },
+    {
+      "url": "https://blog.naver.com/sunjin524/224357716517",
+      "title": "7월의 푸꾸옥 여행기(4)새 창 열림",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "1일 전",
+      "post_date": "2026-07-26",
+      "summary": "이어서 4일차 시작합니당 역시나 오늘도 동생남자친구는 마사지를 받으러 아침에 떠났어요 봉봉이랑 나랑 동생만 조식먹고 ~ 봉봉이만 넘 아쉬워서 수영장 한번더 입수 …",
+      "mentions_meokitchen": true,
+      "sentiment": "neg",
+      "pos_tags": [],
+      "neg_tags": [
+        "아쉬운"
+      ],
+      "first_seen": "2026-07-27T08:00:03",
+      "last_seen": "2026-07-27T08:00:03"
+    },
+    {
+      "url": "https://blog.naver.com/wendy0579/224358942392",
+      "title": "광주 일상 / 26년 7월 2주차(푸꾸옥여행 DAY1)새 창 열림",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "1시간 전",
+      "post_date": "2026-07-27",
+      "summary": "중부숙소 m빌리지 도착 원래는 일요일 새벽 1시 도착 예정이었는데 항공권 다시 구입하는 과정에서 토요일 오전 9시로 변경 숙소는 0.5박용이었는데 1박용으로도 만…",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "친절",
+        "만족"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-07-27T08:00:03",
+      "last_seen": "2026-07-27T08:00:03"
+    },
+    {
+      "url": "https://blog.naver.com/hy22zzang/224358980499",
+      "title": "3박 4일 푸꾸옥 [2026.06.13~2026.06.16]새 창 열림",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "51분 전",
+      "post_date": "2026-07-27",
+      "summary": "열심히 달려서 12시쯤 인천공항 도착 완료~ 3시 25분 비행기인데 쫓기는 거 보다 이게 낫다 싶어서 대전에서 마지막 해장국 먹고 바로 출발함 ㅎㅎ 네 전재산 천…",
+      "mentions_meokitchen": true,
+      "sentiment": "neutral",
+      "pos_tags": [],
+      "neg_tags": [],
+      "first_seen": "2026-07-27T08:00:03",
+      "last_seen": "2026-07-27T08:00:03"
+    },
+    {
+      "url": "https://cafe.naver.com/minecraftpe/3932507",
+      "title": "푸꾸옥 일정 봐주세요! 동선 괜찮을까요?",
+      "source": "cafe",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "8시간 전",
+      "post_date": "2026-07-27",
+      "summary": "",
+      "mentions_meokitchen": true,
+      "sentiment": "neutral",
+      "pos_tags": [],
+      "neg_tags": [],
+      "first_seen": "2026-07-27T08:00:03",
+      "last_seen": "2026-07-27T08:00:03"
+    },
+    {
+      "url": "https://cafe.naver.com/minecraftpe/3932237",
+      "title": "킹콩마트 즈엉동? 소사시?",
+      "source": "cafe",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "16시간 전",
+      "post_date": "2026-07-27",
+      "summary": "",
+      "mentions_meokitchen": true,
+      "sentiment": "neutral",
+      "pos_tags": [],
+      "neg_tags": [],
+      "first_seen": "2026-07-27T08:00:03",
+      "last_seen": "2026-07-27T08:00:03"
+    },
+    {
+      "url": "https://cafe.naver.com/minecraftpe/3932228",
+      "title": "푸꾸옥 마지막날~! 1꿕으로 충분했어요^^",
+      "source": "cafe",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "17시간 전",
+      "post_date": "2026-07-27",
+      "summary": "",
+      "mentions_meokitchen": true,
+      "sentiment": "neutral",
+      "pos_tags": [],
+      "neg_tags": [],
+      "first_seen": "2026-07-27T08:00:03",
+      "last_seen": "2026-07-27T08:00:03"
+    },
+    {
+      "url": "https://cafe.naver.com/zzop/4141405",
+      "title": "[은방망이 혜택 사용] 픽업 신청 합니다.",
+      "source": "cafe",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "18시간 전",
+      "post_date": "2026-07-27",
+      "summary": "오늘의 경험, 클립으로 연결해요 클립 올리면 매월 포인트 최대 12만원",
+      "mentions_meokitchen": true,
+      "sentiment": "neutral",
+      "pos_tags": [],
+      "neg_tags": [],
+      "first_seen": "2026-07-27T08:00:03",
+      "last_seen": "2026-07-27T08:00:03"
     }
   ]
 }
