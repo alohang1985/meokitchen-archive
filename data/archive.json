@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-27T11:00:07",
+  "updated_at": "2026-07-28T08:00:03",
   "posts": [
     {
       "url": "https://blog.naver.com/gagmic/224304300809",
@@ -56439,7 +56439,7 @@
       ],
       "neg_tags": [],
       "first_seen": "2026-07-27T08:00:03",
-      "last_seen": "2026-07-27T08:00:03"
+      "last_seen": "2026-07-28T08:00:03"
     },
     {
       "url": "https://blog.naver.com/db95200/224358743921",
@@ -56458,7 +56458,7 @@
       ],
       "neg_tags": [],
       "first_seen": "2026-07-27T08:00:03",
-      "last_seen": "2026-07-27T08:00:03"
+      "last_seen": "2026-07-28T08:00:03"
     },
     {
       "url": "https://blog.naver.com/haeyuram/224357151593",
@@ -56513,7 +56513,7 @@
       ],
       "neg_tags": [],
       "first_seen": "2026-07-27T08:00:03",
-      "last_seen": "2026-07-27T08:00:03"
+      "last_seen": "2026-07-28T08:00:03"
     },
     {
       "url": "https://blog.naver.com/hy22zzang/224358980499",
@@ -56529,7 +56529,7 @@
       "pos_tags": [],
       "neg_tags": [],
       "first_seen": "2026-07-27T08:00:03",
-      "last_seen": "2026-07-27T08:00:03"
+      "last_seen": "2026-07-28T08:00:03"
     },
     {
       "url": "https://cafe.naver.com/minecraftpe/3932507",
@@ -57435,6 +57435,239 @@
       "neg_tags": [],
       "first_seen": "2026-07-27T11:00:07",
       "last_seen": "2026-07-27T11:00:07"
+    },
+    {
+      "url": "https://blog.naver.com/jennatempo/224359237736",
+      "title": "[베트남] 나트랑 2일차 | 디셈버호텔, 빈원더스, 메오키친새 창 열림",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "1일 전",
+      "post_date": "2026-07-27",
+      "summary": "2025.09.06 Sat 07:00 조식 | December Hotel 08:30 출발 | Vinwonders Nhatrang 09:00 빈원더스 입장 | Vi…",
+      "mentions_meokitchen": true,
+      "sentiment": "neutral",
+      "pos_tags": [],
+      "neg_tags": [],
+      "first_seen": "2026-07-28T08:00:03",
+      "last_seen": "2026-07-28T08:00:03"
+    },
+    {
+      "url": "https://blog.naver.com/ddungnyanya/224359612583",
+      "title": "[임신 27주 일상] 푸꾸옥 태교 여행 중.. !새 창 열림",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "1일 전",
+      "post_date": "2026-07-27",
+      "summary": "외국와서 이런적 처음이라 넘 당황스러움,,ㅋ_ㅋ 베트남에서 맛있게 먹은 리스트 ✔️마담칸 - 갈비쌀국수 ✔️Mo Dao Mam Riverside 레스토랑 - 반쎄…",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "맛있",
+        "좋음"
+      ],
+      "neg_tags": [
+        "별로"
+      ],
+      "first_seen": "2026-07-28T08:00:03",
+      "last_seen": "2026-07-28T08:00:03"
+    },
+    {
+      "url": "https://blog.naver.com/xxmiheexx/224358272847",
+      "title": "푸꾸옥여행/푸꾸옥 5박6일/그랜드오션베이리조트/오션바앤그릴/오션베이레스토랑/킹콩마트/코코마사지/메오키친/그랜드오션베이레스토랑/그랜드오션베이조식새 창 열림",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "1일 전",
+      "post_date": "2026-07-27",
+      "summary": "해변가도 가봤는데 물 따뜻하고 아침이라 안깊었어요 키키 이거 찍으러 여기 오는거 아닌가요 여러장 찍어주고 해피아워도 잘 즐겨줌 수영다하고 오후에 푸꾸옥 시내로 ㄱ…",
+      "mentions_meokitchen": true,
+      "sentiment": "neutral",
+      "pos_tags": [],
+      "neg_tags": [],
+      "first_seen": "2026-07-28T08:00:03",
+      "last_seen": "2026-07-28T08:00:03"
+    },
+    {
+      "url": "https://blog.naver.com/awl6t7cex6y9va3/224359816887",
+      "title": "장바구니 접이식 처음 알아보는 분이라면 트렌드컨테이너 쇼핑카트 바퀴달린 시장 직접 비교해 본 특징과 선택 기준새 창 열림",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "1일 전",
+      "post_date": "2026-07-27",
+      "summary": "2위 — 메오 키친 대용량 접이식 장바구니, 수박 2. 메오 키친 대용량 접이식 장바구니, 수박, 3개 ₩ 6,980 별점 : ⭐⭐⭐⭐⭐ 메오 키친 대용량 접이식…",
+      "mentions_meokitchen": true,
+      "sentiment": "neutral",
+      "pos_tags": [],
+      "neg_tags": [],
+      "first_seen": "2026-07-28T08:00:03",
+      "last_seen": "2026-07-28T08:00:03"
+    },
+    {
+      "url": "https://blog.naver.com/rladbwjd05/224359270988",
+      "title": "7월 일상 푸꾸옥&제주 여름휴가, 요즘 일상새 창 열림",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "1일 전",
+      "post_date": "2026-07-27",
+      "summary": "야경 너무 예뻤는데,, 흙흙 그래도 카페에서 귀여운 아기고양이랑 베트남 애기 만났음 된거야 ㅠ 팜베이리조트 조식 푸꾸옥 할아버지 맥주 필수,, 반쎄오도 메오키친에…",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "필수"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-07-28T08:00:03",
+      "last_seen": "2026-07-28T08:00:03"
+    },
+    {
+      "url": "https://blog.naver.com/yujigraphy/224359568380",
+      "title": "베트남 나트랑 가족여행 렌트카 내돈내산 후기 공항픽업 OK새 창 열림",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "1일 전",
+      "post_date": "2026-07-27",
+      "summary": "아무튼 체크아웃 후 첫 코스로 맛집으로 유명한 메오키친에서 점심식사부터 알차게 하고 근처 시내 기념품샵 구경도 했어요ㅋ 그리고 바로 담시장 이동했는데 여기는 오후…",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "맛집"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-07-28T08:00:03",
+      "last_seen": "2026-07-28T08:00:03"
+    },
+    {
+      "url": "https://blog.naver.com/ejaqh98/224359362389",
+      "title": "푸꾸옥마사지 서울이발소 네일, 스파, 귀청소, 가격, 픽업 후기새 창 열림",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "1일 전",
+      "post_date": "2026-07-27",
+      "summary": "킹콩마트, 메오키친, 끄록스 근처다.ㅋㅋ 픽업과 샌딩이 모두 가능한 마사지샵. 특히 위치가 사기적이라서 잘 이용하면 이득이다. 한국인 사장님이 운영하고 있고 한국…",
+      "mentions_meokitchen": true,
+      "sentiment": "neutral",
+      "pos_tags": [],
+      "neg_tags": [],
+      "first_seen": "2026-07-28T08:00:03",
+      "last_seen": "2026-07-28T08:00:03"
+    },
+    {
+      "url": "https://cafe.naver.com/vinpearl/508150",
+      "title": "트래블카드 신청합니다.",
+      "source": "cafe",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "8시간 전",
+      "post_date": "2026-07-28",
+      "summary": "",
+      "mentions_meokitchen": true,
+      "sentiment": "neutral",
+      "pos_tags": [],
+      "neg_tags": [],
+      "first_seen": "2026-07-28T08:00:03",
+      "last_seen": "2026-07-28T08:00:03"
+    },
+    {
+      "url": "https://cafe.naver.com/minecraftpe/3933301",
+      "title": "초저아이 동반 여행 후기",
+      "source": "cafe",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "9시간 전",
+      "post_date": "2026-07-28",
+      "summary": "",
+      "mentions_meokitchen": true,
+      "sentiment": "neutral",
+      "pos_tags": [],
+      "neg_tags": [],
+      "first_seen": "2026-07-28T08:00:03",
+      "last_seen": "2026-07-28T08:00:03"
+    },
+    {
+      "url": "https://cafe.naver.com/minilover/1139533",
+      "title": "호세아빠의 여름 휴가#5",
+      "source": "cafe",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "10시간 전",
+      "post_date": "2026-07-28",
+      "summary": "",
+      "mentions_meokitchen": true,
+      "sentiment": "neutral",
+      "pos_tags": [],
+      "neg_tags": [],
+      "first_seen": "2026-07-28T08:00:03",
+      "last_seen": "2026-07-28T08:00:03"
+    },
+    {
+      "url": "https://cafe.naver.com/zzop/4144511",
+      "title": "나트랑",
+      "source": "cafe",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "10시간 전",
+      "post_date": "2026-07-28",
+      "summary": "",
+      "mentions_meokitchen": true,
+      "sentiment": "neutral",
+      "pos_tags": [],
+      "neg_tags": [],
+      "first_seen": "2026-07-28T08:00:03",
+      "last_seen": "2026-07-28T08:00:03"
+    },
+    {
+      "url": "https://cafe.naver.com/ysm5828/9592458",
+      "title": "둘째날 일정 질문있습니다",
+      "source": "cafe",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "10시간 전",
+      "post_date": "2026-07-28",
+      "summary": "",
+      "mentions_meokitchen": true,
+      "sentiment": "neutral",
+      "pos_tags": [],
+      "neg_tags": [],
+      "first_seen": "2026-07-28T08:00:03",
+      "last_seen": "2026-07-28T08:00:03"
+    },
+    {
+      "url": "https://cafe.naver.com/ysm5828/9592411",
+      "title": "픽업 신청 합니다(경유1)",
+      "source": "cafe",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "11시간 전",
+      "post_date": "2026-07-28",
+      "summary": "",
+      "mentions_meokitchen": true,
+      "sentiment": "neutral",
+      "pos_tags": [],
+      "neg_tags": [],
+      "first_seen": "2026-07-28T08:00:03",
+      "last_seen": "2026-07-28T08:00:03"
+    },
+    {
+      "url": "https://cafe.naver.com/minecraftpe/3932831",
+      "title": "베트남만 오면 사는 약",
+      "source": "cafe",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "21시간 전",
+      "post_date": "2026-07-28",
+      "summary": "하이엔드 스피커! 눈치게임 경매 중 네이버 플리마켓 오디오 특별전",
+      "mentions_meokitchen": true,
+      "sentiment": "neutral",
+      "pos_tags": [],
+      "neg_tags": [],
+      "first_seen": "2026-07-28T08:00:03",
+      "last_seen": "2026-07-28T08:00:03"
     }
   ]
 }
