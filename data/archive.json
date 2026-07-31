@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-30T11:00:07",
+  "updated_at": "2026-07-31T08:00:03",
   "posts": [
     {
       "url": "https://blog.naver.com/gagmic/224304300809",
@@ -59736,7 +59736,7 @@
       ],
       "neg_tags": [],
       "first_seen": "2026-07-30T08:00:04",
-      "last_seen": "2026-07-30T08:00:04"
+      "last_seen": "2026-07-31T08:00:03"
     },
     {
       "url": "https://blog.naver.com/jjjjjjjjjji-/224362084434",
@@ -59792,7 +59792,7 @@
       "pos_tags": [],
       "neg_tags": [],
       "first_seen": "2026-07-30T08:00:04",
-      "last_seen": "2026-07-30T08:00:04"
+      "last_seen": "2026-07-31T08:00:03"
     },
     {
       "url": "https://blog.naver.com/rlaalsgml357/224362473566",
@@ -59810,7 +59810,7 @@
       ],
       "neg_tags": [],
       "first_seen": "2026-07-30T08:00:04",
-      "last_seen": "2026-07-30T08:00:04"
+      "last_seen": "2026-07-31T08:00:03"
     },
     {
       "url": "https://cafe.naver.com/minecraftpe/3934691",
@@ -60857,6 +60857,327 @@
       "neg_tags": [],
       "first_seen": "2026-07-30T11:00:07",
       "last_seen": "2026-07-30T11:00:07"
+    },
+    {
+      "url": "https://blog.naver.com/lieblich_ddongri/224361859182",
+      "title": "ㅣ베트남 푸꾸옥 맛집ㅣ MEO KITCHEN 메오 키친_ 패밀리세트 그 양을 만만히 보지 말것.. 모닝글로리 쌀국수 푸꾸옥 맛집새 창 열림",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "2시간 전",
+      "post_date": "2026-07-31",
+      "summary": "푸꾸옥 첫날 첫 끼로 무엇을 먹을까 하다가 푸꾸옥 맛집으로 유명한 메오 키친(MEO KITCHEN) 방문했습니다 좀 늦은 점심시간이었는데 웨이팅이 있었어요 출처:…",
+      "mentions_meokitchen": true,
+      "sentiment": "neg",
+      "pos_tags": [
+        "맛집"
+      ],
+      "neg_tags": [
+        "웨이팅",
+        "대기"
+      ],
+      "first_seen": "2026-07-31T08:00:03",
+      "last_seen": "2026-07-31T08:00:03"
+    },
+    {
+      "url": "https://blog.naver.com/djmacair/224363273542",
+      "title": "투어픽 나트랑 르모어 호텔 솔직 후기: 0.5박 가성비 숙소로 완벽할까?새 창 열림",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "1일 전",
+      "post_date": "2026-07-30",
+      "summary": "유명 맛집 및 카페 : 나트랑에서 인기를 끌고 있는 메오키친 시내점과 투어픽 카페가 걸어서 5분안에 있고 그 외 여행 준비하다 보면 알게되는 유명 맛집 카페들이 …",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "필수",
+        "완벽",
+        "맛집"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-07-31T08:00:03",
+      "last_seen": "2026-07-31T08:00:03"
+    },
+    {
+      "url": "https://blog.naver.com/ptmj24/224363074285",
+      "title": "푸꾸옥 선셋타운 맛집 베트남 음식 트스키친 메뉴 추천새 창 열림",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "1일 전",
+      "post_date": "2026-07-30",
+      "summary": "쌀국수 맛집 메오키친이랑 맛은 다르지만 그 수준으로 맛있었어요. 양지는 두툼하고 투박하게 썰어올렸는데 보기보다 매우 부드러웠어요. 쌀국수는 면이 살짝 퍼졌지만 나…",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "맛있",
+        "추천",
+        "맛집"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-07-31T08:00:03",
+      "last_seen": "2026-07-31T08:00:03"
+    },
+    {
+      "url": "https://blog.naver.com/eb_ink/224363398612",
+      "title": "내돈내산 실패없는 푸꾸옥 맛집 | 푸꾸옥 중부 여행 꿀팁✨새 창 열림",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "7시간 전",
+      "post_date": "2026-07-31",
+      "summary": "뿐만 아니라 식당 별 특징이나 여행 동선 등등 꿀팁도 함께 알려 드릴게요 정말 광고없이♀️❌ 내돈내산입니다~~ • • • MEO Kitchen 메오키친의 경우 .…",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "맛집"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-07-31T08:00:03",
+      "last_seen": "2026-07-31T08:00:03"
+    },
+    {
+      "url": "https://blog.naver.com/fendy67/224363265149",
+      "title": "#나트랑3일차()새 창 열림",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "1일 전",
+      "post_date": "2026-07-30",
+      "summary": "그럴수 있지 너네도~~ MEO Kitchen (메오키친 시내점) ㅋㅋㅋ 난 매워치킨인줄 알았어. 딱히 땡기는 음식이 생각나질 않아서 근처에 있는 식당으로 갔는데 …",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "맛집"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-07-31T08:00:03",
+      "last_seen": "2026-07-31T08:00:03"
+    },
+    {
+      "url": "https://blog.naver.com/sticky4/224362765569",
+      "title": "나트랑 여행 3박4일 코스 2인 경비 환전 후기새 창 열림",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "1일 전",
+      "post_date": "2026-07-30",
+      "summary": "점심 메오키친 320,000 롯데리아 145,000동 커피 65,000동 담시장, 롯데마트 쇼핑(1인) 담시장 690,000동(약 3만 7천원) 아오자이 구매 1…",
+      "mentions_meokitchen": true,
+      "sentiment": "neutral",
+      "pos_tags": [],
+      "neg_tags": [],
+      "first_seen": "2026-07-31T08:00:03",
+      "last_seen": "2026-07-31T08:00:03"
+    },
+    {
+      "url": "https://blog.naver.com/lsuism/224363457393",
+      "title": "푸꾸옥 패키지 모벤픽 리조트, 무료 풀빌라 업그레이드 예약 방법 총정리새 창 열림",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "3시간 전",
+      "post_date": "2026-07-31",
+      "summary": "3일차는 호치민 광장, 진주 박물관, 호국사, 캠비치에 들르고, 석식은 메오키친에서 대왕반쎄오랑 쌀국수예요. 쇼핑 센터도 2곳 방문하는 일정이라 기념품 챙기기도 …",
+      "mentions_meokitchen": true,
+      "sentiment": "neutral",
+      "pos_tags": [],
+      "neg_tags": [],
+      "first_seen": "2026-07-31T08:00:03",
+      "last_seen": "2026-07-31T08:00:03"
+    },
+    {
+      "url": "https://blog.naver.com/reum___0210/224362588641",
+      "title": "퇴사와 동시에 바로 떠나는 힐링 휴가! 푸꾸옥 5박 6일 완벽 일정표 (코스 총정리)새 창 열림",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "1일 전",
+      "post_date": "2026-07-30",
+      "summary": "(씀모이가든,메오키친) 쇼핑/저녁: 킹콩마트, 꼬록스, 안바카페 투어 ➡️ (18:00)반미앤코(소나시) ➡️(18:00)소나시 야시장 구경 ➡️ MR SEAFO…",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "완벽"
+      ],
+      "neg_tags": [
+        "아쉬운"
+      ],
+      "first_seen": "2026-07-31T08:00:03",
+      "last_seen": "2026-07-31T08:00:03"
+    },
+    {
+      "url": "https://blog.naver.com/limjihyun92/224363303420",
+      "title": "“대구-나트랑” 4박5일 4일차 cccp-담시장-호텔수영장-탑쩜흐엉(야시장)-메오키친-깜란공항출국새 창 열림",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "1일 전",
+      "post_date": "2026-07-30",
+      "summary": "29일 4일차 일정 조식-cccp커피(티멤버십10퍼할인)-담시장- 호텔휴식-탑쩜흐엉(야시장)-메오키친-호텔휴식 공항샌딩(호아드라이버)-공항안버거킹ㅋㅋ 30일 깜란…",
+      "mentions_meokitchen": true,
+      "sentiment": "neutral",
+      "pos_tags": [],
+      "neg_tags": [],
+      "first_seen": "2026-07-31T08:00:03",
+      "last_seen": "2026-07-31T08:00:03"
+    },
+    {
+      "url": "https://blog.naver.com/limjihyun92/224362782302",
+      "title": "“대구-나트랑” 4박5일 2일차 cccp커피-반미판-미니비치투어-멜리아엠파이어-담시장-메오키친-윈마트-나트랑야시장새 창 열림",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "1일 전",
+      "post_date": "2026-07-30",
+      "summary": "저녁식사(메오키친시내점,투어픽어플할인받기)- 멜리아빈펄엠파이어체크인-윈마트쇼핑-나트랑야시장 아침에 일어나서 6:30분에 르모어호텔 조식 별로임 오믈렛 1개먹고 끝…",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "맛있"
+      ],
+      "neg_tags": [
+        "별로"
+      ],
+      "first_seen": "2026-07-31T08:00:03",
+      "last_seen": "2026-07-31T08:00:03"
+    },
+    {
+      "url": "https://blog.naver.com/ejaqh98/224363505881",
+      "title": "푸꾸옥 소나시야시장 맛집 미스터씨푸드 치즈가리비, 오징어튀김, 치킨, 한국라면 추천 후기새 창 열림",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "1시간 전",
+      "post_date": "2026-07-31",
+      "summary": "메오키친에서 돈주고 시켰던 것보다 맛있었다. 여기가 덜 기름지고 더 푸릇하고 상쾌한 맛이다. 계란 볶음밥 계란 볶음밥도 기본 서비스로 나온다. 초록색이라서 약간 …",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "맛있",
+        "추천",
+        "맛집"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-07-31T08:00:03",
+      "last_seen": "2026-07-31T08:00:03"
+    },
+    {
+      "url": "https://cafe.naver.com/minecraftpe/3935626",
+      "title": "26.07.19-07.28 인터컨및여행후기입니다.",
+      "source": "cafe",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "9시간 전",
+      "post_date": "2026-07-31",
+      "summary": "",
+      "mentions_meokitchen": true,
+      "sentiment": "neutral",
+      "pos_tags": [],
+      "neg_tags": [],
+      "first_seen": "2026-07-31T08:00:03",
+      "last_seen": "2026-07-31T08:00:03"
+    },
+    {
+      "url": "https://cafe.naver.com/withwriter/6791",
+      "title": "나트랑 르모어 호텔 솔직 후기: 0.5박 가성비 숙소로 완벽할까?",
+      "source": "cafe",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "10시간 전",
+      "post_date": "2026-07-31",
+      "summary": "",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "완벽"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-07-31T08:00:03",
+      "last_seen": "2026-07-31T08:00:03"
+    },
+    {
+      "url": "https://cafe.naver.com/zzop/4150435",
+      "title": "카드 수수료 있는지 매번 물어보고 계산하나요??",
+      "source": "cafe",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "15시간 전",
+      "post_date": "2026-07-31",
+      "summary": "",
+      "mentions_meokitchen": true,
+      "sentiment": "neutral",
+      "pos_tags": [],
+      "neg_tags": [],
+      "first_seen": "2026-07-31T08:00:03",
+      "last_seen": "2026-07-31T08:00:03"
+    },
+    {
+      "url": "https://cafe.naver.com/ysm5828/9593811",
+      "title": "일주일 계획 대략적으로 짜보았습니다^^",
+      "source": "cafe",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "19시간 전",
+      "post_date": "2026-07-31",
+      "summary": "",
+      "mentions_meokitchen": true,
+      "sentiment": "neutral",
+      "pos_tags": [],
+      "neg_tags": [],
+      "first_seen": "2026-07-31T08:00:03",
+      "last_seen": "2026-07-31T08:00:03"
+    },
+    {
+      "url": "https://cafe.naver.com/zzop/4149822",
+      "title": "나트랑 가볼만한곳 추천 해주세요",
+      "source": "cafe",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "20시간 전",
+      "post_date": "2026-07-31",
+      "summary": "",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "추천"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-07-31T08:00:03",
+      "last_seen": "2026-07-31T08:00:03"
+    },
+    {
+      "url": "https://cafe.naver.com/minecraftpe/3935216",
+      "title": "드뎌 오늘 저녁에 출발해요!!(0.5박은 BB호텔과 함께)",
+      "source": "cafe",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "20시간 전",
+      "post_date": "2026-07-31",
+      "summary": "",
+      "mentions_meokitchen": true,
+      "sentiment": "neutral",
+      "pos_tags": [],
+      "neg_tags": [],
+      "first_seen": "2026-07-31T08:00:03",
+      "last_seen": "2026-07-31T08:00:03"
+    },
+    {
+      "url": "https://cafe.naver.com/zzop/4149485",
+      "title": "레스참 3박 및 알리부 2박 후 찐 후기 (1)!!",
+      "source": "cafe",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "23시간 전",
+      "post_date": "2026-07-31",
+      "summary": "하이엔드 턴테이블! 눈치게임 경매 중 네이버 플리마켓 오디오 특별전",
+      "mentions_meokitchen": true,
+      "sentiment": "neutral",
+      "pos_tags": [],
+      "neg_tags": [],
+      "first_seen": "2026-07-31T08:00:03",
+      "last_seen": "2026-07-31T08:00:03"
     }
   ]
 }
