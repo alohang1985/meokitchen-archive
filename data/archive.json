@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-14T11:00:07",
+  "updated_at": "2026-08-15T08:00:04",
   "posts": [
     {
       "url": "https://blog.naver.com/gagmic/224304300809",
@@ -76834,7 +76834,7 @@
         "웨이팅"
       ],
       "first_seen": "2026-08-14T08:00:04",
-      "last_seen": "2026-08-14T11:00:03"
+      "last_seen": "2026-08-15T08:00:04"
     },
     {
       "url": "https://blog.naver.com/clavie55/224377917669",
@@ -76875,7 +76875,7 @@
         "아쉬웠"
       ],
       "first_seen": "2026-08-14T08:00:04",
-      "last_seen": "2026-08-14T11:00:03"
+      "last_seen": "2026-08-15T08:00:04"
     },
     {
       "url": "https://blog.naver.com/tourpik/224377228240",
@@ -77326,7 +77326,7 @@
         "웨이팅"
       ],
       "first_seen": "2026-08-14T11:00:03",
-      "last_seen": "2026-08-14T11:00:03"
+      "last_seen": "2026-08-15T08:00:04"
     },
     {
       "url": "https://blog.naver.com/jinny-93/224378299806",
@@ -77337,7 +77337,7 @@
       "time_text": "1시간 전",
       "post_date": "2026-08-14",
       "summary": "이렇게 오늘은 푸꾸옥 여행 일정과 꿀팁까지 전부 총 정리 해드렸고, 글 마지막에 총 정리한 PDF 파일 남겨드렸습니다 푸꾸옥맛집 푸꾸옥호텔 https://blog…",
-      "mentions_meokitchen": false,
+      "mentions_meokitchen": true,
       "sentiment": "pos",
       "pos_tags": [
         "좋아",
@@ -77345,7 +77345,7 @@
       ],
       "neg_tags": [],
       "first_seen": "2026-08-14T11:00:03",
-      "last_seen": "2026-08-14T11:00:03"
+      "last_seen": "2026-08-15T08:00:04"
     },
     {
       "url": "https://blog.naver.com/925apple/224377968770",
@@ -77923,6 +77923,295 @@
       "neg_tags": [],
       "first_seen": "2026-08-14T11:00:07",
       "last_seen": "2026-08-14T11:00:07"
+    },
+    {
+      "url": "https://blog.naver.com/ddungnyanya/224378830160",
+      "title": "푸꾸옥 메오키친 추천 메뉴 웨이팅 반쎄오 가격 할인새 창 열림",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "1일 전",
+      "post_date": "2026-08-14",
+      "summary": "하얀콩콩이입니다 : ) 푸꾸옥에서 가장 유명한 식당이라고 해도 무방 할 메오키친 다녀온 후기를 적어볼게요 ! 남편 회사 동료분께서 꼭 가봐야한다며 추천해주신 '메…",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "추천"
+      ],
+      "neg_tags": [
+        "웨이팅"
+      ],
+      "first_seen": "2026-08-15T08:00:04",
+      "last_seen": "2026-08-15T08:00:04"
+    },
+    {
+      "url": "https://blog.naver.com/clavie55/224379023151",
+      "title": "푸꾸옥 맛집 메오키친 솔직후기 메뉴 추천 10% 할인받는 방법새 창 열림",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "9시간 전",
+      "post_date": "2026-08-15",
+      "summary": "푸꾸옥 맛집 메오키친 메뉴 추천 & 할인받는 방법 글, 사진 ©️김가루 푸꾸옥 중부에서 가장 유명한 맛집 메오키친에 다녀왔습니다!! 한국인들 사이에서 빼놓을 수 …",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "맛있",
+        "추천",
+        "맛집"
+      ],
+      "neg_tags": [
+        "별로"
+      ],
+      "first_seen": "2026-08-15T08:00:04",
+      "last_seen": "2026-08-15T08:00:04"
+    },
+    {
+      "url": "https://blog.naver.com/vnfmscpfl/224378632462",
+      "title": "DAY2. 북부투어 푸꾸옥 맛집 메오키친 -망고빙수 Green-빈원더스- 아쿠아리움 인어쇼 - 그랜드월드 맛집 cooi 꼬어이새 창 열림",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "1일 전",
+      "post_date": "2026-08-14",
+      "summary": "메오키친이 맛집이라는 소문 듣고 가는중 뜯어질 정도로 팔랑귀라 이런데 필참 거리 구경하며 쭉 걷는중 예뿌다 메오키친 도착 ! 딱 내가 생각한 베트남 뷰 커플들은 …",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "맛있",
+        "맛집"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-08-15T08:00:04",
+      "last_seen": "2026-08-15T08:00:04"
+    },
+    {
+      "url": "https://blog.naver.com/nari_yang/224378387814",
+      "title": "[기분 좋은 여행] 2024년 9월, 푸꾸옥 part3. 시내 힐링 편새 창 열림",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "1일 전",
+      "post_date": "2026-08-14",
+      "summary": "02 메오키친 Meo Kitchen 한국인 여행객들 사이에서 입소문이 자란 로컬 맛집 '메오키친'을 찾아갔어요. 아담하고 소박한 외관부터 베트남 현지 감성이 물씬…",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "맛있",
+        "맛집"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-08-15T08:00:04",
+      "last_seen": "2026-08-15T08:00:04"
+    },
+    {
+      "url": "https://blog.naver.com/exlost31715/224378768537",
+      "title": "실리콘매트로 주방이 더욱 깔끔하게 변신하는 비밀새 창 열림",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "1일 전",
+      "post_date": "2026-08-14",
+      "summary": "실리콘매트로 주방이 더욱 깔끔하게 변신하는 비밀 메오 키친 초대형 실리콘 건조매트 71 x 50 cm 1. 메오 키친 초대형 실리콘 건조매트 71 x 50 cm …",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "좋아",
+        "깔끔"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-08-15T08:00:04",
+      "last_seen": "2026-08-15T08:00:04"
+    },
+    {
+      "url": "https://blog.naver.com/iamsoe/224378334626",
+      "title": "8월 푸꾸옥 여행 - 1새 창 열림",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "1일 전",
+      "post_date": "2026-08-14",
+      "summary": "좀 쉬다가 체크인까지 시간이 남아서 메오키친에 점심 먹으러 가기로 했다. 한국인 인기 맛집 메오키친도 도보로 갈 수 있는 라베란다 호텔 짱짱이라구욧 실물이 사진에…",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "맛집"
+      ],
+      "neg_tags": [
+        "아쉬웠"
+      ],
+      "first_seen": "2026-08-15T08:00:04",
+      "last_seen": "2026-08-15T08:00:04"
+    },
+    {
+      "url": "https://blog.naver.com/yeah_jja/224378364240",
+      "title": "베트남 푸꾸옥 3박 5일 - 첫번째 기록새 창 열림",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "1일 전",
+      "post_date": "2026-08-14",
+      "summary": "오는길 제일 큰 마트인 킹콩마트가서 구경도 하고 야식도 사왔음 망고는 건너편에 있는 과일집에서 사왔슨! 반쎄오로 유명한 메오키친에 왔다. 쌀국수랑 반쎄오 공심채 …",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "맛있"
+      ],
+      "neg_tags": [
+        "웨이팅"
+      ],
+      "first_seen": "2026-08-15T08:00:04",
+      "last_seen": "2026-08-15T08:00:04"
+    },
+    {
+      "url": "https://blog.naver.com/seoyunya/224378254963",
+      "title": "푸꾸옥 3박5일 자유여행 일정｜항공권·eSIM·중부 숙소 월드호텔스 롱비치 리조트 후기새 창 열림",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "1일 전",
+      "post_date": "2026-08-14",
+      "summary": "다음 편에서는 본격적으로 푸꾸옥 여행 1일차! 호캉스부터 메오키친, 킹콩마트까지 다녀온 일정을 정리해보려고 한다. #푸꾸옥 #푸꾸옥여행 #푸꾸옥자유여행 #푸꾸옥3…",
+      "mentions_meokitchen": true,
+      "sentiment": "neutral",
+      "pos_tags": [],
+      "neg_tags": [],
+      "first_seen": "2026-08-15T08:00:04",
+      "last_seen": "2026-08-15T08:00:04"
+    },
+    {
+      "url": "https://blog.naver.com/lsuism/224378398070",
+      "title": "푸꾸옥 패키지 여행, 여행코스와 경비까지 한눈에 정리새 창 열림",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "1일 전",
+      "post_date": "2026-08-14",
+      "summary": "4일차엔 딘커우 사원, 호치민 광장, 진주 박물관, 캄비치, 그랜드월드 전동카 체험, 소나시 야시장까지 이어지고 메오키친에서 대왕반쎄오 코스로 특별식도 나와요. …",
+      "mentions_meokitchen": true,
+      "sentiment": "neutral",
+      "pos_tags": [],
+      "neg_tags": [],
+      "first_seen": "2026-08-15T08:00:04",
+      "last_seen": "2026-08-15T08:00:04"
+    },
+    {
+      "url": "https://blog.naver.com/rjoo1204/224378558870",
+      "title": "[푸꾸옥 자유여행] 중부, 남부, 북부 다 다녀온 4박 6일 기록새 창 열림",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "1일 전",
+      "post_date": "2026-08-14",
+      "summary": "저 쌀국수가 은근 맛있었다 쌀국수만 먹을만 했음 ㅎ.ㅎ 푸꾸옥 첫식당은 중부에서 유명한 한국인 맛집 메오키친 쌀국수 먹고 오 괜츈한데 했다가 반쎄오먹고 헐 맛있다…",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "맛있",
+        "맛집"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-08-15T08:00:04",
+      "last_seen": "2026-08-15T08:00:04"
+    },
+    {
+      "url": "https://blog.naver.com/rammmm0429/224378463865",
+      "title": "[베트남 나트랑 맛집] 나트랑 3번 가본 사람의 찐 맛집 3곳 , 나트랑 맛집 추천 (마담프엉,동호콴,메오키친,반미판)새 창 열림",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "1일 전",
+      "post_date": "2026-08-14",
+      "summary": "메오키친 제가 사진을 정리하다보니 분명 많이 찍었는데... 못찾겠더라구요...;; 가게 전경이랑 다 찍었는데;; 다행이도 메인 추천 메뉴인 반세오 사진이 있네요!…",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "추천",
+        "맛집"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-08-15T08:00:04",
+      "last_seen": "2026-08-15T08:00:04"
+    },
+    {
+      "url": "https://blog.naver.com/dngur411/224378699279",
+      "title": "동생 부부랑 다녀온 푸꾸옥 태교여행! 22주 임산부의 리얼 휴양지 모먼트 ✨(지금은 출산함)새 창 열림",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "1일 전",
+      "post_date": "2026-08-14",
+      "summary": "일단 숙소로 이동하기 전 #메오키친 맥주가 저런 병에 나와서 너어어어어무 시원할 거 같았음.. 태교여행이라 먹지는 못했지만 주문 메뉴는 #소고기쌀국수 #반쎄오 #…",
+      "mentions_meokitchen": true,
+      "sentiment": "neutral",
+      "pos_tags": [],
+      "neg_tags": [],
+      "first_seen": "2026-08-15T08:00:04",
+      "last_seen": "2026-08-15T08:00:04"
+    },
+    {
+      "url": "https://blog.naver.com/junstar1010/224377550578",
+      "title": "푸꾸옥 가족 여행 3박4일 일정 4인 경비 총정리새 창 열림",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "2시간 전",
+      "post_date": "2026-08-15",
+      "summary": "푸꾸옥 3박4일 크라운 플라자 리조트 654,292원 푸꾸옥 투어 비용 푸꾸옥 모닝 사파리 투어 투어 비용 포함사항 불포함 예약금 : 40,000원 현지 지불 금…",
+      "mentions_meokitchen": true,
+      "sentiment": "neutral",
+      "pos_tags": [],
+      "neg_tags": [],
+      "first_seen": "2026-08-15T08:00:04",
+      "last_seen": "2026-08-15T08:00:04"
+    },
+    {
+      "url": "https://blog.naver.com/mleekim95/224378368033",
+      "title": "[푸꾸옥] 베트남 푸꾸옥 4박 6일 일정-나의 두 번째 신혼여행새 창 열림",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "1일 전",
+      "post_date": "2026-08-14",
+      "summary": "4일차 메오키친, 세일링클럽 노보텔 체크아웃 메오키친 킹콩마트 세일링클럽 리조트 체크인 세일링클럽 예약 및 불 쇼 5일차 렌터카 4시간 및 마사지 후 공항 세일링…",
+      "mentions_meokitchen": true,
+      "sentiment": "neutral",
+      "pos_tags": [],
+      "neg_tags": [],
+      "first_seen": "2026-08-15T08:00:04",
+      "last_seen": "2026-08-15T08:00:04"
+    },
+    {
+      "url": "https://cafe.naver.com/zzop/4181851",
+      "title": "",
+      "source": "cafe",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "18시간 전",
+      "post_date": "2026-08-15",
+      "summary": "",
+      "mentions_meokitchen": true,
+      "sentiment": "neutral",
+      "pos_tags": [],
+      "neg_tags": [],
+      "first_seen": "2026-08-15T08:00:04",
+      "last_seen": "2026-08-15T08:00:04"
+    },
+    {
+      "url": "https://cafe.naver.com/withwriter/6818",
+      "title": "️푸꾸옥에도 드디어 맥도날드! 섬 최초 1호점 오픈(feat.바로 옆",
+      "source": "cafe",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "22시간 전",
+      "post_date": "2026-08-15",
+      "summary": "여름의 기록, 포인트로 환전하세요 클립 올리면 매월 포인트 최대 12만원",
+      "mentions_meokitchen": true,
+      "sentiment": "neutral",
+      "pos_tags": [],
+      "neg_tags": [],
+      "first_seen": "2026-08-15T08:00:04",
+      "last_seen": "2026-08-15T08:00:04"
     }
   ]
 }
