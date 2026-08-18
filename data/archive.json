@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-17T11:00:09",
+  "updated_at": "2026-08-18T08:00:05",
   "posts": [
     {
       "url": "https://blog.naver.com/gagmic/224304300809",
@@ -79886,7 +79886,7 @@
       ],
       "neg_tags": [],
       "first_seen": "2026-08-17T08:00:04",
-      "last_seen": "2026-08-17T08:00:04"
+      "last_seen": "2026-08-18T08:00:04"
     },
     {
       "url": "https://blog.naver.com/ddrsna/224380170722",
@@ -79963,7 +79963,7 @@
       "pos_tags": [],
       "neg_tags": [],
       "first_seen": "2026-08-17T08:00:04",
-      "last_seen": "2026-08-17T08:00:04"
+      "last_seen": "2026-08-18T08:00:04"
     },
     {
       "url": "https://blog.naver.com/gicheoli606/224380603599",
@@ -80020,7 +80020,7 @@
       ],
       "neg_tags": [],
       "first_seen": "2026-08-17T08:00:04",
-      "last_seen": "2026-08-17T11:00:03"
+      "last_seen": "2026-08-18T08:00:04"
     },
     {
       "url": "https://blog.naver.com/seelee7830/224380618081",
@@ -80073,7 +80073,7 @@
       ],
       "neg_tags": [],
       "first_seen": "2026-08-17T08:00:04",
-      "last_seen": "2026-08-17T08:00:04"
+      "last_seen": "2026-08-18T08:00:04"
     },
     {
       "url": "https://cafe.naver.com/ysm5828/9602860",
@@ -80913,6 +80913,146 @@
       ],
       "first_seen": "2026-08-17T11:00:09",
       "last_seen": "2026-08-17T11:00:09"
+    },
+    {
+      "url": "https://blog.naver.com/ronne1010/224381778761",
+      "title": "푸꾸옥 베트남 음식 추천 가격 카드 결제 (한국인 맛집 추천, 카페 추천)새 창 열림",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "2시간 전",
+      "post_date": "2026-08-18",
+      "summary": "메오키친 (MEO KITCHEN) 푸꾸옥 중부 1위, 베트남 음식 맛집 메오키친 (MEO KITCHEM) - 영업시간 : (매일) 오전 08:00 ~ 오후 09:…",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "추천",
+        "맛집"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-08-18T08:00:04",
+      "last_seen": "2026-08-18T08:00:04"
+    },
+    {
+      "url": "https://blog.naver.com/ddubeedubab/224381170991",
+      "title": "26년 8월 ㅡ 푸꾸옥 맛집을 찾기 위한 여정새 창 열림",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "1일 전",
+      "post_date": "2026-08-17",
+      "summary": "유일하게 성공한 로컬 맛집이다 ㅠ 안에 한국인이 아쥬 바글바글했다 쌀국수 + 모닝글로리 집이 갈때가 되어서야 쌀국수다운 쌀국수를 먹었다 그 유명한 메오키친의 반미…",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "맛집"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-08-18T08:00:04",
+      "last_seen": "2026-08-18T08:00:04"
+    },
+    {
+      "url": "https://blog.naver.com/ronne1010/224380934348",
+      "title": "베트남 푸꾸옥 네이버카드 내돈내산 후기 (카드 수수료 환급, 그랩 결제 꿀팁, 그랩 할인쿠폰, 해외 카드 결제)새 창 열림",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "1일 전",
+      "post_date": "2026-08-17",
+      "summary": "항목 결제 금액 (베트남 동) 한화 (원) 수수료 환급 (원) 2%적립 (원) 호텔 8,053,633 VND 482,476 원 6,007 원 9,529 원 킹콩마…",
+      "mentions_meokitchen": true,
+      "sentiment": "neutral",
+      "pos_tags": [],
+      "neg_tags": [],
+      "first_seen": "2026-08-18T08:00:04",
+      "last_seen": "2026-08-18T08:00:04"
+    },
+    {
+      "url": "https://blog.naver.com/minsec_486/224381387840",
+      "title": "260717-21 푸꾸옥 3박 5일새 창 열림",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "1일 전",
+      "post_date": "2026-08-17",
+      "summary": "환복 완료 숙소 옮겨보자 인터컨티넨탈 푸꾸옥 롱비치 리조트 인터컨티넨탈 푸꾸옥 롱비치 리조트 일단 체크인만 하실게 인터컨티넨탈 호텔 개좋음 그랩 타고 메오키친 가…",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "맛있",
+        "좋음"
+      ],
+      "neg_tags": [
+        "웨이팅"
+      ],
+      "first_seen": "2026-08-18T08:00:04",
+      "last_seen": "2026-08-18T08:00:04"
+    },
+    {
+      "url": "https://blog.naver.com/2yu_daddy/224381644414",
+      "title": "푸꾸옥 팜베이리조트 조식 수영장 2박 후기 (6박7일 1~3일차)새 창 열림",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "8시간 전",
+      "post_date": "2026-08-18",
+      "summary": "한 줄 평 \"화려하진 않은데 아이 데리고 다니기 편한 게 다 갖춰진 숙소\" ━━━━━━━━━━━━━━ 푸꾸옥 6박7일 1~3일차 팜베이리조트 숙박 같이 보면 좋은…",
+      "mentions_meokitchen": true,
+      "sentiment": "neg",
+      "pos_tags": [],
+      "neg_tags": [
+        "웨이팅"
+      ],
+      "first_seen": "2026-08-18T08:00:04",
+      "last_seen": "2026-08-18T08:00:04"
+    },
+    {
+      "url": "https://cafe.naver.com/vinpearl/522018",
+      "title": "그랜드스파",
+      "source": "cafe",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "16시간 전",
+      "post_date": "2026-08-18",
+      "summary": "",
+      "mentions_meokitchen": true,
+      "sentiment": "neutral",
+      "pos_tags": [],
+      "neg_tags": [],
+      "first_seen": "2026-08-18T08:00:05",
+      "last_seen": "2026-08-18T08:00:05"
+    },
+    {
+      "url": "https://cafe.naver.com/ysm5828/9603030",
+      "title": "은방망이",
+      "source": "cafe",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "21시간 전",
+      "post_date": "2026-08-18",
+      "summary": "",
+      "mentions_meokitchen": true,
+      "sentiment": "neutral",
+      "pos_tags": [],
+      "neg_tags": [],
+      "first_seen": "2026-08-18T08:00:05",
+      "last_seen": "2026-08-18T08:00:05"
+    },
+    {
+      "url": "https://cafe.naver.com/ysm5828/9603027",
+      "title": "푸꾸옥 고수님들 일정 검토 부탁드랴요 ㅎㅎ",
+      "source": "cafe",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "21시간 전",
+      "post_date": "2026-08-18",
+      "summary": "여름의 기록, 포인트로 환전하세요 클립 올리면 매월 포인트 최대 12만원",
+      "mentions_meokitchen": true,
+      "sentiment": "neutral",
+      "pos_tags": [],
+      "neg_tags": [],
+      "first_seen": "2026-08-18T08:00:05",
+      "last_seen": "2026-08-18T08:00:05"
     }
   ]
 }
