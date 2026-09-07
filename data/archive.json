@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-06T11:00:08",
+  "updated_at": "2026-09-07T08:00:03",
   "posts": [
     {
       "url": "https://blog.naver.com/gagmic/224304300809",
@@ -103449,6 +103449,42 @@
       "neg_tags": [],
       "first_seen": "2026-09-06T11:00:08",
       "last_seen": "2026-09-06T11:00:08"
+    },
+    {
+      "url": "https://blog.naver.com/junhee_mom/224402886906",
+      "title": "푸꾸옥 중부 맛집 메오키친새 창 열림",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "1일 전",
+      "post_date": "2026-09-06",
+      "summary": "맛있는 반쎄오 먹고 싶어서 검색하다가 이미 한국인들 사이에 맛집으로 명성이 자자한 메오키친 갔다왔답니다. 메뉴 다양하게 시켜서 먹어봤는데 진짜 맛있었던 메뉴 추천…",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "맛있",
+        "추천",
+        "맛집"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-09-07T08:00:03",
+      "last_seen": "2026-09-07T08:00:03"
+    },
+    {
+      "url": "https://cafe.naver.com/loveno1beast/112652",
+      "title": "푸꾸옥",
+      "source": "cafe",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "19시간 전",
+      "post_date": "2026-09-07",
+      "summary": "태그 하나로, 기록은 더 멀리 오늘의 경험을 기록하고 포인트 적립",
+      "mentions_meokitchen": true,
+      "sentiment": "neutral",
+      "pos_tags": [],
+      "neg_tags": [],
+      "first_seen": "2026-09-07T08:00:03",
+      "last_seen": "2026-09-07T08:00:03"
     }
   ]
 }
