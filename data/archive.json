@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-07T11:00:07",
+  "updated_at": "2026-09-08T08:00:04",
   "posts": [
     {
       "url": "https://blog.naver.com/gagmic/224304300809",
@@ -103759,7 +103759,7 @@
       "time_text": "2시간 전",
       "post_date": "2026-09-07",
       "summary": "네이버 푸꾸옥고스트 카페 회원이시면 10% 할인해 준답니다. 영수증을 잘 챙기고 계셨다가 소나시야시장 구경 다 하고 드랍서비스를 요청하시면 돼요. 풀만 리조트까지…",
-      "mentions_meokitchen": false,
+      "mentions_meokitchen": true,
       "sentiment": "pos",
       "pos_tags": [
         "만족",
@@ -103767,7 +103767,7 @@
       ],
       "neg_tags": [],
       "first_seen": "2026-09-07T11:00:02",
-      "last_seen": "2026-09-07T11:00:02"
+      "last_seen": "2026-09-08T08:00:04"
     },
     {
       "url": "https://blog.naver.com/dmsgus0614/224402911366",
@@ -104329,6 +104329,165 @@
       "neg_tags": [],
       "first_seen": "2026-09-07T11:00:07",
       "last_seen": "2026-09-07T11:00:07"
+    },
+    {
+      "url": "https://blog.naver.com/tjdgks4642/224404068596",
+      "title": "문득 떠오른 추억 / 푸꾸옥에서의 한 끼, {메오키친}새 창 열림",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "1일 전",
+      "post_date": "2026-09-07",
+      "summary": "푸꾸옥 여행의 행복했던 순간들 중 갑자기 떠오른 메오키친의 추억 공유하려고 해요 :) [푸꾸옥 메오키친] (위치) 메오키친은 반쎄오, 쌀국수, 반미, 볶음밥과 꼬…",
+      "mentions_meokitchen": true,
+      "sentiment": "neutral",
+      "pos_tags": [],
+      "neg_tags": [],
+      "first_seen": "2026-09-08T08:00:04",
+      "last_seen": "2026-09-08T08:00:04"
+    },
+    {
+      "url": "https://blog.naver.com/findmisik/224403921903",
+      "title": "푸꾸옥 중부 맛집 메오키친 | 아이와 가기 좋았던 현지 맛집 메뉴 추천새 창 열림",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "1일 전",
+      "post_date": "2026-09-07",
+      "summary": "맛있는 반쎄오 먹고 싶어서 검색하다가 이미 한국인들 사이에 맛집으로 명성이 자자한 메오키친 갔다왔답니다. 메뉴 다양하게 시켜서 먹어봤는데 진짜 맛있었던 메뉴 추천…",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "맛있",
+        "추천",
+        "좋았",
+        "맛집"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-09-08T08:00:04",
+      "last_seen": "2026-09-08T08:00:04"
+    },
+    {
+      "url": "https://blog.naver.com/jinjak_/224403901601",
+      "title": "푸꾸옥에서 최고의 반쎄오를 먹고싶다면 메오키친>을 가보세요새 창 열림",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "1일 전",
+      "post_date": "2026-09-07",
+      "summary": "한국인에게 유명한 식당은 이유가 있다 메오 키친 정보 주소: 126 Đường Trần Hưng Đạo, Khu Phố 7, Phú Quốc, An Giang 9…",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "최고"
+      ],
+      "neg_tags": [],
+      "first_seen": "2026-09-08T08:00:04",
+      "last_seen": "2026-09-08T08:00:04"
+    },
+    {
+      "url": "https://blog.naver.com/baejin0414/224403698026",
+      "title": "푸꾸옥 썬푸꾸옥항공 엑스트라레그룸, M Village 가든뷰 더블하우스 수영장 조식 후기새 창 열림",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "1일 전",
+      "post_date": "2026-09-07",
+      "summary": "만족 쨍..한 날씨 댕댕 메오키친은 가니까 대기가 한시간?인가 두시간이 있었다 고민도 안하고 포기ㅋㅋ 근데진짜 낮시간에 문닫은데가 대부분이고 날씨가 너무더워서 진…",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "만족"
+      ],
+      "neg_tags": [
+        "대기"
+      ],
+      "first_seen": "2026-09-08T08:00:04",
+      "last_seen": "2026-09-08T08:00:04"
+    },
+    {
+      "url": "https://blog.naver.com/mignontoday_/224403704772",
+      "title": "[푸꾸옥 5박 7일] 3일차 자유여행 (풀만리조트 러닝코스 조식 수영장 / 선셋타운 키스브릿지 / 소나시야시장 / 미스터씨푸드 / 그웬스파)새 창 열림",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "1일 전",
+      "post_date": "2026-09-07",
+      "summary": "풀만리조트에서 호캉스를 하기로 했던 3일차 !! 호캉스로 즐기다가 저녁에 남부쪽과 소나시 야시장에 다녀온 후기 갑니다 ㅎㅎ 3일차 풀만리조트 - 선셋타운(키스브릿…",
+      "mentions_meokitchen": true,
+      "sentiment": "neutral",
+      "pos_tags": [],
+      "neg_tags": [],
+      "first_seen": "2026-09-08T08:00:04",
+      "last_seen": "2026-09-08T08:00:04"
+    },
+    {
+      "url": "https://blog.naver.com/tjddbwls159/224404453999",
+      "title": "우기여도 좋아 푸꾸옥 4일차 ☁️새 창 열림",
+      "source": "blog",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "36분 전",
+      "post_date": "2026-09-08",
+      "summary": "다들 극찬하던 #메오키친 할부지맥주도 마셔주고 ~ 반쎄오에서는 약간 아몬드? 고소한 맛이 났는데 그래서 더 맛도리여따 !!! 푸꾸옥에서 처음이자 마지막으로 한 웨…",
+      "mentions_meokitchen": true,
+      "sentiment": "pos",
+      "pos_tags": [
+        "좋아"
+      ],
+      "neg_tags": [
+        "웨이팅"
+      ],
+      "first_seen": "2026-09-08T08:00:04",
+      "last_seen": "2026-09-08T08:00:04"
+    },
+    {
+      "url": "https://cafe.naver.com/minecraftpe/3966476",
+      "title": "눈만뜨면 푸꾸옥 브이로그 ㅋㅋㅋ",
+      "source": "cafe",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "57분 전",
+      "post_date": "2026-09-08",
+      "summary": "",
+      "mentions_meokitchen": true,
+      "sentiment": "neutral",
+      "pos_tags": [],
+      "neg_tags": [],
+      "first_seen": "2026-09-08T08:00:04",
+      "last_seen": "2026-09-08T08:00:04"
+    },
+    {
+      "url": "https://cafe.naver.com/mindy7857/5415772",
+      "title": "작년 푸꾸옥",
+      "source": "cafe",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "10시간 전",
+      "post_date": "2026-09-08",
+      "summary": "",
+      "mentions_meokitchen": true,
+      "sentiment": "neutral",
+      "pos_tags": [],
+      "neg_tags": [],
+      "first_seen": "2026-09-08T08:00:04",
+      "last_seen": "2026-09-08T08:00:04"
+    },
+    {
+      "url": "https://cafe.naver.com/ysm5828/9614222",
+      "title": "베스트웨스턴 호캉스중입니다",
+      "source": "cafe",
+      "search_kind": "meokitchen",
+      "region": "메오키친",
+      "time_text": "20시간 전",
+      "post_date": "2026-09-08",
+      "summary": "태그 하나로, 기록은 더 멀리 오늘의 경험을 기록하고 포인트 적립",
+      "mentions_meokitchen": true,
+      "sentiment": "neutral",
+      "pos_tags": [],
+      "neg_tags": [],
+      "first_seen": "2026-09-08T08:00:04",
+      "last_seen": "2026-09-08T08:00:04"
     }
   ]
 }
