@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-14T12:00:00",
+  "updated_at": "2026-09-14T17:52:31",
   "trackers": [
     {
       "id": "meokitchen",
@@ -30,6 +30,19 @@
         "나트랑"
       ],
       "direct": false
+    },
+    {
+      "id": "t260914175231",
+      "label": "로지텍",
+      "emoji": "📍",
+      "brand": [
+        "로지텍"
+      ],
+      "keywords": [
+        "마우스"
+      ],
+      "direct": true,
+      "created_at": "2026-09-14T17:52:31"
     }
   ]
 }

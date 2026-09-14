@@ -2,3 +2,4 @@
 .DS_Store
 engine.log
 engine.err.log
+__pycache__/
