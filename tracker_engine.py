@@ -1,82 +1,148 @@
 #!/usr/bin/env python3
 """
-범용 트래커 엔진.
-trackers.json 의 모든(또는 지정) 트래커를 돌면서:
- - 각 query를 네이버 블로그/카페에서 검색 (기존 스크래퍼 재사용)
- - 결과를 data/<id>.json 에 누적 저장 (브랜드 언급 여부 판정)
- - 텔레그램으로 요약 발송
- - 마지막에 GitHub Pages 배포
-사용: python3 tracker_engine.py [tracker_id]   (id 생략 시 전체)
+트래커 엔진 (v2)
+trackers.json 의 트래커마다:
+ 1) 검색어(keywords)별 네이버 블로그·카페 24시간 글 수집 → 검색어별 전체 / 브랜드 언급 집계
+ 2) direct=true 면 브랜드명 단독 검색도 따로 수집·집계 (검색어 풀과 섞지 않음)
+ 3) data/<id>.json 누적 저장 → 텔레그램 요약 → GitHub Pages 배포
+사용: python3 tracker_engine.py [tracker_id] [--no-notify] [--no-deploy]
 """
-import sys, os, subprocess, datetime
+import sys, os, time, subprocess
 
 BASE = os.path.dirname(os.path.abspath(__file__))
-WS = os.path.dirname(BASE)
-sys.path.insert(0, WS)      # 네이버 스크래퍼 재사용
+sys.path.insert(0, os.path.dirname(BASE))   # 네이버 스크래퍼 재사용
 sys.path.insert(0, BASE)
-import vietnam_matjip_search as nv   # search_naver_blog/cafe, send_telegram
+import vietnam_matjip_search as nv
 import tracker_store as store
+
+SITE = "https://alohang1985.github.io/meokitchen-archive/"
+
+
+def log(*a): print("[engine]", *a, file=sys.stderr, flush=True)
+
+
+class Lock:
+    """같은 트래커를 동시에 수집하면 기록이 덮어써지므로 잠근다."""
+    def __init__(self, name, wait=900):
+        self.path, self.wait = f"/tmp/tracker-{name}.lock", wait
+
+    def __enter__(self):
+        t0 = time.time()
+        while True:
+            try:
+                os.mkdir(self.path); return self
+            except FileExistsError:
+                try:
+                    if time.time() - os.path.getmtime(self.path) > 1800:
+                        os.rmdir(self.path); continue
+                except OSError:
+                    continue
+                if time.time() - t0 > self.wait:
+                    raise TimeoutError(f"다른 수집이 진행 중: {self.path}")
+                time.sleep(3)
+
+    def __exit__(self, *a):
+        try: os.rmdir(self.path)
+        except OSError: pass
+
+
+def search(q):
+    out = {}
+    for src, fn in (("blog", nv.search_naver_blog), ("cafe", nv.search_naver_cafe)):
+        try: out[src] = fn(q) or []
+        except Exception as e:
+            out[src] = []; log(f"{q} {src} 오류: {e}")
+    return out
+
+
+def _url(p): return (p.get("link") or "").strip()
 
 
 def run_tracker(t, notify=True):
-    tid, brand, label = t["id"], t["brand"], t["label"]
-    emoji = t.get("emoji", "📍")
-    found = 0; mentions = []
-    # 검색어 = 브랜드명 직접검색(언급 놓치지 않게) + 설정한 검색어
-    queries = list(t["queries"])
-    if brand and brand[0] and brand[0] not in queries:
-        queries.insert(0, brand[0])   # 주 브랜드명을 직접 검색
-    for q in queries:
-        region = q.replace(" 맛집", "").strip()
-        try: blog = nv.search_naver_blog(q)
-        except Exception as e: blog = []; print(f"[engine] {q} blog 오류: {e}", file=sys.stderr)
-        try: cafe = nv.search_naver_cafe(q)
-        except Exception as e: cafe = []; print(f"[engine] {q} cafe 오류: {e}", file=sys.stderr)
-        store.save_posts(tid, brand, blog, "blog", region=region)
-        store.save_posts(tid, brand, cafe, "cafe", region=region)
-        found += len(blog) + len(cafe)
-        pat = store._brand_re(brand)
-        for p in blog + cafe:
-            txt = (p.get("title","") + " " + p.get("body","")) if p else ""
-            if pat and pat.search(txt):
-                mentions.append((p.get("title","(제목없음)"), p.get("link",""), region))
+    with Lock(t["id"]):
+        return _run(t, notify)
 
+
+def _run(t, notify):
+    tid, label = t["id"], t["label"]
+    brand = t.get("brand") or [label]
+    pat = store.brand_re(brand)
+    st = store.Store(tid, brand)
+
+    per_kw, pool, mentions = {}, set(), {}
+    for kw in store.keywords_of(t):
+        res = search(kw)
+        for src, posts in res.items():
+            st.add(posts, src, hit=kw)
+        posts = [p for ps in res.values() for p in ps if _url(p)]
+        urls = {_url(p) for p in posts}
+        found = {_url(p): p for p in posts
+                 if pat and pat.search((p.get("title") or "") + " " + (p.get("body") or ""))}
+        per_kw[kw] = {"total": len(urls), "mention": len(found)}
+        pool |= urls
+        for u, p in found.items():
+            mentions.setdefault(u, (kw, p.get("title") or "(제목 없음)"))
+
+    direct = None
+    if t.get("direct"):
+        res = search(brand[0])
+        for src, posts in res.items():
+            st.add(posts, src, direct=True)
+        direct = {}
+        for p in (p for ps in res.values() for p in ps):
+            if _url(p): direct.setdefault(_url(p), p.get("title") or "(제목 없음)")
+
+    saved = st.commit()
+    r = {"id": tid, "pool": len(pool), "mentions": len(mentions), "per_kw": per_kw,
+         "direct": None if direct is None else len(direct), "saved": saved}
+    log(f"{tid}: 검색 {r['pool']}건 · 언급 {r['mentions']}건 · 단독 {r['direct']} · 누적 {saved}")
     if notify:
-        today = datetime.datetime.now().strftime("%Y-%m-%d")
-        if mentions:
-            lines = [f'{emoji} "{label}" 언급 {len(mentions)}건 발견! ({today})',
-                     f'(전체 맛집글 {found}개 중)', ""]
-            for i,(title,link,region) in enumerate(mentions[:15],1):
-                lines.append(f"{i}. [{region}] {title}")
-                lines.append(f"   🔗 {link}")
-            lines.append("")
-            lines.append(f"📊 아카이브: https://alohang1985.github.io/meokitchen-archive/")
-            nv.send_telegram("\n".join(lines))
-        else:
-            nv.send_telegram(f'{emoji} "{label}" — 24시간 내 언급 없음 (전체 맛집글 {found}개 수집) ({today})')
-    print(f"[engine] {tid}: 수집 {found}개, 언급 {len(mentions)}건", file=sys.stderr)
-    return {"found": found, "mentions": len(mentions)}
+        try: nv.send_telegram(message(t, r, mentions, direct, st.day))
+        except Exception as e: log("텔레그램 실패:", e)
+    return r
+
+
+def message(t, r, mentions, direct, day):
+    label, emoji = t["label"], t.get("emoji", "📍")
+    kws = " · ".join(f"{k} {v['total']}" for k, v in r["per_kw"].items())
+    lines = [f"{emoji} {label} · {day[5:].replace('-', '/')}",
+             f"검색 [{kws}] 중 언급 {r['mentions']}건"]
+    if r["direct"] is not None:
+        lines.append(f"'{(t.get('brand') or [label])[0]}' 단독 검색 {r['direct']}건")
+    if mentions:
+        lines += ["", "언급 글"]
+        for i, (u, (kw, title)) in enumerate(list(mentions.items())[:10], 1):
+            lines += [f"{i}. [{kw}] {title}", f"   {u}"]
+    if direct:
+        lines += ["", "단독 검색 글"]
+        for i, (u, title) in enumerate(list(direct.items())[:5], 1):
+            lines += [f"{i}. {title}", f"   {u}"]
+    lines += ["", f"📊 {SITE}"]
+    msg = "\n".join(lines)
+    return msg if len(msg) < 3900 else msg[:3880] + "\n…"
 
 
 def deploy():
     try:
-        r = subprocess.run(["bash", os.path.join(BASE, "publish.sh")], timeout=120, capture_output=True, text=True)
-        print(f"[engine] 배포: {r.stdout.strip() or r.stderr.strip()}", file=sys.stderr)
+        r = subprocess.run(["bash", os.path.join(BASE, "publish.sh")], timeout=300, capture_output=True, text=True)
+        log("배포:", (r.stdout.strip() or r.stderr.strip())[-300:])
     except Exception as e:
-        print(f"[engine] 배포 실패(무시): {e}", file=sys.stderr)
+        log("배포 실패(무시):", e)
 
 
 def main():
-    only = sys.argv[1] if len(sys.argv) > 1 else None
-    cfg = store.load_trackers()
-    targets = [t for t in cfg["trackers"] if (only is None or t["id"] == only)]
+    args = [a for a in sys.argv[1:] if not a.startswith("--")]
+    only = args[0] if args else None
+    targets = [t for t in store.load_trackers()["trackers"] if only is None or t["id"] == only]
     if not targets:
-        print(f"[engine] 대상 트래커 없음 (only={only})", file=sys.stderr); return
+        log(f"대상 트래커 없음 (only={only})"); return 1
     for t in targets:
-        try: run_tracker(t)
-        except Exception as e: print(f"[engine] {t['id']} 실패: {e}", file=sys.stderr)
-    deploy()
+        try: run_tracker(t, notify="--no-notify" not in sys.argv)
+        except Exception as e: log(f"{t['id']} 실패: {e}")
+    if "--no-deploy" not in sys.argv:
+        deploy()
+    return 0
 
 
 if __name__ == "__main__":
-    main()
+    sys.exit(main())

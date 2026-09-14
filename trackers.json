@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-02T20:27:16",
+  "updated_at": "2026-09-14T12:00:00",
   "trackers": [
     {
       "id": "meokitchen",
@@ -9,10 +9,11 @@
         "메오키친",
         "meo kitchen"
       ],
-      "queries": [
-        "푸꾸옥 맛집",
-        "나트랑 맛집"
-      ]
+      "keywords": [
+        "푸꾸옥",
+        "나트랑"
+      ],
+      "direct": true
     },
     {
       "id": "tourpik",
@@ -23,10 +24,12 @@
         "tourpik",
         "뚜어픽"
       ],
-      "queries": [
+      "keywords": [
+        "베트남",
         "푸꾸옥",
         "나트랑"
-      ]
+      ],
+      "direct": false
     }
   ]
 }

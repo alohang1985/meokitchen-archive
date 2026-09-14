@@ -3,12 +3,12 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>📊 맛집 언급 아카이브</title>
+<title>📊 언급 아카이브</title>
 <link href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" rel="stylesheet" />
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.2.0/dist/chartjs-plugin-datalabels.min.js"></script>
 <style>
-  :root { --accent:#ff7a45; --accent2:#ff4d8d; --blue:#4dabf7; --green:#51cf66; --amber:#ffd43b; --red:#ff6b6b;
+  :root { --accent:#ff7a45; --accent2:#ff4d8d; --blue:#4dabf7; --green:#51cf66; --amber:#ffd43b; --red:#ff6b6b; --violet:#b69cff;
     --txt:#f1f3f8; --muted:#9aa3b2; --card:rgba(255,255,255,.045); --card-brd:rgba(255,255,255,.09); --glass:rgba(255,255,255,.06); }
   * { box-sizing:border-box; -webkit-tap-highlight-color:transparent; }
   body { margin:0; color:var(--txt); min-height:100vh; font-family:"Pretendard",-apple-system,system-ui,sans-serif; letter-spacing:-.01em;
@@ -25,6 +25,9 @@
   .live { display:inline-flex; align-items:center; gap:6px; color:var(--green); font-weight:600; }
   .live .dot { width:7px; height:7px; border-radius:50%; background:var(--green); animation:pulse 2s infinite; }
   @keyframes pulse { 0%{box-shadow:0 0 0 0 rgba(81,207,102,.5)} 70%{box-shadow:0 0 0 7px rgba(81,207,102,0)} 100%{box-shadow:0 0 0 0 rgba(81,207,102,0)} }
+  .linkbtn { background:none; border:0; color:var(--muted); font:inherit; font-size:.76rem; cursor:pointer; padding:0; margin-left:4px;
+    text-decoration:underline; text-underline-offset:3px; }
+  .linkbtn:hover { color:var(--red); }
 
   .tabs { display:flex; flex-wrap:wrap; gap:8px; margin-bottom:22px; align-items:center; }
   .tab { background:var(--card); border:1px solid var(--card-brd); color:var(--muted); padding:9px 16px; border-radius:12px;
@@ -57,16 +60,20 @@
   .chip { background:var(--glass); border:1px solid var(--card-brd); color:var(--muted); padding:7px 13px; border-radius:999px; cursor:pointer; font-size:.82rem; font-weight:500; user-select:none; transition:all .15s; white-space:nowrap; }
   .chip:hover { color:var(--txt); border-color:rgba(255,255,255,.2); } .chip.on { background:linear-gradient(120deg,var(--accent),var(--accent2)); border-color:transparent; color:#fff; }
   .chip.s-pos.on { background:var(--green); } .chip.s-neg.on { background:var(--red); } .chip.s-neu.on { background:#6b7280; }
-  input[type=text], input[type=date], select { background:var(--glass); border:1px solid var(--card-brd); color:var(--txt); padding:8px 12px; border-radius:10px; font-size:.84rem; font-family:inherit; outline:none; }
+  #kw-chips { display:contents; }
+  input[type=text], input[type=password], input[type=date], select { background:var(--glass); border:1px solid var(--card-brd); color:var(--txt); padding:8px 12px; border-radius:10px; font-size:.84rem; font-family:inherit; outline:none; }
   input[type=text] { flex:1; min-width:150px; } input:focus, select:focus { border-color:var(--accent); } select { cursor:pointer; }
   #customRange { display:none; gap:8px; align-items:center; } #customRange.show { display:flex; } #customRange span { color:var(--muted); font-size:.8rem; }
 
   .table-wrap { overflow-x:auto; }
-  table.daily { width:100%; border-collapse:collapse; font-size:.85rem; min-width:480px; }
+  table.daily { width:100%; border-collapse:collapse; font-size:.85rem; min-width:520px; }
   table.daily th, table.daily td { padding:10px 12px; text-align:right; border-bottom:1px solid rgba(255,255,255,.06); white-space:nowrap; }
-  table.daily th { color:var(--muted); font-weight:600; font-size:.75rem; }
+  table.daily th { color:var(--muted); font-weight:600; font-size:.75rem; vertical-align:bottom; }
+  table.daily th small { display:block; font-weight:500; font-size:.66rem; margin-top:2px; opacity:.8; }
   table.daily th:first-child, table.daily td:first-child { text-align:left; }
   table.daily td.d { color:var(--txt); font-weight:600; } table.daily td.meo { color:var(--accent); font-weight:700; }
+  table.daily td.dir { color:var(--violet); font-weight:700; }
+  table.daily td small { color:var(--accent); font-weight:700; }
   table.daily tbody tr:hover { background:rgba(255,255,255,.03); }
   table.daily tfoot td { border-top:2px solid rgba(255,255,255,.12); border-bottom:none; font-weight:700; color:var(--txt); }
   .ratio-cell { display:flex; align-items:center; justify-content:flex-end; gap:8px; }
@@ -80,6 +87,7 @@
   .badge { font-size:.72rem; padding:3px 9px; border-radius:7px; background:rgba(255,255,255,.07); color:var(--muted); font-weight:500; }
   .badge.meo { background:rgba(255,122,69,.18); color:var(--accent); } .badge.blog { background:rgba(77,171,247,.16); color:var(--blue); } .badge.cafe { background:rgba(81,207,102,.16); color:var(--green); }
   .badge.pos { background:rgba(81,207,102,.16); color:var(--green); } .badge.neg { background:rgba(255,107,107,.16); color:var(--red); }
+  .badge.direct { background:rgba(182,156,255,.16); color:var(--violet); }
   .date { color:var(--muted); font-size:.78rem; } .summary { color:#b6bdc9; font-size:.85rem; margin-top:9px; line-height:1.55; }
   .tags { margin-top:8px; display:flex; flex-wrap:wrap; gap:5px; } .tag { font-size:.7rem; padding:2px 7px; border-radius:6px; background:rgba(81,207,102,.1); color:var(--green); } .tag.neg { background:rgba(255,107,107,.1); color:var(--red); }
   .empty { color:var(--muted); text-align:center; padding:46px 0; }
@@ -90,12 +98,16 @@
   .modal { background:#14161d; border:1px solid var(--card-brd); border-radius:18px; padding:24px; max-width:460px; width:100%; }
   .modal h3 { margin:0 0 6px; font-size:1.1rem; } .modal p { color:var(--muted); font-size:.82rem; margin:0 0 16px; line-height:1.5; }
   .modal label { display:block; font-size:.8rem; color:#cdd3df; margin:14px 0 6px; font-weight:600; }
-  .modal input { width:100%; }
-  .modal .hint { color:var(--muted); font-size:.72rem; margin-top:4px; }
-  .modal-actions { display:flex; gap:8px; justify-content:flex-end; margin-top:22px; }
+  .modal input[type=text], .modal input[type=password] { width:100%; }
+  .modal .hint { color:var(--muted); font-size:.72rem; margin-top:5px; line-height:1.5; }
+  .modal label.check { display:flex; gap:8px; align-items:center; font-weight:500; cursor:pointer; }
+  .modal label.check input { accent-color:var(--accent); width:16px; height:16px; margin:0; }
+  .msg { font-size:.8rem; margin-top:14px; line-height:1.5; min-height:1.2em; color:var(--muted); }
+  .msg.err { color:var(--red); } .msg.ok { color:var(--green); }
+  .modal-actions { display:flex; gap:8px; justify-content:flex-end; margin-top:18px; }
   .btn { padding:9px 18px; border-radius:10px; border:1px solid var(--card-brd); background:var(--glass); color:var(--txt); font-family:inherit; font-size:.86rem; font-weight:600; cursor:pointer; }
   .btn.primary { background:linear-gradient(120deg,var(--accent),var(--accent2)); border-color:transparent; color:#fff; }
-  .cmd-box { background:#0a0b10; border:1px solid var(--card-brd); border-radius:10px; padding:12px; font-size:.8rem; color:var(--green); word-break:break-all; margin-top:10px; font-family:ui-monospace,monospace; }
+  .btn:disabled { opacity:.55; cursor:default; }
 
   /* ===== 반응형 (태블릿/모바일) ===== */
   @media (max-width: 860px){
@@ -132,17 +144,17 @@
 <body>
 <div class="wrap">
   <header>
-    <div class="logo"><span class="emoji">📊</span><h1>맛집 언급 아카이브</h1></div>
-    <div class="sub"><span class="live"><span class="dot"></span>자동 수집</span><span>·</span><span id="updated">로딩 중…</span><span>·</span><span>네이버 블로그 / 카페</span></div>
+    <div class="logo"><span class="emoji">📊</span><h1>언급 아카이브</h1></div>
+    <div class="sub"><span class="live"><span class="dot"></span>매일 자정 수집</span><span>·</span><span id="updated">로딩 중…</span><span>·</span><span id="kw-desc">네이버 블로그 / 카페</span><button class="linkbtn" id="del-btn" type="button">이 트래커 삭제</button></div>
   </header>
 
   <div class="tabs" id="tabs"></div>
 
   <div class="kpis">
-    <div class="kpi hl"><div class="ic" id="k-meo-ic">🍜</div><div class="n" id="k-meo">–</div><div class="l" id="k-meo-l">언급</div><div class="delta" id="k-meo-d"></div></div>
-    <div class="kpi"><div class="ic">📊</div><div class="n" id="k-rate">–</div><div class="l" id="k-rate-l">전체 중 비율</div></div>
-    <div class="kpi"><div class="ic">😊</div><div class="n" id="k-pos">–</div><div class="l">긍정 비율</div></div>
-    <div class="kpi"><div class="ic">🆕</div><div class="n" id="k-week">–</div><div class="l">최근 7일 신규</div></div>
+    <div class="kpi hl"><div class="ic" id="k-meo-ic">📍</div><div class="n" id="k-meo">–</div><div class="l" id="k-meo-l">언급</div><div class="delta" id="k-meo-d"></div></div>
+    <div class="kpi"><div class="ic">🔎</div><div class="n" id="k-total">–</div><div class="l" id="k-total-l">검색 전체</div></div>
+    <div class="kpi"><div class="ic">📊</div><div class="n" id="k-rate">–</div><div class="l">검색 중 언급 비율</div></div>
+    <div class="kpi"><div class="ic" id="k4-ic">🎯</div><div class="n" id="k4">–</div><div class="l" id="k4-l">단독 검색</div><div class="delta" id="k4-d"></div></div>
   </div>
 
   <div class="card">
@@ -158,25 +170,25 @@
     <div class="card"><div class="card-head sm"><h2>📰 출처별</h2>
       <div class="seg sm scope" data-chart="source"><button data-s="all" class="on">전체</button><button data-s="day">일</button><button data-s="week">주</button><button data-s="month">월</button></div></div>
       <div class="chart-box"><canvas id="source"></canvas></div></div>
-    <div class="card"><div class="card-head sm"><h2>📍 지역별</h2>
-      <div class="seg sm scope" data-chart="region"><button data-s="all" class="on">전체</button><button data-s="day">일</button><button data-s="week">주</button><button data-s="month">월</button></div></div>
-      <div class="chart-box"><canvas id="region"></canvas></div></div>
+    <div class="card"><div class="card-head sm"><h2>🔎 검색어별</h2>
+      <div class="seg sm scope" data-chart="kw"><button data-s="all" class="on">전체</button><button data-s="day">일</button><button data-s="week">주</button><button data-s="month">월</button></div></div>
+      <div class="chart-box"><canvas id="kw"></canvas></div></div>
   </div>
 
-  <div class="card"><div class="card-head"><h2>📅 <span id="tbl-unit">일별</span> 집계 — 전체 vs <span id="tbl-brand">언급</span></h2></div>
+  <div class="card"><div class="card-head"><h2>📅 <span id="tbl-unit">최근 7일</span> 집계 — 검색어별 전체 / 언급</h2></div>
     <div class="table-wrap"><table class="daily" id="daily"></table></div></div>
 
   <div class="toolbar">
     <div class="group"><span class="glabel">기간</span>
-      <span class="chip period on" data-p="all">전체</span><span class="chip period" data-p="today">일간(오늘)</span>
-      <span class="chip period" data-p="week">주간(이번주)</span><span class="chip period" data-p="month">월간(이번달)</span>
+      <span class="chip period on" data-p="all">전체</span><span class="chip period" data-p="latest">최근 수집일</span>
+      <span class="chip period" data-p="week">이번 주</span><span class="chip period" data-p="month">이번 달</span>
       <span class="chip period" data-p="custom">커스텀</span>
       <span id="customRange"><input type="date" id="from"><span>~</span><input type="date" id="to"></span></div>
     <div class="group"><span class="glabel">감성</span>
       <span class="chip s-pos" data-f="pos">😊 긍정</span><span class="chip s-neu" data-f="neutral">😐 중립</span><span class="chip s-neg" data-f="neg">😟 부정</span></div>
     <div class="group"><span class="glabel">분류</span>
-      <span class="chip" data-f="meo" id="chip-meo">🍜 언급만</span><span class="chip" data-f="blog">블로그</span><span class="chip" data-f="cafe">카페</span>
-      <span id="region-chips"></span></div>
+      <span class="chip" data-f="meo" id="chip-meo">언급만</span><span class="chip" data-f="direct" id="chip-direct">🎯 단독 검색</span>
+      <span class="chip" data-f="blog">블로그</span><span class="chip" data-f="cafe">카페</span><span id="kw-chips"></span></div>
     <div class="group"><span class="glabel">기타</span>
       <input type="text" id="q" placeholder="제목·내용 검색…" /><select id="sort"><option value="new">최신순</option><option value="old">오래된순</option></select></div>
   </div>
@@ -187,196 +199,311 @@
 <!-- 추가 모달 -->
 <div class="modal-bg" id="modal">
   <div class="modal">
-    <h3>➕ 새 트래커 추가</h3>
-    <p>특정 브랜드/키워드가 네이버 블로그·카페 글에 얼마나 언급되는지 추적해요.</p>
-    <label>기준 (브랜드/키워드 이름)</label>
-    <input type="text" id="m-label" placeholder="예: 투어픽" />
-    <label>검색할 브랜드 표기 (쉼표로 여러개)</label>
-    <input type="text" id="m-brand" placeholder="예: 투어픽, tourpik, 뚜어픽" />
-    <div class="hint">이 표기 중 하나라도 글에 있으면 "언급"으로 집계돼요.</div>
-    <label>검색어 (쉼표로 여러개)</label>
-    <input type="text" id="m-queries" placeholder="예: 푸꾸옥, 나트랑" />
-    <div class="hint">이 검색어로 네이버에서 글을 긁어와요.</div>
-    <div id="cmd-area"></div>
+    <h3>➕ 새 트래커</h3>
+    <p>검색어로 네이버 블로그·카페의 24시간 글을 모으고, 그중 브랜드가 언급된 글을 셉니다. 매일 자정에 자동 수집돼요.</p>
+    <label for="m-spec">검색어 - 브랜드</label>
+    <input type="text" id="m-spec" placeholder="예: 마우스 - 로지텍" autocomplete="off" />
+    <div class="hint">여러 개는 쉼표로 · 예: <b>푸꾸옥, 나트랑 - 메오키친, meo kitchen</b></div>
+    <label class="check"><input type="checkbox" id="m-direct" checked /> 브랜드 이름만으로도 따로 검색해서 건수 보기</label>
+    <div id="key-wrap"><label for="m-key">관리자 키</label><input type="password" id="m-key" placeholder="처음 한 번만 입력하면 기억해요" autocomplete="off" /></div>
+    <div class="msg" id="m-msg"></div>
     <div class="modal-actions">
-      <button class="btn" onclick="closeModal()">취소</button>
-      <button class="btn primary" id="m-apply" onclick="applyAdd()">적용</button>
+      <button class="btn" type="button" onclick="closeModal()">닫기</button>
+      <button class="btn primary" type="button" id="m-apply" onclick="applyAdd()">추가</button>
     </div>
   </div>
 </div>
 
 <script>
-let CFG={trackers:[]}, TRACKER=null, POSTS=[], LABEL="", EMOJI="🍜";
-const F={ gran:"d7", scope:{senti:"all",source:"all",region:"all"}, period:"all", from:"", to:"", sent:new Set(), meo:false, blog:false, cafe:false, region:new Set(), q:"", sort:"new" };
+let CFG={trackers:[]}, TRACKER=null, POSTS=[], POOL=[], LABEL="", EMOJI="📍", KWS=[], HAS_DIRECT=false, LATEST="", SEL=0, API=null;
+const F={ gran:"d7", scope:{senti:"all",source:"all",kw:"all"}, period:"all", from:"", to:"", sent:new Set(), meo:false, direct:false, blog:false, cafe:false, kw:new Set(), q:"", sort:"new" };
 const C={};
 Chart.defaults.color="#9aa3b2"; Chart.defaults.font.family="Pretendard, system-ui, sans-serif";
 Chart.register(ChartDataLabels); Chart.defaults.set("plugins.datalabels",{display:false});
-const TODAY=new Date().toISOString().slice(0,10);
-function mondayOf(d){const x=new Date(d+"T00:00");const w=(x.getDay()+6)%7;x.setDate(x.getDate()-w);return x.toISOString().slice(0,10);}
-function esc(s){return (s||"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));}
-function daysAgo(n){const d=new Date();d.setDate(d.getDate()-n);return d.toISOString().slice(0,10);}
+
+const pad=n=>String(n).padStart(2,"0");
+const ymd=d=>`${d.getFullYear()}-${pad(d.getMonth()+1)}-${pad(d.getDate())}`;
+const TODAY=ymd(new Date());
+function daysAgo(n){const d=new Date();d.setDate(d.getDate()-n);return ymd(d);}
+function mondayOf(s){const x=new Date(s+"T00:00");x.setDate(x.getDate()-((x.getDay()+6)%7));return ymd(x);}
+function esc(s){return String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));}
+const num=n=>Number(n||0).toLocaleString("ko-KR");
+const pct=(a,b)=>b?a/b*100:0;
+const pctTxt=v=>(v>0&&v<1?v.toFixed(2):Math.round(v))+"%";
+
+// 집계 기준: 검색어 풀(hits) / 단독 검색(direct)
+const cd=p=>p.crawl_date||p.post_date||"";
+const hitsOf=p=>Array.isArray(p.hits)?p.hits:(p.region&&p.region!==LABEL?[p.region]:[]);
+const inPool=p=>hitsOf(p).length>0;
+const isDirect=p=>p.direct===true||(!Array.isArray(p.hits)&&p.region===LABEL);
+const kwsOf=t=>[...new Set((t.keywords||(t.queries||[]).map(q=>q.replace(" 맛집",""))).map(s=>String(s).trim()).filter(Boolean))];
+
 function rangeKeys(){
-  if(F.gran==="m12"){ const ks=[],ls=[]; const d=new Date(TODAY+"T00:00");
-    for(let i=11;i>=0;i--){const x=new Date(d.getFullYear(),d.getMonth()-i,1);const k=`${x.getFullYear()}-${String(x.getMonth()+1).padStart(2,"0")}`;ks.push(k);ls.push(k.replace("-","."));}
+  if(F.gran==="m12"){ const ks=[],ls=[],d=new Date();
+    for(let i=11;i>=0;i--){const x=new Date(d.getFullYear(),d.getMonth()-i,1);const k=`${x.getFullYear()}-${pad(x.getMonth()+1)}`;ks.push(k);ls.push(k.replace("-","."));}
     return {keys:ks,labels:ls,isMonth:true}; }
-  const n=F.gran==="d30"?30:7; const ks=[],ls=[];
-  for(let i=n-1;i>=0;i--){const k=daysAgo(i);ks.push(k);ls.push(k.slice(5).replace("-","/"));}
+  // 자정에 '어제 하루'를 수집하므로 최근 수집일을 끝으로 맞춘다
+  const n=F.gran==="d30"?30:7, end=(LATEST&&LATEST>=daysAgo(2))?LATEST:TODAY, ks=[], ls=[];
+  for(let i=n-1;i>=0;i--){const d=new Date(end+"T00:00");d.setDate(d.getDate()-i);const k=ymd(d);ks.push(k);ls.push(k.slice(5).replace("-","/"));}
   return {keys:ks,labels:ls,isMonth:false};
 }
 
 async function init(){
   try{ CFG=await (await fetch("trackers.json?_="+Date.now())).json(); }catch(e){ CFG={trackers:[]}; }
   renderTabs();
-  if(CFG.trackers.length) selectTracker(CFG.trackers[0].id);
+  const want=new URLSearchParams(location.search).get("t");
+  const first=CFG.trackers.find(t=>t.id===want)||CFG.trackers[0];
+  if(first) selectTracker(first.id);
+  else { document.getElementById("updated").textContent="트래커가 없어요 — ➕ 추가를 눌러주세요"; document.getElementById("del-btn").style.display="none"; }
 }
 function renderTabs(){
   const el=document.getElementById("tabs");
-  el.innerHTML = CFG.trackers.map(t=>`<div class="tab" data-id="${t.id}">${t.emoji||"📍"} ${esc(t.label)}</div>`).join("")
-    + `<div class="tab add" onclick="openModal()">➕ 추가</div>`;
+  el.innerHTML=CFG.trackers.map(t=>`<div class="tab${TRACKER&&TRACKER.id===t.id?" on":""}" data-id="${esc(t.id)}">${esc(t.emoji||"📍")} ${esc(t.label)}</div>`).join("")
+    +`<div class="tab add" id="add-tab">➕ 추가</div>`;
   el.querySelectorAll(".tab[data-id]").forEach(b=>b.addEventListener("click",()=>selectTracker(b.dataset.id)));
+  document.getElementById("add-tab").addEventListener("click",openModal);
 }
 async function selectTracker(id){
-  TRACKER=CFG.trackers.find(t=>t.id===id); if(!TRACKER) return;
-  LABEL=TRACKER.label; EMOJI=TRACKER.emoji||"🍜";
+  const t=CFG.trackers.find(x=>x.id===id); if(!t) return;
+  const tok=++SEL;
+  TRACKER=t; LABEL=t.label; EMOJI=t.emoji||"📍"; KWS=kwsOf(t); HAS_DIRECT=!!t.direct;
+  history.replaceState(null,"","?t="+encodeURIComponent(id));
   document.querySelectorAll(".tab[data-id]").forEach(b=>b.classList.toggle("on",b.dataset.id===id));
-  // 라벨 갱신
+  const brand=(t.brand&&t.brand.length)?t.brand:[LABEL];
+  document.getElementById("del-btn").style.display="";
   document.getElementById("k-meo-ic").textContent=EMOJI;
-  document.getElementById("k-meo-l").textContent=`${LABEL} 언급`;
-  document.getElementById("k-rate-l").textContent=`전체 중 ${LABEL} 비율`;
-  document.getElementById("senti-title").innerHTML=`😊 ${esc(LABEL)} 평판`;
-  document.getElementById("tbl-brand").textContent=LABEL;
-  document.getElementById("chip-meo").textContent=`${EMOJI} ${LABEL}만`;
-  // 지역 칩 동적 생성
-  const regions=[...new Set((TRACKER.queries||[]).map(q=>q.replace(" 맛집","").trim()))];
-  document.getElementById("region-chips").innerHTML = regions.map(r=>`<span class="chip rgn" data-r="${esc(r)}">${esc(r)}</span>`).join("");
-  document.querySelectorAll(".chip.rgn").forEach(c=>c.addEventListener("click",()=>{const r=c.dataset.r; F.region.has(r)?F.region.delete(r):F.region.add(r); c.classList.toggle("on"); render();}));
-  F.region.clear();
-  try{ const d=await (await fetch(`data/${id}.json?_=`+Date.now())).json(); POSTS=d.posts||[];
-    document.getElementById("updated").textContent=(d.updated_at?d.updated_at.replace("T"," ").slice(0,16):"–")+" 갱신";
-  }catch(e){ POSTS=[]; document.getElementById("updated").textContent="데이터 없음 (수집 대기 중)"; }
-  renderKpis(); renderTrend(); renderSenti(); renderSource(); renderRegion(); renderDaily(); render();
+  document.getElementById("k-meo-l").textContent=`${LABEL} 언급 (누적)`;
+  document.getElementById("k-total-l").textContent=`${KWS.join("·")} 검색 전체 (누적)`;
+  document.getElementById("senti-title").textContent=`😊 ${LABEL} 평판`;
+  document.getElementById("kw-desc").textContent=`검색어 ${KWS.join(", ")} · 브랜드 ${brand.join(", ")}`;
+  document.getElementById("chip-meo").textContent=`${EMOJI} ${LABEL} 언급만`;
+  const dc=document.getElementById("chip-direct"); dc.style.display=HAS_DIRECT?"":"none"; dc.classList.remove("on"); F.direct=false;
+  document.getElementById("kw-chips").innerHTML=KWS.map(k=>`<span class="chip kwc" data-k="${esc(k)}">${esc(k)}</span>`).join("");
+  document.querySelectorAll(".chip.kwc").forEach(c=>c.addEventListener("click",()=>{const k=c.dataset.k;F.kw.has(k)?F.kw.delete(k):F.kw.add(k);c.classList.toggle("on");render();}));
+  F.kw.clear();
+  document.getElementById("updated").textContent="불러오는 중…";
+  let posts=[], upd="첫 수집 대기 중";
+  try{ const r=await fetch(`data/${encodeURIComponent(id)}.json?_=`+Date.now());
+    if(r.ok){ const d=await r.json(); posts=d.posts||[]; if(d.updated_at) upd=d.updated_at.replace("T"," ").slice(0,16)+" 갱신"; } }catch(e){}
+  if(tok!==SEL) return;
+  POSTS=HAS_DIRECT?posts:posts.filter(inPool);
+  POOL=POSTS.filter(inPool);
+  LATEST=POSTS.reduce((m,p)=>cd(p)>m?cd(p):m,"");
+  document.getElementById("updated").textContent=upd;
+  renderAll();
 }
+function renderAll(){ renderKpis(); renderTrend(); renderSenti(); renderSource(); renderKw(); renderDaily(); render(); }
 
 function renderKpis(){
-  const meo=POSTS.filter(p=>p.mentions_brand);
-  const week=POSTS.filter(p=>(p.first_seen||"").slice(0,10)>=daysAgo(7)).length;
-  const meoWeek=meo.filter(p=>(p.first_seen||"").slice(0,10)>=daysAgo(7)).length;
-  const rate=POSTS.length?Math.round(meo.length/POSTS.length*100):0;
-  const sented=meo.filter(p=>p.sentiment&&p.sentiment!=="neutral");
-  const posRate=sented.length?Math.round(meo.filter(p=>p.sentiment==="pos").length/sented.length*100):0;
-  document.getElementById("k-meo").textContent=meo.length;
-  document.getElementById("k-meo-d").textContent=meoWeek?`+${meoWeek} (7일)`:"";
-  document.getElementById("k-rate").textContent=rate+"%";
-  document.getElementById("k-pos").textContent=posRate+"%";
-  document.getElementById("k-week").textContent=week;
+  const meo=POOL.filter(p=>p.mentions_brand), wk=daysAgo(7);
+  const mw=meo.filter(p=>cd(p)>=wk).length;
+  document.getElementById("k-meo").textContent=num(meo.length);
+  document.getElementById("k-meo-d").textContent=mw?`+${mw} (7일)`:"";
+  document.getElementById("k-total").textContent=num(POOL.length);
+  document.getElementById("k-rate").textContent=pctTxt(pct(meo.length,POOL.length));
+  if(HAS_DIRECT){
+    const dir=POSTS.filter(isDirect), dw=dir.filter(p=>cd(p)>=wk).length;
+    document.getElementById("k4-ic").textContent="🎯";
+    document.getElementById("k4").textContent=num(dir.length);
+    document.getElementById("k4-l").textContent=`‘${(TRACKER.brand||[LABEL])[0]}’ 단독 검색 (누적)`;
+    document.getElementById("k4-d").textContent=dw?`+${dw} (7일)`:"";
+  }else{
+    document.getElementById("k4-ic").textContent="🆕";
+    document.getElementById("k4").textContent=num(POOL.filter(p=>cd(p)>=wk).length);
+    document.getElementById("k4-l").textContent="최근 7일 검색 수집";
+    document.getElementById("k4-d").textContent="";
+  }
 }
 function buckets(){
-  const tl=rangeKeys(); const m={}; tl.keys.forEach(k=>m[k]={total:0,meo:0,blog:0,cafe:0});
-  POSTS.forEach(p=>{const c=cd(p); const key=tl.isMonth?c.slice(0,7):c;
-    if(m[key]){const o=m[key]; o.total++; if(p.mentions_brand)o.meo++; if(p.source==="blog")o.blog++; else if(p.source==="cafe")o.cafe++;}});
+  const tl=rangeKeys(), m={};
+  tl.keys.forEach(k=>m[k]={total:0,meo:0,direct:0,kw:{}});
+  POSTS.forEach(p=>{ const c=cd(p), o=m[tl.isMonth?c.slice(0,7):c]; if(!o) return;
+    if(isDirect(p)) o.direct++;
+    if(!inPool(p)) return;
+    o.total++; if(p.mentions_brand) o.meo++;
+    hitsOf(p).forEach(k=>{const x=o.kw[k]||(o.kw[k]={t:0,m:0}); x.t++; if(p.mentions_brand) x.m++;});
+  });
   return tl.keys.map((k,i)=>({key:k,label:tl.labels[i],...m[k]}));
 }
 function renderTrend(){
-  const bs=buckets(); const labels=bs.map(b=>b.label);
-  const meoArr=bs.map(b=>b.meo), etcArr=bs.map(b=>b.total-b.meo), ratio=bs.map(b=>b.total?Math.round(b.meo/b.total*100):0);
-  mkChart("trend","bar",{labels,datasets:[
-    {label:`${EMOJI} ${LABEL}`,data:meoArr,backgroundColor:"#ff7a45",stack:"s",order:2,borderRadius:{topLeft:4,topRight:4},
-      datalabels:{display:ctx=>meoArr[ctx.dataIndex]>0,color:"#fff",font:{weight:"700",size:11},formatter:v=>v}},
-    {label:"그 외",data:etcArr,backgroundColor:"rgba(255,255,255,.13)",stack:"s",order:2,borderRadius:{topLeft:4,topRight:4},
-      datalabels:{display:true,anchor:"end",align:"top",offset:2,color:"#cdd3df",font:{weight:"600",size:11},formatter:(v,ctx)=>{const t=meoArr[ctx.dataIndex]+etcArr[ctx.dataIndex];return t?"전체 "+t:"";}}},
+  const bs=buckets(), labels=bs.map(b=>b.label);
+  const meo=bs.map(b=>b.meo), etc=bs.map(b=>b.total-b.meo), ratio=bs.map(b=>b.total?+(b.meo/b.total*100).toFixed(2):0);
+  const ds=[
+    {label:`${EMOJI} ${LABEL} 언급`,data:meo,backgroundColor:"#ff7a45",stack:"s",order:2,borderRadius:{topLeft:4,topRight:4},
+      datalabels:{display:c=>meo[c.dataIndex]>0,color:"#fff",font:{weight:"700",size:11}}},
+    {label:"그 외",data:etc,backgroundColor:"rgba(255,255,255,.13)",stack:"s",order:2,borderRadius:{topLeft:4,topRight:4},
+      datalabels:{display:true,anchor:"end",align:"top",offset:2,color:"#cdd3df",font:{weight:"600",size:11},formatter:(v,c)=>{const t=meo[c.dataIndex]+etc[c.dataIndex];return t?"전체 "+num(t):"";}}},
     {type:"line",label:"언급 비율(%)",data:ratio,borderColor:"#ff4d8d",backgroundColor:"transparent",yAxisID:"y1",tension:.35,borderWidth:2.5,pointRadius:4,pointBackgroundColor:"#ff4d8d",order:1,
-      datalabels:{display:ctx=>(meoArr[ctx.dataIndex]+etcArr[ctx.dataIndex])>0,anchor:"center",align:"bottom",offset:6,color:"#ff7aa8",font:{weight:"700",size:11},formatter:v=>v+"%"}}
-  ]},{layout:{padding:{top:22}},interaction:{mode:"index",intersect:false},scales:{
+      datalabels:{display:c=>(meo[c.dataIndex]+etc[c.dataIndex])>0,anchor:"center",align:"bottom",offset:6,color:"#ff7aa8",font:{weight:"700",size:11},formatter:v=>pctTxt(v)}}
+  ];
+  if(HAS_DIRECT){ const dir=bs.map(b=>b.direct);
+    ds.push({type:"line",label:"단독 검색",data:dir,borderColor:"#b69cff",backgroundColor:"transparent",stack:"direct",tension:.35,borderWidth:2,borderDash:[5,4],pointRadius:3,pointBackgroundColor:"#b69cff",order:0,
+      datalabels:{display:c=>dir[c.dataIndex]>0,anchor:"end",align:"top",color:"#c9b6ff",font:{weight:"700",size:10}}}); }
+  mkChart("trend","bar",{labels,datasets:ds},{layout:{padding:{top:22}},interaction:{mode:"index",intersect:false},scales:{
     y:{stacked:true,beginAtZero:true,ticks:{precision:0},grid:{color:"rgba(255,255,255,.06)"}},
-    y1:{position:"right",beginAtZero:true,max:100,ticks:{callback:v=>v+"%"},grid:{display:false}},
+    y1:{position:"right",beginAtZero:true,ticks:{callback:v=>v+"%"},grid:{display:false}},
     x:{stacked:true,grid:{display:false}}},plugins:{legend:{labels:{boxWidth:12,font:{size:11}}}}});
 }
-function cd(p){ return p.crawl_date||p.post_date||""; }
-function scoped(s){ if(s==="day")return POSTS.filter(p=>cd(p)===TODAY);
+function scoped(s){
+  if(s==="day") return POSTS.filter(p=>cd(p)===LATEST);
   if(s==="week"){const m=mondayOf(TODAY);return POSTS.filter(p=>cd(p)>=m);}
-  if(s==="month")return POSTS.filter(p=>cd(p).slice(0,7)===TODAY.slice(0,7)); return POSTS; }
-function renderSenti(){ const meo=scoped(F.scope.senti).filter(p=>p.mentions_brand);
-  const sc={pos:0,neutral:0,neg:0}; meo.forEach(p=>sc[p.sentiment||"neutral"]++); const t=sc.pos+sc.neutral+sc.neg;
+  if(s==="month") return POSTS.filter(p=>cd(p).slice(0,7)===TODAY.slice(0,7));
+  return POSTS;
+}
+function renderSenti(){
+  const ms=scoped(F.scope.senti).filter(p=>p.mentions_brand);
+  const sc={pos:0,neutral:0,neg:0}; ms.forEach(p=>sc[p.sentiment||"neutral"]++); const t=sc.pos+sc.neutral+sc.neg;
   mkChart("senti","doughnut",{labels:["긍정","중립","부정"],datasets:[{data:[sc.pos,sc.neutral,sc.neg],backgroundColor:["#51cf66","#6b7280","#ff6b6b"],borderWidth:0,
-    datalabels:{display:ctx=>ctx.dataset.data[ctx.dataIndex]>0,color:"#fff",font:{weight:"700",size:12},formatter:v=>t?v+"\n("+Math.round(v/t*100)+"%)":v,textAlign:"center"}}]},
-    {cutout:"58%",plugins:{legend:{position:"bottom",labels:{boxWidth:10,padding:10,font:{size:10}}}}}); }
-function renderSource(){ const ps=scoped(F.scope.source); const src={blog:0,cafe:0}; ps.forEach(p=>src[p.source]=(src[p.source]||0)+1);
+    datalabels:{display:c=>c.dataset.data[c.dataIndex]>0,color:"#fff",font:{weight:"700",size:12},formatter:v=>t?v+"\n("+Math.round(v/t*100)+"%)":v,textAlign:"center"}}]},
+    {cutout:"58%",plugins:{legend:{position:"bottom",labels:{boxWidth:10,padding:10,font:{size:10}}}}});
+}
+function renderSource(){
+  const ps=scoped(F.scope.source).filter(inPool), src={blog:0,cafe:0}; ps.forEach(p=>src[p.source==="cafe"?"cafe":"blog"]++);
   mkChart("source","bar",{labels:["블로그","카페"],datasets:[{data:[src.blog,src.cafe],backgroundColor:["#4dabf7","#51cf66"],borderRadius:6,
-    datalabels:{display:true,anchor:"end",align:"left",color:"#fff",font:{weight:"700",size:12},formatter:v=>v}}]},
-    {layout:{padding:{right:8}},indexAxis:"y",plugins:{legend:{display:false}},scales:{x:{beginAtZero:true,ticks:{precision:0},grid:{color:"rgba(255,255,255,.06)"}},y:{grid:{display:false}}}}); }
-function renderRegion(){ const ps=scoped(F.scope.region); const rg={}; ps.forEach(p=>{if(p.region)rg[p.region]=(rg[p.region]||0)+1;}); const rl=Object.keys(rg);
-  mkChart("region","bar",{labels:rl,datasets:[{data:rl.map(k=>rg[k]),backgroundColor:["#ff7a45","#ff4d8d","#ffd43b","#4dabf7","#9775fa"],borderRadius:6,
-    datalabels:{display:true,anchor:"end",align:"left",color:"#fff",font:{weight:"700",size:12},formatter:v=>v}}]},
-    {layout:{padding:{right:8}},indexAxis:"y",plugins:{legend:{display:false}},scales:{x:{beginAtZero:true,ticks:{precision:0},grid:{color:"rgba(255,255,255,.06)"}},y:{grid:{display:false}}}}); }
+    datalabels:{display:true,anchor:"end",align:"left",color:"#fff",font:{weight:"700",size:12},formatter:v=>num(v)}}]},
+    {layout:{padding:{right:8}},indexAxis:"y",plugins:{legend:{display:false}},scales:{x:{beginAtZero:true,ticks:{precision:0},grid:{color:"rgba(255,255,255,.06)"}},y:{grid:{display:false}}}});
+}
+function renderKw(){
+  const ps=scoped(F.scope.kw).filter(inPool), t={}, mm={};
+  KWS.forEach(k=>{t[k]=0;mm[k]=0;});
+  ps.forEach(p=>hitsOf(p).forEach(k=>{ if(!(k in t)){t[k]=0;mm[k]=0;} t[k]++; if(p.mentions_brand) mm[k]++; }));
+  const ls=Object.keys(t);
+  mkChart("kw","bar",{labels:ls,datasets:[
+    {label:"전체",data:ls.map(k=>t[k]),backgroundColor:"rgba(255,255,255,.2)",borderRadius:6,
+      datalabels:{display:true,anchor:"end",align:"right",color:"#cdd3df",font:{weight:"600",size:11},formatter:v=>num(v)}},
+    {label:"언급",data:ls.map(k=>mm[k]),backgroundColor:"#ff7a45",borderRadius:6,
+      datalabels:{display:c=>c.dataset.data[c.dataIndex]>0,anchor:"end",align:"right",color:"#ff9a6b",font:{weight:"700",size:11}}}
+  ]},{indexAxis:"y",layout:{padding:{right:40}},plugins:{legend:{position:"bottom",labels:{boxWidth:10,padding:10,font:{size:10}}}},
+    scales:{x:{beginAtZero:true,ticks:{precision:0},grid:{color:"rgba(255,255,255,.06)"}},y:{grid:{display:false}}}});
+}
 function mkChart(id,type,data,opts){ if(C[id])C[id].destroy(); C[id]=new Chart(document.getElementById(id),{type,data,options:{responsive:true,maintainAspectRatio:false,...opts}}); }
 
 function renderDaily(){
   document.getElementById("tbl-unit").textContent={d7:"최근 7일",d30:"최근 30일",m12:"최근 12개월"}[F.gran];
-  const bs=buckets().slice().reverse().filter(b=>b.total>0); const sum={total:0,blog:0,cafe:0,meo:0};
-  const rows=bs.map(b=>{ sum.total+=b.total;sum.blog+=b.blog;sum.cafe+=b.cafe;sum.meo+=b.meo; const r=b.total?Math.round(b.meo/b.total*100):0;
-    return `<tr><td class="d">${b.label}</td><td>${b.total}</td><td>${b.blog}</td><td>${b.cafe}</td><td class="meo">${b.meo}</td>
-      <td><div class="ratio-cell"><div class="ratio-track"><div class="ratio-fill" style="width:${r}%"></div></div><span>${r}%</span></div></td></tr>`;}).join("");
-  const tr=sum.total?Math.round(sum.meo/sum.total*100):0;
-  document.getElementById("daily").innerHTML=`<thead><tr><th>${F.gran==="m12"?"수집월":"수집일"}</th><th>전체</th><th>블로그</th><th>카페</th><th>${EMOJI} ${esc(LABEL)}</th><th>비율</th></tr></thead>
-    <tbody>${rows}</tbody><tfoot><tr><td>합계</td><td>${sum.total}</td><td>${sum.blog}</td><td>${sum.cafe}</td><td class="meo">${sum.meo}</td>
-    <td><div class="ratio-cell"><div class="ratio-track"><div class="ratio-fill" style="width:${tr}%"></div></div><span>${tr}%</span></div></td></tr></tfoot>`;
+  const bs=buckets().slice().reverse().filter(b=>b.total||b.direct);
+  const S={total:0,meo:0,direct:0,kw:{}};
+  const ratio=r=>`<div class="ratio-cell"><div class="ratio-track"><div class="ratio-fill" style="width:${Math.min(100,r)}%"></div></div><span>${pctTxt(r)}</span></div>`;
+  const kwCells=o=>KWS.map(k=>{const x=o.kw[k]||{t:0,m:0};return `<td>${num(x.t)} <small>/ ${num(x.m)}</small></td>`;}).join("");
+  const rows=bs.map(b=>{
+    S.total+=b.total; S.meo+=b.meo; S.direct+=b.direct;
+    KWS.forEach(k=>{const x=b.kw[k]||{t:0,m:0}, s=S.kw[k]||(S.kw[k]={t:0,m:0}); s.t+=x.t; s.m+=x.m;});
+    return `<tr><td class="d">${b.label}</td><td>${num(b.total)}</td><td class="meo">${num(b.meo)}</td><td>${ratio(pct(b.meo,b.total))}</td>${kwCells(b)}${HAS_DIRECT?`<td class="dir">${num(b.direct)}</td>`:""}</tr>`;
+  }).join("");
+  const cols=4+KWS.length+(HAS_DIRECT?1:0);
+  document.getElementById("daily").innerHTML=
+    `<thead><tr><th>${F.gran==="m12"?"수집월":"수집일"}</th><th>전체</th><th>${esc(EMOJI)} 언급</th><th>비율</th>${KWS.map(k=>`<th>${esc(k)}<small>전체 / 언급</small></th>`).join("")}${HAS_DIRECT?`<th>🎯 단독 검색</th>`:""}</tr></thead>
+     <tbody>${rows||`<tr><td colspan="${cols}" style="text-align:center;color:var(--muted)">이 기간 데이터가 없어요</td></tr>`}</tbody>
+     <tfoot><tr><td>합계</td><td>${num(S.total)}</td><td class="meo">${num(S.meo)}</td><td>${ratio(pct(S.meo,S.total))}</td>${kwCells(S)}${HAS_DIRECT?`<td class="dir">${num(S.direct)}</td>`:""}</tr></tfoot>`;
 }
 function render(){
-  let rows=POSTS.slice();
-  if(F.period==="today")rows=rows.filter(p=>cd(p)===TODAY);
+  let rows=POSTS;
+  if(F.period==="latest") rows=rows.filter(p=>cd(p)===LATEST);
   else if(F.period==="week"){const m=mondayOf(TODAY);rows=rows.filter(p=>cd(p)>=m);}
-  else if(F.period==="month")rows=rows.filter(p=>cd(p).slice(0,7)===TODAY.slice(0,7));
-  else if(F.period==="custom"){if(F.from)rows=rows.filter(p=>cd(p)>=F.from);if(F.to)rows=rows.filter(p=>cd(p)<=F.to);}
-  if(F.sent.size)rows=rows.filter(p=>F.sent.has(p.sentiment));
-  if(F.meo)rows=rows.filter(p=>p.mentions_brand);
-  if(F.blog)rows=rows.filter(p=>p.source==="blog"); if(F.cafe)rows=rows.filter(p=>p.source==="cafe");
-  if(F.region.size)rows=rows.filter(p=>F.region.has(p.region));
-  if(F.q){const q=F.q.toLowerCase();rows=rows.filter(p=>(p.title+" "+(p.summary||"")).toLowerCase().includes(q));}
-  rows.sort((a,b)=>{const c=(cd(a)).localeCompare(cd(b))||(a.first_seen||"").localeCompare(b.first_seen||"");return F.sort==="new"?-c:c;});
-  document.getElementById("list-title").textContent=`📋 포스팅 (${rows.length})`;
+  else if(F.period==="month") rows=rows.filter(p=>cd(p).slice(0,7)===TODAY.slice(0,7));
+  else if(F.period==="custom"){ if(F.from)rows=rows.filter(p=>cd(p)>=F.from); if(F.to)rows=rows.filter(p=>cd(p)<=F.to); }
+  if(F.sent.size) rows=rows.filter(p=>F.sent.has(p.sentiment||"neutral"));
+  if(F.meo) rows=rows.filter(p=>inPool(p)&&p.mentions_brand);
+  if(F.direct) rows=rows.filter(isDirect);
+  if(F.blog!==F.cafe) rows=rows.filter(p=>p.source===(F.blog?"blog":"cafe"));
+  if(F.kw.size) rows=rows.filter(p=>hitsOf(p).some(k=>F.kw.has(k)));
+  if(F.q){const q=F.q.toLowerCase(); rows=rows.filter(p=>((p.title||"")+" "+(p.summary||"")).toLowerCase().includes(q));}
+  rows=rows.slice().sort((a,b)=>{const c=cd(a).localeCompare(cd(b))||(a.first_seen||"").localeCompare(b.first_seen||""); return F.sort==="new"?-c:c;});
+  const total=rows.length;
+  document.getElementById("list-title").textContent=`📋 포스팅 ${num(total)}건${total>300?" · 300건만 표시":""}`;
   const el=document.getElementById("list");
-  if(!rows.length){el.innerHTML='<div class="empty">조건에 맞는 포스팅이 없어요 🔍</div>';return;}
-  el.innerHTML=rows.map(p=>{ const sc=p.sentiment==="pos"?"pos":p.sentiment==="neg"?"neg":"";
-    const tags=[].concat((p.pos_tags||[]).map(t=>`<span class="tag">${esc(t)}</span>`),(p.neg_tags||[]).map(t=>`<span class="tag neg">${esc(t)}</span>`)).slice(0,6).join("");
-    return `<div class="post ${sc}"><a class="t" href="${p.url}" target="_blank" rel="noopener">${esc(p.title)||"(제목 없음)"}</a>
-      <div class="meta"><span class="date">🕐 ${esc(p.time_text)||p.post_date}</span><span class="badge ${p.source}">${p.source==="blog"?"블로그":"카페"}</span>
-        ${p.region?`<span class="badge">${esc(p.region)}</span>`:""}${p.mentions_brand?`<span class="badge meo">${EMOJI} ${esc(LABEL)}</span>`:""}
+  if(!total){ el.innerHTML='<div class="empty">조건에 맞는 포스팅이 없어요</div>'; return; }
+  el.innerHTML=rows.slice(0,300).map(p=>{
+    const sc=p.sentiment==="pos"?"pos":p.sentiment==="neg"?"neg":"";
+    const tags=[...(p.pos_tags||[]).map(t=>`<span class="tag">${esc(t)}</span>`),...(p.neg_tags||[]).map(t=>`<span class="tag neg">${esc(t)}</span>`)].slice(0,6).join("");
+    const kwb=hitsOf(p).map(k=>`<span class="badge">${esc(k)}</span>`).join("");
+    return `<div class="post ${sc}"><a class="t" href="${esc(p.url)}" target="_blank" rel="noopener">${esc(p.title)||"(제목 없음)"}</a>
+      <div class="meta"><span class="date">🕐 ${esc(p.time_text||p.post_date)}</span><span class="badge ${p.source==="cafe"?"cafe":"blog"}">${p.source==="cafe"?"카페":"블로그"}</span>${kwb}
+        ${isDirect(p)?`<span class="badge direct">🎯 단독 검색</span>`:""}${p.mentions_brand?`<span class="badge meo">${esc(EMOJI)} ${esc(LABEL)}</span>`:""}
         ${p.sentiment==="pos"?`<span class="badge pos">😊 긍정</span>`:p.sentiment==="neg"?`<span class="badge neg">😟 부정</span>`:""}</div>
-      ${p.summary?`<div class="summary">${esc(p.summary)}</div>`:""}${tags?`<div class="tags">${tags}</div>`:""}</div>`;}).join("");
+      ${p.summary?`<div class="summary">${esc(p.summary)}</div>`:""}${tags?`<div class="tags">${tags}</div>`:""}</div>`;
+  }).join("");
 }
 
 // 토글 이벤트
 document.querySelectorAll("#gran button").forEach(b=>b.addEventListener("click",()=>{document.querySelectorAll("#gran button").forEach(x=>x.classList.remove("on"));b.classList.add("on");F.gran=b.dataset.g;renderTrend();renderDaily();}));
-document.querySelectorAll(".seg.scope").forEach(seg=>{const ch=seg.dataset.chart;seg.querySelectorAll("button").forEach(b=>b.addEventListener("click",()=>{seg.querySelectorAll("button").forEach(x=>x.classList.remove("on"));b.classList.add("on");F.scope[ch]=b.dataset.s;({senti:renderSenti,source:renderSource,region:renderRegion})[ch]();}));});
+document.querySelectorAll(".seg.scope").forEach(seg=>{const ch=seg.dataset.chart;seg.querySelectorAll("button").forEach(b=>b.addEventListener("click",()=>{seg.querySelectorAll("button").forEach(x=>x.classList.remove("on"));b.classList.add("on");F.scope[ch]=b.dataset.s;({senti:renderSenti,source:renderSource,kw:renderKw})[ch]();}));});
 document.querySelectorAll(".chip.period").forEach(c=>c.addEventListener("click",()=>{document.querySelectorAll(".chip.period").forEach(x=>x.classList.remove("on"));c.classList.add("on");F.period=c.dataset.p;document.getElementById("customRange").classList.toggle("show",F.period==="custom");render();}));
 document.getElementById("from").addEventListener("change",e=>{F.from=e.target.value;render();});
 document.getElementById("to").addEventListener("change",e=>{F.to=e.target.value;render();});
 document.querySelectorAll(".chip[data-f]").forEach(c=>c.addEventListener("click",()=>{const k=c.dataset.f;
-  if(k==="pos"||k==="neutral"||k==="neg"){F.sent.has(k)?F.sent.delete(k):F.sent.add(k);c.classList.toggle("on");}else{F[k]=!F[k];c.classList.toggle("on",F[k]);}render();}));
+  if(k==="pos"||k==="neutral"||k==="neg"){F.sent.has(k)?F.sent.delete(k):F.sent.add(k);c.classList.toggle("on");}
+  else{F[k]=!F[k];c.classList.toggle("on",F[k]);} render();}));
 document.getElementById("q").addEventListener("input",e=>{F.q=e.target.value;render();});
 document.getElementById("sort").addEventListener("change",e=>{F.sort=e.target.value;render();});
 
-// 모달
-function openModal(){document.getElementById("modal").classList.add("show");}
-function closeModal(){document.getElementById("modal").classList.remove("show");document.getElementById("cmd-area").innerHTML="";}
+// ── 트래커 추가·삭제 (맥미니 관리 서버 호출) ──
+const KEY_LS="trackerAdminKey";
+const getKey=()=>{try{return localStorage.getItem(KEY_LS)||"";}catch(e){return "";}};
+const setKey=k=>{try{k?localStorage.setItem(KEY_LS,k):localStorage.removeItem(KEY_LS);}catch(e){}};
+const onPages=()=>/github\.io$/.test(location.hostname);
+async function apiBase(){
+  if(API!==null) return API;
+  if(!onPages()) return (API="");
+  try{ const j=await (await fetch("admin.json?_="+Date.now())).json(); API=String(j.api||"").replace(/\/$/,""); }catch(e){ API=""; }
+  return API;
+}
+async function call(path,body,key){
+  const base=await apiBase();
+  if(onPages()&&!base) throw new Error("관리 서버 주소를 찾지 못했어요");
+  key=key||getKey();
+  if(!key){ key=(prompt("관리자 키를 입력해주세요")||"").trim(); if(!key) throw new Error("관리자 키가 필요해요"); }
+  let r;
+  try{ r=await fetch(base+path,{method:"POST",headers:{"Content-Type":"application/json","X-Admin-Key":key},body:JSON.stringify(body||{})}); }
+  catch(e){ throw new Error("관리 서버에 연결할 수 없어요 (맥미니가 꺼져 있을 수 있어요)"); }
+  const j=await r.json().catch(()=>({}));
+  if(r.status===401){ setKey(""); throw new Error("관리자 키가 틀렸어요"); }
+  if(!r.ok||!j.ok) throw new Error(j.error||`오류가 났어요 (${r.status})`);
+  setKey(key);
+  return j;
+}
+function openModal(){
+  const m=document.getElementById("m-msg"); m.className="msg"; m.textContent="";
+  document.getElementById("key-wrap").style.display=getKey()?"none":"";
+  document.getElementById("modal").classList.add("show");
+  setTimeout(()=>document.getElementById("m-spec").focus(),50);
+}
+function closeModal(){ document.getElementById("modal").classList.remove("show"); }
 async function applyAdd(){
-  const label=document.getElementById("m-label").value.trim();
-  const brand=document.getElementById("m-brand").value.trim()||label;
-  const queries=document.getElementById("m-queries").value.trim();
-  if(!label||!queries){alert("기준 이름과 검색어를 입력해주세요.");return;}
-  const btn=document.getElementById("m-apply"); btn.textContent="처리 중…"; btn.disabled=true;
-  // 1) 로컬 관리자 서버가 있으면 바로 실행
+  const spec=document.getElementById("m-spec").value.trim(), msg=document.getElementById("m-msg"), btn=document.getElementById("m-apply");
+  if(!/\S\s*[-–—|/]\s*\S/.test(spec)){ msg.className="msg err"; msg.textContent="‘검색어 - 브랜드’ 형식으로 입력해주세요. 예: 마우스 - 로지텍"; return; }
+  btn.disabled=true; btn.textContent="추가 중…"; msg.className="msg"; msg.textContent="";
   try{
-    const r=await fetch("/api/add-tracker",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({label,brand,queries})});
-    if(r.ok){ const j=await r.json(); alert(`✅ "${label}" 트래커 추가 완료!\n${j.message||""}`); location.reload(); return; }
-    throw new Error("no-admin");
+    const j=await call("/api/trackers",{spec,direct:document.getElementById("m-direct").checked},document.getElementById("m-key").value.trim());
+    const t=j.tracker;
+    CFG.trackers.push(t); renderTabs(); selectTracker(t.id);
+    document.getElementById("m-spec").value=""; document.getElementById("m-key").value="";
+    msg.className="msg ok"; msg.textContent=`✅ “${t.label}” 추가됨 · 첫 수집 중이라 2~3분 뒤 자동으로 채워져요`;
+    waitForData(t.id); setTimeout(closeModal,2200);
   }catch(e){
-    // 2) 공개 사이트: 텔레그램 명령 안내
-    const cmd=`트래커추가 | ${label} | ${brand} | ${queries}`;
-    document.getElementById("cmd-area").innerHTML=`<div class="hint" style="margin-top:16px">💬 공개 사이트에서는 바로 생성이 안 돼요. 아래 메시지를 <b>텔레그램 봇에게 그대로 보내면</b> 오픈클로가 자동으로 만들어줍니다:</div><div class="cmd-box">${esc(cmd)}</div>`;
-    btn.textContent="적용"; btn.disabled=false;
+    msg.className="msg err"; msg.textContent=e.message;
+    document.getElementById("key-wrap").style.display=getKey()?"none":"";
+  }finally{ btn.disabled=false; btn.textContent="추가"; }
+}
+async function waitForData(id){
+  for(let i=0;i<32;i++){
+    await new Promise(r=>setTimeout(r,15000));
+    try{ const r=await fetch(`data/${encodeURIComponent(id)}.json?_=`+Date.now(),{method:"HEAD"});
+      if(r.ok){ if(TRACKER&&TRACKER.id===id) selectTracker(id); return; } }catch(e){}
   }
 }
+async function deleteTracker(){
+  if(!TRACKER) return;
+  const t=TRACKER;
+  if(!confirm(`“${t.label}” 트래커를 삭제할까요?\n수집 기록은 맥미니에 따로 보관돼요.`)) return;
+  try{
+    await call("/api/trackers/delete",{id:t.id});
+    CFG.trackers=CFG.trackers.filter(x=>x.id!==t.id); TRACKER=null; renderTabs();
+    if(CFG.trackers.length) selectTracker(CFG.trackers[0].id); else location.href=location.pathname;
+  }catch(e){ alert(e.message); }
+}
+document.getElementById("del-btn").addEventListener("click",deleteTracker);
+document.getElementById("modal").addEventListener("click",e=>{ if(e.target.id==="modal") closeModal(); });
+document.getElementById("m-spec").addEventListener("keydown",e=>{ if(e.key==="Enter") applyAdd(); });
 window.openModal=openModal; window.closeModal=closeModal; window.applyAdd=applyAdd;
 
 init();
